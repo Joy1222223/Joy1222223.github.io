@@ -72,16 +72,6 @@
 
   /* ---- click: a soft light pulse ---- */
   if (!calm) document.addEventListener('pointerdown', function (e) {
-    // full-page light wave from the click point
-    var R = Math.hypot(Math.max(e.clientX, innerWidth - e.clientX), Math.max(e.clientY, innerHeight - e.clientY));
-    var w = document.createElement('div'); w.className = 'wave';
-    w.style.left = e.clientX + 'px'; w.style.top = e.clientY + 'px';
-    w.style.width = w.style.height = (R * 2) + 'px'; w.style.margin = (-R) + 'px 0 0 ' + (-R) + 'px';
-    var f = document.createElement('div'); f.className = 'screenflash';
-    f.style.setProperty('--cx', e.clientX + 'px'); f.style.setProperty('--cy', e.clientY + 'px');
-    document.body.appendChild(w); document.body.appendChild(f);
-    setTimeout(function () { w.remove(); f.remove(); }, 1300);
-    document.body.classList.remove('shock'); void document.body.offsetWidth; document.body.classList.add('shock');
     ['pulse', 'pulse-ring', 'pulse-ring r2'].forEach(function (c) {
       var p = document.createElement('div'); p.className = c;
       p.style.left = e.clientX + 'px'; p.style.top = e.clientY + 'px';

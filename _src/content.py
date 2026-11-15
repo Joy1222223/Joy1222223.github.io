@@ -97,6 +97,75 @@ def _compare(m, folder, root):
             f'</div></figure></div>')
 
 
+def _switch(items, folder, root):
+    """Apple-style stage: segmented tabs over a stack of videos/images that cross-fade."""
+    def u(ref):
+        s = _src(ref, folder)
+        return html.escape(s if s.startswith('http') else root + s)
+    tabs, stage = [], []
+    for i, (label, ref) in enumerate(items):
+        on = ' on' if i == 0 else ''
+        tabs.append(f'<button type="button" class="sw-tab{on}" role="tab" aria-selected="{"true" if i == 0 else "false"}">{_inline(label)}</button>')
+        if ref.lower().split('?')[0].endswith(VID_EXT):
+            media = f'<video muted loop playsinline preload="{"auto" if i == 0 else "none"}" src="{u(ref)}"></video><div class="sw-prog"><i></i></div>'
+        else:
+            media = f'<img class="zoomable" loading="lazy" src="{u(ref)}" alt="{html.escape(label)}">'
+        stage.append(f'<div class="sw-item{on}">{media}</div>')
+    one = ' single' if len(items) == 1 else ''
+    return (f'<div class="row one"><div class="sw reveal{one}"><div class="sw-tabs" role="tablist">{"".join(tabs)}<span class="sw-ind"></span></div>'
+            f'<div class="sw-stage">{"".join(stage)}</div></div></div>')
+
+
+def _params(items, folder, root):
+    """Drag-a-slider explorer: material tabs, parameter chips, a range input scrubbing pre-rendered frames.
+    items: (material, label, frames folder) — the folder holds 00.webp.. and info.json (vals, default, dec)."""
+    import json
+    mats = {}
+    for mat, label, ref in items:
+        d = os.path.normpath(os.path.join(folder, ref))
+        try:
+            info = json.load(open(os.path.join(d, 'info.json'), encoding='utf-8'))
+        except OSError:
+            continue
+        mats.setdefault(mat, []).append((label, root + _src(ref.rstrip('/'), folder) + '/', info))
+    if not mats:
+        return ''
+    tabs, panes = [], []
+    for mi, (mat, plist) in enumerate(mats.items()):
+        on = ' on' if mi == 0 else ''
+        tabs.append(f'<button type="button" class="sw-tab{on}" role="tab" aria-selected="{"true" if mi == 0 else "false"}">{_inline(mat)}</button>')
+        chips = []
+        for pi, (label, url, info) in enumerate(plist):
+            vals = info['vals']; dec = info.get('dec', 2)
+            fmt = [('%.*f' % (dec, v)) for v in vals]
+            chips.append(f'<button type="button" class="pm-chip{" on" if pi == 0 else ""}" data-src="{html.escape(url)}" '
+                         f'data-def="{info["default"]}" data-vals="{html.escape(json.dumps(fmt))}">{_inline(label)}</button>')
+        label0, url0, info0 = plist[0]
+        n0 = len(info0['vals'])
+        panes.append(
+            f'<div class="pm-mat{on}"><div class="pm-view"><img class="pm-img" alt="{html.escape(mat)}" '
+            f'src="{html.escape(url0)}{info0["default"]:02d}.webp" loading="lazy"></div>'
+            f'<div class="pm-ctrl"><div class="pm-chips">{"".join(chips)}</div>'
+            f'<div class="pm-row"><span class="pm-name">{_inline(label0)}</span><output class="pm-val"></output></div>'
+            f'<input class="pm-range" type="range" min="0" max="{n0 - 1}" step="1" value="{info0["default"]}" aria-label="{html.escape(label0)}">'
+            f'<div class="pm-ends"><span></span><span></span></div><p class="pm-hint">Drag the slider</p></div></div>')
+    return (f'<div class="row one"><div class="pm reveal"><div class="sw-tabs pm-tabs" role="tablist">{"".join(tabs)}<span class="sw-ind"></span></div>'
+            f'<div class="pm-stage">{"".join(panes)}</div></div></div>')
+
+
+def _stats(line):
+    cells = []
+    for part in line.split('|'):
+        part = part.strip()
+        m = re.match(r'^([\d.,]+)\s*(.*)$', part)
+        if m:
+            n = m.group(1).replace(',', '')
+            cells.append(f'<div class="st"><b data-n="{html.escape(n)}">{html.escape(m.group(1))}</b><span>{_inline(m.group(2))}</span></div>')
+        else:
+            cells.append(f'<div class="st"><b>{_inline(part)}</b></div>')
+    return f'<div class="row one"><div class="stats reveal">{"".join(cells)}</div></div>'
+
+
 def render(body, folder, root):
     """Tiny Markdown subset -> page HTML using the site's own classes."""
     out, para, lst, imgs = [], [], [], []
@@ -127,10 +196,24 @@ def render(body, folder, root):
     def flush_all():
         flush_para(); flush_list(); flush_imgs()
 
+    block = None   # items of an open ::: switch / ::: params block
+    kind = None
     for raw in body.splitlines():
         line = raw.strip()
+        if block is not None:
+            if line == ':::':
+                out.append(_switch(block, folder, root) if kind == 'switch' else _params(block, folder, root)); block = None
+            elif '|' in line:
+                block.append(tuple(p.strip() for p in (line.rsplit('|', 1) if kind == 'switch' else line.split('|', 2))))
+            continue
+        km = re.fullmatch(r':::\s*(switch|params)', line, re.I)
+        if km:
+            flush_all(); block = []; kind = km.group(1).lower(); continue
         if not line:
             flush_all(); continue
+        sm = re.match(r'^stats:\s*(.+)$', line, re.I)
+        if sm:
+            flush_all(); out.append(_stats(sm.group(1))); continue
         cm = CMP.fullmatch(line)
         if cm:
             flush_all()

@@ -4,8 +4,8 @@
 <meta name="description" content="Yiqi Zheng — 技术美术与 CG 通才。使用 Houdini、Maya 与 Unreal Engine 制作程序化特效、外观开发与流程工具。">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../assets/site.css?v=9a37ec2d">
-<link rel="stylesheet" href="../../../assets/fx.css?v=9a37ec2d">
+<link rel="stylesheet" href="../../../assets/site.css?v=f6d3579a">
+<link rel="stylesheet" href="../../../assets/fx.css?v=f6d3579a">
 <link rel="alternate" hreflang="en" href="../../../unreal/materials/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/unreal/materials/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/unreal/materials/">
 </head>
 <body class="lang-zh-hans ">
@@ -14,6 +14,22 @@
 <div class="langs glass"><a class="lg ripple" href="../../../unreal/materials/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/unreal/materials/" hreflang="zh-Hant">繁</a><a class="lg ripple on" href="../../../zh-hans/unreal/materials/" hreflang="zh-Hans">简</a></div>
 <button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
 <main><div class="page"><a class="crumb glass ripple" href="../../../zh-hans/unreal/">&#8592; Unreal</a><div class="row one"><h1 class="ttl reveal">程序化材质</h1></div><div class="row one"><h2 class="ttl reveal">Substance Designer → Unreal Engine</h2></div>
+<div class="row one"><div class="prose reveal"><p>四个在 <strong>Substance Designer</strong> 中完全程序化制作的材质。每一个形状、颜色和磨损都由开放的参数控制，同一个节点图就能变出一整组不同的外观，再把贴图带进 <strong>Unreal Engine</strong>，用真实的几何位移呈现。</p></div></div>
+<div class="row one"><div class="stats reveal"><div class="st"><b data-n="4">4</b><span>种材质</span></div><div class="st"><b data-n="41">41</b><span>个开放参数</span></div><div class="st"><b data-n="2048">2048</b><span>px 贴图解析度</span></div><div class="st"><b data-n="5">5</b><span>张贴图／每个材质</span></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>参数动起来</h3></div></div>
+<div class="row one"><div class="prose reveal"><p>拖动一个滑杆，整个材质就会重新生成：石块数量、错位、灰缝宽度、边缘磨损和颜色，一格一格渲染出来。</p></div></div>
+<div class="row one"><div class="sw reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">石路</button><button type="button" class="sw-tab" role="tab" aria-selected="false">砖墙</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><video muted loop playsinline preload="auto" src="../../../content/unreal/materials/params-rockpath.mp4"></video><div class="sw-prog"><i></i></div></div><div class="sw-item"><video muted loop playsinline preload="none" src="../../../content/unreal/materials/params-bricks.mp4"></video><div class="sw-prog"><i></i></div></div></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>自己试试看</h3></div></div>
+<div class="row one"><div class="prose reveal"><p>选一个材质、选一个参数，然后拖动滑杆。每个位置都是用那个数值真实渲染出来的圆角圆柱，高度贴图也会跟著改变，所以凹凸会一起变化。</p></div></div>
+<div class="row one"><div class="pm reveal"><div class="sw-tabs pm-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">石路</button><span class="sw-ind"></span></div><div class="pm-stage"><div class="pm-mat on"><div class="pm-view"><img class="pm-img" alt="石路" src="../../../content/unreal/materials/p/rockpath-stone-count/05.webp" loading="lazy"></div><div class="pm-ctrl"><div class="pm-chips"><button type="button" class="pm-chip on" data-src="../../../content/unreal/materials/p/rockpath-stone-count/" data-def="5" data-vals="[&quot;4&quot;, &quot;5&quot;, &quot;6&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;, &quot;9&quot;, &quot;10&quot;, &quot;10&quot;, &quot;11&quot;, &quot;12&quot;, &quot;13&quot;, &quot;14&quot;, &quot;14&quot;, &quot;15&quot;, &quot;16&quot;, &quot;17&quot;, &quot;18&quot;, &quot;18&quot;, &quot;19&quot;, &quot;20&quot;]">石块数量</button></div><div class="pm-row"><span class="pm-name">石块数量</span><output class="pm-val"></output></div><input class="pm-range" type="range" min="0" max="20" step="1" value="5" aria-label="石块数量"><div class="pm-ends"><span></span><span></span></div><p class="pm-hint">Drag the slider</p></div></div></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>最终效果</h3></div></div>
+<div class="row one"><div class="prose reveal"><p>Substance Designer 的 Iray 渲染，旁边是 Base Color、Roughness、Height、Normal 和 AO 贴图。</p></div></div>
+<div class="row one"><div class="sw reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">石路</button><button type="button" class="sw-tab" role="tab" aria-selected="false">砖墙</button><button type="button" class="sw-tab" role="tab" aria-selected="false">木头</button><button type="button" class="sw-tab" role="tab" aria-selected="false">泥巴</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/showcase-rockpath.webp" alt="石路"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/showcase-bricks.webp" alt="砖墙"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/showcase-wood.webp" alt="木头"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/showcase-mud.webp" alt="泥巴"></div></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>节点图</h3></div></div>
+<div class="row one"><div class="sw reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">石路</button><button type="button" class="sw-tab" role="tab" aria-selected="false">砖墙</button><button type="button" class="sw-tab" role="tab" aria-selected="false">木头</button><button type="button" class="sw-tab" role="tab" aria-selected="false">泥巴</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-rockpath.webp" alt="石路"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-bricks.webp" alt="砖墙"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-wood.webp" alt="木头"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-mud.webp" alt="泥巴"></div></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>Unreal 材质设定</h3></div></div>
+<div class="row one"><div class="prose reveal"><p>四个材质共用一个主材质。贴图重复次数开放成 Repeat U／V，Displacement 贴图乘上顶点法线和 Height Intensity 参数，再接到 World Position Offset，让每个材质实例都能调整自己的凸起深度。</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../content/unreal/materials/unreal-material-setup.webp" alt=""></figure></div>
 <div class="row one"><h2 class="ttl reveal">Substance Designer → Substance Painter → Unreal Engine</h2></div></div></main>
 <footer class="foot"><div class="fin glass reveal">
 <div><div class="eyebrow">联系</div><h3>一起合作吧</h3></div>
@@ -21,6 +37,6 @@
 <a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
 </div><div class="copy">&copy; Yiqi Zheng</div></footer>
 <div class="lb" id="lb"><img alt=""></div>
-<script src="../../../assets/site.js?v=9a37ec2d"></script>
-<script src="../../../assets/fx.js?v=9a37ec2d"></script>
+<script src="../../../assets/site.js?v=f6d3579a"></script>
+<script src="../../../assets/fx.js?v=f6d3579a"></script>
 </body></html>

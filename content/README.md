@@ -49,6 +49,7 @@ hide: yes                    ← 暫時不顯示（可不寫）
 | `![](forest-scene/shot1.jpg)` | 圖片（點擊可放大） |
 | 連續幾行圖片（中間不空行） | 自動排成圖片牆 |
 | `![](forest-scene/clip.mp4)` | 影片（小檔案才行，大影片請放 YouTube） |
+| `compare Fresh \| Rotten: forest-scene/a.jpg \| forest-scene/b.jpg` | 滑動比較：左邊 a、右邊 b，拖中間的線比較（兩張圖要一樣大小）。標籤可省略：`compare: a.jpg \| b.jpg` |
 
 ## 注意
 

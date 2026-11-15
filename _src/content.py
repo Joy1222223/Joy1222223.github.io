@@ -76,6 +76,27 @@ def _embed(url):
             f'allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div></figure></div>')
 
 
+# compare: a.jpg | b.jpg      or      compare Fresh | Rotten: a.jpg | b.jpg
+CMP = re.compile(r'compare(?:\s+([^:|]+?)\s*\|\s*([^:|]+?))?\s*:\s*(\S+)\s*\|\s*(\S+)', re.I)
+
+
+def _compare(m, folder, root):
+    """Before/after slider: image A on the left of the handle, image B on the right."""
+    la, lb, a, b = m.groups()
+    def u(ref):
+        s = _src(ref, folder)
+        return html.escape(s if s.startswith('http') else root + s)
+    labs = ''.join(f'<span class="cmp-lab {side}">{html.escape(t.strip())}</span>'
+                   for side, t in (('l', la), ('r', lb)) if t)
+    aria = html.escape(f'{la.strip()} / {lb.strip()}' if la else 'Compare')
+    return (f'<div class="row one"><figure class="fig cmp reveal"><div class="cmp-box">'
+            f'<img class="cmp-b" loading="lazy" src="{u(b)}" alt="{html.escape((lb or "").strip())}">'
+            f'<img class="cmp-a" loading="lazy" src="{u(a)}" alt="{html.escape((la or "").strip())}">'
+            f'<div class="cmp-bar"></div>{labs}'
+            f'<input class="cmp-rng" type="range" min="0" max="100" step="0.1" value="50" aria-label="{aria}">'
+            f'</div></figure></div>')
+
+
 def render(body, folder, root):
     """Tiny Markdown subset -> page HTML using the site's own classes."""
     out, para, lst, imgs = [], [], [], []
@@ -110,6 +131,11 @@ def render(body, folder, root):
         line = raw.strip()
         if not line:
             flush_all(); continue
+        cm = CMP.fullmatch(line)
+        if cm:
+            flush_all()
+            out.append(_compare(cm, folder, root))
+            continue
         m = re.fullmatch(r'!\[([^\]]*)\]\(([^)]+)\)', line)
         bare_img = re.fullmatch(r'\S+', line) and line.lower().split('?')[0].endswith(IMG_EXT)
         if m or bare_img:

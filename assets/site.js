@@ -61,6 +61,33 @@
     document.querySelectorAll('video[controls]').forEach(function (v) { if (v !== e.target) v.pause(); });
   }, true);
 
+  // before / after compare sliders
+  document.querySelectorAll('.cmp-box').forEach(function (b) {
+    var r = b.querySelector('.cmp-rng'), la = b.querySelector('.cmp-lab.l'), lr = b.querySelector('.cmp-lab.r');
+    function set(v) {
+      b.style.setProperty('--p', v + '%');
+      if (la) la.style.opacity = v < 12 ? 0 : 1;
+      if (lr) lr.style.opacity = v > 88 ? 0 : 1;
+    }
+    r.addEventListener('input', function () { b.dataset.used = 1; set(+r.value); });
+    r.addEventListener('pointerdown', function () { b.classList.add('drag'); });
+    ['pointerup', 'pointercancel', 'blur'].forEach(function (ev) { r.addEventListener(ev, function () { b.classList.remove('drag'); }); });
+    // first time it scrolls into view: a little wiggle so people know it can be dragged
+    if (!('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+    var io = new IntersectionObserver(function (es) {
+      if (!es[0].isIntersecting) return;
+      io.disconnect();
+      var t0 = performance.now();
+      (function step(t) {
+        if (b.dataset.used) return;
+        var k = Math.min((t - t0) / 1800, 1);
+        set(50 + 22 * Math.sin(k * Math.PI * 2) * (1 - k));
+        if (k < 1) requestAnimationFrame(step);
+      })(t0);
+    }, { threshold: .6 });
+    io.observe(b);
+  });
+
   // ---- home hero ----
   var hero = document.getElementById('hero');
   if (!hero) return;

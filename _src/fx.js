@@ -56,38 +56,33 @@
     });
   }
 
-  /* ---- custom cursor (mouse only) ---- */
+  /* ---- Apple-style hover (mouse only) ---- */
   if (fine && !calm) {
-    document.body.classList.add('has-cursor');
-    var dot = document.createElement('div'), ring = document.createElement('div'), lab = document.createElement('span');
-    dot.className = 'cur-dot'; ring.className = 'cur-ring'; ring.appendChild(lab);
-    document.body.appendChild(dot); document.body.appendChild(ring);
-    var mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my, lx = mx, ly = my;
-    addEventListener('pointermove', function (e) {
-      mx = e.clientX; my = e.clientY;
-      dot.style.transform = 'translate(' + mx + 'px,' + my + 'px)';
-      var sp = Math.hypot(mx - lx, my - ly); lx = mx; ly = my;
-      if (sp > 18 && Math.random() < 0.6) spark(mx, my, 1, 1.2, TEAL, 22);
-    }, { passive: true });
-    (function loop() {
-      rx += (mx - rx) * 0.18; ry += (my - ry) * 0.18;
-      ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px)';
-      requestAnimationFrame(loop);
-    })();
-    var lang = root.lang || 'en';
-    var L = lang.indexOf('zh') === 0 ? { view: '查看', play: '播放', zoom: '放大' } : { view: 'VIEW', play: 'PLAY', zoom: 'ZOOM' };
-    document.addEventListener('pointerover', function (e) {
-      var t = e.target, txt = '';
-      if (t.closest('.pcard')) txt = L.view;
-      else if (t.closest('img.zoomable, .g-item img')) txt = L.zoom;
-      else if (t.closest('video[controls], .embed, .fig.vid')) txt = L.play;
-      var big = !!txt, link = !big && !!t.closest('a, button, .ripple, .pill');
-      ring.classList.toggle('big', big); ring.classList.toggle('link', link); lab.textContent = txt;
+    // 1. soft light that follows the pointer inside buttons / pills / links (visionOS-like sheen)
+    document.querySelectorAll('.btn, .nl, .lg, .pill, .crumb, .sub a, .logo').forEach(function (el) {
+      el.classList.add('has-sheen');
+      var sh = document.createElement('span'); sh.className = 'sheen'; el.appendChild(sh);
+      el.addEventListener('pointermove', function (e) {
+        var r = el.getBoundingClientRect();
+        el.style.setProperty('--hx', (e.clientX - r.left) + 'px'); el.style.setProperty('--hy', (e.clientY - r.top) + 'px');
+      });
     });
-    document.addEventListener('pointerdown', function () { ring.classList.add('down'); });
-    document.addEventListener('pointerup', function () { ring.classList.remove('down'); });
-    document.documentElement.addEventListener('pointerleave', function () { dot.style.opacity = ring.style.opacity = 0; });
-    document.documentElement.addEventListener('pointerenter', function () { dot.style.opacity = ring.style.opacity = 1; });
+    // 2. iPadOS-style highlight that glides between nav items
+    var nav = document.getElementById('nav');
+    if (nav && matchMedia('(min-width: 981px)').matches) {
+      var hl = document.createElement('div'); hl.className = 'nav-hl'; nav.appendChild(hl);
+      var shown = false;
+      nav.querySelectorAll('.nl').forEach(function (a) {
+        a.addEventListener('pointerenter', function () {
+          var nr = nav.getBoundingClientRect(), r = a.getBoundingClientRect();
+          if (!shown) hl.style.transition = 'none';
+          hl.style.width = r.width + 'px'; hl.style.height = r.height + 'px';
+          hl.style.transform = 'translate(' + (r.left - nr.left) + 'px,' + (r.top - nr.top) + 'px)';
+          void hl.offsetWidth; hl.style.transition = ''; hl.classList.add('on'); shown = true;
+        });
+      });
+      nav.addEventListener('pointerleave', function () { hl.classList.remove('on'); shown = false; });
+    }
   }
 
   /* ---- text scramble on headings (Latin letters only; CJK keeps the normal fade) ---- */

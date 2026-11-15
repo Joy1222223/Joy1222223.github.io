@@ -83,7 +83,14 @@ def tr(htm, lang):
     CATALOG[k] = htm
     if lang == 'en':
         return htm
-    return TR[lang].get(k) or htm
+    hit = TR[lang].get(k)
+    if hit:
+        return hit
+    # untranslated "WeekN" labels -> 第 N 週 / 第 N 周
+    if re.fullmatch(r'\s*Week\s*\d+[\s​]*', re.sub(r'<[^>]+>', '', htm)):
+        wk = '週' if lang == 'zh-hant' else '周'
+        return re.sub(r'Week\s*(\d+)', lambda m: f'第 {m.group(1)} {wk}', htm)
+    return htm
 
 def tr_plain(s, lang):
     return re.sub('<[^>]+>', '', tr(s, lang)) if s else s

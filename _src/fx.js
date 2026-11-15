@@ -49,13 +49,6 @@
     if (S.length) requestAnimationFrame(tick); else running = false;
   }
   window.__spark = spark;
-  if (!calm) {
-    document.addEventListener('pointerdown', function (e) {
-      if (document.body.classList.contains('home') && e.target.closest('.hero')) return; // hero has its own burst
-      spark(e.clientX, e.clientY, 18, 7, null, 34);
-    });
-  }
-
   /* ---- Apple-style hover (mouse only) ---- */
   if (fine && !calm) {
     // 1. soft light that follows the pointer inside buttons / pills / links (visionOS-like sheen)
@@ -84,51 +77,6 @@
       nav.addEventListener('pointerleave', function () { hl.classList.remove('on'); shown = false; });
     }
   }
-
-  /* ---- text scramble on headings (Latin letters only; CJK keeps the normal fade) ---- */
-  var GLY = '!<>-_/[]{}=+*^?#ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
-  function scramble(el) {
-    if (el.dataset.scr) return; el.dataset.scr = '1';
-    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodes = [];
-    while (walker.nextNode()) nodes.push(walker.currentNode);
-    nodes.forEach(function (n) {
-      var fin = n.nodeValue; if (!/[A-Za-z]/.test(fin)) return;
-      var f = 0, total = 16 + Math.min(fin.length, 28);
-      (function step() {
-        var out = '';
-        for (var i = 0; i < fin.length; i++) {
-          var ch = fin[i], shown = f / total * fin.length * 1.4 - i * 0.4 >= 1;
-          out += (shown || !/[A-Za-z0-9]/.test(ch)) ? ch : GLY[(Math.random() * GLY.length) | 0];
-        }
-        n.nodeValue = out; f++;
-        if (f <= total) requestAnimationFrame(step); else { n.nodeValue = fin; delete el.dataset.scr; el.dataset.done = '1'; }
-      })();
-    });
-  }
-  if (!calm) {
-    var sio = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { scramble(e.target); sio.unobserve(e.target); } });
-    }, { threshold: 0.4 });
-    document.querySelectorAll('.ttl, h2.big, h1.big, .eyebrow').forEach(function (el) { sio.observe(el); });
-    document.querySelectorAll('.nl, .logo, .sub a').forEach(function (a) {
-      a.addEventListener('pointerenter', function () { scramble(a); });
-    });
-  }
-
-  /* ---- toolkit pills: dodge the cursor, pop + sparks on click ---- */
-  document.querySelectorAll('.pill').forEach(function (p) {
-    if (fine && !calm) {
-      p.addEventListener('pointermove', function (e) {
-        var r = p.getBoundingClientRect();
-        p.style.transform = 'translate(' + (e.clientX - r.left - r.width / 2) * -0.25 + 'px,' + (e.clientY - r.top - r.height / 2) * -0.35 + 'px) scale(1.06)';
-      });
-      p.addEventListener('pointerleave', function () { p.style.transform = ''; });
-    }
-    p.addEventListener('click', function () {
-      var r = p.getBoundingClientRect(); spark(r.left + r.width / 2, r.top + r.height / 2, 26, 9, null, 40);
-      p.classList.remove('pop'); void p.offsetWidth; p.classList.add('pop');
-    });
-  });
 
   /* ---- page transitions for links inside the site ---- */
   var veil = document.createElement('div'); veil.className = 'veil'; document.body.appendChild(veil);

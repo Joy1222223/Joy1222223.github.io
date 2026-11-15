@@ -9,14 +9,8 @@
     var el = e.target.closest('.ripple');
     if (el) {
       el.classList.add('pressed');
-      var r = el.getBoundingClientRect(), s = Math.max(r.width, r.height), rp = document.createElement('span');
-      rp.className = 'rip'; rp.style.width = rp.style.height = s + 'px';
-      rp.style.left = (e.clientX - r.left - s / 2) + 'px'; rp.style.top = (e.clientY - r.top - s / 2) + 'px';
-      el.appendChild(rp); setTimeout(function () { rp.remove(); }, 700);
     }
     if (document.body.classList.contains('home') && e.target.closest('.hero')) {
-      var b = document.createElement('div'); b.className = 'burst'; b.style.left = e.clientX + 'px'; b.style.top = e.clientY + 'px';
-      document.body.appendChild(b); setTimeout(function () { b.remove(); }, 700);
       if (window.__boom) window.__boom(e.clientX, e.clientY);
     }
   });

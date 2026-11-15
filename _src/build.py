@@ -308,6 +308,8 @@ def lang_switch(slug_path, root, lang):
 
 FOOT = None
 
+VER = hashlib.sha1(b''.join(open(f, 'rb').read() for f in ('site.css', 'fx.css', 'site.js', 'fx.js'))).hexdigest()[:8]
+
 def shell(title, body, cur, slug, lang, extra_head='', body_cls=''):
     lp = dict((c, p) for c, p, _ in LANGS)[lang]
     depth = (lp + (slug + '/' if slug else '')).count('/')
@@ -320,8 +322,8 @@ def shell(title, body, cur, slug, lang, extra_head='', body_cls=''):
 <meta name="description" content="{html.escape(t_ui('meta_desc', lang))}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}assets/site.css">
-<link rel="stylesheet" href="{root}assets/fx.css">
+<link rel="stylesheet" href="{root}assets/site.css?v={VER}">
+<link rel="stylesheet" href="{root}assets/fx.css?v={VER}">
 {"".join(f'<link rel="alternate" hreflang="{HTML_LANG[c]}" href="{root}{p}{slug_path}">' for c, p, _ in LANGS)}
 {extra_head}</head>
 <body class="lang-{lang} {body_cls}">
@@ -336,8 +338,8 @@ def shell(title, body, cur, slug, lang, extra_head='', body_cls=''):
 <a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
 </div><div class="copy">&copy; Yiqi Zheng</div></footer>
 <div class="lb" id="lb"><img alt=""></div>
-<script src="{root}assets/site.js"></script>
-<script src="{root}assets/fx.js"></script>
+<script src="{root}assets/site.js?v={VER}"></script>
+<script src="{root}assets/fx.js?v={VER}"></script>
 </body></html>'''
 
 def write(slug, lang, content):

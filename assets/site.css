@@ -40,11 +40,11 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .btn.ghost{background:rgba(255,255,255,.08);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.22)}
 .btn.ghost:hover{background:rgba(255,255,255,.15)}
 .ripple{position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent}
-.rip{position:absolute;border-radius:50%;transform:scale(0);background:rgba(255,255,255,.45);animation:rip .65s ease-out forwards;pointer-events:none;z-index:1}
-@keyframes rip{to{transform:scale(4);opacity:0}}
+.rip{position:absolute;border-radius:0;transform:rotate(45deg) scale(0);background:rgba(255,255,255,.45);animation:rip .65s ease-out forwards;pointer-events:none;z-index:1}
+@keyframes rip{to{transform:rotate(45deg) scale(4);opacity:0}}
 .pressed{transform:scale(.95)!important;transition:transform .12s!important}
-.burst{position:fixed;pointer-events:none;border-radius:50%;border:1.5px solid rgba(var(--teal),.9);width:60px;height:60px;transform:translate(-50%,-50%) scale(.2);animation:burst .7s ease-out forwards;z-index:100}
-@keyframes burst{to{transform:translate(-50%,-50%) scale(2.4);opacity:0}}
+.burst{position:fixed;pointer-events:none;border-radius:0;border:1.5px solid rgba(var(--teal),.9);width:60px;height:60px;transform:translate(-50%,-50%) rotate(45deg) scale(.2);animation:burst .7s ease-out forwards;z-index:100}
+@keyframes burst{to{transform:translate(-50%,-50%) rotate(135deg) scale(2.4);opacity:0}}
 
 /* hero */
 .hero{position:relative;height:100vh;min-height:640px;overflow:hidden}
@@ -199,3 +199,5 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 
 .row.one>*{width:100%}
 .row.one>.btn{width:auto}
+.pgrid.two{grid-template-columns:repeat(2,1fr)}
+@media (max-width:640px){.pgrid.two{grid-template-columns:1fr}}

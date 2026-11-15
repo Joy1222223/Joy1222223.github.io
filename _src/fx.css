@@ -1,0 +1,60 @@
+/* Extra interactions (see fx.js) */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:radial-gradient(520px circle at var(--sx,50%) var(--sy,30%),rgba(46,230,201,.07),transparent 60%)}
+main,footer{position:relative;z-index:1}
+
+.progress{position:fixed;left:0;top:0;height:3px;width:100%;z-index:120;transform-origin:0 50%;transform:scaleX(0);
+  background:linear-gradient(90deg,#2EE6C9,#8c6eff);box-shadow:0 0 12px rgba(46,230,201,.7);pointer-events:none}
+.fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:130}
+
+/* custom cursor */
+.has-cursor,.has-cursor a,.has-cursor button,.has-cursor .ripple,.has-cursor img.zoomable,.has-cursor .pill{cursor:none}
+.has-cursor video[controls],.has-cursor iframe{cursor:auto}
+.cur-dot,.cur-ring{position:fixed;left:0;top:0;pointer-events:none;z-index:240;transition:opacity .2s}
+.cur-dot{width:6px;height:6px;margin:-3px 0 0 -3px;background:#2EE6C9;box-shadow:0 0 10px #2EE6C9;rotate:45deg}
+/* corner-bracket reticle */
+.cur-ring{--c:rgba(46,230,201,.85);--l:9px;width:34px;height:34px;margin:-17px 0 0 -17px;
+  display:flex;align-items:center;justify-content:center;
+  background:
+    linear-gradient(var(--c),var(--c)) 0 0/var(--l) 1.5px,linear-gradient(var(--c),var(--c)) 0 0/1.5px var(--l),
+    linear-gradient(var(--c),var(--c)) 100% 0/var(--l) 1.5px,linear-gradient(var(--c),var(--c)) 100% 0/1.5px var(--l),
+    linear-gradient(var(--c),var(--c)) 0 100%/var(--l) 1.5px,linear-gradient(var(--c),var(--c)) 0 100%/1.5px var(--l),
+    linear-gradient(var(--c),var(--c)) 100% 100%/var(--l) 1.5px,linear-gradient(var(--c),var(--c)) 100% 100%/1.5px var(--l);
+  background-repeat:no-repeat;
+  transition:width .25s cubic-bezier(.2,.8,.2,1),height .25s cubic-bezier(.2,.8,.2,1),margin .25s cubic-bezier(.2,.8,.2,1),opacity .2s}
+.cur-ring::before{content:"";position:absolute;inset:0;background:rgba(46,230,201,.9);clip-path:inset(50% 50% 50% 50%);transition:clip-path .25s cubic-bezier(.2,.8,.2,1)}
+.cur-ring span{position:relative;font:600 11px/1 Inter,"Noto Sans TC","Noto Sans SC",sans-serif;letter-spacing:.14em;color:#06110f;opacity:0;transition:opacity .2s;white-space:nowrap}
+.cur-ring.link{--l:12px;width:50px;height:50px;margin:-25px 0 0 -25px}
+.cur-ring.big{--l:14px;width:92px;height:56px;margin:-28px 0 0 -46px}
+.cur-ring.big::before{clip-path:inset(5px 5px 5px 5px)}
+.cur-ring.big span{opacity:1}
+.cur-ring.down{width:24px;height:24px;margin:-12px 0 0 -12px}
+.cur-ring.big.down{width:80px;height:48px;margin:-24px 0 0 -40px}
+
+/* hero name: letters bounce on hover */
+#name .l{display:inline-block;transition:transform .25s cubic-bezier(.3,1.6,.5,1),color .25s,text-shadow .25s}
+#name .l:hover{transform:translateY(-.12em) rotate(-4deg) scale(1.08);color:#2EE6C9;text-shadow:0 0 24px rgba(46,230,201,.6)}
+
+/* toolkit pills */
+.pill{transition:transform .25s cubic-bezier(.3,1.4,.5,1),background .25s,color .25s}
+.pill:hover{background:rgba(46,230,201,.18);color:#fff}
+.pill.pop{animation:pillpop .45s cubic-bezier(.3,1.6,.5,1)}
+@keyframes pillpop{0%{transform:scale(1)}40%{transform:scale(1.25) rotate(-3deg)}100%{transform:scale(1)}}
+
+/* page transition: sideways wipe with a glowing edge */
+.veil{position:fixed;inset:0;z-index:250;pointer-events:none;background:#05070a;
+  clip-path:inset(0 0 0 0);transition:clip-path .55s cubic-bezier(.7,0,.2,1)}
+.veil::before{content:"";position:absolute;top:0;bottom:0;left:0;width:2px;background:#2EE6C9;box-shadow:0 0 18px 3px rgba(46,230,201,.8)}
+.veil::after{content:"";position:absolute;left:50%;top:50%;width:26px;height:26px;margin:-13px;
+  border:2px solid rgba(46,230,201,.25);border-top-color:#2EE6C9;border-right-color:#2EE6C9;animation:vspin .9s linear infinite;opacity:0;transition:opacity .2s}
+body.loaded .veil{clip-path:inset(0 0 0 100%)}
+body.leaving .veil{clip-path:inset(0 0 0 0);transition-duration:.38s}
+body.leaving .veil::after{opacity:1;transition-delay:.25s}
+@keyframes vspin{to{transform:rotate(360deg)}}
+
+/* easter egg toast */
+.egg{position:fixed;left:50%;top:40%;transform:translate(-50%,-50%);z-index:235;padding:18px 30px;border-radius:999px;
+  font:400 clamp(24px,4vw,40px)/1 "Abril Fatface",Georgia,serif;color:#fff;animation:egg 2.6s ease forwards;pointer-events:none;white-space:nowrap}
+@keyframes egg{0%{opacity:0;transform:translate(-50%,-30%) scale(.8)}15%{opacity:1;transform:translate(-50%,-50%) scale(1)}80%{opacity:1}100%{opacity:0;transform:translate(-50%,-70%)}}
+
+@media (prefers-reduced-motion:reduce){.veil{display:none}}

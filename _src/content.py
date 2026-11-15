@@ -166,7 +166,7 @@ def load():
             zp = os.path.join(d, name + '.zh.md')
             if os.path.exists(zp):
                 zm, zb = _front(open(zp, encoding='utf-8-sig').read())
-                zh = {'title': zm.get('title') or meta.get('title') or name, 'body': zb}
+                zh = {'title': zm.get('title') or meta.get('title') or name, 'body': zb, 'meta': zm}
             slug_name = re.sub(r'[^a-z0-9-]+', '-', name.lower()).strip('-') or 'project'
             try:
                 order = float(meta.get('order', 100))
@@ -176,6 +176,7 @@ def load():
                 'pid': f'md:{sec}/{slug_name}', 'section': sec, 'hub': hub,
                 'slug': f'{sec}/{slug_name}', 'order': order, 'folder': d,
                 'cover': _media(meta.get('cover'), d), 'meta': meta,
+                'soon': meta.get('soon', '').lower() in ('yes', 'true', '1'),
                 'en': {'title': meta.get('title') or name, 'body': body}, 'zh': zh,
             })
     items.sort(key=lambda it: (it['order'], it['slug']))
@@ -190,3 +191,13 @@ def localized(item, lang):
     if lang == 'zh-hans':
         t, b = _T2S(t), _T2S(b)
     return t, b
+
+
+def localized_meta(item, key, lang):
+    """A front-matter field (e.g. subtitle) in the right language."""
+    v = item['meta'].get(key, '')
+    if lang != 'en' and item['zh']:
+        v = item['zh']['meta'].get(key) or v
+        if lang == 'zh-hans':
+            v = _T2S(v)
+    return v

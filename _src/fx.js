@@ -1,0 +1,163 @@
+/* Extra interactions: cursor, click sparks, scramble text, progress bar,
+   page transitions, playful pills, easter egg. Loaded after site.js. */
+(function () {
+  var fine = matchMedia('(hover:hover) and (pointer:fine)').matches;
+  var calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var TEAL = [46, 230, 201], VIOLET = [140, 110, 255];
+  var root = document.documentElement;
+
+  /* ---- scroll progress bar ---- */
+  var bar = document.createElement('div'); bar.className = 'progress'; document.body.appendChild(bar);
+  function prog() { var h = root.scrollHeight - innerHeight; bar.style.transform = 'scaleX(' + (h > 0 ? scrollY / h : 0) + ')'; }
+  addEventListener('scroll', prog, { passive: true }); addEventListener('resize', prog); prog();
+
+  /* ---- background spotlight that follows the pointer ---- */
+  addEventListener('pointermove', function (e) {
+    root.style.setProperty('--sx', e.clientX + 'px'); root.style.setProperty('--sy', e.clientY + 'px');
+  }, { passive: true });
+
+  /* ---- full-screen FX canvas: click sparks, cursor trail, easter egg ---- */
+  var fx = document.createElement('canvas'); fx.className = 'fx'; document.body.appendChild(fx);
+  var g = fx.getContext('2d'), FW, FH, dpr = Math.min(devicePixelRatio || 1, 2), S = [], running = false;
+  function fsize() { FW = innerWidth; FH = innerHeight; fx.width = FW * dpr; fx.height = FH * dpr; g.setTransform(dpr, 0, 0, dpr, 0, 0); }
+  fsize(); addEventListener('resize', fsize);
+  function spark(x, y, n, speed, col, life, grav) {
+    for (var i = 0; i < n; i++) {
+      var a = Math.random() * 6.283, v = speed * (0.35 + Math.random() * 0.65);
+      S.push({ x: x, y: y, vx: Math.cos(a) * v, vy: Math.sin(a) * v, l: life * (0.6 + Math.random() * 0.4), m: life,
+               r: 1 + Math.random() * 2.2, c: col || (Math.random() < 0.75 ? TEAL : VIOLET), g: grav || 0 });
+    }
+    if (!running) { running = true; requestAnimationFrame(tick); }
+  }
+  function tick() {
+    g.clearRect(0, 0, FW, FH);
+    for (var i = S.length - 1; i >= 0; i--) {
+      var s = S[i]; s.l--;
+      if (s.l <= 0) { S.splice(i, 1); continue; }
+      s.vx *= 0.94; s.vy = s.vy * 0.94 + s.g; s.x += s.vx; s.y += s.vy;
+      var a = s.l / s.m;
+      var col = 'rgba(' + s.c[0] + ',' + s.c[1] + ',' + s.c[2] + ',' + a + ')';
+      g.shadowColor = col; g.shadowBlur = 10;
+      if (Math.abs(s.vx) + Math.abs(s.vy) > 0.6) {   // fast: a light streak
+        g.strokeStyle = col; g.lineWidth = s.r * a + 0.4; g.lineCap = 'butt';
+        g.beginPath(); g.moveTo(s.x, s.y); g.lineTo(s.x - s.vx * 3, s.y - s.vy * 3); g.stroke();
+      } else {                                         // slow: a small square
+        var q = s.r * a * 1.6 + 0.6; g.fillStyle = col; g.fillRect(s.x - q / 2, s.y - q / 2, q, q);
+      }
+    }
+    g.shadowBlur = 0;
+    if (S.length) requestAnimationFrame(tick); else running = false;
+  }
+  window.__spark = spark;
+  if (!calm) {
+    document.addEventListener('pointerdown', function (e) {
+      if (document.body.classList.contains('home') && e.target.closest('.hero')) return; // hero has its own burst
+      spark(e.clientX, e.clientY, 18, 7, null, 34);
+    });
+  }
+
+  /* ---- custom cursor (mouse only) ---- */
+  if (fine && !calm) {
+    document.body.classList.add('has-cursor');
+    var dot = document.createElement('div'), ring = document.createElement('div'), lab = document.createElement('span');
+    dot.className = 'cur-dot'; ring.className = 'cur-ring'; ring.appendChild(lab);
+    document.body.appendChild(dot); document.body.appendChild(ring);
+    var mx = innerWidth / 2, my = innerHeight / 2, rx = mx, ry = my, lx = mx, ly = my;
+    addEventListener('pointermove', function (e) {
+      mx = e.clientX; my = e.clientY;
+      dot.style.transform = 'translate(' + mx + 'px,' + my + 'px)';
+      var sp = Math.hypot(mx - lx, my - ly); lx = mx; ly = my;
+      if (sp > 18 && Math.random() < 0.6) spark(mx, my, 1, 1.2, TEAL, 22);
+    }, { passive: true });
+    (function loop() {
+      rx += (mx - rx) * 0.18; ry += (my - ry) * 0.18;
+      ring.style.transform = 'translate(' + rx + 'px,' + ry + 'px)';
+      requestAnimationFrame(loop);
+    })();
+    var lang = root.lang || 'en';
+    var L = lang.indexOf('zh') === 0 ? { view: '查看', play: '播放', zoom: '放大' } : { view: 'VIEW', play: 'PLAY', zoom: 'ZOOM' };
+    document.addEventListener('pointerover', function (e) {
+      var t = e.target, txt = '';
+      if (t.closest('.pcard')) txt = L.view;
+      else if (t.closest('img.zoomable, .g-item img')) txt = L.zoom;
+      else if (t.closest('video[controls], .embed, .fig.vid')) txt = L.play;
+      var big = !!txt, link = !big && !!t.closest('a, button, .ripple, .pill');
+      ring.classList.toggle('big', big); ring.classList.toggle('link', link); lab.textContent = txt;
+    });
+    document.addEventListener('pointerdown', function () { ring.classList.add('down'); });
+    document.addEventListener('pointerup', function () { ring.classList.remove('down'); });
+    document.documentElement.addEventListener('pointerleave', function () { dot.style.opacity = ring.style.opacity = 0; });
+    document.documentElement.addEventListener('pointerenter', function () { dot.style.opacity = ring.style.opacity = 1; });
+  }
+
+  /* ---- text scramble on headings (Latin letters only; CJK keeps the normal fade) ---- */
+  var GLY = '!<>-_/[]{}=+*^?#ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  function scramble(el) {
+    if (el.dataset.scr) return; el.dataset.scr = '1';
+    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT), nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      var fin = n.nodeValue; if (!/[A-Za-z]/.test(fin)) return;
+      var f = 0, total = 16 + Math.min(fin.length, 28);
+      (function step() {
+        var out = '';
+        for (var i = 0; i < fin.length; i++) {
+          var ch = fin[i], shown = f / total * fin.length * 1.4 - i * 0.4 >= 1;
+          out += (shown || !/[A-Za-z0-9]/.test(ch)) ? ch : GLY[(Math.random() * GLY.length) | 0];
+        }
+        n.nodeValue = out; f++;
+        if (f <= total) requestAnimationFrame(step); else { n.nodeValue = fin; delete el.dataset.scr; el.dataset.done = '1'; }
+      })();
+    });
+  }
+  if (!calm) {
+    var sio = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { scramble(e.target); sio.unobserve(e.target); } });
+    }, { threshold: 0.4 });
+    document.querySelectorAll('.ttl, h2.big, h1.big, .eyebrow').forEach(function (el) { sio.observe(el); });
+    document.querySelectorAll('.nl, .logo, .sub a').forEach(function (a) {
+      a.addEventListener('pointerenter', function () { scramble(a); });
+    });
+  }
+
+  /* ---- toolkit pills: dodge the cursor, pop + sparks on click ---- */
+  document.querySelectorAll('.pill').forEach(function (p) {
+    if (fine && !calm) {
+      p.addEventListener('pointermove', function (e) {
+        var r = p.getBoundingClientRect();
+        p.style.transform = 'translate(' + (e.clientX - r.left - r.width / 2) * -0.25 + 'px,' + (e.clientY - r.top - r.height / 2) * -0.35 + 'px) scale(1.06)';
+      });
+      p.addEventListener('pointerleave', function () { p.style.transform = ''; });
+    }
+    p.addEventListener('click', function () {
+      var r = p.getBoundingClientRect(); spark(r.left + r.width / 2, r.top + r.height / 2, 26, 9, null, 40);
+      p.classList.remove('pop'); void p.offsetWidth; p.classList.add('pop');
+    });
+  });
+
+  /* ---- page transitions for links inside the site ---- */
+  var veil = document.createElement('div'); veil.className = 'veil'; document.body.appendChild(veil);
+  setTimeout(function () { document.body.classList.add('loaded'); }, 30);
+  addEventListener('pageshow', function (e) { if (e.persisted) { document.body.classList.remove('leaving'); document.body.classList.add('loaded'); } });
+  if (!calm) document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href]');
+    if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target === '_blank') return;
+    if (/^(mailto|tel|javascript):/i.test(a.getAttribute('href'))) return;
+    var u = new URL(a.href, location.href);
+    if (u.origin !== location.origin) return;
+    if (u.pathname === location.pathname && u.search === location.search) return; // same-page anchors
+    e.preventDefault(); document.body.classList.add('leaving');
+    setTimeout(function () { location.href = u.href; }, 380);
+  });
+
+  /* ---- easter egg: type "joy" anywhere ---- */
+  var buf = '';
+  addEventListener('keydown', function (e) {
+    if (/input|textarea|select/i.test(e.target.tagName || '')) return;
+    buf = (buf + (e.key || '').toLowerCase()).slice(-3);
+    if (buf !== 'joy') return;
+    for (var i = 0; i < 14; i++) setTimeout(function () { spark(Math.random() * FW, Math.random() * FH * 0.6, 30, 10, null, 60, 0.12); }, i * 90);
+    var t = document.createElement('div'); t.className = 'egg glass'; t.textContent = '✦ Hi, I’m Joy ✦';
+    document.body.appendChild(t); setTimeout(function () { t.remove(); }, 2600);
+  });
+})();

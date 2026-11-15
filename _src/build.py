@@ -54,6 +54,8 @@ for _it in CONTENT_MOD.load():
     if _it['slug'] in SLUG.values():
         _it['slug'] += '-2'
     CONTENT[_it['pid']] = _it
+    if _it['soon']:
+        continue
     SLUG[_it['pid']] = _it['slug']
     for _p, _subs in NAV:
         if _p == _it['hub']:
@@ -319,6 +321,7 @@ def shell(title, body, cur, slug, lang, extra_head='', body_cls=''):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}assets/site.css">
+<link rel="stylesheet" href="{root}assets/fx.css">
 {"".join(f'<link rel="alternate" hreflang="{HTML_LANG[c]}" href="{root}{p}{slug_path}">' for c, p, _ in LANGS)}
 {extra_head}</head>
 <body class="lang-{lang} {body_cls}">
@@ -334,6 +337,7 @@ def shell(title, body, cur, slug, lang, extra_head='', body_cls=''):
 </div><div class="copy">&copy; Yiqi Zheng</div></footer>
 <div class="lb" id="lb"><img alt=""></div>
 <script src="{root}assets/site.js"></script>
+<script src="{root}assets/fx.js"></script>
 </body></html>'''
 
 def write(slug, lang, content):
@@ -362,7 +366,7 @@ def home(lang):
     for pid, en_t, dkey, img, vid, empty in WORK:
         href = root + lp + SLUG[pid] + '/'
         t = t_ui(en_t, lang); d = t_ui(dkey, lang)
-        cov = cover_of(UNREAL_ITEMS[0]) if (pid == 'et3rh' and UNREAL_ITEMS) else None
+        cov = next((cover_of(u) for u in UNREAL_ITEMS if cover_of(u)), None) if pid == 'et3rh' else None
         if cov:
             empty = False
             u = cov['src'] if cov['src'].startswith('http') else root + cov['src']
@@ -392,20 +396,35 @@ def home(lang):
 <div class="btns"><a class="btn primary ripple mag" href="#work"><span>{t_ui("VIEW MY WORK", lang)}</span></a>
 <a class="btn ghost ripple mag" href="#contact"><span>{t_ui("CONTACT ME", lang)}</span></a></div></div></div>
 <a class="scroll glass ripple" href="#work"><span class="mouse"></span>{t_ui("SCROLL", lang)}</a></section>
+{reel_html}
 <section class="wrap" id="work"><div class="blob b1"></div><div class="blob b2"></div>
 <div class="head reveal"><div><div class="eyebrow">{t_ui("SELECTED WORK", lang)}</div><h2 class="big">{t_ui("What I Make", lang)}</h2></div>
 <p class="lede">{t_ui("work_sub", lang)}</p></div>
 <div class="pgrid">{"".join(cards)}</div>
 <div class="tools glass reveal"><span class="lbl">{t_ui("TOOLKIT", lang)}</span>{pills}</div></section>
-{reel_html}<span id="contact"></span>'''
+<span id="contact"></span>'''
     write('', lang, shell('', body, 'c1dmp', '', lang, body_cls='home'))
 
 def unreal(lang):
     lp = dict((c, p) for c, p, _ in LANGS)[lang]
     if UNREAL_ITEMS:
         root = '../' * (lp + SLUG['et3rh'] + '/').count('/')
-        CUR['pid'] = 'et3rh'
-        grid = slides_html({'slides': []}, root, lang, lp)
+        cards = []
+        for u in UNREAL_ITEMS:
+            it = CONTENT[u]; t = CONTENT_MOD.localized(it, lang)[0]
+            sub = html.escape(CONTENT_MOD.localized_meta(it, 'subtitle', lang))
+            d = f'<div class="d">{sub}</div>' if sub else ''
+            cov = it['cover']
+            if it['soon'] or not cov:
+                media = '<div class="ph"><div class="ue">U</div></div>'
+                tag = f'<span class="tag tsoon">{t_ui("COMING SOON", lang)}</span>' if it['soon'] else ''
+            else:
+                cu = cov['src'] if cov['src'].startswith('http') else root + cov['src']
+                media = f'<img class="cm" loading="lazy" src="{cu}" alt="">'; tag = ''
+            el, href = ('div', '') if it['soon'] else ('a', f' href="{root}{lp}{SLUG[u]}/"')
+            cards.append(f'<{el} class="pcard ripple tilt reveal{" empty" if it["soon"] else ""}"{href}>{media}<div class="glare"></div>{tag}'
+                         f'<div class="cap glass"><div><div class="t">{html.escape(t)}</div>{d}</div><div class="arrow">&#8594;</div></div></{el}>')
+        grid = f'<div class="pgrid two">{"".join(cards)}</div>'
         body = f'''<section class="wrap"><div class="blob b1"></div><div class="blob b2"></div>
 <div class="head reveal"><div><div class="eyebrow">{t_ui("SELECTED WORK", lang)}</div><h1 class="big">Unreal Engine</h1></div></div>{grid}</section>'''
         write(SLUG['et3rh'], lang, shell(page_title('et3rh', lang), body, 'et3rh', SLUG['et3rh'], lang))
@@ -491,6 +510,8 @@ def build():
     json.dump(CATALOG, open('i18n/catalog_en.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     shutil.copy('site.css', os.path.join(OUT, 'assets', 'site.css'))
     shutil.copy('site.js', os.path.join(OUT, 'assets', 'site.js'))
+    shutil.copy('fx.js', os.path.join(OUT, 'assets', 'fx.js'))
+    shutil.copy('fx.css', os.path.join(OUT, 'assets', 'fx.css'))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     print('pages', len(SLUG) * 3, 'media', len(MEDIA), 'strings', len(CATALOG))
 

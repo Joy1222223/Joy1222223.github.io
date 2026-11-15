@@ -1,0 +1,558 @@
+{
+ "meta": {
+  "id": "bzv5r",
+  "title": "Week5",
+  "uri": "副本-week4"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week5</h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 136,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 651,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Feb 8</h3>",
+   "plain": "Feb 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 707,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 5</h3>",
+   "plain": "SCAD X HARBOR - Week 5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 762,
+   "w": 534,
+   "h": 27,
+   "html": "<h3>Hello, this is my forth week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my forth week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 800,
+   "w": 285,
+   "h": 27,
+   "html": "<h3>Feedback From Mentors:</h3>",
+   "plain": "Feedback From Mentors:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 838,
+   "w": 930,
+   "h": 517,
+   "html": "<p>Vi:</p>\n\n<ul>\n\t<li>\n\t<p>Awesome to see you listened</p>\n\t</li>\n\t<li>\n\t<p>Shot 1: the environment in background is dark/composition</p>\n\t</li>\n\t<li>\n\t<p>Shot 2: Is it needed to add steam?​</p>\n\t</li>\n</ul>\n\n<p>Hailey:​</p>\n\n<ul>\n\t<li>Remove shot2, it&#39;s the same with shot3</li>\n\t<li>shot3 - defocus background, atmosphere smoke</li>\n\t<li>shot6 - title needs to pull out more</li>\n</ul>\n\n<p>Kyle:​pam</p>\n\n<ul>\n\t<li>Pan now 3D/Paralax</li>\n\t<li>Not crazy, slow subtle camera move</li>\n\t<li>Combine shot 2 and 3, it is cool from top down, and have camera orbit around the pouring</li>\n\t<li>shot3 - focus on what&#39;s important/push back what isn&#39;t</li>\n\t<li>shot5 - dof/background may blue/deep compositing bubbles</li>\n\t<li>shot6 - too tight - perfect it</li>\n</ul>\n\n<p>Billy:​</p>\n\n<ul>\n\t<li>Background out of focus</li>\n\t<li>Don&#39;t render with depth of field</li>\n</ul>\n\n<p>Joleen:​</p>\n\n<ul>\n\t<li>\n\t<p>shot 1 top down? Connect the flame to the melting</p>\n\t</li>\n</ul>\n\n<p>​</p>\n\n<p>​</p>",
+   "plain": "Vi:\n\n\n\t\n\tAwesome to see you listened\n\t\n\t\n\tShot 1: the environment in background ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1344,
+   "w": 930,
+   "h": 103,
+   "html": "<p>After our discussion, we decided to combine shots 2 and 3 into a single shot with movement. The camera moves downward and circles around the pouring molten platinum. For shot 2, I also added steam and atmospheric smoke in the background to enhance the factory environment. This is what the final looks like; I also need to adjust the environment to smoke in the following week.</p>",
+   "plain": "After our discussion, we decided to combine shots 2 and 3 into a single shot wit",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 243,
+   "y": 1455,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_49b2aec8b7564a5cace5d7e8528e54c8",
+    "poster": "f7279b_49b2aec8b7564a5cace5d7e8528e54c8f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 460,
+   "y": 1735,
+   "w": 63,
+   "h": 50,
+   "html": "<p>Render</p>\n\n<p>​</p>",
+   "plain": "Render\n\n​",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1785,
+   "w": 925,
+   "h": 52,
+   "html": "<p>I have had several tests of different viscosities of molten platinum and tried to find the most suitable one. For my latest test for the shot, I chose viscosity 40.</p>",
+   "plain": "I have had several tests of different viscosities of molten platinum and tried t",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 1,
+   "y": 1858,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_78172e5d5f574f8f9759386162fe6e9b",
+    "poster": "f7279b_78172e5d5f574f8f9759386162fe6e9bf000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 496,
+   "y": 1858,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_9b4361d989f04ab0b6dd62f6dd982930",
+    "poster": "f7279b_9b4361d989f04ab0b6dd62f6dd982930f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 180,
+   "y": 2134,
+   "w": 122,
+   "h": 41,
+   "html": "<p>Viscosity: 20</p>",
+   "plain": "Viscosity: 20",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 680,
+   "y": 2134,
+   "w": 122,
+   "h": 41,
+   "html": "<p>Viscosity: 30</p>",
+   "plain": "Viscosity: 30",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 1,
+   "y": 2200,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_8374d255a63c4d989f0286ce5b1b7480",
+    "poster": "f7279b_8374d255a63c4d989f0286ce5b1b7480f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 496,
+   "y": 2200,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_5425b3d4621d411c9feb23d81ceafaa1",
+    "poster": "f7279b_5425b3d4621d411c9feb23d81ceafaa1f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 184,
+   "y": 2383,
+   "w": 122,
+   "h": 41,
+   "html": "<p>Viscosity: 20</p>",
+   "plain": "Viscosity: 20",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 180,
+   "y": 2476,
+   "w": 122,
+   "h": 41,
+   "html": "<p>Viscosity: 40</p>",
+   "plain": "Viscosity: 40",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 680,
+   "y": 2476,
+   "w": 122,
+   "h": 41,
+   "html": "<p>Viscosity: 100</p>",
+   "plain": "Viscosity: 100",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 2576,
+   "w": 287,
+   "h": 41,
+   "html": "<p>Separated Layers:</p>",
+   "plain": "Separated Layers:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 2617,
+   "w": 955,
+   "h": 77,
+   "html": "<p>Caleb separated the smoke layer and beauty layer in Karma. Following the instructions from the forum post, I followed the steps and achieved the result. Use the Render Geometry Settings node, select invisible objects in Primitives, and choose &#39;Invisible to Primary Rays (Phantom)&#39; to exclude the unselected objects.</p>",
+   "plain": "Caleb separated the smoke layer and beauty layer in Karma. Following the instruc",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 2701,
+   "w": 955,
+   "h": 41,
+   "html": "<p>Link for forum post: <a href=\"https://www.sidefx.com/forum/topic/84982/?page=1#post-367709\" target=\"_blank\" rel=\"noopener\">https://www.sidefx.com/forum/topic/84982/?page=1#post-367709</a></p>",
+   "plain": "Link for forum post: https://www.sidefx.com/forum/topic/84982/?page=1#post-36770",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 14,
+   "y": 2742,
+   "w": 174,
+   "h": 296,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a62bfd7eb18f4cce81092573a8466c2d~mv2.png",
+    "w": 174,
+    "h": 296,
+    "alt": "Screenshot 2025-02-09 070955.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 222,
+   "y": 2816,
+   "w": 730,
+   "h": 134,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_48c0eb9ab25a4f6286d5720e36138744~mv2.png",
+    "w": 600,
+    "h": 110,
+    "alt": "1.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3087,
+   "w": 287,
+   "h": 41,
+   "html": "<p>Environment Smoke:</p>",
+   "plain": "Environment Smoke:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3128,
+   "w": 955,
+   "h": 77,
+   "html": "<p>Based on Professor Fowler&#39;s suggestion, I tested two different smoke solvers in Houdini: Smoke Object Sparse and Smoke Object, to compare their speed and smoke effects. The results show that Smoke Object Sparse is much faster than Smoke Object.</p>",
+   "plain": "Based on Professor Fowler&#39;s suggestion, I tested two different smoke solvers",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 51,
+   "y": 3219,
+   "w": 409,
+   "h": 233,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_06b6b8b73fcc41bab8318fe31767887f~mv2.png",
+    "w": 550,
+    "h": 313,
+    "alt": "2.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 561,
+   "y": 3219,
+   "w": 344,
+   "h": 233,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_421f8d2b526c4a439d5f34f789003d63~mv2.png",
+    "w": 505,
+    "h": 342,
+    "alt": "3.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 641,
+   "y": 3452,
+   "w": 184,
+   "h": 41,
+   "html": "<p>Smoke object Sparse</p>",
+   "plain": "Smoke object Sparse",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 198,
+   "y": 3457,
+   "w": 115,
+   "h": 41,
+   "html": "<p>Smoke object</p>",
+   "plain": "Smoke object",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3487,
+   "w": 955,
+   "h": 52,
+   "html": "<p>I also tested different environment smoke effects and added dust to create an immersive atmosphere for the pouring scene.</p>",
+   "plain": "I also tested different environment smoke effects and added dust to create an im",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3554,
+   "w": 115,
+   "h": 41,
+   "html": "<p>Reference:</p>",
+   "plain": "Reference:",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 555,
+   "y": 3595,
+   "w": 355,
+   "h": 366,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7fbf3d6980f94f6589ab5cf3d173460c~mv2.jpg",
+    "w": 579,
+    "h": 600,
+    "alt": "44506ea124baa45e0d0b05375c8dee19.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 12,
+   "y": 3601,
+   "w": 404,
+   "h": 360,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fbe7171053734df48e0a9d11d2321739~mv2.jpg",
+    "w": 600,
+    "h": 527,
+    "alt": "707332fb2e5931edf40856af7cd0845c.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 615,
+   "y": 3986,
+   "w": 236,
+   "h": 403,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_9f76256018454bf9b1bf5ecc354e183e",
+    "poster": "f7279b_9f76256018454bf9b1bf5ecc354e183ef000.jpg",
+    "w": 584,
+    "h": 996,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 85,
+   "y": 3990,
+   "w": 258,
+   "h": 394,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_16c78d0ea08540919487d86d5eeda3bd~mv2.jpg",
+    "w": 393,
+    "h": 600,
+    "alt": "2335c0e6ab21bb6b69af3242f5c47447.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 155,
+   "y": 4416,
+   "w": 670,
+   "h": 377,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_ccc5fe5425664cd48a57c697c37760ce",
+    "poster": "f7279b_ccc5fe5425664cd48a57c697c37760cef000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 343,
+   "y": 4801,
+   "w": 327,
+   "h": 41,
+   "html": "<p>This is what the final flipbook looks like.</p>",
+   "plain": "This is what the final flipbook looks like.",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 155,
+   "y": 4847,
+   "w": 670,
+   "h": 377,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_99f6874cd69143fd9c16e0f9b8fdf273",
+    "poster": "f7279b_99f6874cd69143fd9c16e0f9b8fdf273f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 326,
+   "y": 5239,
+   "w": 327,
+   "h": 41,
+   "html": "<p>This is what the final render looks like.</p>",
+   "plain": "This is what the final render looks like.",
+   "head": false
+  }
+ ]
+}

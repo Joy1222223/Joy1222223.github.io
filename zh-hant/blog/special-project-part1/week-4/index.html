@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week4 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/special-project-part1/week-4/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/special-project-part1/week-4/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/special-project-part1/week-4/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/special-project-part1/week-4/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/special-project-part1/week-4/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/special-project-part1/week-4/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/special-project-part1/">&#8592; Blog X Special Project | PART1</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/96d373bf920e4684b177a206dea4190c.webp" width="1980" height="1200" alt="雪紅杉林"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week4</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Opacity Map</h2></div>
+<div class="row one"><h2 class="ttl reveal">Feb 1</h2></div>
+<div class="row multi"><div class="col" style="flex:4"><h2 class="ttl reveal">HAVE COMPLETED:</h2></div><div class="col" style="flex:2"><h2 class="ttl reveal">TO-DO LIST:</h2></div></div>
+<div class="row multi"><div class="col" style="flex:4"><div class="prose reveal"><ul>
+	<li>
+	<p>Tested USD variants on a single plant asset</p>
+	</li>
+	<li>
+	<p>Authored and layered the variants in Solaris</p>
+	</li>
+	<li>
+	<p>Imported the USD into Unreal and verified the workflow</p>
+	</li>
+</ul></div></div><div class="col" style="flex:4"><div class="prose reveal"><ul>
+	<li>
+	<p>Figured out USD variants with multiple materials</p>
+	</li>
+	<li>
+	<p>Set up the USD layout in Houdini, integrated the variants, and used them in Unreal</p>
+	</li>
+	<li>
+	<p>Try Opacity Mask</p>
+	</li>
+</ul></div></div></div>
+<div class="row one"><div class="prose reveal"><p>In order to get cheaper leaves, I used Yichen&#39;s fern and try to assign the opacity map on it. We can use Quickuvshade visulize the texture in Sop Level.</p></div></div>
+<div class="row one"><h2 class="ttl reveal">Problem-solving</h2></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_93f7da942d0541b396c4ad7702b8a21d_mv2.webp" width="460" height="600" alt="image.png"></figure></div><div class="col" style="flex:6"><div class="prose reveal"><p>Problem: I started with a grid and used it to replace the original leaves, but I ran into the issue shown in the image. I suspect the repeated pattern is caused by the grid&rsquo;s UV projection.</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:1"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_ff4539cba2a446fa89e06c54d5120cbf_mv2.webp" width="239" height="552" alt="image.png"></figure></div><div class="col" style="flex:5"><div class="prose reveal"><p>Solution: So I used UV Flatten instead of UV Project, and the result looks good now.</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_9016f16e51f1489cbde68563f4b62275_mv2.webp" width="436" height="600" alt="image.png"></figure></div><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_9f63f1b11aa1429d86c7cf2f4af359ca_mv2.webp" width="422" height="600" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>I also added a keyframe animation to make it look like it&rsquo;s swaying in the wind.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_42588d4534974b86b79a9f2c82bd9d96f000.webp" src="https://video.wixstatic.com/video/f7279b_42588d4534974b86b79a9f2c82bd9d96/720p/mp4/file.mp4"></video></figure></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6e9a0f4b572e41e0be290618ba279705_mv2.webp" width="463" height="600" alt="image.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6d652576b1454c86a6e4836946b037e3_mv2.webp" width="600" height="538" alt="image.png"></figure></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fdf57b63abb8458e93e38319bf5de247_mv2.webp" width="590" height="600" alt="image.png"></figure></div>
+<div class="row one"><h2 class="ttl reveal">Render</h2></div>
+<div class="row one"><div class="prose reveal"><p>After that, I brought it into Unreal and used Component Builder, but it was not successful. I also imported it back into Houdini as a reference, but that was not very successful either.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_3f671ad0455a4c0d9dc27faabee0c613_mv2.webp" width="509" height="476" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_a4486861ef0748b2831119c4baf33f3c_mv2.webp" width="551" height="600" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6204a85dc6404e67b92204865c92a6f5_mv2.webp" width="592" height="600" alt="image.png"></figure></div><div class="col" style="flex:5"><div class="prose reveal"><p>No matter whether the geometry is static or animated, it still has the same problem.</p></div></div></div>
+<div class="row one"><div class="prose reveal"><p>I also tried a single leaf without animation, and the result is still not good, even though it looks normal in Houdini.</p></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_d7de4449f5684f93ae3987fc17936289_mv2.webp" width="600" height="527" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_1e63090b01ca4c11a98c46fd36195674_mv2.webp" width="420" height="301" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_20cf140e12be4a7a8b55ed9049b60053_mv2.webp" width="207" height="319" alt="image.png"></figure></div><div class="col" style="flex:5"><div class="prose reveal"><p>Even when I build the grid directly inside the component, it still has a problem when I import it into Unreal.</p></div></div></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../../zh-hant/blog/special-project-part1/week-5/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Use VAT and integrate with Opacity Map</p>
+	</li>
+	<li>
+	<p>Work on USD Variants and also integrate with Opacity Map</p>
+	</li>
+</ol></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/special-project-part1/week-3/"><span>&#8592; Week3</span></a><a class="btn ghost ripple next" href="../../../../zh-hant/blog/special-project-part1/week-5/"><span>Week5 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

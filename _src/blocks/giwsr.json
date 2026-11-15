@@ -1,0 +1,341 @@
+{
+ "meta": {
+  "id": "giwsr",
+  "title": "Week5",
+  "uri": "copy-of-week4-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "96d373bf920e4684b177a206dea4190c.jpg",
+    "w": 1980,
+    "h": 1200,
+    "alt": "雪紅杉林"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week5</h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 61,
+   "y": 442,
+   "w": 858,
+   "h": 56,
+   "html": "<h3>WHOLE PIPELINE(HOUDINI-UNREAL)</h3>",
+   "plain": "WHOLE PIPELINE(HOUDINI-UNREAL)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 498,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Feb 8</h3>",
+   "plain": "Feb 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 57,
+   "y": 581,
+   "w": 350,
+   "h": 42,
+   "html": "<h3>HAVE COMPLETED:</h3>",
+   "plain": "HAVE COMPLETED:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 625,
+   "y": 581,
+   "w": 224,
+   "h": 42,
+   "html": "<h3>TO-DO LIST:</h3>",
+   "plain": "TO-DO LIST:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 639,
+   "w": 403,
+   "h": 26,
+   "html": "<ul>\n\t<li>\n\t<p>Tested Opacity mask in Houdini and Unreal</p>\n\t</li>\n</ul>",
+   "plain": "Tested Opacity mask in Houdini and Unreal",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 530,
+   "y": 639,
+   "w": 395,
+   "h": 79,
+   "html": "<ul>\n\t<li>\n\t<p>Test whole pipeline from Houdini to Unreal.</p>\n\t</li>\n\t<li>\n\t<p>Create a sea if flowers using Yichen&#39;s Grape Hyacinth</p>\n\t</li>\n</ul>",
+   "plain": "Test whole pipeline from Houdini to Unreal.\n\t\n\t\n\tCreate a sea if flowers using Y",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 783,
+   "w": 980,
+   "h": 78,
+   "html": "<h3>Material In Unreal(Subsurface)</h3>",
+   "plain": "Material In Unreal(Subsurface)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 887,
+   "w": 945,
+   "h": 52,
+   "html": "<p>This week, I will try to complete the full pipeline from Houdini to Unreal, including material and lighting setup, to achieve better visual results.</p>",
+   "plain": "This week, I will try to complete the full pipeline from Houdini to Unreal, incl",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 951,
+   "w": 945,
+   "h": 157,
+   "html": "<p>We compared the material before and after adding subsurface scattering (SSS) in Unreal. The initial version looked flatter and more opaque, while the updated material shows softer light diffusion and more natural translucency in the petals, especially in backlit conditions.</p>\n\n<p>Danci shared her documentation on setting up SSS in Unreal, which we referenced and adapted for our own shader. The images below demonstrate the SSS effect under backlighting, where light passes through the petals and creates a more realistic, luminous appearance.</p>",
+   "plain": "We compared the material before and after adding subsurface scattering (SSS) in ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 284,
+   "y": 1078,
+   "w": 364,
+   "h": 24,
+   "html": "<p><a href=\"https://omolism.cargo.site/The-Last-Dinner\" target=\"_blank\" rel=\"noopener\">https://omolism.cargo.site/The-Last-Dinner</a></p>",
+   "plain": "https://omolism.cargo.site/The-Last-Dinner",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 1135,
+   "w": 261,
+   "h": 474,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_52a53ef5e64f42918db94f11a9b49daf~mv2.png",
+    "w": 330,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 296,
+   "y": 1214,
+   "w": 292,
+   "h": 316,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3854e251eb354f34ae47a23c633144f2~mv2.png",
+    "w": 458,
+    "h": 495,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 631,
+   "y": 1214,
+   "w": 278,
+   "h": 316,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d9d3df7be2454d23935a14b3dadcc579~mv2.png",
+    "w": 491,
+    "h": 557,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 68,
+   "y": 1622,
+   "w": 159,
+   "h": 26,
+   "html": "<p>Substance Painter</p>",
+   "plain": "Substance Painter",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 71,
+   "y": 1718,
+   "w": 274,
+   "h": 400,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_e039698a86854536a7f7d568cbf5b741~mv2.png",
+    "w": 411,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 358,
+   "y": 1718,
+   "w": 282,
+   "h": 400,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_991bf4b2e4924a9cbf245ebeabac886b~mv2.png",
+    "w": 423,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 654,
+   "y": 1718,
+   "w": 230,
+   "h": 400,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c2de16ebd8b1461cb07d823aaf84b918~mv2.png",
+    "w": 345,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 2150,
+   "w": 945,
+   "h": 26,
+   "html": "<p>This is the Blueprint I made, referencing Danci&rsquo;s.</p>",
+   "plain": "This is the Blueprint I made, referencing Danci&rsquo;s.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 28,
+   "y": 2194,
+   "w": 933,
+   "h": 620,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ddc0adee201446f6817cc9733c4a579a~mv2.png",
+    "w": 600,
+    "h": 399,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 2838,
+   "w": 725,
+   "h": 156,
+   "html": "<h3>USD Animation VS VAT Animation In Unreal</h3>",
+   "plain": "USD Animation VS VAT Animation In Unreal",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 26,
+   "y": 3015,
+   "w": 933,
+   "h": 120,
+   "html": "<p>I found that Unreal becomes laggy when there are more than five animated USD assets, so I switched to VAT. I baked frames 60&ndash;120 using a soft-body method because VAT remains more stable as long as the topology and vertex count stay consistent. If they change, VAT can become glitchy, so I plan to keep a fixed topology moving forward. This is the final result of the VAT animation in Unreal &mdash; the performance is good, but I still need to figure out how to loop it and how to generate a procedural layout, as this was done manually.</p>",
+   "plain": "I found that Unreal becomes laggy when there are more than five animated USD ass",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 28,
+   "y": 3145,
+   "w": 933,
+   "h": 524,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_565cec7573da47fcbe6d105937d493c9",
+    "poster": "f7279b_565cec7573da47fcbe6d105937d493c9f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 22,
+   "y": 3688,
+   "w": 945,
+   "h": 52,
+   "html": "<p>I also plan to try importing Sanika&rsquo;s plants into Unreal, but I may not have time to test VAT or develop the leaves&rsquo; shader, so I will use Yichen&rsquo;s flower shader for initial testing in Unreal.</p>",
+   "plain": "I also plan to try importing Sanika&rsquo;s plants into Unreal, but I may not ha",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 28,
+   "y": 3756,
+   "w": 933,
+   "h": 524,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_87a7b4c3a8fb4ad1aee6f4920b0e5041",
+    "poster": "f7279b_87a7b4c3a8fb4ad1aee6f4920b0e5041f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 26,
+   "y": 4343,
+   "w": 907,
+   "h": 126,
+   "html": "<p><a href=\"PAGE:q35xh\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Conduct further research on VAT animation.</p>\n\t</li>\n\t<li>\n\t<p>Work on the Houdini-to-Unreal particle pipeline using VAT.</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tConduct further research on VAT animation.\n\t\n\t\n\tWork on the Houd",
+   "head": false
+  }
+ ]
+}

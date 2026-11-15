@@ -1,0 +1,173 @@
+{
+ "meta": {
+  "id": "blmjx",
+  "title": "Week7",
+  "uri": "copy-of-week1-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_db8f5ddb085b41fda169efb854f9b69e~mv2.jpg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "Wavy Abstract Background "
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week7</h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 419,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>VSFX 728 - Week 7</h3>",
+   "plain": "VSFX 728 - Week 7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 493,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my final project of the VSFX 728&#39;s blog!</h3>",
+   "plain": "Hello, this is my final project of the VSFX 728&#39;s blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -91,
+   "y": 529,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>May 4</h3>",
+   "plain": "May 4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 578,
+   "w": 170,
+   "h": 25,
+   "html": "<p>Reference:</p>",
+   "plain": "Reference:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 84,
+   "y": 615,
+   "w": 811,
+   "h": 458,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_e1ff684422e0408fa98852897f16d05d",
+    "poster": "f7279b_e1ff684422e0408fa98852897f16d05df000.jpg",
+    "w": 952,
+    "h": 476,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 275,
+   "y": 1090,
+   "w": 429,
+   "h": 22,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=I95jmkBCwL4\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=-Gonz0Zr6U8</a></p>",
+   "plain": "https://www.youtube.com/watch?v=-Gonz0Zr6U8",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 41,
+   "y": 1141,
+   "w": 896,
+   "h": 158,
+   "html": "<h3>For my final project, I plan to use the MPM to simulate tomato sauce pouring from a pot into a bowl. Before starting the project, I&rsquo;ve identified several key considerations. The first is accurately representing the viscosity of the tomato sauce, as it plays a crucial role in how the fluid moves and interacts with the environment. Additionally, I need to account for the presence of tomato chunks within the sauce, which introduces complexity in the simulation due to their interaction with the fluid and the bowl.</h3>",
+   "plain": "For my final project, I plan to use the MPM to simulate tomato sauce pouring fro",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1314,
+   "w": 291,
+   "h": 25,
+   "html": "<p>Tomato Sauce Detail:</p>",
+   "plain": "Tomato Sauce Detail:",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 552,
+   "y": 1332,
+   "w": 400,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9c4d37bde5d641dbb48cd4078b3df6a1~mv2.jpg",
+    "w": 400,
+    "h": 600,
+    "alt": "Tomato-Sauce-16.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 1431,
+   "w": 501,
+   "h": 376,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8fb3ed8faeab4512b303c3bf0ec49186~mv2.jpg",
+    "w": 600,
+    "h": 449,
+    "alt": "11966-best-marinara-sauce-yet-DDMFS-4x3-078e494b66c4485e8efe0971473b3196.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 113,
+   "y": 1829,
+   "w": 310,
+   "h": 53,
+   "html": "<p><a>https://www.allrecipes.com/recipe/11966/best-marinara-sauce-yet/</a></p>",
+   "plain": "https://www.allrecipes.com/recipe/11966/best-marinara-sauce-yet/",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 597,
+   "y": 1971,
+   "w": 310,
+   "h": 53,
+   "html": "<p><a>https://www.primaverakitchen.com/how-to-make-basic-tomato-sauce/</a></p>",
+   "plain": "https://www.primaverakitchen.com/how-to-make-basic-tomato-sauce/",
+   "head": false
+  }
+ ]
+}

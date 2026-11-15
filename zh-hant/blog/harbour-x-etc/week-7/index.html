@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week7 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour-x-etc/week-7/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour-x-etc/week-7/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour-x-etc/week-7/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour-x-etc/week-7/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/harbour-x-etc/week-7/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/harbour-x-etc/week-7/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/harbour-x-etc/">&#8592; Blog X Harbour X ETC</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_b35d65a47af340599df7c83b93934171_mv2.webp" width="5000" height="3333" alt="橙色雛菊特寫"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week7</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row one"><h2 class="ttl reveal">Yiqi Zheng (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Riley Ho (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Itim Kongsakulvatanasook (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Sofia Mancias (Compositing)</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Feb 23</h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Benji Hopkins (Look Dev)</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR X ETC - Week 7</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my seventh week of the Scad x Harbor x ETC blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h2></div>
+<div class="row one"><div class="prose reveal"><p>Kyle:​</p>
+
+<ul>
+	<li>
+	<p>Particles are inconsistent across shots</p>
+	</li>
+	<li>
+	<p>The effects happening to the ground can be much brighter around the printer shot 1</p>
+	</li>
+	<li>
+	<p>Grade particles so they are less overexposed, the color is blown out rn in shot 1</p>
+	</li>
+	<li>
+	<p>Shot 3 light change looks good, keep that lighting through the shot</p>
+	</li>
+	<li>
+	<p>We don&rsquo;t need the objects in shot 4, focus on beginning shots first</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Beck：</p>
+
+<ul>
+	<li>
+	<p>Avoid key framing anything, try using time or age to differentiate pscale</p>
+	</li>
+	<li>
+	<p>You can use pscale based on camera frustrum, maybe in a wrangle</p>
+	</li>
+	<li>
+	<p>The particle color in shot 3 don&rsquo;t match with the painting, it is very red in the middle right now</p>
+	</li>
+	<li>
+	<p>The disappearing particles seem to happen twice- feels strange</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>To-Do List: </p>
+
+<ul>
+	<li>
+	<p>Refine the particles&rsquo; path and flow shape (Create noise)</p>
+	</li>
+	<li>
+	<p>Denoise shot 1</p>
+	</li>
+	<li>
+	<p>Avoid the overexposure.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><h2 class="ttl reveal">This is our Previs for week 7.</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_cb34cebfc7d347038bae4ba8ae2ade19f000.webp" src="https://video.wixstatic.com/video/f7279b_cb34cebfc7d347038bae4ba8ae2ade19/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>For Shot 2, we need to extend the duration, as it currently feels too fast. Some of the color flows also appear flat, so we need to explore additional variations.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_e40b18acf7df4077a2ad27ceac5a56f4f000.webp" src="https://video.wixstatic.com/video/f7279b_e40b18acf7df4077a2ad27ceac5a56f4/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>Another key development this week was increasing the particle count in my simulation, which significantly increased the file size. Following Professor Fowler&rsquo;s advice, I explored exporting USD at the OBJ level and using referencing workflows. After writing out the USD files and referencing them, the scene performance improved substantially.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>Also, for shot 2, I explore more about the smoothness of the particles flows. But some flows look flat.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_cd939e188d7246748f5f019d91d7d4fb_mv2.webp" width="600" height="337" alt="output.0181.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_d490db75e17942fb8971306ac660ef15_mv2.webp" width="600" height="337" alt="Cyan.0200.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_1565a1d5b2834d7b8232f328dc1d81bd_mv2.webp" width="600" height="337" alt="Blue.0200.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_845aa972e5f84c74b65910ea4d1494d8_mv2.webp" width="600" height="337" alt="output.0200 (1).png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_c158148ddc2140fcab22477021e61318_mv2.webp" width="600" height="337" alt="output.0184.png"></figure></div><div class="col" style="flex:9"><div class="prose reveal"><p>And for shot 1, Itim helps with to create vex, so we can create the variant through the age and velosity.</p></div></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_85fafeaac3cf4d06943a90046cf053da_mv2.webp" width="600" height="337" alt="output.0200 (2).png"></figure></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fd8b3e3894014171a4f6410734d5202d_mv2.webp" width="600" height="451" alt="image.png"></figure></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_4a5b6da4c2bb47d0b3dd869779fb0f96_mv2.webp" width="600" height="267" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>I also scale the velocity of the particles, so I can control the speed, intensity, and overall motion of the simulation.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>Because I really wanted the particles to have more variation, Riley shared this wrangle with me. It calculates the distance between each particle and the camera, then uses that distance together with some random variation to control the particle pscale (size). This helps the particles maintain a more consistent screen size while adding natural size variation, so they look more balanced and visually natural in the scene.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6c5989dc6e5e4ff4937971881b26fa88_mv2.webp" width="600" height="212" alt="image.png"></figure></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/harbour-x-etc/week-5/"><span>&#8592; Week5</span></a><a class="btn ghost ripple next" href="../../../../zh-hant/blog/harbour-x-etc/week-8/"><span>Week8 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

@@ -1,0 +1,403 @@
+{
+ "meta": {
+  "id": "iaete",
+  "title": "Week5",
+  "uri": "copy-of-week8-4"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week5</h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 5 Plan:</h3>",
+   "plain": "Week 5 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 756,
+   "h": 56,
+   "html": "<ul>\n\t<li>\n\t<p>Test animated USD Variants in Houdini</p>\n\t</li>\n\t<li>\n\t<p>Test import animated USD to Unreal</p>\n\t</li>\n</ul>",
+   "plain": "Test animated USD Variants in Houdini\n\t\n\t\n\tTest import animated USD to Unreal",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 48,
+   "y": 572,
+   "w": 882,
+   "h": 69,
+   "html": "<h3>USD Material (Houdini to Unreal)</h3>",
+   "plain": "USD Material (Houdini to Unreal)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 14,
+   "y": 677,
+   "w": 271,
+   "h": 42,
+   "html": "<h3>Animated Mesh</h3>",
+   "plain": "Animated Mesh",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 736,
+   "w": 938,
+   "h": 54,
+   "html": "<p>Then, I tried this material assign to import animated mesh to Unreal. The problem is same, for the material, it still not assigned to the mesh automatically. </p>",
+   "plain": "Then, I tried this material assign to import animated mesh to Unreal. The proble",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 14,
+   "y": 818,
+   "w": 378,
+   "h": 298,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_84b449bb40724b9cb3b10ca6fd18f0ec~mv2.png",
+    "w": 600,
+    "h": 472,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 400,
+   "y": 868,
+   "w": 565,
+   "h": 197,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_83d6b36ab24043e78091bb9afdddb40c~mv2.png",
+    "w": 600,
+    "h": 208,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 616,
+   "y": 1087,
+   "w": 147,
+   "h": 27,
+   "html": "<p>Houdini Variants</p>",
+   "plain": "Houdini Variants",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 14,
+   "y": 1156,
+   "w": 951,
+   "h": 536,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d77f9ccef9744fa9913fc899f3da8e55",
+    "poster": "f7279b_d77f9ccef9744fa9913fc899f3da8e55f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 337,
+   "y": 1713,
+   "w": 305,
+   "h": 27,
+   "html": "<p>USD Animation Problem in Unreal</p>",
+   "plain": "USD Animation Problem in Unreal",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 14,
+   "y": 1754,
+   "w": 938,
+   "h": 108,
+   "html": "<p>Another problem is when I imported the animated grape hyacinth to the Unreal, the animation shows the glitchy in Unreal, and also when I tried to change the variants in the USD Stage Editor, the animation disappeared, the problem is same with last quarter I tested in Unreal. But the variant mesh and material show up correctly in USD Actor Editor.</p>",
+   "plain": "Another problem is when I imported the animated grape hyacinth to the Unreal, th",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 14,
+   "y": 1879,
+   "w": 392,
+   "h": 150,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_901ad9e262274cfc81d91c2d9c80d85d~mv2.png",
+    "w": 250,
+    "h": 96,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 542,
+   "y": 1879,
+   "w": 366,
+   "h": 150,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_312c50e1c163461da337ce524969cda7~mv2.png",
+    "w": 293,
+    "h": 120,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 14,
+   "y": 2048,
+   "w": 938,
+   "h": 108,
+   "html": "<p>Another attempt is to export single animated USD file thourgh two method: Componant Geometry and directly write it out. The result is use componant geometry didn&#39;t have material assign, and the animation also is glitchy. The other method showcases that materialx still can&#39;t assign automatically, but the animation is correct.</p>",
+   "plain": "Another attempt is to export single animated USD file thourgh two method: Compon",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 2167,
+   "w": 457,
+   "h": 343,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ead4f16e67594b0e84d801230ea38e44~mv2.png",
+    "w": 600,
+    "h": 449,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 490,
+   "y": 2167,
+   "w": 463,
+   "h": 343,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ee58501ba082496c9005e7607e1cf16e~mv2.png",
+    "w": 600,
+    "h": 444,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 18,
+   "y": 2538,
+   "w": 457,
+   "h": 257,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_41a2d1a007c44520a5a176873bc8dd6a",
+    "poster": "f7279b_41a2d1a007c44520a5a176873bc8dd6af000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 493,
+   "y": 2538,
+   "w": 457,
+   "h": 257,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_41a2d1a007c44520a5a176873bc8dd6a",
+    "poster": "f7279b_41a2d1a007c44520a5a176873bc8dd6af000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 146,
+   "y": 2802,
+   "w": 202,
+   "h": 27,
+   "html": "<p>Componant Geometry</p>",
+   "plain": "Componant Geometry",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 647,
+   "y": 2802,
+   "w": 156,
+   "h": 27,
+   "html": "<p>Directly Exported</p>",
+   "plain": "Directly Exported",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2882,
+   "w": 938,
+   "h": 27,
+   "html": "<p>When directly exported the USD file, every material has its geometry cache.</p>",
+   "plain": "When directly exported the USD file, every material has its geometry cache.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 2937,
+   "w": 931,
+   "h": 270,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3e54ce54bf5c4396ac57f4a26db688b1~mv2.png",
+    "w": 600,
+    "h": 172,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 49,
+   "y": 3232,
+   "w": 882,
+   "h": 56,
+   "html": "<h3>Daffodil Instance in Houdini and Unreal</h3>",
+   "plain": "Daffodil Instance in Houdini and Unreal",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 3297,
+   "w": 962,
+   "h": 81,
+   "html": "<p>Then, I tried importing the animated daffodils into Unreal. The daffodils still didn&#39;t have any materials on them. The FPS was also quite low, about 10, and there was a warning that said &quot;Ray Tracing Geometry &mdash; Requested memory over budget 1.655 GiB / 400 MiB.&quot;</p>",
+   "plain": "Then, I tried importing the animated daffodils into Unreal. The daffodils still ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 3403,
+   "w": 483,
+   "h": 270,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_04f6749b9f8347108d8c1bab6c6ad2e1~mv2.png",
+    "w": 600,
+    "h": 334,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 517,
+   "y": 3516,
+   "w": 446,
+   "h": 35,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_bb8acae2a70349ce9f0bbb5109820da6~mv2.png",
+    "w": 519,
+    "h": 41,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 3709,
+   "w": 962,
+   "h": 54,
+   "html": "<p>When I tried to play the animation through the Level Sequencer, I found several problems. First, it took a long time to open the Level Sequence, and then when I tried to play the animation, it dropped frames.</p>",
+   "plain": "When I tried to play the animation through the Level Sequencer, I found several ",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 9,
+   "y": 3784,
+   "w": 962,
+   "h": 539,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_630135f6c08f490a9aa952de44ff2d71",
+    "poster": "f7279b_630135f6c08f490a9aa952de44ff2d71f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week10 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../blog/special-project-part2/week-10/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/blog/special-project-part2/week-10/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/blog/special-project-part2/week-10/">
+</head>
+<body class="lang-en ">
+<header class="top glass"><a class="logo ripple" href="../../../">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../fx/horse/">Horse</a><a class="ripple" href="../../../fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../animation/overpower/">Overpower</a><a class="ripple" href="../../../animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../modeling/apple/">Apple</a><a class="ripple" href="../../../modeling/osl/">OSL</a><a class="ripple" href="../../../modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../blog/">Blog</a><div class="sub glass"><a class="ripple" href="../../../blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple on" href="../../../blog/special-project-part2/week-10/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/blog/special-project-part2/week-10/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../zh-hans/blog/special-project-part2/week-10/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../blog/special-project-part2/">&#8592; Blog X Special Project | PART2</a><div class="row multi"><div class="col" style="flex:25"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/11062b_5e01807ab874466ea90ec94c61c307fb_mv2.webp" width="5000" height="2477" alt="Mountaintop At Sunrise"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week10</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Week 10 Plan:</h2></div>
+<div class="row one"><div class="prose reveal"><ul>
+	<li>
+	<p>Plans for 799.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Check out: <a href="http://splatgarden.com" target="_blank" rel="noopener">splatgarden.com</a> to experience our splat garden</p></div></div>
+<div class="row one"><div class="prose reveal"><p>Basically, this quarter I worked hard on recording the comparison of the two different pipelines, USD and VAT, and finished the first draft of the paper. I also explored triggering VAT animations, Houdini Niagara, and importing large amounts of particles from Houdini into Unreal. In addition, I made VAT collaborate with Niagara by getting the position and rotation from the texture and feeding it into Niagara, so I could change the shapes of the points instead of using cards.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>799 Week Plan:</p>
+
+<p>Week 1</p>
+
+<p>Define deeper research questions from the SIGGRAPH reviewers&#39; feedback and lock the core contribution (VAT + Niagara for a changing vertex count).</p>
+
+<p>Week 2</p>
+
+<p>Develop the VAT + Niagara approach in depth: use Niagara to sample VAT textures and drive particles/geometry. Investigate how far this pushes past the vertex-count limitation.</p>
+
+<p>Week 3</p>
+
+<p>Try the VAT dynamic remeshing mode and find out why the changing vertex count breaks it. Test ways to fix it.</p>
+
+<p>Week 4</p>
+
+<p>Push the dynamic remeshing solution further so it stably handles continuously changing vertex counts. Explore edge cases and refine the technique.</p>
+
+<p>Week 5</p>
+
+<p>Explore using masks to control the VAT texture &mdash; driving which parts animate, when, and how &mdash; for finer, more art-directable control.</p>
+
+<p>Week 6</p>
+
+<p>Experiment with the position and rotation data stored in the VAT &mdash; offsetting, layering, and recombining transforms to create richer motion and new effects.</p>
+
+<p>Week 7</p>
+
+<p>Writing: write the methodology, results, and in-depth analysis. Emphasize the &quot;why&quot; behind every finding, not just the &quot;what.&quot;</p>
+
+<p>Week 8</p>
+
+<p>Revise: incorporate committee feedback and strengthen the analysis. Finish the artist statement and remaining written parts.</p>
+
+<p>Week 9</p>
+
+<p>Presentation: build and rehearse the final presentation, focusing on the techniques and breakthroughs. Submit all remaining components.</p>
+
+<p>Week 10</p>
+
+<p>Check and submit everything needed.</p></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../blog/special-project-part2/week-9/"><span>&#8592; Week9</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../assets/site.js"></script>
+</body></html>

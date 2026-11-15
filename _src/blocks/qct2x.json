@@ -1,0 +1,148 @@
+{
+ "meta": {
+  "id": "qct2x",
+  "title": "Blog X VSFX728",
+  "uri": "blog-x-vsfx728"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": -1,
+   "y": 0,
+   "w": 980,
+   "h": 446,
+   "media": {
+    "kind": "video",
+    "vid": "11062b_d578b9d4ffba48c68d086ec29fe9e6f0",
+    "poster": "11062b_d578b9d4ffba48c68d086ec29fe9e6f0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "480p",
+     "720p",
+     "1080p"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 332,
+   "y": 205,
+   "w": 314,
+   "h": 67,
+   "html": "<h3>VSFX 728</h3>",
+   "plain": "VSFX 728",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 160,
+   "y": 281,
+   "w": 658,
+   "h": 29,
+   "html": "<p>This is the blog for my VSFX 728 course, documenting my weekly work and progress.</p>",
+   "plain": "This is the blog for my VSFX 728 course, documenting my weekly work and progress",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 81,
+   "y": 492,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_a5d9b5d7c95441139be71290fd9823ba~mv2.jpg",
+    "w": 5590,
+    "h": 2990,
+    "alt": "Abstract Planet"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 550,
+   "y": 492,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_a5d9b5d7c95441139be71290fd9823ba~mv2.jpg",
+    "w": 5590,
+    "h": 2990,
+    "alt": "Abstract Planet"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 155,
+   "y": 549,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:blmjx\">Week7</a></h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 610,
+   "y": 549,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:c89pk\">Week8</a></h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 81,
+   "y": 765,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_a5d9b5d7c95441139be71290fd9823ba~mv2.jpg",
+    "w": 5590,
+    "h": 2990,
+    "alt": "Abstract Planet"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 550,
+   "y": 765,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_a5d9b5d7c95441139be71290fd9823ba~mv2.jpg",
+    "w": 5590,
+    "h": 2990,
+    "alt": "Abstract Planet"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 141,
+   "y": 822,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:kdhjj\">Week9</a></h3>",
+   "plain": "Week9",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 610,
+   "y": 822,
+   "w": 268,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:frwcu\">Week10</a></h3>",
+   "plain": "Week10",
+   "head": true
+  }
+ ]
+}

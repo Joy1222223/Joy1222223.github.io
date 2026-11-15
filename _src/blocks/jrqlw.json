@@ -1,0 +1,776 @@
+{
+ "meta": {
+  "id": "jrqlw",
+  "title": "Week8",
+  "uri": "copy-of-week7-3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week8</h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 8 Plan:</h3>",
+   "plain": "Week 8 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 801,
+   "h": 28,
+   "html": "<ul>\n\t<li>\n\t<p>Compare a huge number of VAT Daffodils and USD Daffodils (Performance, fidelity)</p>\n\t</li>\n</ul>",
+   "plain": "Compare a huge number of VAT Daffodils and USD Daffodils (Performance, fidelity)",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 214,
+   "y": 551,
+   "w": 552,
+   "h": 46,
+   "html": "<h3>VAT AND USD COMPARISON</h3>",
+   "plain": "VAT AND USD COMPARISON",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 606,
+   "w": 973,
+   "h": 28,
+   "html": "<p>I ran the same sample (462 daffodils) on two different PCs. The specifications of each PC are listed below.</p>",
+   "plain": "I ran the same sample (462 daffodils) on two different PCs. The specifications o",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 6,
+   "y": 652,
+   "w": 964,
+   "h": 346,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a15a7ae5cf734fa9a0af82aa36dc24c3~mv2.png",
+    "w": 600,
+    "h": 215,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 1030,
+   "w": 233,
+   "h": 36,
+   "html": "<p>For my 4090 PC: </p>",
+   "plain": "For my 4090 PC:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 1066,
+   "w": 973,
+   "h": 84,
+   "html": "<p>First, I tested the USD pipeline by importing 462 animated daffodils into Unreal. The point count per daffodil was approximately 116,450. The result was that the animation dropped frames, and it took a long time to load the geometry cache. Below are the data I collected from Unreal.</p>",
+   "plain": "First, I tested the USD pipeline by importing 462 animated daffodils into Unreal",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 190,
+   "y": 1156,
+   "w": 650,
+   "h": 28,
+   "html": "<p>Real-Time Rendering Performance Metrics USD (RTX 4090)</p>",
+   "plain": "Real-Time Rendering Performance Metrics USD (RTX 4090)",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 23,
+   "y": 1199,
+   "w": 929,
+   "h": 837,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_91f202f5a7ca49688bc5b8e674768453~mv2.png",
+    "w": 600,
+    "h": 541,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 23,
+   "y": 2046,
+   "w": 929,
+   "h": 387,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_574cc160713641cabc68e7b3e7a3ec7a~mv2.png",
+    "w": 600,
+    "h": 251,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 551,
+   "y": 2473,
+   "w": 358,
+   "h": 191,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0491ed179bd84bfb8855425d2f7f5ed3~mv2.png",
+    "w": 600,
+    "h": 322,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 23,
+   "y": 2474,
+   "w": 459,
+   "h": 191,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9f096fbd52ca486baf5ca56bb0542f60~mv2.png",
+    "w": 600,
+    "h": 250,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 87,
+   "y": 2675,
+   "w": 330,
+   "h": 26,
+   "html": "<p>Memory - System Memory Usage</p>",
+   "plain": "Memory - System Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 502,
+   "y": 2675,
+   "w": 475,
+   "h": 26,
+   "html": "<p>Scene Rendering - Scene Rendering Breakdown</p>",
+   "plain": "Scene Rendering - Scene Rendering Breakdown",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 23,
+   "y": 2742,
+   "w": 459,
+   "h": 242,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6640ed810cfd4873ac66428cb006b685~mv2.png",
+    "w": 600,
+    "h": 319,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 648,
+   "y": 2757,
+   "w": 184,
+   "h": 213,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9011f490275542e3819e6e6808003a37~mv2.png",
+    "w": 184,
+    "h": 213,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 126,
+   "y": 2998,
+   "w": 253,
+   "h": 26,
+   "html": "<p>RHI - GPU Memory Usage</p>",
+   "plain": "RHI - GPU Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 556,
+   "y": 2998,
+   "w": 368,
+   "h": 26,
+   "html": "<p>Unit - Frame Rate and Thread Timing</p>",
+   "plain": "Unit - Frame Rate and Thread Timing",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 23,
+   "y": 3050,
+   "w": 956,
+   "h": 56,
+   "html": "<p>Then, tried to import VAT daffodils to unreal, and then do the instance through PCG in Unreal. It&#39;s around 462 daffodils</p>",
+   "plain": "Then, tried to import VAT daffodils to unreal, and then do the instance through ",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 24,
+   "y": 3121,
+   "w": 927,
+   "h": 521,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_c6f051467a0248889ef543973861f19e",
+    "poster": "f7279b_c6f051467a0248889ef543973861f19ef000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 24,
+   "y": 3658,
+   "w": 927,
+   "h": 148,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8d6dff7f2fa148f390bfbf3baa2e783a~mv2.png",
+    "w": 600,
+    "h": 97,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 24,
+   "y": 3820,
+   "w": 927,
+   "h": 1245,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_66eebd88594845d88dab0c71daa75e67~mv2.png",
+    "w": 446,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 24,
+   "y": 5020,
+   "w": 927,
+   "h": 317,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_789526ff17934a5cb5981e4ceb0e3830~mv2.png",
+    "w": 600,
+    "h": 204,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 28,
+   "y": 5375,
+   "w": 368,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d763134917a64fcb981b995c3af65e7f~mv2.png",
+    "w": 1018,
+    "h": 537,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 518,
+   "y": 5375,
+   "w": 362,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_232fe3e71e6f4f4f8bd65ae4153ac8d1~mv2.png",
+    "w": 1015,
+    "h": 549,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 47,
+   "y": 5584,
+   "w": 330,
+   "h": 26,
+   "html": "<p>Memory - System Memory Usage</p>",
+   "plain": "Memory - System Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 462,
+   "y": 5584,
+   "w": 475,
+   "h": 26,
+   "html": "<p>Scene Rendering - Scene Rendering Breakdown</p>",
+   "plain": "Scene Rendering - Scene Rendering Breakdown",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 591,
+   "y": 5638,
+   "w": 216,
+   "h": 250,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_285c6d3078ce4e43b8b766579efb97c9~mv2.png",
+    "w": 191,
+    "h": 221,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 28,
+   "y": 5695,
+   "w": 368,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_16db836bd6a340ba91063380cc83b151~mv2.png",
+    "w": 1017,
+    "h": 541,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 85,
+   "y": 5908,
+   "w": 253,
+   "h": 26,
+   "html": "<p>RHI - GPU Memory Usage</p>",
+   "plain": "RHI - GPU Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 515,
+   "y": 5908,
+   "w": 368,
+   "h": 26,
+   "html": "<p>Unit - Frame Rate and Thread Timing</p>",
+   "plain": "Unit - Frame Rate and Thread Timing",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 5974,
+   "w": 968,
+   "h": 28,
+   "html": "<p>According to the data I got from Unreal, we can obviously feel that VAT has better performace in terms of FPS. </p>",
+   "plain": "According to the data I got from Unreal, we can obviously feel that VAT has bett",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 2,
+   "y": 6049,
+   "w": 422,
+   "h": 36,
+   "html": "<p>For RTX PRO 6000 Blackwell: </p>",
+   "plain": "For RTX PRO 6000 Blackwell:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 2,
+   "y": 6092,
+   "w": 973,
+   "h": 112,
+   "html": "<p>I also imported the animated daffodils into Unreal Engine on the RTX PRO 6000 Blackwell workstation. However, the daffodils still lacked materials, as mentioned previously. Additionally, the Level Sequence dropped frames during playback, making it impossible to play the full animation smoothly. Despite these issues, the FPS performance was notably better than on the RTX 4090.</p>",
+   "plain": "I also imported the animated daffodils into Unreal Engine on the RTX PRO 6000 Bl",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 20,
+   "y": 6220,
+   "w": 927,
+   "h": 521,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2ba37046c14e45ea993bb27a5a855b93",
+    "poster": "f7279b_2ba37046c14e45ea993bb27a5a855b93f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 116,
+   "y": 6772,
+   "w": 735,
+   "h": 26,
+   "html": "<p>Real-Time Rendering Performance Metrics VAT (RTX PRO 6000 Blackwell)</p>",
+   "plain": "Real-Time Rendering Performance Metrics VAT (RTX PRO 6000 Blackwell)",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 20,
+   "y": 6808,
+   "w": 941,
+   "h": 1258,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f370ffa0b37c436484228508d744a79f~mv2.png",
+    "w": 449,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 20,
+   "y": 8066,
+   "w": 941,
+   "h": 159,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_457ab7b0b9774110957711934c7a11ae~mv2.png",
+    "w": 600,
+    "h": 100,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 38,
+   "y": 8253,
+   "w": 376,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_03e82e32361f4abfbcab6d8afb8b91b3~mv2.png",
+    "w": 600,
+    "h": 308,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 540,
+   "y": 8253,
+   "w": 348,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_56991f1132b24a8f9ec3dfc95b797937~mv2.png",
+    "w": 600,
+    "h": 333,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 61,
+   "y": 8475,
+   "w": 330,
+   "h": 26,
+   "html": "<p>Memory - System Memory Usage</p>",
+   "plain": "Memory - System Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 476,
+   "y": 8475,
+   "w": 475,
+   "h": 26,
+   "html": "<p>Scene Rendering - Scene Rendering Breakdown</p>",
+   "plain": "Scene Rendering - Scene Rendering Breakdown",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 584,
+   "y": 8506,
+   "w": 253,
+   "h": 284,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_2be93940426b4b238b7c36fb7acb2752~mv2.png",
+    "w": 291,
+    "h": 329,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 32,
+   "y": 8539,
+   "w": 409,
+   "h": 218,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_db2a9b6c79184f72bc7fae55a2ec5f1c~mv2.png",
+    "w": 600,
+    "h": 320,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 8798,
+   "w": 253,
+   "h": 26,
+   "html": "<p>RHI - GPU Memory Usage</p>",
+   "plain": "RHI - GPU Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 530,
+   "y": 8798,
+   "w": 368,
+   "h": 26,
+   "html": "<p>Unit - Frame Rate and Thread Timing</p>",
+   "plain": "Unit - Frame Rate and Thread Timing",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 8844,
+   "w": 921,
+   "h": 56,
+   "html": "<p>Then, also tried to import VAT daffodils to unreal, and then do the instance through PCG in Unreal on another machine. It&#39;s around 462 daffodils.</p>",
+   "plain": "Then, also tried to import VAT daffodils to unreal, and then do the instance thr",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 8927,
+   "w": 921,
+   "h": 1234,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_26c0900625554221928ce402f365ba4e~mv2.png",
+    "w": 447,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 10114,
+   "w": 921,
+   "h": 315,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8630c8d86eda42eb9aa1b3df58d7c977~mv2.png",
+    "w": 600,
+    "h": 204,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 37,
+   "y": 10457,
+   "w": 397,
+   "h": 206,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6a8dbb26d34644aea26b8047aa637826~mv2.png",
+    "w": 600,
+    "h": 310,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 529,
+   "y": 10457,
+   "w": 387,
+   "h": 206,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f7bac21d7805436aa5f4a2cff50f4b6f~mv2.png",
+    "w": 600,
+    "h": 325,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 70,
+   "y": 10678,
+   "w": 330,
+   "h": 26,
+   "html": "<p>Memory - System Memory Usage</p>",
+   "plain": "Memory - System Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 485,
+   "y": 10678,
+   "w": 475,
+   "h": 26,
+   "html": "<p>Scene Rendering - Scene Rendering Breakdown</p>",
+   "plain": "Scene Rendering - Scene Rendering Breakdown",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 594,
+   "y": 10716,
+   "w": 258,
+   "h": 276,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_52d0f7487bcb49d181be394bfcd734ae~mv2.png",
+    "w": 292,
+    "h": 312,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 37,
+   "y": 10772,
+   "w": 397,
+   "h": 213,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a0b03c7fb8704962b98fb2219cd1a5b7~mv2.png",
+    "w": 600,
+    "h": 320,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 119,
+   "y": 11001,
+   "w": 253,
+   "h": 26,
+   "html": "<p>RHI - GPU Memory Usage</p>",
+   "plain": "RHI - GPU Memory Usage",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 539,
+   "y": 11001,
+   "w": 368,
+   "h": 26,
+   "html": "<p>Unit - Frame Rate and Thread Timing</p>",
+   "plain": "Unit - Frame Rate and Thread Timing",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 37,
+   "y": 11067,
+   "w": 137,
+   "h": 29,
+   "html": "<p>Conclusion: </p>",
+   "plain": "Conclusion:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 37,
+   "y": 11118,
+   "w": 921,
+   "h": 48,
+   "html": "<p>VAT crushed USD in real-time performance &mdash; 40 FPS vs 7 FPS on the same hardware, with 130&times; less GPU memory. When you&#39;re rendering hundreds of animated plants in Unreal, VAT wins every time.</p>",
+   "plain": "VAT crushed USD in real-time performance &mdash; 40 FPS vs 7 FPS on the same har",
+   "head": false
+  }
+ ]
+}

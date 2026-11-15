@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week10 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../blog/special-project-part1/week-10/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/blog/special-project-part1/week-10/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/blog/special-project-part1/week-10/">
+</head>
+<body class="lang-en ">
+<header class="top glass"><a class="logo ripple" href="../../../">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../fx/horse/">Horse</a><a class="ripple" href="../../../fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../animation/overpower/">Overpower</a><a class="ripple" href="../../../animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../modeling/apple/">Apple</a><a class="ripple" href="../../../modeling/osl/">OSL</a><a class="ripple" href="../../../modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../blog/">Blog</a><div class="sub glass"><a class="ripple" href="../../../blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple on" href="../../../blog/special-project-part1/week-10/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/blog/special-project-part1/week-10/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../zh-hans/blog/special-project-part1/week-10/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../blog/special-project-part1/">&#8592; Blog X Special Project | PART1</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/96d373bf920e4684b177a206dea4190c.webp" width="1980" height="1200" alt="雪紅杉林"></figure></div><div class="col" style="flex:9"><h2 class="ttl reveal">Week10</h2></div></div>
+<div class="row one"><div class="prose reveal"><p>This is the how the final video looks like for shot3.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_929661cf9bab44a8810a3e5a0f0807cef000.webp" src="https://video.wixstatic.com/video/f7279b_929661cf9bab44a8810a3e5a0f0807ce/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>This is the pipeline summary for the first quarter (VAT vs. USD):</p></div></div>
+<div class="row one"><div class="prose reveal"><p><a href="https://docs.google.com/document/d/1hOJg3FUuhXfXVVqxgR9DVC_2Fe2HccDd-mshbxqo3hI/edit?tab=t.av4iqfyrotly" target="_blank" rel="noopener">https://docs.google.com/document/d/1hOJg3FUuhXfXVVqxgR9DVC_2Fe2HccDd-mshbxqo3hI/edit?tab=t.av4iqfyrotly</a></p></div></div>
+<div class="row one"><h2 class="ttl reveal">Plan for next quarter:</h2></div>
+<div class="row one"><div class="prose reveal"><ul>
+	<li>
+	<p>Pipeline Development<br />
+	Yichen will focus on studying the real growth behavior of grape hyacinth. Based on that reference, I will continue developing the pipeline between Houdini and Unreal Engine using VAT.</p>
+	</li>
+	<li>
+	<p>Shader Exploration<br />
+	Danci has already built the master shader. Based on that setup, I will further explore texture development in Substance 3D Designer and Substance 3D Painter to refine subtle color variation, subsurface scattering (SSS), and roughness differences in grape hyacinth.</p>
+	</li>
+	<li>
+	<p>Interaction Development<br />
+	Interaction will be reintroduced into the project, likely through TouchDesigner in collaboration with Danci. One direction is allowing users to control plant growth through hand interaction. Another possibility is building interaction directly in Unreal Engine, where plant animation is triggered when users move close to the environment. The interaction concept will also connect to seasonal change.</p>
+	</li>
+	<li>
+	<p>FX Integration<br />
+	Particle effects will also be added to the project by transferring simulations from Houdini into Unreal Engine. I will explore combining VAT with Niagara so the particles can be controlled in real time and respond to interaction inside the environment.</p>
+	</li>
+	<li>
+	<p>Asset Expansion<br />
+	At the current stage, grape hyacinth is the primary tested asset. Further evaluation is needed to determine whether additional plant assets are required to support the environment and seasonal variation.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>10-Week Plan </p>
+
+<p>Week 1 &ndash; Refine grape hyacinth shader in Substance 3D Painter and Substance 3D Designer, focusing on subtle color variation and petal detail.</p>
+
+<p>​</p>
+
+<p>Week 2 &ndash; Continue shader testing in Unreal Engine, adjusting subsurface scattering (SSS), roughness, translucency, and master material response under different lighting conditions.</p>
+
+<p>​</p>
+
+<p>Week 3 &ndash; Finalize shader workflow and organize texture/material pipeline for grape hyacinth asset variants.</p>
+
+<p>​</p>
+
+<p>Week 4 &ndash; Begin particle FX tests in Houdini, focusing on simple particle motion and controllable flow behavior.</p>
+
+<p>​</p>
+
+<p>Week 5 &ndash; Export particle animation through VAT and test transfer into Unreal Engine.</p>
+
+<p>​</p>
+
+<p>Week 6 &ndash; Combine VAT with Niagara to test real-time particle instancing and interactive control.</p>
+
+<p>​</p>
+
+<p>Week 7 &ndash; Refine Niagara behavior and explore how particle effects respond to user interaction.</p>
+
+<p>​</p>
+
+<p>Week 8 &ndash; Explore Niagara control for interactive particle response.</p>
+
+<p>​</p>
+
+<p>Week 9 &ndash; Build trigger-based interaction in Unreal Engine so particle or plant animation responds when users approach the environment. ？？？</p>
+
+<p>​</p>
+
+<p>Week 10 &ndash; Integrate shader, particle FX, and interaction into a unified small-scale environment test.</p></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../blog/special-project-part1/week-9/"><span>&#8592; Week9</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../assets/site.js"></script>
+</body></html>

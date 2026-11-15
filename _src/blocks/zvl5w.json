@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "id": "zvl5w",
+  "title": "Fx",
+  "uri": "copy-of-python-1"
+ },
+ "atoms": [
+  {
+   "t": "text",
+   "x": 50,
+   "y": 49,
+   "w": 308,
+   "h": 67,
+   "html": "<h3>FX</h3>",
+   "plain": "FX",
+   "head": true
+  },
+  {
+   "t": "slides",
+   "x": 37,
+   "y": 158,
+   "w": 906,
+   "h": 493,
+   "slides": [
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_9b49193cda7345b98f7a24b56ff7d7b2~mv2.png",
+      "w": 1582,
+      "h": 878,
+      "alt": "ALICE（无片头片尾）0.png"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:jibjd\">Watch More</a></p>"
+     ],
+     "link": "PAGE:jibjd"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_0f465aab3cb44a9e88ace8eed3ea2fc7~mv2.jpg",
+      "w": 1657,
+      "h": 689,
+      "alt": "HoneyBear_1000_edited.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:rplnm\">Watch More</a></p>"
+     ],
+     "link": "PAGE:rplnm"
+    }
+   ]
+  }
+ ]
+}

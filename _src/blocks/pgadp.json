@@ -1,0 +1,94 @@
+{
+ "meta": {
+  "id": "pgadp",
+  "title": "Tools",
+  "uri": "copy-of-lighting-compositing"
+ },
+ "atoms": [
+  {
+   "t": "text",
+   "x": 50,
+   "y": 49,
+   "w": 308,
+   "h": 67,
+   "html": "<h3>Python</h3>",
+   "plain": "Python",
+   "head": true
+  },
+  {
+   "t": "slides",
+   "x": 243,
+   "y": 157,
+   "w": 493,
+   "h": 493,
+   "slides": [
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_dca8a8c1cd93441cb18c697d0844383e~mv2.png",
+      "w": 600,
+      "h": 600,
+      "alt": "F24_V705_E3_YiqiZheng.004.png"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_5980b619bb704fbf8c39e37a9db6b840~mv2.png",
+      "w": 998,
+      "h": 1003,
+      "alt": "F24_V705_E1_Yiqi Zheng.png"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_c9ba3aecd0d4491f87e1f62c7454dc35~mv2.png",
+      "w": 600,
+      "h": 600,
+      "alt": "F24_V705_E3_YiqiZheng.010.png"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_be3ae020a7fe446186b2c6c26a689bf6~mv2.png",
+      "w": 600,
+      "h": 600,
+      "alt": "F24_V705_E3_YiqiZheng.001.png"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_7f71f7d7030543ceab49e0bdfcf3455d~mv2.png",
+      "w": 600,
+      "h": 600,
+      "alt": "F24_V705_E3_YiqiZheng.008.png"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_56d8d3ed288d4c8e9dfa325627135c63~mv2.png",
+      "w": 600,
+      "h": 600,
+      "alt": "F24_V705_E3_YiqiZheng.005.png"
+     },
+     "texts": [],
+     "link": null
+    }
+   ]
+  }
+ ]
+}

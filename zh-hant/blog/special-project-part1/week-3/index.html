@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week3 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/special-project-part1/week-3/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/special-project-part1/week-3/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/special-project-part1/week-3/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/special-project-part1/week-3/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/special-project-part1/week-3/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/special-project-part1/week-3/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/special-project-part1/">&#8592; Blog X Special Project | PART1</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/96d373bf920e4684b177a206dea4190c.webp" width="1980" height="1200" alt="雪紅杉林"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week3</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Houdini-Unreal USD Pipeline</h2></div>
+<div class="row one"><h2 class="ttl reveal">Jan 25</h2></div>
+<div class="row multi"><div class="col" style="flex:4"><h2 class="ttl reveal">HAVE COMPLETED:</h2></div><div class="col" style="flex:2"><h2 class="ttl reveal">TO-DO LIST:</h2></div></div>
+<div class="row multi"><div class="col" style="flex:4"><div class="prose reveal"><ul>
+	<li>
+	<p>Last week, I tested  VAT Instancing in Unreal</p>
+	</li>
+	<li>
+	<p>Try a different method of Instancer in Houdini and test its performance in Unreal</p>
+	</li>
+	<li>
+	<p>Try animated USD Instancing in Unreal, which is not working</p>
+	</li>
+</ul></div></div><div class="col" style="flex:4"><div class="prose reveal"><ul>
+	<li>
+	<p>Figure out the USD pipeline from Houdini to Unreal</p>
+	</li>
+	<li>
+	<p>Test animated USD variants and USD layering workflows</p>
+	</li>
+</ul></div></div></div>
+<div class="row one"><h2 class="ttl reveal">Static Mesh:</h2></div>
+<div class="row one"><div class="prose reveal"><p>I think the biggest limitation of using USD in Unreal is that Unreal doesn&rsquo;t really support deforming animations very well. USD is especially suitable for large-scale scene layout and management.Using static meshes gives us more flexibility when populating and dressing the scene.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>What I worked on last week was importing animated USD files into Unreal and layering them successfully.</p>
+
+<p>I also tested Yichen&rsquo;s flowers. This is my setup in Houdini for Yichen&rsquo;s flower variants. In Unreal, you can choose between different variants, and if there are multiple materials, you can switch those as well.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_14f547f5145c45908e114cfd64604994_mv2.webp" width="600" height="366" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_44d1839b29aa4a93b8a77b59e3e89d24f000.webp" src="https://video.wixstatic.com/video/f7279b_44d1839b29aa4a93b8a77b59e3e89d24/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_ff6a73360d78402f97b54e232180ae07_mv2.webp" width="600" height="379" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_d59797e2c4234c41b49b33d090fb2178f000.webp" src="https://video.wixstatic.com/video/f7279b_d59797e2c4234c41b49b33d090fb2178/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>I also experimented with some material variants in Houdini, so in Unreal I can choose between different materials. I can also use payloads if the geometry is too large.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>I also tried using Layout in Houdini, which allows me to create my own asset gallery and use painting tools to lay out the plants. I generate the layout using referenced assets, so the layout stage also contains and supports asset variants.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_b33daf4efffd4ef187ec55b6e07a78c5_mv2.webp" width="600" height="363" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_93a2410a04bf466e8227b222861f0be2f000.webp" src="https://video.wixstatic.com/video/f7279b_93a2410a04bf466e8227b222861f0be2/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">Troubleshooting</h2></div>
+<div class="row one"><div class="prose reveal"><p>If you want to import deforming animation as a USD file into Unreal with layering, you need to make sure the time samples are enabled here. Otherwise, the geometry will not animate.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_95d8758f7b3f404d80b2dbdc2cc74ef7_mv2.webp" width="348" height="77" alt="image.png"></figure></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_ae7de9e43a9e4b2b9d90ae49f7d7305d_mv2.webp" width="600" height="301" alt="{82B6B9DA-175F-449E-8219-544C5ACD111F}.png"></figure></div><div class="col" style="flex:4"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_01db0dd4aeb846e6a22bd69a8cc7574ef000.webp" src="https://video.wixstatic.com/video/f7279b_01db0dd4aeb846e6a22bd69a8cc7574e/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>During the AI Summit, I explored more about the USD Variants and have some problems exploring as USD. First, when I click here, I can&#39;t export the USD, and keep error here. </p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_071cc518055e4a1297f4c219d221b0db_mv2.webp" width="558" height="600" alt="{9F651303-3D13-4997-B10D-5A51A1D21568}.png"></figure></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fdee21eb729f4d68859526ff02c7b2c5_mv2.webp" width="600" height="280" alt="{B6097698-A14C-43D1-B248-B01EA88E1B11}.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>And also try to manage the scene, and toggle off and on, whch is more effecent for asset or simluation.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_433c6480f0b44aa098abd2d9aa7b32be_mv2.webp" width="396" height="227" alt="{618EBD7B-1AC0-4DAE-9EDE-763FC2F95E66}.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../../zh-hant/blog/special-project-part1/week-4/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Try USD variants and PDG</p>
+	</li>
+	<li>
+	<p>Try to apply the opacity map</p>
+	</li>
+</ol></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/special-project-part1/week-2/"><span>&#8592; Week2</span></a><a class="btn ghost ripple next" href="../../../../zh-hant/blog/special-project-part1/week-4/"><span>Week4 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

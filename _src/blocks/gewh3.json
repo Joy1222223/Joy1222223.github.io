@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "id": "gewh3",
+  "title": "Week10",
+  "uri": "copy-of-week9-2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "96d373bf920e4684b177a206dea4190c.jpg",
+    "w": 1980,
+    "h": 1200,
+    "alt": "雪紅杉林"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 26,
+   "y": 157,
+   "w": 921,
+   "h": 106,
+   "html": "<h3>Week10</h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 415,
+   "w": 403,
+   "h": 24,
+   "html": "<p>This is the how the final video looks like for shot3.</p>",
+   "plain": "This is the how the final video looks like for shot3.",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 16,
+   "y": 450,
+   "w": 947,
+   "h": 531,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_929661cf9bab44a8810a3e5a0f0807ce",
+    "poster": "f7279b_929661cf9bab44a8810a3e5a0f0807cef000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 4,
+   "y": 995,
+   "w": 488,
+   "h": 24,
+   "html": "<p>This is the pipeline summary for the first quarter (VAT vs. USD):</p>",
+   "plain": "This is the pipeline summary for the first quarter (VAT vs. USD):",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 4,
+   "y": 1029,
+   "w": 972,
+   "h": 24,
+   "html": "<p><a href=\"https://docs.google.com/document/d/1hOJg3FUuhXfXVVqxgR9DVC_2Fe2HccDd-mshbxqo3hI/edit?tab=t.av4iqfyrotly\" target=\"_blank\" rel=\"noopener\">https://docs.google.com/document/d/1hOJg3FUuhXfXVVqxgR9DVC_2Fe2HccDd-mshbxqo3hI/edit?tab=t.av4iqfyrotly</a></p>",
+   "plain": "https://docs.google.com/document/d/1hOJg3FUuhXfXVVqxgR9DVC_2Fe2HccDd-mshbxqo3hI/",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 4,
+   "y": 1091,
+   "w": 403,
+   "h": 41,
+   "html": "<p>Plan for next quarter:</p>",
+   "plain": "Plan for next quarter:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 4,
+   "y": 1137,
+   "w": 972,
+   "h": 500,
+   "html": "<ul>\n\t<li>\n\t<p>Pipeline Development<br />\n\tYichen will focus on studying the real growth behavior of grape hyacinth. Based on that reference, I will continue developing the pipeline between Houdini and Unreal Engine using VAT.</p>\n\t</li>\n\t<li>\n\t<p>Shader Exploration<br />\n\tDanci has already built the master shader. Based on that setup, I will further explore texture development in Substance 3D Designer and Substance 3D Painter to refine subtle color variation, subsurface scattering (SSS), and roughness differences in grape hyacinth.</p>\n\t</li>\n\t<li>\n\t<p>Interaction Development<br />\n\tInteraction will be reintroduced into the project, likely through TouchDesigner in collaboration with Danci. One direction is allowing users to control plant growth through hand interaction. Another possibility is building interaction directly in Unreal Engine, where plant animation is triggered when users move close to the environment. The interaction concept will also connect to seasonal change.</p>\n\t</li>\n\t<li>\n\t<p>FX Integration<br />\n\tParticle effects will also be added to the project by transferring simulations from Houdini into Unreal Engine. I will explore combining VAT with Niagara so the particles can be controlled in real time and respond to interaction inside the environment.</p>\n\t</li>\n\t<li>\n\t<p>Asset Expansion<br />\n\tAt the current stage, grape hyacinth is the primary tested asset. Further evaluation is needed to determine whether additional plant assets are required to support the environment and seasonal variation.</p>\n\t</li>\n</ul>",
+   "plain": "Pipeline Development\n\tYichen will focus on studying the real growth behavior of ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 1679,
+   "w": 927,
+   "h": 587,
+   "html": "<p>10-Week Plan </p>\n\n<p>Week 1 &ndash; Refine grape hyacinth shader in Substance 3D Painter and Substance 3D Designer, focusing on subtle color variation and petal detail.</p>\n\n<p>​</p>\n\n<p>Week 2 &ndash; Continue shader testing in Unreal Engine, adjusting subsurface scattering (SSS), roughness, translucency, and master material response under different lighting conditions.</p>\n\n<p>​</p>\n\n<p>Week 3 &ndash; Finalize shader workflow and organize texture/material pipeline for grape hyacinth asset variants.</p>\n\n<p>​</p>\n\n<p>Week 4 &ndash; Begin particle FX tests in Houdini, focusing on simple particle motion and controllable flow behavior.</p>\n\n<p>​</p>\n\n<p>Week 5 &ndash; Export particle animation through VAT and test transfer into Unreal Engine.</p>\n\n<p>​</p>\n\n<p>Week 6 &ndash; Combine VAT with Niagara to test real-time particle instancing and interactive control.</p>\n\n<p>​</p>\n\n<p>Week 7 &ndash; Refine Niagara behavior and explore how particle effects respond to user interaction.</p>\n\n<p>​</p>\n\n<p>Week 8 &ndash; Explore Niagara control for interactive particle response.</p>\n\n<p>​</p>\n\n<p>Week 9 &ndash; Build trigger-based interaction in Unreal Engine so particle or plant animation responds when users approach the environment. ？？？</p>\n\n<p>​</p>\n\n<p>Week 10 &ndash; Integrate shader, particle FX, and interaction into a unified small-scale environment test.</p>",
+   "plain": "10-Week Plan \n\nWeek 1 &ndash; Refine grape hyacinth shader in Substance 3D Paint",
+   "head": false
+  }
+ ]
+}

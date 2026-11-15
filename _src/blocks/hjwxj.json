@@ -1,0 +1,500 @@
+{
+ "meta": {
+  "id": "hjwxj",
+  "title": "Week3",
+  "uri": "copy-of-week2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week3</h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Jan 21</h3>",
+   "plain": "Jan 21",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 3</h3>",
+   "plain": "SCAD X HARBOR - Week 3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 757,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my third week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my third week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 794,
+   "w": 285,
+   "h": 26,
+   "html": "<h3>Feedback From Mentors:</h3>",
+   "plain": "Feedback From Mentors:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 831,
+   "w": 930,
+   "h": 562,
+   "html": "<p>Vi:</p>\n\n<ul>\n\t<li>\n\t<p>Color: Cool tone</p>\n\t</li>\n\t<li>\n\t<p>Last shot?</p>\n\t</li>\n</ul>\n\n<p>Hailey:</p>\n\n<ul>\n\t<li>\n\t<p>Reference: OK</p>\n\t</li>\n\t<li>\n\t<p>Last shot?</p>\n\t</li>\n\t<li>\n\t<p>Blue tone: OK</p>\n\t</li>\n</ul>\n\n<p>Allie:</p>\n\n<ul>\n\t<li>\n\t<p>Background: Ensure consistency throughout</p>\n\t</li>\n</ul>\n\n<p>Billy:</p>\n\n<ul>\n\t<li>\n\t<p>Send a reference</p>\n\t</li>\n\t<li>\n\t<p>Kyle: Why 1A/B/C?</p>\n\t</li>\n\t<li>\n\t<p>Don&#39;t want the guy&#39;s face</p>\n\t</li>\n\t<li>\n\t<p>Not pulled up; focus on close-ups</p>\n\t</li>\n\t<li>\n\t<p>Shot 4A: Make sure it&#39;s consistent</p>\n\t</li>\n\t<li>\n\t<p>Last shot: No hands needed</p>\n\t</li>\n</ul>\n\n<p>Olivia:</p>\n\n<ul>\n\t<li>\n\t<p>Consider transitions/products</p>\n\t</li>\n\t<li>\n\t<p>Last shot: No hands needed</p>\n\t</li>\n</ul>\n\n<p>Guest Yong Duk Jhun:</p>\n\n<ul>\n\t<li>\n\t<p>Think about why someone would buy the watch</p>\n\t</li>\n\t<li>\n\t<p>How will it make them feel?</p>\n\t</li>\n</ul>",
+   "plain": "Vi:\n\n\n\t\n\tColor: Cool tone\n\t\n\t\n\tLast shot?\n\t\n\n\nHailey:\n\n\n\t\n\tReference: OK\n\t\n\t\n\tLa",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1399,
+   "w": 950,
+   "h": 105,
+   "html": "<h3>After discussion, we decided to change the last shot from closing the watch case to opening it, symbolizing a welcome to customers to buy it. We also have a transition from rotating gears to the watch. Regarding Guest Yong Duk Jhun&#39;s advice, after careful discussion and consideration of the timeline, we feel it may not be feasible to implement this suggestion at this stage.</h3>",
+   "plain": "After discussion, we decided to change the last shot from closing the watch case",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1522,
+   "w": 216,
+   "h": 34,
+   "html": "<h3>Nail the previs:</h3>",
+   "plain": "Nail the previs:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1565,
+   "w": 260,
+   "h": 26,
+   "html": "<h3>Molten Platinum</h3>",
+   "plain": "Molten Platinum",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1601,
+   "w": 91,
+   "h": 26,
+   "html": "<h3>Previous:</h3>",
+   "plain": "Previous:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1635,
+   "w": 950,
+   "h": 79,
+   "html": "<h3>I used Vellum to create particles and then used the vdbfromparticlefluid node to directly convert the particles into fluid. However, the result appears jagged and uneven along the edges, and the simulation runs slowly.</h3>",
+   "plain": "I used Vellum to create particles and then used the vdbfromparticlefluid node to",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 30,
+   "y": 1737,
+   "w": 230,
+   "h": 387,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_64bab3d58f5346968a383dbcbbe3dd23~mv2.png",
+    "w": 230,
+    "h": 387,
+    "alt": "微信图片_20250124143259.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 333,
+   "y": 1767,
+   "w": 580,
+   "h": 326,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_abf61c834d3e4af3b0e594a8b2fc4739",
+    "poster": "f7279b_abf61c834d3e4af3b0e594a8b2fc4739f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 2148,
+   "w": 91,
+   "h": 26,
+   "html": "<h3>Motified:</h3>",
+   "plain": "Motified:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 2186,
+   "w": 950,
+   "h": 79,
+   "html": "<h3>I used another method. I used VDB conversion and VDB smoothing, allowing more detailed control over the fluid surface&#39;s smoothness and fine details. This method also ensures clean and detailed geometry, reducing jagged edges or irregular faces. </h3>",
+   "plain": "I used another method. I used VDB conversion and VDB smoothing, allowing more de",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": -21,
+   "y": 2297,
+   "w": 396,
+   "h": 394,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ae9be257c8f3478d8615767263292714~mv2.png",
+    "w": 396,
+    "h": 394,
+    "alt": "Screenshot 2025-01-24 150546.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 410,
+   "y": 2331,
+   "w": 580,
+   "h": 326,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3a584692394740ec9274518ce8f63d85",
+    "poster": "f7279b_3a584692394740ec9274518ce8f63d85f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 2712,
+   "w": 83,
+   "h": 26,
+   "html": "<h3>Smoke:</h3>",
+   "plain": "Smoke:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 2744,
+   "w": 965,
+   "h": 53,
+   "html": "<h3>Smoke: Also, I used Pyro to add some smoke when the molten platinum was poured. I also selected the surface based on the normal attribute and adjusted the direction in the group node.</h3>",
+   "plain": "Smoke: Also, I used Pyro to add some smoke when the molten platinum was poured. ",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": -23,
+   "y": 2855,
+   "w": 600,
+   "h": 132,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9d174209a19246ea9a1a32b5bec640ba~mv2.png",
+    "w": 600,
+    "h": 132,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 625,
+   "y": 2924,
+   "w": 320,
+   "h": 456,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d99389a29bf14936890a1397e96e7ae4~mv2.png",
+    "w": 320,
+    "h": 456,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": -23,
+   "y": 3014,
+   "w": 600,
+   "h": 436,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_414ed9ecd40941438ebff85b1d0b942d~mv2.png",
+    "w": 600,
+    "h": 436,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": -106,
+   "y": 3577,
+   "w": 83,
+   "h": 26,
+   "html": "<h3>Test:</h3>",
+   "plain": "Test:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": -106,
+   "y": 3622,
+   "w": 580,
+   "h": 326,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_e50ebae931734710ae3d40eb9a80ec03",
+    "poster": "f7279b_e50ebae931734710ae3d40eb9a80ec03f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 507,
+   "y": 3622,
+   "w": 580,
+   "h": 326,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_1494260a71f64d83bf290142cd868dd2",
+    "poster": "f7279b_1494260a71f64d83bf290142cd868dd2f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -106,
+   "y": 3965,
+   "w": 580,
+   "h": 26,
+   "html": "<h3>This is a simple test of molten platinum pouring with smoke.</h3>",
+   "plain": "This is a simple test of molten platinum pouring with smoke.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 507,
+   "y": 3965,
+   "w": 580,
+   "h": 53,
+   "html": "<h3>This one uses Karma XPU render with different heights and environments.</h3>",
+   "plain": "This one uses Karma XPU render with different heights and environments.",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 200,
+   "y": 4026,
+   "w": 580,
+   "h": 326,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_771863d2b2d542e693f34fb6343766fd",
+    "poster": "f7279b_771863d2b2d542e693f34fb6343766fdf000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 4362,
+   "w": 980,
+   "h": 53,
+   "html": "<h3>This render test matches the camera, making it easy to composite in the future. It includes fluid and smoke simulations, and I&rsquo;ve assigned the material to represent molten platinum.</h3>",
+   "plain": "This render test matches the camera, making it easy to composite in the future. ",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 4450,
+   "w": 266,
+   "h": 26,
+   "html": "<h3>Motlen Platinum Reference:</h3>",
+   "plain": "Motlen Platinum Reference:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 251,
+   "y": 4496,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_1d90f744342f4d32b274d22a3d8b5a0a",
+    "poster": "f7279b_1d90f744342f4d32b274d22a3d8b5a0af000.jpg",
+    "w": 1160,
+    "h": 644,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 278,
+   "y": 4778,
+   "w": 425,
+   "h": 25,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=_Mg1qup_zqw\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=_Mg1qup_zqw</a></p>",
+   "plain": "https://www.youtube.com/watch?v=_Mg1qup_zqw",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 4836,
+   "w": 167,
+   "h": 26,
+   "html": "<h3>Smoke Reference:</h3>",
+   "plain": "Smoke Reference:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 251,
+   "y": 4882,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3c186f2538a94697b9f5207242c64e7f",
+    "poster": "f7279b_3c186f2538a94697b9f5207242c64e7ff000.jpg",
+    "w": 744,
+    "h": 416,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 278,
+   "y": 5164,
+   "w": 425,
+   "h": 25,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=_Mg1qup_zqw\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=_Mg1qup_zqw</a></p>",
+   "plain": "https://www.youtube.com/watch?v=_Mg1qup_zqw",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 13,
+   "y": 5221,
+   "w": 955,
+   "h": 158,
+   "html": "<h3>The shot&#39;s design, combining molten platinum and smoke, creates a visually striking and cohesive scene. The gray molten platinum was chosen to match the overall cool-toned color palette, while the addition of smoke helps create an industrial atmosphere. The molten platinum, with its metallic texture and dynamic flow, symbolizes precision and high-end craftsmanship, while the smoke adds depth and atmosphere, emphasizing the high-temperature environment. They are combined to create a more visually impactful experience.</h3>",
+   "plain": "The shot&#39;s design, combining molten platinum and smoke, creates a visually s",
+   "head": true
+  }
+ ]
+}

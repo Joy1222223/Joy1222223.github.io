@@ -1,0 +1,439 @@
+{
+ "meta": {
+  "id": "w1wld",
+  "title": "Week4",
+  "uri": "副本-week3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week4</h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Feb 2</h3>",
+   "plain": "Feb 2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 4</h3>",
+   "plain": "SCAD X HARBOR - Week 4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 757,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my forth week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my forth week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 794,
+   "w": 285,
+   "h": 26,
+   "html": "<h3>Feedback From Mentors:</h3>",
+   "plain": "Feedback From Mentors:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 831,
+   "w": 930,
+   "h": 580,
+   "html": "<p>Vi:</p>\n\n<ul>\n\t<li>\n\t<p>Shaders on watch? Looks like 2 shaders&mdash;more separation of pieces</p>\n\t</li>\n\t<li>\n\t<p>Shot 2 tracking: lock down layout and camera!</p>\n\t</li>\n\t<li>\n\t<p>Shot 01: unbalanced</p>\n\t</li>\n</ul>\n\n<p>Hailey:</p>\n\n<ul>\n\t<li>\n\t<p>The design changed well on the last shot</p>\n\t</li>\n\t<li>\n\t<p>Shot 04 not composed? - Bubbles are dark and solid</p>\n\t</li>\n\t<li>\n\t<p>Shot 01: Frames need to feel stronger</p>\n\t</li>\n</ul>\n\n<p>Kyle: </p>\n\n<ul>\n\t<li>\n\t<p>Flames should feel like torch</p>\n\t</li>\n\t<li>\n\t<p>Shot 01 and 02: Tracking will be changing; grade down the hands, tighter shot 01</p>\n\t</li>\n\t<li>\n\t<p>Shot 02: remove hands (all CG)&mdash;tighter in on pour</p>\n\t</li>\n\t<li>\n\t<p>Shot 04: lighting improvements, more dramatic</p>\n\t</li>\n\t<li>\n\t<p>Shot 05: Match lighting, metal band less shiny</p>\n\t</li>\n\t<li>\n\t<p>Start grading shots/reframe​</p>\n\t</li>\n</ul>\n\n<p>Billy:</p>\n\n<ul>\n\t<li>\n\t<p>Cut off hands</p>\n\t</li>\n\t<li>\n\t<p>Rolex: read up on the metals</p>\n\t</li>\n</ul>\n\n<p>Molly: </p>\n\n<ul>\n\t<li>\n\t<p>Shot 03: How does it connect Flip 4 and 3?</p>\n\t</li>\n\t<li>\n\t<p>Skip shot 5 or 3</p>\n\t</li>\n\t<li>\n\t<p>Watch YouTube videos of watch parts (naked watchmakers)</p>\n\t</li>\n</ul>\n\n<p>​</p>",
+   "plain": "Vi:\n\n\n\t\n\tShaders on watch? Looks like 2 shaders&mdash;more separation of pieces\n",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1432,
+   "w": 217,
+   "h": 31,
+   "html": "<p>Molten Platinum:</p>",
+   "plain": "Molten Platinum:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1486,
+   "w": 930,
+   "h": 131,
+   "html": "<p>After discussion, we decided to change Shot 01 and Shot 02 to full CG. For Shot 02, we decided to show molten platinum being poured into the mold, the shape of which is part of the watch. The next shot will feature water being poured onto the watch, followed by the bubble shot. This change makes the storyline flow more smoothly, and the viewer can better understand the process of creating a watch. Also, we deleted Shot 05, which is about composing a watch.</p>",
+   "plain": "After discussion, we decided to change Shot 01 and Shot 02 to full CG. For Shot ",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 200,
+   "y": 1630,
+   "w": 580,
+   "h": 326,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_f2880dabff064a8b9cf7e03c20100802",
+    "poster": "f7279b_f2880dabff064a8b9cf7e03c20100802f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 412,
+   "y": 1974,
+   "w": 157,
+   "h": 31,
+   "html": "<p>Test 1 (Render)</p>",
+   "plain": "Test 1 (Render)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 38,
+   "y": 2010,
+   "w": 917,
+   "h": 55,
+   "html": "<p>The edges of the fluid are still a bit chunky, and at the beginning, the liquid intermittently breaks apart. I am still working on improving it.</p>",
+   "plain": "The edges of the fluid are still a bit chunky, and at the beginning, the liquid ",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 214,
+   "y": 2098,
+   "w": 581,
+   "h": 325,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d837e755ad884712b3a59edb0688fe4c",
+    "poster": "f7279b_d837e755ad884712b3a59edb0688fe4cf000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 426,
+   "y": 2442,
+   "w": 187,
+   "h": 30,
+   "html": "<p>Test 2 (Flipbook))</p>",
+   "plain": "Test 2 (Flipbook))",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 548,
+   "y": 2483,
+   "w": 391,
+   "h": 308,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_574b88f8107d499990d0ceca80650203~mv2.png",
+    "w": 503,
+    "h": 396,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 38,
+   "y": 2517,
+   "w": 440,
+   "h": 254,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_39a7a27a1bca4221a28885b7b16c2878~mv2.png",
+    "w": 600,
+    "h": 346,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 32,
+   "y": 2807,
+   "w": 452,
+   "h": 101,
+   "html": "<p>This is the Flipbook of the pouring simulation. The edges look better, and I also added smoke. I adjusted the angle of the pouring cup and reduced the point separation to achieve more detailed pouring.</p>",
+   "plain": "This is the Flipbook of the pouring simulation. The edges look better, and I als",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 508,
+   "y": 2820,
+   "w": 452,
+   "h": 55,
+   "html": "<p>I changed the operation to Gaussian, which makes the fluid smoother.</p>",
+   "plain": "I changed the operation to Gaussian, which makes the fluid smoother.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 32,
+   "y": 2943,
+   "w": 96,
+   "h": 31,
+   "html": "<p>Smoke:</p>",
+   "plain": "Smoke:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 32,
+   "y": 2990,
+   "w": 907,
+   "h": 55,
+   "html": "<p>I searched the internet, and according to reality, molten platinum reacts with air and generates steam. Based on this, I selected the surface of the fluid as the smoke source.</p>",
+   "plain": "I searched the internet, and according to reality, molten platinum reacts with a",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 626,
+   "y": 3045,
+   "w": 215,
+   "h": 381,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_205469d1b7ff48bf888270c70f381b4a",
+    "poster": "f7279b_205469d1b7ff48bf888270c70f381b4af000.jpg",
+    "w": 376,
+    "h": 588,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 31,
+   "y": 3071,
+   "w": 477,
+   "h": 295,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_40bd8fe0b7fd4d868396d6acea7e7dee",
+    "poster": "f7279b_40bd8fe0b7fd4d868396d6acea7e7deef000.jpg",
+    "w": 776,
+    "h": 416,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 150,
+   "y": 3396,
+   "w": 215,
+   "h": 381,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_c37d259aaacd4dc69e01247b76342c35",
+    "poster": "f7279b_c37d259aaacd4dc69e01247b76342c35f000.jpg",
+    "w": 376,
+    "h": 568,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 685,
+   "y": 3439,
+   "w": 156,
+   "h": 25,
+   "html": "<p>Reference</p>",
+   "plain": "Reference",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 199,
+   "y": 3864,
+   "w": 581,
+   "h": 325,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_951fa6efdf794c5cb25a48597a91cab8",
+    "poster": "f7279b_951fa6efdf794c5cb25a48597a91cab8f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 411,
+   "y": 4208,
+   "w": 187,
+   "h": 30,
+   "html": "<p>Test 1 (Smoke)</p>",
+   "plain": "Test 1 (Smoke)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 310,
+   "y": 4238,
+   "w": 360,
+   "h": 55,
+   "html": "<p>This is what the smoke looks like individually.</p>",
+   "plain": "This is what the smoke looks like individually.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 37,
+   "y": 4293,
+   "w": 248,
+   "h": 31,
+   "html": "<p>Camera Alteration:</p>",
+   "plain": "Camera Alteration:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 17,
+   "y": 4354,
+   "w": 460,
+   "h": 258,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_db57da60bdfc4ac18e218718d3d4c5e8",
+    "poster": "f7279b_db57da60bdfc4ac18e218718d3d4c5e8f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 503,
+   "y": 4354,
+   "w": 460,
+   "h": 258,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d837e755ad884712b3a59edb0688fe4c",
+    "poster": "f7279b_d837e755ad884712b3a59edb0688fe4cf000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 200,
+   "y": 4623,
+   "w": 94,
+   "h": 30,
+   "html": "<p>Option 1</p>",
+   "plain": "Option 1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 686,
+   "y": 4623,
+   "w": 94,
+   "h": 30,
+   "html": "<p>Option 2</p>",
+   "plain": "Option 2",
+   "head": true
+  }
+ ]
+}

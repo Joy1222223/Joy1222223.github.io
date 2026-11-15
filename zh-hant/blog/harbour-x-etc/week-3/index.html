@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week3 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour-x-etc/week-3/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour-x-etc/week-3/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour-x-etc/week-3/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour-x-etc/week-3/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/harbour-x-etc/week-3/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/harbour-x-etc/week-3/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/harbour-x-etc/">&#8592; Blog X Harbour X ETC</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_b35d65a47af340599df7c83b93934171_mv2.webp" width="5000" height="3333" alt="橙色雛菊特寫"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week3</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row one"><h2 class="ttl reveal">Yiqi Zheng (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Riley Ho (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Itim Kongsakulvatanasook (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Sofia Mancias (Compositing)</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Jan 25</h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Benji Hopkins (Look Dev)</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR X ETC - Week 3</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my third week of the Scad x Harbor x ETC blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h2></div>
+<div class="row one"><div class="prose reveal"><p>Kyle:</p>
+
+<ul>
+	<li>
+	<p>Lighting is going to be key, has not been nailed yet</p>
+	</li>
+	<li>
+	<p>Direction of fluid flips between Shot 1 and Shot 2- should be consistent</p>
+	</li>
+	<li>
+	<p>Some shots are a little too fast</p>
+	</li>
+	<li>
+	<p>Shot 5 is awesome</p>
+	</li>
+	<li>
+	<p>Transition to Shot 6 might be a little abrupt. Camera shot is too high, not as beautiful as it could be</p>
+	</li>
+	<li>
+	<p>First shot, keep it more backlit</p>
+	</li>
+	<li>
+	<p>Keep it in that world til you reveal the product at the end</p>
+	</li>
+	<li>
+	<p>Caustics on the color, emissive</p>
+	</li>
+	<li>
+	<p>Slight light source just to show the bevels, but main light source could be from the color</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Beck：</p>
+
+<ul>
+	<li>
+	<p>Good progress</p>
+	</li>
+	<li>
+	<p>Picking one reference to match instead of matching all of them</p>
+	</li>
+	<li>
+	<p>Make sure references are thoughtful and not random- can get confusing</p>
+	</li>
+	<li>
+	<p>Painting reveal effect is very cool</p>
+	</li>
+	<li>
+	<p>Shot 5 effect is unrelated to the shots before</p>
+	</li>
+	<li>
+	<p>Everything else is more about the inks, colors and texture</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Hannah:</p>
+
+<ul>
+	<li>
+	<p>In final shot (different objects shot)</p>
+	</li>
+	<li>
+	<p>Right now it is too busy, or it&rsquo;s not busy enough</p>
+	</li>
+	<li>
+	<p>Make the tornado more dense</p>
+	</li>
+	<li>
+	<p>Focus on how there&#39;s so many objects coming through</p>
+	</li>
+	<li>
+	<p>Objects animated at different speeds</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Billy：</p>
+
+<ul>
+	<li>
+	<p>The printer is all about the color- swirling emphasizes the language</p>
+	</li>
+	<li>
+	<p>Everything is organic til the Shot 5</p>
+	</li>
+	<li>
+	<p>It&rsquo;s cool, but you should continue the branding language to really sell it</p>
+	</li>
+	<li>
+	<p>Personally, don&rsquo;t like shapes in shadows</p>
+	</li>
+	<li>
+	<p>Epic product lighting is more of a big soft box</p>
+	</li>
+	<li>
+	<p>Focus more on product than the shapes of shadows</p>
+	</li>
+	<li>
+	<p>Use color that is coming down as the light source</p>
+	</li>
+	<li>
+	<p>Indirect lighting</p>
+	</li>
+	<li>
+	<p>Turn off most other lighting</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>To-Do List: </p>
+
+<ul>
+	<li>
+	<p>Liquid Simulation</p>
+	</li>
+	<li>
+	<p>Paint Shader + emission/lighting test</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Based on what I did last week, I started converting the particles into fluid. And I met some annoying problems.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_ac81b8daa5a44011bb28250e83eb8519f000.webp" src="https://video.wixstatic.com/video/f7279b_ac81b8daa5a44011bb28250e83eb8519/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Problem-solving:</h2></div>
+<div class="row one"><div class="prose reveal"><p>1. It&rsquo;s pretty hard to control the particles when they follow the curve, especially at the end of the spiral. The particles become unstable, so to fix this, I separated Shot 1 (fluid swirl) and Shot 2 (fluid going into the holes one by one).</p></div></div>
+<div class="row one"><div class="prose reveal"><p>I used POP Curve Force to make the particles follow the curve, but when they turn sharply, they easily fly out of the curve, and the stream becomes very thin.  To address this, I followed a tutorial on how to customize POP Curve Force.</p></div></div>
+<div class="row one"><div class="prose reveal"><p><a href="https://www.youtube.com/watch?v=PSnDEkuz4SE" target="_blank" rel="noopener">Here is the link: https://www.youtube.com/watch?v=PSnDEkuz4SE</a></p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_d763c4a9806c4cb1a5ad6b2a8e4886e7f000.webp" src="https://video.wixstatic.com/video/f7279b_d763c4a9806c4cb1a5ad6b2a8e4886e7/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>To address Kyle&rsquo;s feedback, we decided to change the camera for Shot 2 to make the fluid direction look more coordinated. For Shot 2, I did not continue the fluid swirl from Shot 1. Instead, to ensure the fluid goes into the hole precisely, I created a separate POP network to give me more control. However, the fluid shape is still a bit thin. Based on feedback from my professor, POP Curve Force is difficult to control for this case, so next week I will use curve tangents to drive the motion and make the fluid follow the curve more reliably.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_065a2edc437a41d89cd4201369ae3d83f000.webp" src="https://video.wixstatic.com/video/f7279b_065a2edc437a41d89cd4201369ae3d83/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>This is my fluid test for this week, and I&rsquo;m struggling to achieve a visually pleasing flow shape. I used a POP network with POP Curve Force to guide the particles along a curve.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_9509570affe342b4becfb5b38a01ae11f000.webp" src="https://video.wixstatic.com/video/f7279b_9509570affe342b4becfb5b38a01ae11/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>I tried applying a material to it, but the rendered result looks very flat and lacks visible detail. Next week, I will likely need to change my approach to achieve a better result.</p></div></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../../zh-hant/blog/harbour-x-etc/week-4/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Refine the fluid path (add noise for fluid)</p>
+	</li>
+	<li>
+	<p>Integrate Vellum for a sticky, paint-like fluid effect</p>
+	</li>
+</ol></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/harbour-x-etc/week-2/"><span>&#8592; Week2</span></a><a class="btn ghost ripple next" href="../../../../zh-hant/blog/harbour-x-etc/week-4/"><span>Week4 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

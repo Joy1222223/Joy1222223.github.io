@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "id": "c9bzj",
+  "title": "Blog X Special Project | PART2",
+  "uri": "general-6-1"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": 0,
+   "w": 980,
+   "h": 330,
+   "media": {
+    "kind": "image",
+    "uri": "7d823905f5e147119a544e3a64e7643c.jpg",
+    "w": 5304,
+    "h": 7952,
+    "alt": "Forest In Golden Light"
+   }
+  },
+  {
+   "t": "text",
+   "x": 53,
+   "y": 151,
+   "w": 874,
+   "h": 68,
+   "html": "<h3>SPECIAL PROJECT | PART2</h3>",
+   "plain": "SPECIAL PROJECT | PART2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 330,
+   "y": 219,
+   "w": 320,
+   "h": 29,
+   "html": "<p>Here is the progress of this collaboration.</p>",
+   "plain": "Here is the progress of this collaboration.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 42,
+   "y": 398,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_e75bb22c7e054d9a86af6cd895999940~mv2.jpg",
+    "w": 4444,
+    "h": 3333,
+    "alt": "Yellow Floral Abstract"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 584,
+   "y": 398,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "ef3eacff722648c79da25c362882a4bb.jpg",
+    "w": 5472,
+    "h": 3078,
+    "alt": "Golden Wheat Field"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 116,
+   "y": 455,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:oqnvy\">Week1</a></h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 655,
+   "y": 455,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:p69lx\">Week2</a></h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 41,
+   "y": 710,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_e034b99f3f7b407480c6b8eeb14c773a~mv2.jpg",
+    "w": 1632,
+    "h": 2912,
+    "alt": "Abstract Feather Shape"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 583,
+   "y": 710,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_fd1716c7694144a088d5ece25b6dd82a~mv2.jpeg",
+    "w": 4630,
+    "h": 2595,
+    "alt": "Rainbow-Colored Plant"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 115,
+   "y": 767,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:a6hcr\">Week3</a></h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 654,
+   "y": 767,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:yg1zc\">Week4</a></h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 583,
+   "y": 1031,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7aa2fd1a9f704ca8b8c9112210cc23bd~mv2.jpg",
+    "w": 4943,
+    "h": 3573,
+    "alt": "Pink Mushroom Gills"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 40,
+   "y": 1032,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_a3a9ee5092f847949413ed2ddaee51ef~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "Coastal Dunes View"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 654,
+   "y": 1088,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:qhyvv\">Week6</a></h3>",
+   "plain": "Week6",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 114,
+   "y": 1089,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:iaete\">Week5</a></h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 589,
+   "y": 1361,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_41639be79cdf4a83adaba725a3f8714c~mv2.jpg",
+    "w": 2500,
+    "h": 1683,
+    "alt": "Pink Iris Flower"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 37,
+   "y": 1362,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7103cc3c90b6450ebc45e31125dbfb49~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "Serene Lakeside View"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 660,
+   "y": 1418,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:jrqlw\">Week8</a></h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 1419,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:z5t5k\">Week7</a></h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 589,
+   "y": 1677,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_e8771669914d4b8a949e06893dfd43a0~mv2.jpg",
+    "w": 5000,
+    "h": 3394,
+    "alt": "Sand Texture Closeup"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 37,
+   "y": 1678,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_6f917406d34343e9b0e328abf392c827~mv2.jpg",
+    "w": 4000,
+    "h": 2250,
+    "alt": "Pink Abstract Waves"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 660,
+   "y": 1734,
+   "w": 266,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:b0ekh\">Week10</a></h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 1735,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:jc0zk\">Week9</a></h3>",
+   "plain": "Week9",
+   "head": true
+  }
+ ]
+}

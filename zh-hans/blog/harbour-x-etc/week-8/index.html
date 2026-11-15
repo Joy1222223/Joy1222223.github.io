@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week8 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技术美术与 CG 通才。使用 Houdini、Maya 与 Unreal Engine 制作程序化特效、外观开发与流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour-x-etc/week-8/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour-x-etc/week-8/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour-x-etc/week-8/">
+</head>
+<body class="lang-zh-hans ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hans/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hans/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hans/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hans/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hans/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hans/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hans/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hans/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hans/blog/">博客</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hans/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hans/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hans/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hans/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour-x-etc/week-8/" hreflang="en">EN</a><a class="lg ripple" href="../../../../zh-hant/blog/harbour-x-etc/week-8/" hreflang="zh-Hant">繁</a><a class="lg ripple on" href="../../../../zh-hans/blog/harbour-x-etc/week-8/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hans/blog/harbour-x-etc/">&#8592; Blog X Harbour X ETC</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_b35d65a47af340599df7c83b93934171_mv2.webp" width="5000" height="3333" alt="橙色雛菊特寫"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week8</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row one"><h2 class="ttl reveal">Yiqi Zheng (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Riley Ho (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Itim Kongsakulvatanasook (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Sofia Mancias (Compositing)</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Feb 29</h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Benji Hopkins (Look Dev)</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR X ETC - Week 8</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my eigth week of the Scad x Harbor x ETC blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h2></div>
+<div class="row one"><div class="prose reveal"><p>Kyle:​</p>
+
+<ul>
+	<li>
+	<p>Shot 1- red looks good, maybe ground more colorful right now the top is more overpowering</p>
+	</li>
+	<li>
+	<p>Shot 2- light brightness is too much on the left side, match it to the right side</p>
+	</li>
+	<li>
+	<p>Boost SFX of laser</p>
+	</li>
+	<li>
+	<p>Feathering of the matte shot 3 is not working; how can we hide that feather?</p>
+	</li>
+	<li>
+	<p>Shot 3 maybe moodier lighting</p>
+	</li>
+	<li>
+	<p>Maybe we don&rsquo;t need the final painting at all, the particles look cooler</p>
+	</li>
+	<li>
+	<p>Smooth out particles in Shot 4</p>
+	</li>
+	<li>
+	<p>Make sure BG in shot 4 matches the others</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Beck：</p>
+
+<ul>
+	<li>
+	<p>Maybe transfer color instead of a different material?</p>
+	</li>
+	<li>
+	<p>Particles and matte is looking disconnected </p>
+	</li>
+	<li>
+	<p>Colors are also different from particles to matte</p>
+	</li>
+	<li>
+	<p>Finishing shot is very bright</p>
+	</li>
+	<li>
+	<p>Looks like there is no shadows in particles in shot 4</p>
+	</li>
+	<li>
+	<p>Shot 4 looks like flipbook</p>
+	</li>
+	<li>
+	<p>More variations in particles</p>
+	</li>
+	<li>
+	<p>Wood texture needs an upres, looks lower quality than the printer itself</p>
+	</li>
+	<li>
+	<p>Think about direction of wood in the wood piece</p>
+	</li>
+	<li>
+	<p>Beveled edges on wood, needs more bump</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Hailey:</p>
+
+<ul>
+	<li>
+	<p>Shot 4 needs a little bit of color</p>
+	</li>
+	<li>
+	<p>Maybe the little painting can be sitting beside the printer, so it adds a little pop of color</p>
+	</li>
+	<li>
+	<p>Or color coming from the subtle particles finishing</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Molly:</p>
+
+<ul>
+	<li>
+	<p>Shot 1, are you still working on the tube shape of the particles?</p>
+	</li>
+	<li>
+	<p>Subtle beveling needs on some of the objects - especially wood</p>
+	</li>
+	<li>
+	<p>Shot 3 before the particles come in looks dead</p>
+	</li>
+	<li>
+	<p>Maybe one more light in beginning of Shot 3</p>
+	</li>
+	<li>
+	<p>Shot 4, three point lighting instead of just one big light, maybe some subtle color kinda like you have in other shots</p>
+	</li>
+	<li>
+	<p>Grey but a little blue, not too much color</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Drew:</p>
+
+<ul>
+	<li>
+	<p>Shot 1, Need motion blur on particles esp white particles</p>
+	</li>
+</ul></div></div>
+<div class="row one"><h2 class="ttl reveal">Billy:</h2></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_32dd8f8c8aa24803ae8560310b949fe9_mv2.webp" width="600" height="338" alt="Image20260224130541.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_de09e0f62556455bb7543605c44e0444_mv2.webp" width="600" height="340" alt="Image20260224130538.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>To-Do List: </p>
+
+<ul>
+	<li>
+	<p>Refine the particles&rsquo; path and flow shape (Create noise)</p>
+	</li>
+	<li>
+	<p>Denoise shot 1</p>
+	</li>
+	<li>
+	<p>Avoid the overexposure.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><h2 class="ttl reveal">This is our Previs for week 8.</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_47b8e91696174a6c8f108476ba474c2df000.webp" src="https://video.wixstatic.com/video/f7279b_47b8e91696174a6c8f108476ba474c2d/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>I tested several additional particle layers around the particle flows, but the result did not look visually effective, so we decided to remove them.</p></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_10c545870a1843ddb1d3392ddde102b0f000.webp" src="https://video.wixstatic.com/video/f7279b_10c545870a1843ddb1d3392ddde102b0/1080p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_5bd84d7fc92244b38cb7194add628968f000.webp" src="https://video.wixstatic.com/video/f7279b_5bd84d7fc92244b38cb7194add628968/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>Claude also helped refine several aspects of the setup to reduce the string-like appearance of the particles. I found that this line-like effect occurred because particle density became too high in certain regions, causing them to visually merge together.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fd106df2336b4e30b09275281d20f403_mv2.webp" width="596" height="198" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>This code uses position-based noise to create a smooth mask, then applies it to Alpha so the transparency changes gradually and creates a natural dissolve effect. </p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_68f7b087ed024e8c8ab4b7c7cb08bd29_mv2.webp" width="552" height="165" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>This code checks how many neighboring particles each point has, remaps that density to a 0&ndash;1 range, and randomly deletes points in dense areas to reduce clustering and make the particle distribution look more natural.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_458a316a5f8e486db52160a62017bcc7_mv2.webp" width="600" height="189" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>This code first sets a base alpha value, then uses a ramp driven by particle age (@nage) to control transparency over time, so the particles gradually fade as they age. Finally, it stores the alpha value into @Tm for visualization or further control.</p></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hans/blog/harbour-x-etc/week-7/"><span>&#8592; Week7</span></a><a class="btn ghost ripple next" href="../../../../zh-hans/blog/harbour-x-etc/week-9/"><span>Week9 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">联系</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

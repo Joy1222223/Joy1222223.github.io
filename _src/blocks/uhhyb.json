@@ -1,0 +1,398 @@
+{
+ "meta": {
+  "id": "uhhyb",
+  "title": "Week3",
+  "uri": "副本-week2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "96d373bf920e4684b177a206dea4190c.jpg",
+    "w": 1980,
+    "h": 1200,
+    "alt": "雪紅杉林"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week3</h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 430,
+   "w": 981,
+   "h": 85,
+   "html": "<h3>Houdini-Unreal USD Pipeline</h3>",
+   "plain": "Houdini-Unreal USD Pipeline",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 527,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Jan 25</h3>",
+   "plain": "Jan 25",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 57,
+   "y": 590,
+   "w": 350,
+   "h": 42,
+   "html": "<h3>HAVE COMPLETED:</h3>",
+   "plain": "HAVE COMPLETED:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 625,
+   "y": 590,
+   "w": 224,
+   "h": 42,
+   "html": "<h3>TO-DO LIST:</h3>",
+   "plain": "TO-DO LIST:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 648,
+   "w": 403,
+   "h": 111,
+   "html": "<ul>\n\t<li>\n\t<p>Last week, I tested  VAT Instancing in Unreal</p>\n\t</li>\n\t<li>\n\t<p>Try a different method of Instancer in Houdini and test its performance in Unreal</p>\n\t</li>\n\t<li>\n\t<p>Try animated USD Instancing in Unreal, which is not working</p>\n\t</li>\n</ul>",
+   "plain": "Last week, I tested  VAT Instancing in Unreal\n\t\n\t\n\tTry a different method of Ins",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 530,
+   "y": 648,
+   "w": 395,
+   "h": 65,
+   "html": "<ul>\n\t<li>\n\t<p>Figure out the USD pipeline from Houdini to Unreal</p>\n\t</li>\n\t<li>\n\t<p>Test animated USD variants and USD layering workflows</p>\n\t</li>\n</ul>",
+   "plain": "Figure out the USD pipeline from Houdini to Unreal\n\t\n\t\n\tTest animated USD varian",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 859,
+   "w": 293,
+   "h": 58,
+   "html": "<p>Static Mesh:</p>",
+   "plain": "Static Mesh:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 917,
+   "w": 950,
+   "h": 79,
+   "html": "<p>I think the biggest limitation of using USD in Unreal is that Unreal doesn&rsquo;t really support deforming animations very well. USD is especially suitable for large-scale scene layout and management.Using static meshes gives us more flexibility when populating and dressing the scene.</p>",
+   "plain": "I think the biggest limitation of using USD in Unreal is that Unreal doesn&rsquo",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 1012,
+   "w": 950,
+   "h": 79,
+   "html": "<p>What I worked on last week was importing animated USD files into Unreal and layering them successfully.</p>\n\n<p>I also tested Yichen&rsquo;s flowers. This is my setup in Houdini for Yichen&rsquo;s flower variants. In Unreal, you can choose between different variants, and if there are multiple materials, you can switch those as well.</p>",
+   "plain": "What I worked on last week was importing animated USD files into Unreal and laye",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 480,
+   "y": 1152,
+   "w": 443,
+   "h": 254,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_44d1839b29aa4a93b8a77b59e3e89d24",
+    "poster": "f7279b_44d1839b29aa4a93b8a77b59e3e89d24f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 29,
+   "y": 1154,
+   "w": 410,
+   "h": 254,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_14f547f5145c45908e114cfd64604994~mv2.png",
+    "w": 600,
+    "h": 366,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 29,
+   "y": 1429,
+   "w": 410,
+   "h": 254,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ff6a73360d78402f97b54e232180ae07~mv2.png",
+    "w": 600,
+    "h": 379,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 480,
+   "y": 1429,
+   "w": 443,
+   "h": 254,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d59797e2c4234c41b49b33d090fb2178",
+    "poster": "f7279b_d59797e2c4234c41b49b33d090fb2178f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 1700,
+   "w": 950,
+   "h": 52,
+   "html": "<p>I also experimented with some material variants in Houdini, so in Unreal I can choose between different materials. I can also use payloads if the geometry is too large.</p>",
+   "plain": "I also experimented with some material variants in Houdini, so in Unreal I can c",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 1761,
+   "w": 950,
+   "h": 52,
+   "html": "<p>I also tried using Layout in Houdini, which allows me to create my own asset gallery and use painting tools to lay out the plants. I generate the layout using referenced assets, so the layout stage also contains and supports asset variants.</p>",
+   "plain": "I also tried using Layout in Houdini, which allows me to create my own asset gal",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 29,
+   "y": 1842,
+   "w": 410,
+   "h": 254,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b33daf4efffd4ef187ec55b6e07a78c5~mv2.png",
+    "w": 600,
+    "h": 363,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 486,
+   "y": 1842,
+   "w": 443,
+   "h": 254,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_93a2410a04bf466e8227b222861f0be2",
+    "poster": "f7279b_93a2410a04bf466e8227b222861f0be2f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 2109,
+   "w": 380,
+   "h": 49,
+   "html": "<p>Troubleshooting</p>",
+   "plain": "Troubleshooting",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 2158,
+   "w": 950,
+   "h": 52,
+   "html": "<p>If you want to import deforming animation as a USD file into Unreal with layering, you need to make sure the time samples are enabled here. Otherwise, the geometry will not animate.</p>",
+   "plain": "If you want to import deforming animation as a USD file into Unreal with layerin",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 30,
+   "y": 2230,
+   "w": 348,
+   "h": 77,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_95d8758f7b3f404d80b2dbdc2cc74ef7~mv2.png",
+    "w": 348,
+    "h": 77,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 8,
+   "y": 2338,
+   "w": 508,
+   "h": 254,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ae7de9e43a9e4b2b9d90ae49f7d7305d~mv2.png",
+    "w": 600,
+    "h": 301,
+    "alt": "{82B6B9DA-175F-449E-8219-544C5ACD111F}.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 528,
+   "y": 2338,
+   "w": 443,
+   "h": 254,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_01db0dd4aeb846e6a22bd69a8cc7574e",
+    "poster": "f7279b_01db0dd4aeb846e6a22bd69a8cc7574ef000.jpg",
+    "w": 3652,
+    "h": 1770,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 2624,
+   "w": 950,
+   "h": 52,
+   "html": "<p>During the AI Summit, I explored more about the USD Variants and have some problems exploring as USD. First, when I click here, I can&#39;t export the USD, and keep error here. </p>",
+   "plain": "During the AI Summit, I explored more about the USD Variants and have some probl",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 15,
+   "y": 2695,
+   "w": 558,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_071cc518055e4a1297f4c219d221b0db~mv2.png",
+    "w": 558,
+    "h": 600,
+    "alt": "{9F651303-3D13-4997-B10D-5A51A1D21568}.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 15,
+   "y": 3317,
+   "w": 600,
+   "h": 280,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fdee21eb729f4d68859526ff02c7b2c5~mv2.png",
+    "w": 600,
+    "h": 280,
+    "alt": "{B6097698-A14C-43D1-B248-B01EA88E1B11}.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 3605,
+   "w": 950,
+   "h": 26,
+   "html": "<p>And also try to manage the scene, and toggle off and on, whch is more effecent for asset or simluation.</p>",
+   "plain": "And also try to manage the scene, and toggle off and on, whch is more effecent f",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 15,
+   "y": 3644,
+   "w": 396,
+   "h": 227,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_433c6480f0b44aa098abd2d9aa7b32be~mv2.png",
+    "w": 396,
+    "h": 227,
+    "alt": "{618EBD7B-1AC0-4DAE-9EDE-763FC2F95E66}.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 3920,
+   "w": 907,
+   "h": 140,
+   "html": "<p><a href=\"PAGE:cxa97\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Try USD variants and PDG</p>\n\t</li>\n\t<li>\n\t<p>Try to apply the opacity map</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tTry USD variants and PDG\n\t\n\t\n\tTry to apply the opacity map",
+   "head": false
+  }
+ ]
+}

@@ -1,0 +1,477 @@
+{
+ "meta": {
+  "id": "qhyvv",
+  "title": "Week6",
+  "uri": "copy-of-week1-3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week6</h3>",
+   "plain": "Week6",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 6 Plan:</h3>",
+   "plain": "Week 6 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 756,
+   "h": 28,
+   "html": "<ul>\n\t<li>\n\t<h3>Finish draft of the paper (USD Pipeline)</h3>\n\t</li>\n</ul>",
+   "plain": "Finish draft of the paper (USD Pipeline)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 503,
+   "w": 1041,
+   "h": 28,
+   "html": "<ul>\n\t<li>\n\t<h3>Try VAT Particles, cooperate with Niagara</h3>\n\t</li>\n</ul>",
+   "plain": "Try VAT Particles, cooperate with Niagara",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 64,
+   "y": 591,
+   "w": 889,
+   "h": 69,
+   "html": "<h3>Houdini VAT and Niagara Test</h3>",
+   "plain": "Houdini VAT and Niagara Test",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 660,
+   "w": 980,
+   "h": 110,
+   "html": "<h3>Due to Niagara&#39;s limitations when importing large numbers of particles into Unreal, and the fact that VAT Particle Sprites only support card-shaped geometry, I am testing whether I can extract data such as position and rotation from VAT textures and feed it into Niagara. This would allow me to render the particles as spheres or any 3D shape using Niagara&#39;s Mesh Renderer.</h3>",
+   "plain": "Due to Niagara&#39;s limitations when importing large numbers of particles into ",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 191,
+   "y": 780,
+   "w": 555,
+   "h": 115,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_5ec4fc8ca0ec4e44b44879f30a173e47~mv2.png",
+    "w": 555,
+    "h": 115,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 370,
+   "y": 910,
+   "w": 239,
+   "h": 28,
+   "html": "<h3>Only Render Card Shape</h3>",
+   "plain": "Only Render Card Shape",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 971,
+   "w": 245,
+   "h": 69,
+   "html": "<h3>VAT Test</h3>",
+   "plain": "VAT Test",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 1049,
+   "w": 944,
+   "h": 110,
+   "html": "<h3>In order to quickly import 500,000 particles from Houdini, I started with VAT to bake the particle movement into textures. Since the simulation&#39;s point count is 500,000 and the per-frame limit is 221,184, I divided the particles into separate groups based on their ID attribute so that each group would not exceed the maximum.</h3>",
+   "plain": "In order to quickly import 500,000 particles from Houdini, I started with VAT to",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 461,
+   "y": 1174,
+   "w": 502,
+   "h": 167,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0c9c92ee91c740e0881972987a0244e6~mv2.png",
+    "w": 502,
+    "h": 167,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 19,
+   "y": 1213,
+   "w": 414,
+   "h": 89,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_241a389a5b6e461b87f013add92c90ff~mv2.png",
+    "w": 600,
+    "h": 128,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 1379,
+   "w": 960,
+   "h": 55,
+   "html": "<h3>Another problem is that when I import VAT Particle Sprites, the shadow shape matches the original mesh before the material is applied.</h3>",
+   "plain": "Another problem is that when I import VAT Particle Sprites, the shadow shape mat",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 578,
+   "y": 1445,
+   "w": 286,
+   "h": 254,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_931163162fbc4cabb0b0704342d5e3cf~mv2.png",
+    "w": 600,
+    "h": 532,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 59,
+   "y": 1481,
+   "w": 435,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1bfcb288158441519693fd7debcceb60~mv2.png",
+    "w": 600,
+    "h": 272,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 583,
+   "y": 1707,
+   "w": 277,
+   "h": 55,
+   "html": "<h3>The mesh does not have the material assigned.</h3>",
+   "plain": "The mesh does not have the material assigned.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1794,
+   "w": 960,
+   "h": 55,
+   "html": "<h3>Enabling &quot;Evaluate World Position Offset in Ray Tracing&quot; allows the shadow pass to calculate the mesh shape based on the WPO-displaced positions rather than the original geometry.</h3>",
+   "plain": "Enabling &quot;Evaluate World Position Offset in Ray Tracing&quot; allows the sh",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 582,
+   "y": 1849,
+   "w": 277,
+   "h": 118,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a83292d7f45e4e4a91f7804b76145b99~mv2.png",
+    "w": 316,
+    "h": 135,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 19,
+   "y": 1869,
+   "w": 368,
+   "h": 79,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_09b9f3e51d1b4b15834c261cf88a6d8e~mv2.png",
+    "w": 368,
+    "h": 79,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 1975,
+   "w": 960,
+   "h": 83,
+   "html": "<h3>To solve this problem, I also tried combining VAT with Niagara by extracting data from the VAT position texture and applying it to Niagara. This way, within the Niagara system, I can choose any shape to represent the particles. Also, need to use full precision UVs for mesh.</h3>",
+   "plain": "To solve this problem, I also tried combining VAT with Niagara by extracting dat",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 2071,
+   "w": 960,
+   "h": 220,
+   "html": "<h3>The Niagara module reads VAT data by first calculating UV coordinates in a Custom HLSL node, using each particle&#39;s index and the current time to determine which pixel to sample from the VAT texture. The U and V outputs are combined into a Vector2D and fed into two texture samplers &mdash; one for the position texture and one for the color texture. The sampled position values, which are normalized between 0 and 1, are then remapped to world-space coordinates using the bounding box min and max values exported from Houdini. Finally, the results are written back to each particle&#39;s Position, Scale, and Color attributes through a Map Set node. This allows Niagara to drive hundreds of thousands of particles using pre-simulated Houdini data at real-time performance.</h3>",
+   "plain": "The Niagara module reads VAT data by first calculating UV coordinates in a Custo",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 2313,
+   "w": 943,
+   "h": 486,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fbd8b8b7aff64d7bb27bf6b9efc18143~mv2.png",
+    "w": 600,
+    "h": 307,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 2819,
+   "w": 960,
+   "h": 83,
+   "html": "<h3>This HLSL module converts each particle&#39;s index and current time into UV coordinates for sampling the VAT texture. All key parameters are exposed as inputs, making it reusable across different VAT setups without code changes.</h3>",
+   "plain": "This HLSL module converts each particle&#39;s index and current time into UV coo",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 203,
+   "y": 2919,
+   "w": 574,
+   "h": 486,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a50eae75904145afb3cb72f57bbcc27d~mv2.png",
+    "w": 574,
+    "h": 486,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 3435,
+   "w": 960,
+   "h": 83,
+   "html": "<h3>This HLSL module converts each particle&#39;s index and current time into UV coordinates for sampling the VAT texture. All key parameters are exposed as inputs, making it reusable across different VAT setups without code changes.</h3>",
+   "plain": "This HLSL module converts each particle&#39;s index and current time into UV coo",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 3539,
+   "w": 600,
+   "h": 251,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c7412d9ed41447c39ab85f2ac4a73db6~mv2.png",
+    "w": 600,
+    "h": 251,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 3805,
+   "w": 960,
+   "h": 55,
+   "html": "<p>This node extracts position and scale data from the sampled VAT texture. The RGB channels store the particle&#39;s XYZ position, while the Alpha channel stores a uniform scale value applied equally to all three axes.</p>",
+   "plain": "This node extracts position and scale data from the sampled VAT texture. The RGB",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 189,
+   "y": 3876,
+   "w": 600,
+   "h": 422,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3ece7732b17c4c1491f0a476de1fd4d6~mv2.png",
+    "w": 600,
+    "h": 422,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 4303,
+   "w": 960,
+   "h": 28,
+   "html": "<p>Every parameter can be adjusted here once a new VAT particle texture is imported.</p>",
+   "plain": "Every parameter can be adjusted here once a new VAT particle texture is imported",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 4349,
+   "w": 960,
+   "h": 55,
+   "html": "<p>First, I tried using the Mesh Renderer with a sphere, but the FPS was very low because it had to render 500,000 points. The FPS is about 18.</p>",
+   "plain": "First, I tried using the Mesh Renderer with a sphere, but the FPS was very low b",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 4411,
+   "w": 960,
+   "h": 55,
+   "html": "<p>Another thing to note is that to prevent particle flickering, Motion Vectors needs to be set to Disable. If flickering still persists, shadows should also be turned off.</p>",
+   "plain": "Another thing to note is that to prevent particle flickering, Motion Vectors nee",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 10,
+   "y": 4481,
+   "w": 347,
+   "h": 32,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_99abb1f3cee040989667f6b9f208df09~mv2.png",
+    "w": 347,
+    "h": 32,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 7,
+   "y": 4535,
+   "w": 471,
+   "h": 268,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_29215fa67b0040a99232ca61ce1b1d17",
+    "poster": "f7279b_29215fa67b0040a99232ca61ce1b1d17f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 500,
+   "y": 4535,
+   "w": 471,
+   "h": 268,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_5c50c4c0ca47441694446d73db1fe5f9",
+    "poster": "f7279b_5c50c4c0ca47441694446d73db1fe5f9f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 4822,
+   "w": 960,
+   "h": 24,
+   "html": "<p>This is the final result combining VAT and Niagara, with shadows displaying correctly and maintaining good FPS.</p>",
+   "plain": "This is the final result combining VAT and Niagara, with shadows displaying corr",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 10,
+   "y": 4868,
+   "w": 960,
+   "h": 546,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_6472048b19c74bc1be7df68d4b23d658",
+    "poster": "f7279b_6472048b19c74bc1be7df68d4b23d658f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  }
+ ]
+}

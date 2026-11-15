@@ -1,0 +1,78 @@
+{
+ "meta": {
+  "id": "ykqhq",
+  "title": "Modeling",
+  "uri": "copy-of-animation"
+ },
+ "atoms": [
+  {
+   "t": "text",
+   "x": 50,
+   "y": 49,
+   "w": 514,
+   "h": 67,
+   "html": "<h3>Modeling</h3>",
+   "plain": "Modeling",
+   "head": true
+  },
+  {
+   "t": "slides",
+   "x": 50,
+   "y": 159,
+   "w": 906,
+   "h": 493,
+   "slides": [
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_3b9dc25aac0f403db48c3c278a93ae42~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "alt": "day.png"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:uojq2\">Watch More</a></p>"
+     ],
+     "link": "PAGE:uojq2"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_7ba8710744034afa96c748b4994e6582~mv2.jpg",
+      "w": 2068,
+      "h": 1556,
+      "alt": "S24_V721_P1_YiqiZheng_Complex Scene.jpg"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_ad800ab3dd774516bfde97aaa285c551~mv2.jpg",
+      "w": 1582,
+      "h": 878,
+      "alt": "11111.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:x0f1i\">Watch More</a></p>"
+     ],
+     "link": "PAGE:x0f1i"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_9ab5a32a1a5041b497cb9551c3b9f879~mv2.jpg",
+      "w": 1280,
+      "h": 720,
+      "alt": "S24_V721_P1_YiqiZheng_Building_Final.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:uojq2\">Watch More</a></p>"
+     ],
+     "link": "PAGE:uojq2"
+    }
+   ]
+  }
+ ]
+}

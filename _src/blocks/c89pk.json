@@ -1,0 +1,349 @@
+{
+ "meta": {
+  "id": "c89pk",
+  "title": "Week8",
+  "uri": "副本-week7-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_db8f5ddb085b41fda169efb854f9b69e~mv2.jpg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "Wavy Abstract Background "
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week8</h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 419,
+   "w": 854,
+   "h": 54,
+   "html": "<h3>VSFX 728 - Week 8</h3>",
+   "plain": "VSFX 728 - Week 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 492,
+   "w": 534,
+   "h": 27,
+   "html": "<h3>Hello, this is my final project of the VSFX 728&#39;s blog!</h3>",
+   "plain": "Hello, this is my final project of the VSFX 728&#39;s blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -91,
+   "y": 529,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>May 10</h3>",
+   "plain": "May 10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 574,
+   "w": 896,
+   "h": 87,
+   "html": "<h3>Things To Do: <br />\n1. Set up the scene layout (Based on the reference)<br />\n2. Run a simple test of the tomato sauce pouring (include viscosity and animation realism)</h3>",
+   "plain": "Things To Do: \n1. Set up the scene layout (Based on the reference)\n2. Run a simp",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 681,
+   "w": 896,
+   "h": 27,
+   "html": "<h3>This week, I will begin testing the tomato sauce pouring using MPM.</h3>",
+   "plain": "This week, I will begin testing the tomato sauce pouring using MPM.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 726,
+   "w": 896,
+   "h": 112,
+   "html": "<p>First, I tried matching the angle of the pot and dropping an MPM source shaped like a sphere into it. However, I found it hard to control&mdash;the sphere often didn&rsquo;t fall into the right area, especially missing the upper part of the pot&#39;s interior.</p>\n\n<p>​</p>",
+   "plain": "First, I tried matching the angle of the pot and dropping an MPM source shaped l",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 856,
+   "w": 449,
+   "h": 380,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_cf7eaa9752d24108b4a2433195780059~mv2.png",
+    "w": 600,
+    "h": 508,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 497,
+   "y": 856,
+   "w": 449,
+   "h": 380,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_5031e8f848a34074bbb9b15948dd7683~mv2.png",
+    "w": 600,
+    "h": 503,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 131,
+   "y": 1278,
+   "w": 747,
+   "h": 335,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6d60272bc76c4779b711dac5d846b043~mv2.png",
+    "w": 600,
+    "h": 269,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1653,
+   "w": 928,
+   "h": 81,
+   "html": "<p>So instead, I decided to place the pot flat at the beginning and pour the liquid in from above. Then I animate the pot&rsquo;s movement afterward. This approach is not only easier to control but also more realistic, as it matches how liquids are usually poured in real life.</p>",
+   "plain": "So instead, I decided to place the pot flat at the beginning and pour the liquid",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 29,
+   "y": 1776,
+   "w": 456,
+   "h": 298,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a3716ae5737e49c6b42e223d7f85d324~mv2.png",
+    "w": 600,
+    "h": 392,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 544,
+   "y": 1782,
+   "w": 372,
+   "h": 292,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a93bc780551e431d913f5797ee15bd43~mv2.png",
+    "w": 600,
+    "h": 471,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 2117,
+   "w": 209,
+   "h": 33,
+   "html": "<h3>Problem-solving:</h3>",
+   "plain": "Problem-solving:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 2157,
+   "w": 896,
+   "h": 308,
+   "html": "<p>The problem I encountered this week was that once the pot started moving, the particles went through it.</p>\n\n<p>I adjusted two things. First, I changed the collider type from Animated (Rigid) to Animated (Deforming). I also looked up the documentation to understand the difference. Because Animated (Deforming) rebuilds both the shape and velocity every frame, it takes more time to compute. </p>\n\n<p>Although Animated (Rigid) is normally sufficient for rotating objects, in my case it didn&rsquo;t prevent the particles from passing through. Only Animated (Deforming) worked reliably. I believe this is due to the pot rotating quickly and the particles being very close to the collision surface.</p>\n\n<p>Another thing I changed the Particle Separation and Grid Scale to get better resolution. Particle Separation controls how dense the particles are, and Grid Scale affects how fine the background grid is. Lowering these values helped make the simulation more detailed and stable.</p>",
+   "plain": "The problem I encountered this week was that once the pot started moving, the pa",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 401,
+   "y": 2478,
+   "w": 551,
+   "h": 484,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_09fbb407537f4f28ab2b4422ba59f823~mv2.png",
+    "w": 551,
+    "h": 484,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 29,
+   "y": 2504,
+   "w": 357,
+   "h": 140,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d41c53de4aa84b20bca734e212fd9081~mv2.png",
+    "w": 252,
+    "h": 99,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 2998,
+   "w": 600,
+   "h": 227,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8b07f460b38547feb7c8deb5cfc72a50~mv2.png",
+    "w": 600,
+    "h": 227,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 250,
+   "y": 3251,
+   "w": 480,
+   "h": 112,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_284fe172a9ac4e0a8d5f2f3ed8eda345~mv2.png",
+    "w": 480,
+    "h": 112,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 559,
+   "y": 3413,
+   "w": 400,
+   "h": 348,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_aecd685123be46dea30b34d1e25a8e84~mv2.png",
+    "w": 600,
+    "h": 525,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 3414,
+   "w": 480,
+   "h": 348,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d9ceac20e5994709bae5b5cb863ab8dd~mv2.png",
+    "w": 600,
+    "h": 439,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 730,
+   "y": 3770,
+   "w": 79,
+   "h": 27,
+   "html": "<h3>After</h3>",
+   "plain": "After",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 217,
+   "y": 3781,
+   "w": 79,
+   "h": 27,
+   "html": "<h3>Before</h3>",
+   "plain": "Before",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 3833,
+   "w": 896,
+   "h": 27,
+   "html": "<h3>This is the scene I built based on the reference.</h3>",
+   "plain": "This is the scene I built based on the reference.",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 116,
+   "y": 3887,
+   "w": 774,
+   "h": 434,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_19de2ce5662c445cba8883e89e7b2b13~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 116,
+   "y": 4364,
+   "w": 774,
+   "h": 370,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4674b6d6e41b41748c4200e4d2ace3d3~mv2.png",
+    "w": 600,
+    "h": 286,
+    "alt": "image.png"
+   },
+   "link": null
+  }
+ ]
+}

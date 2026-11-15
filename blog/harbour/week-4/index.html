@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week4 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../blog/harbour/week-4/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/blog/harbour/week-4/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/blog/harbour/week-4/">
+</head>
+<body class="lang-en ">
+<header class="top glass"><a class="logo ripple" href="../../../">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../fx/horse/">Horse</a><a class="ripple" href="../../../fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../animation/overpower/">Overpower</a><a class="ripple" href="../../../animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../modeling/apple/">Apple</a><a class="ripple" href="../../../modeling/osl/">OSL</a><a class="ripple" href="../../../modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../blog/">Blog</a><div class="sub glass"><a class="ripple" href="../../../blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple on" href="../../../blog/harbour/week-4/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/blog/harbour/week-4/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../zh-hans/blog/harbour/week-4/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../blog/harbour/">&#8592; Blog X Harbour</a><div class="row multi"><div class="col" style="flex:13"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/a3c153_6f27754e06844d62a1708b316797fc08_mv2.webp" width="4547" height="3031" alt=""></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week4</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Feb 2</h2></div><div class="col" style="flex:2"><div class="prose reveal"><h3>Bomin Kim (Fx)<br />
+Caleb Stovall (3D/2D)<br />
+Mojie Tang (Fx)<br />
+Sydney Relkin (Comp)<br />
+Yiqi Zheng (Fx)</h3></div></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR - Week 4</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my forth week of the Scad x Harbor blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">Feedback From Mentors:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Vi:</p>
+
+<ul>
+	<li>
+	<p>Shaders on watch? Looks like 2 shaders&mdash;more separation of pieces</p>
+	</li>
+	<li>
+	<p>Shot 2 tracking: lock down layout and camera!</p>
+	</li>
+	<li>
+	<p>Shot 01: unbalanced</p>
+	</li>
+</ul>
+
+<p>Hailey:</p>
+
+<ul>
+	<li>
+	<p>The design changed well on the last shot</p>
+	</li>
+	<li>
+	<p>Shot 04 not composed? - Bubbles are dark and solid</p>
+	</li>
+	<li>
+	<p>Shot 01: Frames need to feel stronger</p>
+	</li>
+</ul>
+
+<p>Kyle: </p>
+
+<ul>
+	<li>
+	<p>Flames should feel like torch</p>
+	</li>
+	<li>
+	<p>Shot 01 and 02: Tracking will be changing; grade down the hands, tighter shot 01</p>
+	</li>
+	<li>
+	<p>Shot 02: remove hands (all CG)&mdash;tighter in on pour</p>
+	</li>
+	<li>
+	<p>Shot 04: lighting improvements, more dramatic</p>
+	</li>
+	<li>
+	<p>Shot 05: Match lighting, metal band less shiny</p>
+	</li>
+	<li>
+	<p>Start grading shots/reframe​</p>
+	</li>
+</ul>
+
+<p>Billy:</p>
+
+<ul>
+	<li>
+	<p>Cut off hands</p>
+	</li>
+	<li>
+	<p>Rolex: read up on the metals</p>
+	</li>
+</ul>
+
+<p>Molly: </p>
+
+<ul>
+	<li>
+	<p>Shot 03: How does it connect Flip 4 and 3?</p>
+	</li>
+	<li>
+	<p>Skip shot 5 or 3</p>
+	</li>
+	<li>
+	<p>Watch YouTube videos of watch parts (naked watchmakers)</p>
+	</li>
+</ul>
+
+<p>​</p></div></div>
+<div class="row one"><h2 class="ttl reveal">Molten Platinum:</h2></div>
+<div class="row one"><div class="prose reveal"><p>After discussion, we decided to change Shot 01 and Shot 02 to full CG. For Shot 02, we decided to show molten platinum being poured into the mold, the shape of which is part of the watch. The next shot will feature water being poured onto the watch, followed by the bubble shot. This change makes the storyline flow more smoothly, and the viewer can better understand the process of creating a watch. Also, we deleted Shot 05, which is about composing a watch.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_f2880dabff064a8b9cf7e03c20100802f000.webp" src="https://video.wixstatic.com/video/f7279b_f2880dabff064a8b9cf7e03c20100802/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Test 1 (Render)</h2></div>
+<div class="row one"><div class="prose reveal"><p>The edges of the fluid are still a bit chunky, and at the beginning, the liquid intermittently breaks apart. I am still working on improving it.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_d837e755ad884712b3a59edb0688fe4cf000.webp" src="https://video.wixstatic.com/video/f7279b_d837e755ad884712b3a59edb0688fe4c/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Test 2 (Flipbook))</h2></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_39a7a27a1bca4221a28885b7b16c2878_mv2.webp" width="600" height="346" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_574b88f8107d499990d0ceca80650203_mv2.webp" width="503" height="396" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:5"><div class="prose reveal"><p>This is the Flipbook of the pouring simulation. The edges look better, and I also added smoke. I adjusted the angle of the pouring cup and reduced the point separation to achieve more detailed pouring.</p></div></div><div class="col" style="flex:5"><div class="prose reveal"><p>I changed the operation to Gaussian, which makes the fluid smoother.</p></div></div></div>
+<div class="row one"><h2 class="ttl reveal">Smoke:</h2></div>
+<div class="row one"><div class="prose reveal"><p>I searched the internet, and according to reality, molten platinum reacts with air and generates steam. Based on this, I selected the surface of the fluid as the smoke source.</p></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_40bd8fe0b7fd4d868396d6acea7e7deef000.webp" src="https://video.wixstatic.com/video/f7279b_40bd8fe0b7fd4d868396d6acea7e7dee/480p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:2"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_205469d1b7ff48bf888270c70f381b4af000.webp" src="https://video.wixstatic.com/video/f7279b_205469d1b7ff48bf888270c70f381b4a/360p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_c37d259aaacd4dc69e01247b76342c35f000.webp" src="https://video.wixstatic.com/video/f7279b_c37d259aaacd4dc69e01247b76342c35/360p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:2"><h2 class="ttl reveal">Reference</h2></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_951fa6efdf794c5cb25a48597a91cab8f000.webp" src="https://video.wixstatic.com/video/f7279b_951fa6efdf794c5cb25a48597a91cab8/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Test 1 (Smoke)</h2></div>
+<div class="row one"><div class="prose reveal"><p>This is what the smoke looks like individually.</p></div></div>
+<div class="row one"><h2 class="ttl reveal">Camera Alteration:</h2></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_db57da60bdfc4ac18e218718d3d4c5e8f000.webp" src="https://video.wixstatic.com/video/f7279b_db57da60bdfc4ac18e218718d3d4c5e8/720p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_d837e755ad884712b3a59edb0688fe4cf000.webp" src="https://video.wixstatic.com/video/f7279b_d837e755ad884712b3a59edb0688fe4c/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Option 1</h2></div><div class="col" style="flex:1"><h2 class="ttl reveal">Option 2</h2></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../blog/harbour/week-3/"><span>&#8592; Week3</span></a><a class="btn ghost ripple next" href="../../../blog/harbour/week-5/"><span>Week5 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../assets/site.js"></script>
+</body></html>

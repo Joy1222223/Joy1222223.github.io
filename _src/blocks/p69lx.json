@@ -1,0 +1,406 @@
+{
+ "meta": {
+  "id": "p69lx",
+  "title": "Week2",
+  "uri": "copy-of-week7-2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week2</h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 2 Plan:</h3>",
+   "plain": "Week 2 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 756,
+   "h": 28,
+   "html": "<ul>\n\t<li>\n\t<h3>Modify the stylized grape hyacinth texture</h3>\n\t</li>\n</ul>",
+   "plain": "Modify the stylized grape hyacinth texture",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 503,
+   "w": 1041,
+   "h": 28,
+   "html": "<ul>\n\t<li>\n\t<h3>Bring the new grape hyacinth animation into Shot3A and Shot3B</h3>\n\t</li>\n</ul>",
+   "plain": "Bring the new grape hyacinth animation into Shot3A and Shot3B",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 203,
+   "y": 594,
+   "w": 573,
+   "h": 46,
+   "html": "<h3>Grape Hyacinth Development</h3>",
+   "plain": "Grape Hyacinth Development",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 14,
+   "y": 664,
+   "w": 966,
+   "h": 56,
+   "html": "<h3>To align with our final deliverable, we need to integrate the AI-stylized output into the texture. I&#39;ll integrate the grape hyacinth texture using Itim&#39;s AI tool.</h3>",
+   "plain": "To align with our final deliverable, we need to integrate the AI-stylized output",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 13,
+   "y": 743,
+   "w": 966,
+   "h": 112,
+   "html": "<h3>According to Yiyi&#39;s research with Itim, we found a way to make the grape hyacinth texture more stylized. We started with a manually painted texture in Substance Painter, and then Itim ran the texture through her tool. I then reassigned the texture to the grape hyacinth and painted over it to enhance its brushstroke feel. Finally, we got the stylized texture.</h3>",
+   "plain": "According to Yiyi&#39;s research with Itim, we found a way to make the grape hya",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 25,
+   "y": 887,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_cdc9a9f1cca44abf9ded9dce574ddfbd~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "GrapeHyacinthOriginal.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 520,
+   "y": 887,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_497e5bf755b24be2b4f250ab484decaa~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "SM_GrapeHyacinth_01_M_Bud_BaseColor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 25,
+   "y": 1345,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b5762321813840888bd608ecb37c04bc~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "GrapeHyacinthLeavesOriginal.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 520,
+   "y": 1345,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_db1ae5fff1224085b358aa7b3c1500ad~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "SM_GrapeHyacinth_01_M_Leaf_BaseColor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 25,
+   "y": 1802,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_76de6310c97242cf8993ae95c71b390f~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "SM_GrapeHyacinth_01_M_Stalk_BaseColor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 520,
+   "y": 1802,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_23f14a75a1e9426f8c3961eb57560a2d~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "SM_GrapeHyacinth_01_M_Stalk_BaseColor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 25,
+   "y": 2268,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_eeced804928740dabdb0288cb3dd2c26~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "SM_GrapeHyacinth_01_M_Stem_BaseColor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 520,
+   "y": 2268,
+   "w": 412,
+   "h": 412,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_964bf1ac995a414cb5468b3ac04249bb~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "SM_GrapeHyacinth_01_M_Stem_BaseColor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 178,
+   "y": 2720,
+   "w": 188,
+   "h": 28,
+   "html": "<h3>Before stylization</h3>",
+   "plain": "Before stylization",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 673,
+   "y": 2720,
+   "w": 161,
+   "h": 28,
+   "html": "<h3>After stylization</h3>",
+   "plain": "After stylization",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 21,
+   "y": 2815,
+   "w": 938,
+   "h": 28,
+   "html": "<h3>This is a comparison between the original textures and the stylized textures.</h3>",
+   "plain": "This is a comparison between the original textures and the stylized textures.",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 32,
+   "y": 2895,
+   "w": 412,
+   "h": 272,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_10e2c69b8ae8434bbde19d68d2d8dc99~mv2.jpg",
+    "w": 600,
+    "h": 397,
+    "alt": "2.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 516,
+   "y": 2895,
+   "w": 412,
+   "h": 272,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f8d5e34cd88d44b59ae440914710f611~mv2.jpg",
+    "w": 600,
+    "h": 397,
+    "alt": "1.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 174,
+   "y": 3183,
+   "w": 169,
+   "h": 28,
+   "html": "<h3>Before stylization</h3>",
+   "plain": "Before stylization",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 658,
+   "y": 3183,
+   "w": 169,
+   "h": 28,
+   "html": "<h3>After stylization</h3>",
+   "plain": "After stylization",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 32,
+   "y": 3274,
+   "w": 895,
+   "h": 504,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_ac08eb7fe6b74da39857f8574b19d54b",
+    "poster": "f7279b_ac08eb7fe6b74da39857f8574b19d54bf000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 3825,
+   "w": 933,
+   "h": 28,
+   "html": "<h3>And this is the first attempt to bring the stylized texture into Unreal and combine it with the VAT animation.</h3>",
+   "plain": "And this is the first attempt to bring the stylized texture into Unreal and comb",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 3874,
+   "w": 363,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a62fa28395d340c8b9be517cd7418e66~mv2.png",
+    "w": 363,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 405,
+   "y": 3999,
+   "w": 538,
+   "h": 317,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_5b059e1971fc464a874b59be47b4f2e0~mv2.jpg",
+    "w": 600,
+    "h": 353,
+    "alt": "1.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 23,
+   "y": 4509,
+   "w": 933,
+   "h": 84,
+   "html": "<h3>The left side shows how the stylized texture looks in Unreal, and the right side shows how it looks in Substance Painter. I feel like Substance Painter has higher fidelity &mdash; the visuals look softer and more natural.</h3>",
+   "plain": "The left side shows how the stylized texture looks in Unreal, and the right side",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 114,
+   "y": 4617,
+   "w": 793,
+   "h": 70,
+   "html": "<h3>Grape Hyacinth Set Dressing</h3>",
+   "plain": "Grape Hyacinth Set Dressing",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 13,
+   "y": 4706,
+   "w": 954,
+   "h": 537,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_169d3efc42b9454e99f576cf46612538",
+    "poster": "f7279b_169d3efc42b9454e99f576cf46612538f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 13,
+   "y": 5268,
+   "w": 954,
+   "h": 56,
+   "html": "<h3>Due to last quarter, I used PCG to scatter the grape hyacinth, so if put new typology, and PCG will make them have random position, so I manually put the position to match the previous one. </h3>",
+   "plain": "Due to last quarter, I used PCG to scatter the grape hyacinth, so if put new typ",
+   "head": true
+  }
+ ]
+}

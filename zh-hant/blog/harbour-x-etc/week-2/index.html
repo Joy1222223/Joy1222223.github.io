@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week2 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour-x-etc/week-2/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour-x-etc/week-2/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour-x-etc/week-2/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour-x-etc/week-2/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/harbour-x-etc/week-2/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/harbour-x-etc/week-2/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/harbour-x-etc/">&#8592; Blog X Harbour X ETC</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_b35d65a47af340599df7c83b93934171_mv2.webp" width="5000" height="3333" alt="橙色雛菊特寫"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week2</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row one"><h2 class="ttl reveal">Yiqi Zheng (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Riley Ho (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Itim Kongsakulvatanasook (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Sofia Mancias (Compositing)</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Jan 14</h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Benji Hopkins (Look Dev)</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR X ETC - Week 2</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my second week of the Scad x Harbor x ETC blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">These are the mentors&#39; feedback from Tuesday&#39;s pitch.</h2></div>
+<div class="row one"><div class="prose reveal"><p>Kyle:</p>
+
+<ul>
+	<li>
+	<p>Be careful with camera movement; avoid being too busy.</p>
+	</li>
+	<li>
+	<p>Slow down pacing&mdash;especially avoid zipping past FX details.</p>
+	</li>
+	<li>
+	<p>The second shot feels dizzy; reduce camera motion.</p>
+	</li>
+	<li>
+	<p>Dial down camera moves by ~15% to give FX time to read.</p>
+	</li>
+	<li>
+	<p>Highlight specific product details in each shot (e.g. inside the printer, not just the top surface).</p>
+	</li>
+	<li>
+	<p>Be very product-accurate; pay close attention to details (e.g. include LED lights if present).</p>
+	</li>
+	<li>
+	<p>Ensure lighting shows painterly colors clearly against a black background.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Hailey:</p>
+
+<ul>
+	<li>
+	<p>Make sure colors pop against the black environment.</p>
+	</li>
+	<li>
+	<p>Color and lighting choices need strong visual contrast.TV reference is strong and appropriate.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Beck：</p>
+
+<ul>
+	<li>
+	<p>Show what the product can do, not just the product itself.</p>
+	</li>
+	<li>
+	<p>Overall pacing feels too fast&mdash;slow down to showcase FX and details.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Molly：</p>
+
+<ul>
+	<li>
+	<p>Camera moves should feel more orchestrated and intentional.</p>
+	</li>
+	<li>
+	<p>Many shots end in similar product positions&mdash;add more variation.</p>
+	</li>
+	<li>
+	<p>Make Shot 2 more macro / close-up.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Stephan：</p>
+
+<ul>
+	<li>
+	<p>FX could act as a light source (emissive FX).</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Billy：</p>
+
+<ul>
+	<li>
+	<p>Decide whether the camera moves or the object moves&mdash;avoid doing both at once.</p>
+	</li>
+	<li>
+	<p>Clearly define the product&rsquo;s visual language first.Once the visual language is defined, it will clarify whether to emphasize camera motion or product details.</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>To-Do List: </p>
+
+<ul>
+	<li>
+	<p>Create a fluid flow path</p>
+	</li>
+	<li>
+	<p>Ensure the curve can guide the fluid to form a smooth flow</p>
+	</li>
+	<li>
+	<p>Adjust the position and speed to match the storyboard (the fluid flows into the holes one by one)</p>
+	</li>
+</ul></div></div>
+<div class="row one"><h2 class="ttl reveal">Fluid Test:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Based on the storyboard, I started with a fluid test. The basic motion is that the six colored flows start off-screen, swirl together, and then go into the holes one by one.</p></div></div>
+<div class="row one"><h2 class="ttl reveal">References:</h2></div>
+<div class="row one"><div class="prose reveal"><p>I don&#39;t exactly found same motion reference, but I found what the fluid should looks like when they go into the holes.</p></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_a88355f8bf96448abb66f0ad07733535f000.webp" src="https://video.wixstatic.com/video/f7279b_a88355f8bf96448abb66f0ad07733535/480p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_b7bafd1eae314e3bb08c468cfb15004df000.webp" src="https://video.wixstatic.com/video/f7279b_b7bafd1eae314e3bb08c468cfb15004d/480p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_77e9ebc559494ef79e3176698f93bcc9f000.webp" src="https://video.wixstatic.com/video/f7279b_77e9ebc559494ef79e3176698f93bcc9/480p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><div class="prose reveal"><p><a href="https://www.istockphoto.com/video/color-lgbtq-liquid-rainbow-wave-flow-on-black-4k-gm1329335587-413101988" target="_blank" rel="noopener">https://www.istockphoto.com/video/color-lgbtq-liquid-rainbow-wave-flow-on-black-4k-gm1329335587-413101988</a></p></div></div><div class="col" style="flex:3"><div class="prose reveal"><p><a href="https://www.istockphoto.com/video/orange-paint-pouring-gm1084647094-291026940" target="_blank" rel="noopener">https://www.istockphoto.com/video/orange-paint-pouring-gm1084647094-291026940</a></p></div></div><div class="col" style="flex:3"><div class="prose reveal"><p><a href="https://www.istockphoto.com/video/green-paint-is-mixed-in-a-jar-before-use-gm1815540350-549627005" target="_blank" rel="noopener">https://www.istockphoto.com/video/green-paint-is-mixed-in-a-jar-before-use-gm1815540350-549627005</a></p></div></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_250bb4d9d21f4cefbb287673f2903f35f000.webp" src="https://video.wixstatic.com/video/f7279b_250bb4d9d21f4cefbb287673f2903f35/480p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_f9b41f9ce30d4811846588159a74c831f000.webp" src="https://video.wixstatic.com/video/f7279b_f9b41f9ce30d4811846588159a74c831/480p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><div class="prose reveal"><p><a href="https://www.istockphoto.com/video/yellow-paint-pours-on-surface-gm994217230-269246966" target="_blank" rel="noopener">https://www.istockphoto.com/video/yellow-paint-pours-on-surface-gm994217230-269246966</a></p></div></div><div class="col" style="flex:3"><div class="prose reveal"><p><a href="https://www.istockphoto.com/video/blue-color-acrylic-paint-falling-gm1322290672-408261828" target="_blank" rel="noopener">https://www.istockphoto.com/video/blue-color-acrylic-paint-falling-gm1322290672-408261828</a></p></div></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_d637dfd2ee00471b85a25af56f4de0f9_mv2.webp" width="600" height="366" alt="image.png"></figure></div><div class="col" style="flex:1"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_7935f3dd0ba64f8e9e1f3b4695885fe3_mv2.webp" width="114" height="231" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><div class="prose reveal"><p>I started by creating curves, which serve as the guidelines for the fluid path. And also divide they as different colors and group. </p></div></div><div class="col" style="flex:3"><div class="prose reveal"><p>Create a sphere as emitter of fluid. And use popnet to generate the particles, which can be converted to fluid</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:6"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_d0e7ff44536342419f28114b89f3bfb0_mv2.webp" width="600" height="213" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_380e41b33c6743bca840ee6e35394aec_mv2.webp" width="403" height="230" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:6"><div class="prose reveal"><p>This VEX code samples the tangent direction from nearby curve points and uses it to drive the particle velocity, allowing the fluid to follow the curve smoothly while maintaining consistent motion speed controlled by a parameter.</p></div></div><div class="col" style="flex:3"><div class="prose reveal"><p>I also implemented top-level controls to manage the global flow speed and to sequence the colored fluid streams into the holes individually.</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_efb41cd1becc4a428abc37ae953f3241_mv2.webp" width="396" height="242" alt="image.png"></figure></div><div class="col" style="flex:3"><div class="prose reveal"><p>Those are flipbooks with two fluid paths.</p></div></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_1b21db2273be4fc487ab1c7b4606886a_mv2.webp" width="381" height="111" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>I also assigned different emitter groups so that each color follows its corresponding color path, and I still need to investigate why the fluid becomes thinner as it approaches the holes.</p></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_19b44ff897554a5cbb86b072c1ea39eef000.webp" src="https://video.wixstatic.com/video/f7279b_19b44ff897554a5cbb86b072c1ea39ee/720p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_21a4435439c443c8a826266a4533d9c4f000.webp" src="https://video.wixstatic.com/video/f7279b_21a4435439c443c8a826266a4533d9c4/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">Problem:</h2></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_d8343ee2a258457487e66e6f44b8f45a_mv2.webp" width="600" height="420" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>I still need to figure out why the fluid becomes thinner as it gets closer to the holes.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>For the next step, I plan to combine a Vellum solver to make the fluid feel more sticky and paint-like, and further polish the motion path.</p></div></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../../zh-hant/blog/harbour-x-etc/week-3/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Refine the fluid path</p>
+	</li>
+	<li>
+	<p>Integrate Vellum for a sticky, paint-like fluid effect</p>
+	</li>
+</ol></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/harbour-x-etc/week-1/"><span>&#8592; Week1</span></a><a class="btn ghost ripple next" href="../../../../zh-hant/blog/harbour-x-etc/week-3/"><span>Week3 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

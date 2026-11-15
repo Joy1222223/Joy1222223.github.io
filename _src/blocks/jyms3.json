@@ -1,0 +1,329 @@
+{
+ "meta": {
+  "id": "jyms3",
+  "title": "Week7",
+  "uri": "副本-week6"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week7</h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Feb 20</h3>",
+   "plain": "Feb 20",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 7</h3>",
+   "plain": "SCAD X HARBOR - Week 7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 757,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my seventh week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my seventh week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 794,
+   "w": 285,
+   "h": 26,
+   "html": "<h3>Feedback From Mentors:</h3>",
+   "plain": "Feedback From Mentors:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 831,
+   "w": 930,
+   "h": 368,
+   "html": "<p>Vi:</p>\n\n<ul>\n\t<li>\n\t<p>Bubbles - more transparency(Now feel like air bubble): reference from Molly-lighting</p>\n\t</li>\n\t<li>\n\t<p>Shot 2/3: see hint of something</p>\n\t</li>\n\t<li>\n\t<p>Shot 1: defocus but not as dark on background - flames more details</p>\n\t</li>\n\t<li>\n\t<p>Shot 6: lighting is flat/more light variation on the case</p>\n\t</li>\n</ul>\n\n<p>Hailey:​</p>\n\n<ul>\n\t<li>Shot 1: bring up light, add vignette</li>\n\t<li>Shot 4: slow down towards end</li>\n\t<li>Shot 6: smoke feels like one layer, flat</li>\n</ul>\n\n<p>Molly:​</p>\n\n<ul>\n\t<li>\n\t<p>see end of the video(reference)-re-evaluate your materials</p>\n\t</li>\n\t<li>\n\t<p>Shot 4-down move so feel like it pulls you down</p>\n\t</li>\n\t<li>\n\t<p>Shot 1: pull out a tiny bit, so more space</p>\n\t</li>\n</ul>\n\n<p>​</p>\n\n<p>​</p>",
+   "plain": "Vi:\n\n\n\t\n\tBubbles - more transparency(Now feel like air bubble): reference from M",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1183,
+   "w": 930,
+   "h": 56,
+   "html": "<p>For shots 2 and 3, I added smoke and dust, but I still need to figure out the blockage between the pot and the smoke. Here is final render version:</p>",
+   "plain": "For shots 2 and 3, I added smoke and dust, but I still need to figure out the bl",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 161,
+   "y": 1256,
+   "w": 668,
+   "h": 374,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3060b5b8f3964fdbac26f5928f59376f",
+    "poster": "f7279b_3060b5b8f3964fdbac26f5928f59376ff000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1664,
+   "w": 930,
+   "h": 89,
+   "html": "<p>The problem occurs when I save to disk as a USD file&mdash;it crashes due to a lack of memory. To address this, I customized the settings by reducing the voxel size and density to optimize memory usage. I also deleted some attributes to make the file lighter and checked the 16-bit option in the Pyro Solver.</p>",
+   "plain": "The problem occurs when I save to disk as a USD file&mdash;it crashes due to a l",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 25,
+   "y": 1753,
+   "w": 600,
+   "h": 461,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_98dea93858984114b0e1a08f7436a9b9~mv2.png",
+    "w": 600,
+    "h": 460,
+    "alt": "Screenshot 2025-02-23 060547.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 2242,
+   "w": 930,
+   "h": 40,
+   "html": "<p>Use OpenCL to improve the simulation speed.</p>",
+   "plain": "Use OpenCL to improve the simulation speed.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 9,
+   "y": 2282,
+   "w": 445,
+   "h": 454,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ada2894cf71d48c2911cd8d263e30846~mv2.png",
+    "w": 587,
+    "h": 600,
+    "alt": "Screenshot 2025-02-23 185515.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 473,
+   "y": 2314,
+   "w": 497,
+   "h": 389,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7668ffbf87b94737b74366081c6fdb95~mv2.png",
+    "w": 570,
+    "h": 445,
+    "alt": "Screenshot 2025-02-23 185217.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 2749,
+   "w": 930,
+   "h": 40,
+   "html": "<p>Attribute Delete：</p>",
+   "plain": "Attribute Delete：",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 2780,
+   "w": 930,
+   "h": 50,
+   "html": "<p>Since my smoke simulation is simply floating smoke in the environment, I can safely delete attributes related to fire, combustion, and extra calculations to optimize performance.</p>",
+   "plain": "Since my smoke simulation is simply floating smoke in the environment, I can saf",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 2838,
+   "w": 98,
+   "h": 40,
+   "html": "<p>Before：</p>",
+   "plain": "Before：",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 472,
+   "y": 2840,
+   "w": 98,
+   "h": 40,
+   "html": "<p>After：</p>",
+   "plain": "After：",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 9,
+   "y": 2869,
+   "w": 449,
+   "h": 303,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_accc4acd8015433582fe166a284b340c~mv2.png",
+    "w": 449,
+    "h": 303,
+    "alt": "Screenshot 2025-02-23 190447.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 506,
+   "y": 2943,
+   "w": 431,
+   "h": 140,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ac502a9625074e1cae6c98e4cf85d884~mv2.png",
+    "w": 431,
+    "h": 140,
+    "alt": "Screenshot 2025-02-23 190939.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 3183,
+   "w": 930,
+   "h": 40,
+   "html": "<p>After deleting those redundant attributes, the computer increases its performance.</p>",
+   "plain": "After deleting those redundant attributes, the computer increases its performanc",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 3212,
+   "w": 98,
+   "h": 40,
+   "html": "<p>Before：</p>",
+   "plain": "Before：",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 479,
+   "y": 3214,
+   "w": 98,
+   "h": 40,
+   "html": "<p>After：</p>",
+   "plain": "After：",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 71,
+   "y": 3284,
+   "w": 216,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ff9bf51450394b5e9425bfd54c274d3b~mv2.png",
+    "w": 216,
+    "h": 600,
+    "alt": "Screenshot 2025-02-23 192720.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 565,
+   "y": 3284,
+   "w": 187,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c8b6f1ffe76a45299ba6d4e948a18cab~mv2.png",
+    "w": 187,
+    "h": 600,
+    "alt": "Screenshot 2025-02-23 192237.png"
+   },
+   "link": null
+  }
+ ]
+}

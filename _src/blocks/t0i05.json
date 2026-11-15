@@ -1,0 +1,409 @@
+{
+ "meta": {
+  "id": "t0i05",
+  "title": "Week5",
+  "uri": "copy-of-week4"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_b35d65a47af340599df7c83b93934171~mv2.jpg",
+    "w": 5000,
+    "h": 3333,
+    "alt": "橙色雛菊特寫"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week5</h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 300,
+   "y": 448,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 515,
+   "w": 144,
+   "h": 26,
+   "html": "<h3>Yiqi Zheng (Fx)</h3>",
+   "plain": "Yiqi Zheng (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 547,
+   "w": 144,
+   "h": 26,
+   "html": "<h3>Riley Ho (Fx)</h3>",
+   "plain": "Riley Ho (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 579,
+   "w": 290,
+   "h": 26,
+   "html": "<h3>Itim Kongsakulvatanasook (Fx)</h3>",
+   "plain": "Itim Kongsakulvatanasook (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 610,
+   "w": 290,
+   "h": 26,
+   "html": "<h3>Sofia Mancias (Compositing)</h3>",
+   "plain": "Sofia Mancias (Compositing)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 642,
+   "w": 290,
+   "h": 26,
+   "html": "<h3>Benji Hopkins (Look Dev)</h3>",
+   "plain": "Benji Hopkins (Look Dev)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -75,
+   "y": 648,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Feb 8</h3>",
+   "plain": "Feb 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 744,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR X ETC - Week 5</h3>",
+   "plain": "SCAD X HARBOR X ETC - Week 5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 819,
+   "w": 593,
+   "h": 26,
+   "html": "<h3>Hello, this is my fifth week of the Scad x Harbor x ETC blog!</h3>",
+   "plain": "Hello, this is my fifth week of the Scad x Harbor x ETC blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 860,
+   "w": 930,
+   "h": 26,
+   "html": "<h3>These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h3>",
+   "plain": "These are the mentors&#39; feedback from Tuesday&#39;s presentation.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 21,
+   "y": 911,
+   "w": 861,
+   "h": 157,
+   "html": "<p>Kyle:</p>\n\n<ul>\n\t<li>\n\t<p>You can cut out in between so the shots aren&rsquo;t too long, but make sure the camera movement makes sense</p>\n\t</li>\n\t<li>\n\t<p>Don&rsquo;t see a connection of the particles and the printed piece for shot 3</p>\n\t</li>\n\t<li>\n\t<p>How could we make the particles feel more liquidly and not solid</p>\n\t</li>\n\t<li>\n\t<p>Particles as a light source will make them feel more part of the scene</p>\n\t</li>\n\t<li>\n\t<p>Shot 4 is the hero shot</p>\n\t</li>\n</ul>",
+   "plain": "Kyle:\n\n\n\t\n\tYou can cut out in between so the shots aren&rsquo;t too long, but ma",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1078,
+   "w": 819,
+   "h": 447,
+   "html": "<p>Beck：</p>\n\n<ul>\n\t<li>\n\t<p>No correlation to the particles and the side view of paint</p>\n\t</li>\n\t<li>\n\t<p>Be aware of substeps and banding for Shot 2</p>\n\t</li>\n\t<li>\n\t<p>Need motion blur, the particles are very defined- distinct 3 dots</p>\n\t</li>\n\t<li>\n\t<p>Particles are too big, and you need more particles</p>\n\t</li>\n\t<li>\n\t<p>Less particles around the center</p>\n\t</li>\n\t<li>\n\t<p>Layer particles and smoke and trails</p>\n\t</li>\n\t<li>\n\t<p>Does not have to be only one sim</p>\n\t</li>\n\t<li>\n\t<p>Layer sims to add complexity</p>\n\t</li>\n\t<li>\n\t<p>Shot 3- Hitting a collider, and not the wood itself, feels like an accident than a creative choice</p>\n\t</li>\n\t<li>\n\t<p>Particles should not stop til they reach painting</p>\n\t</li>\n\t<li>\n\t<p>Pscale variation in particles, older particles start to die</p>\n\t</li>\n\t<li>\n\t<p>You can do so many cool things with particles- do them</p>\n\t</li>\n\t<li>\n\t<p>Maybe go more macro on shot 3</p>\n\t</li>\n\t<li>\n\t<p>Right now particles look like glitter because there is so specular</p>\n\t</li>\n\t<li>\n\t<p>Chalky pigment look is what you need</p>\n\t</li>\n\t<li>\n\t<p>Focus on the one effect</p>\n\t</li>\n</ul>",
+   "plain": "Beck：\n\n\n\t\n\tNo correlation to the particles and the side view of paint\n\t\n\t\n\tBe aw",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1525,
+   "w": 861,
+   "h": 79,
+   "html": "<p>Molly:</p>\n\n<ul>\n\t<li>\n\t<p>The speed of the particles is causing us to lose the transition between the particles forming the painting rather than them blasting out</p>\n\t</li>\n</ul>",
+   "plain": "Molly:\n\n\n\t\n\tThe speed of the particles is causing us to lose the transition betw",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1604,
+   "w": 861,
+   "h": 52,
+   "html": "<p>Stephen:</p>\n\n<ul>\n\t<li>\n\t<p>Like the layout of last shot</p>\n\t</li>\n</ul>",
+   "plain": "Stephen:\n\n\n\t\n\tLike the layout of last shot",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1656,
+   "w": 861,
+   "h": 52,
+   "html": "<p>Hailey:</p>\n\n<ul>\n\t<li>\n\t<p>Combine shot 3 and 4</p>\n\t</li>\n</ul>",
+   "plain": "Hailey:\n\n\n\t\n\tCombine shot 3 and 4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1721,
+   "w": 861,
+   "h": 26,
+   "html": "<p>Billy:</p>",
+   "plain": "Billy:",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 39,
+   "y": 1768,
+   "w": 379,
+   "h": 240,
+   "media": {
+    "kind": "image",
+    "uri": "https://static.parastorage.com/services/santa-resources/dist/editor/imageUploadToStage/loader_600x600.gif",
+    "w": 200,
+    "h": 200,
+    "alt": "loader,gif"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 39,
+   "y": 1768,
+   "w": 432,
+   "h": 273,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_e73461c2262845b69d67d53f5e8a3fca~mv2.png",
+    "w": 600,
+    "h": 380,
+    "alt": "Brainstorming (1).png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 508,
+   "y": 1768,
+   "w": 432,
+   "h": 273,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6b1de8078ad84864965379fb413538d6~mv2.png",
+    "w": 600,
+    "h": 382,
+    "alt": "Brainstorming.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 542,
+   "y": 1768,
+   "w": 379,
+   "h": 240,
+   "media": {
+    "kind": "image",
+    "uri": "https://static.parastorage.com/services/santa-resources/dist/editor/imageUploadToStage/loader_600x600.gif",
+    "w": 200,
+    "h": 200,
+    "alt": "loader,gif"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 2122,
+   "w": 955,
+   "h": 107,
+   "html": "<p>To-Do List: </p>\n\n<ul>\n\t<li>\n\t<p>Refine the particles&rsquo; path and flow shape (Create noise)</p>\n\t</li>\n\t<li>\n\t<p>Add more volume and tin the particles</p>\n\t</li>\n\t<li>\n\t<p>Create more color variants for particles</p>\n\t</li>\n</ul>",
+   "plain": "To-Do List: \n\n\n\t\n\tRefine the particles&rsquo; path and flow shape (Create noise)",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 2297,
+   "w": 955,
+   "h": 98,
+   "html": "<p>For this week, my main goal is to make the particles look more fluid and to add some variants to the flow&#39;s edges. This is the first version of my particle flows. I tried to add more noise to achieve this, but the result was not satisfactory&mdash;they looked too messy. In the second shot, I adjusted the thickness of the final flow and modified the settings for the wind and PopcurveForce, and now it looks more fluid-like.</p>",
+   "plain": "For this week, my main goal is to make the particles look more fluid and to add ",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 9,
+   "y": 2408,
+   "w": 955,
+   "h": 535,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2fc1126344544f42bf343436c7deb130",
+    "poster": "f7279b_2fc1126344544f42bf343436c7deb130f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 2968,
+   "w": 955,
+   "h": 98,
+   "html": "<p>I also tried to make the emitter become varied, so the particles would have more variation. Because I didn&#39;t get a better result, I started to try another method I mentioned before, using pathdeform. The result for a single flow looks better than what I had, but when there are six flows, it looks too noisy. I really need to balance creating variations for the edges while avoiding excessive noise.</p>",
+   "plain": "I also tried to make the emitter become varied, so the particles would have more",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 81,
+   "y": 3072,
+   "w": 272,
+   "h": 393,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f0b720f47197446bb39cad7f854d33bc~mv2.png",
+    "w": 414,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 364,
+   "y": 3072,
+   "w": 240,
+   "h": 393,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c2f16da1a9bc412c94c1a13fbd36864d~mv2.png",
+    "w": 323,
+    "h": 529,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 621,
+   "y": 3072,
+   "w": 249,
+   "h": 393,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3695ef3cd94d4d33955ef3ce90cf4685~mv2.png",
+    "w": 380,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 3493,
+   "w": 600,
+   "h": 318,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_86fe73cafef54e2281d65668691215c1~mv2.png",
+    "w": 600,
+    "h": 318,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3828,
+   "w": 955,
+   "h": 25,
+   "html": "<p>I like this feeling, but unfortunately, the flow movement is not that smooth, and I also have less control over the path.</p>",
+   "plain": "I like this feeling, but unfortunately, the flow movement is not that smooth, an",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 21,
+   "y": 3876,
+   "w": 934,
+   "h": 561,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c71740e3a4aa4ce7acf6201aa6ec3083~mv2.png",
+    "w": 600,
+    "h": 360,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 4456,
+   "w": 955,
+   "h": 74,
+   "html": "<p>When I tried to put more flows here, it started to become messy and noisy. But this way is suitable for the close-up shot and only has a few flows, because you only need to simulate once and apply it to any types of curves, so it&#39;s very convenient and useful.</p>",
+   "plain": "When I tried to put more flows here, it started to become messy and noisy. But t",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 4559,
+   "w": 907,
+   "h": 140,
+   "html": "<p><a href=\"PAGE:qaf7j\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Refine the path (add variants for the particles)</p>\n\t</li>\n\t<li>\n\t<p>Improve the material of the particles</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tRefine the path (add variants for the particles)\n\t\n\t\n\tImprove th",
+   "head": false
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "meta": {
+  "id": "a6hcr",
+  "title": " Week3",
+  "uri": "copy-of-week2-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week3</h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 3 Plan:</h3>",
+   "plain": "Week 3 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 756,
+   "h": 27,
+   "html": "<ul>\n\t<li>\n\t<h3>Import a big amount of particles from Houdini to Unreal</h3>\n\t</li>\n</ul>",
+   "plain": "Import a big amount of particles from Houdini to Unreal",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 171,
+   "y": 541,
+   "w": 583,
+   "h": 69,
+   "html": "<h3>Houdini Niagara Test</h3>",
+   "plain": "Houdini Niagara Test",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 620,
+   "w": 974,
+   "h": 108,
+   "html": "<h3>I also tried to import Gaussian Splat particles into Unreal through Houdini Niagara. The mug didn&#39;t have a large number of particles, so it could be imported into Unreal and reconstructed really well. The first video is the mug rendered in Unreal. Then I found that when importing a large number of particles using the Houdini Niagara plugin, it&#39;s very time-consuming.</h3>",
+   "plain": "I also tried to import Gaussian Splat particles into Unreal through Houdini Niag",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 6,
+   "y": 766,
+   "w": 962,
+   "h": 541,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_99dc64d4b63242f09ab57917e8ecbdc9",
+    "poster": "f7279b_99dc64d4b63242f09ab57917e8ecbdc9f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 1348,
+   "w": 974,
+   "h": 54,
+   "html": "<h3>So I followed a tutorial about how to import a large number of particles using a custom tool that can bake the animation like VAT: VAT. The tutorial link is: https://www.youtube.com/watch?v=Yf4IBYPALdo</h3>",
+   "plain": "So I followed a tutorial about how to import a large number of particles using a",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 1453,
+   "w": 974,
+   "h": 138,
+   "html": "<h3>So basically, Itim passed her Houdini file to me, and I tested it. Following the tutorial, I started by writing VEX.</h3>\n\n<p>This is VEX code running in a Houdini Point Wrangle (Run Over set to Points). Its purpose is to rearrange a point cloud into a regular 2D grid so the point data can be baked into a texture. This is a standard technique for GPU particles, VAT (Vertex Animation Textures), or point caches that get read back in a game engine or shader.</p>",
+   "plain": "So basically, Itim passed her Houdini file to me, and I tested it. Following the",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 6,
+   "y": 1609,
+   "w": 959,
+   "h": 441,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7f53c55177f84879865c63cec5f9b568~mv2.png",
+    "w": 600,
+    "h": 275,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 3,
+   "y": 2072,
+   "w": 974,
+   "h": 27,
+   "html": "<h3>And then, generate the position, color, pscale and velocity textures in COPs. </h3>",
+   "plain": "And then, generate the position, color, pscale and velocity textures in COPs.",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 6,
+   "y": 2111,
+   "w": 959,
+   "h": 399,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7eb6d7c0a00740b193c3a5b4b64a124b~mv2.png",
+    "w": 600,
+    "h": 248,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 6,
+   "y": 2532,
+   "w": 959,
+   "h": 27,
+   "html": "<p>The below showcases how to write the position data into a texture.</p>",
+   "plain": "The below showcases how to write the position data into a texture.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 10,
+   "y": 2576,
+   "w": 959,
+   "h": 525,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1ea301244c144ebb966a857b8c2ec7e3~mv2.png",
+    "w": 600,
+    "h": 328,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 3123,
+   "w": 959,
+   "h": 108,
+   "html": "<p>This step encodes each point&#39;s 3D position as a pixel&#39;s color. Once every pixel has been processed, you get a &#39;position map&#39; &mdash; an image where each pixel&#39;s RGB stores its corresponding point&#39;s XYZ coordinates. A game engine or shader can then sample this image to instantly reconstruct the entire point cloud&#39;s positions on the GPU. Other attributes can be captured in the same way.</p>",
+   "plain": "This step encodes each point&#39;s 3D position as a pixel&#39;s color. Once ever",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 10,
+   "y": 3266,
+   "w": 457,
+   "h": 225,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_41daba03b4de46e383fc4bed6fa811dc~mv2.png",
+    "w": 600,
+    "h": 295,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 488,
+   "y": 3266,
+   "w": 477,
+   "h": 225,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6b3e43594df248a798a2e2e952d0c7ff~mv2.png",
+    "w": 600,
+    "h": 280,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 210,
+   "y": 3502,
+   "w": 57,
+   "h": 27,
+   "html": "<p>Cd</p>",
+   "plain": "Cd",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 698,
+   "y": 3502,
+   "w": 57,
+   "h": 27,
+   "html": "<p>Pscale</p>",
+   "plain": "Pscale",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 3573,
+   "w": 600,
+   "h": 284,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_57581df832a54246b7de347bb270e973~mv2.png",
+    "w": 600,
+    "h": 283,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 447,
+   "y": 3878,
+   "w": 86,
+   "h": 27,
+   "html": "<p>Velocity</p>",
+   "plain": "Velocity",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 10,
+   "y": 3923,
+   "w": 955,
+   "h": 536,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3ab3e35be6c74ee399d0529fea2c0e91",
+    "poster": "f7279b_3ab3e35be6c74ee399d0529fea2c0e91f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 4476,
+   "w": 959,
+   "h": 81,
+   "html": "<p>This is what the final result looks like. Because the particle count keeps changing, each particle&#39;s ID changes too, so when the animation is baked into a texture, it causes flickering. I also discussed with Danci whether it was possible to make it iterate in Unreal, and Danci said it would be hard, so we gave up on this pipeline.</p>",
+   "plain": "This is what the final result looks like. Because the particle count keeps chang",
+   "head": false
+  }
+ ]
+}

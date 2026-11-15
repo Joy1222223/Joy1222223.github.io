@@ -1,0 +1,171 @@
+{
+ "meta": {
+  "id": "z5t5k",
+  "title": "Week7",
+  "uri": "copy-of-week6-2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week7</h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 7 Plan:</h3>",
+   "plain": "Week 7 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 756,
+   "h": 27,
+   "html": "<ul>\n\t<li>\n\t<h3>Add VAT version daffodils in shot4B</h3>\n\t</li>\n</ul>",
+   "plain": "Add VAT version daffodils in shot4B",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 502,
+   "w": 1041,
+   "h": 27,
+   "html": "<ul>\n\t<li>\n\t<h3>Reimport VAT Particles with less frames</h3>\n\t</li>\n</ul>",
+   "plain": "Reimport VAT Particles with less frames",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 142,
+   "y": 580,
+   "w": 695,
+   "h": 69,
+   "html": "<h3>VAT Daffodil Set Dressing</h3>",
+   "plain": "VAT Daffodil Set Dressing",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 33,
+   "y": 658,
+   "w": 913,
+   "h": 519,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_b29d2918d3434a9d8c3734ffdd4f82d0",
+    "poster": "f7279b_b29d2918d3434a9d8c3734ffdd4f82d0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 34,
+   "y": 1255,
+   "w": 913,
+   "h": 519,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_bb778218e9b24b448b66c3cf3e4354b9",
+    "poster": "f7279b_bb778218e9b24b448b66c3cf3e4354b9f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 34,
+   "y": 1810,
+   "w": 923,
+   "h": 27,
+   "html": "<h3>Different camera angles to show different interactions perspectives. The FPS is 40+ in BlackWell. </h3>",
+   "plain": "Different camera angles to show different interactions perspectives. The FPS is ",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 78,
+   "y": 1911,
+   "w": 824,
+   "h": 69,
+   "html": "<h3>Reimport VAT Statue Particles</h3>",
+   "plain": "Reimport VAT Statue Particles",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 34,
+   "y": 1992,
+   "w": 913,
+   "h": 54,
+   "html": "<h3>Due to the reduce the simulation time, so every frame can contain more points, so I change the vex to make the particles divided by 2 according to the ID.</h3>",
+   "plain": "Due to the reduce the simulation time, so every frame can contain more points, s",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 34,
+   "y": 2071,
+   "w": 600,
+   "h": 151,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_56d5b67308ba416ebcbf113bdaf1076e~mv2.png",
+    "w": 600,
+    "h": 151,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 34,
+   "y": 2241,
+   "w": 868,
+   "h": 108,
+   "html": "<h3>And the original length for the particle is 300 frames. Cuz Danci mentioned when she did the interaction, it can go back to frame 1and frame 300, but after it returns, it suddenly jumps to a middle frame. It has proper start and end, but the middle just snaps instantly. So right now I reduced the frame to 150 to hopefully it can work. </h3>",
+   "plain": "And the original length for the particle is 300 frames. Cuz Danci mentioned when",
+   "head": true
+  }
+ ]
+}

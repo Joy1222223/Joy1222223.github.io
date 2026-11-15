@@ -1,0 +1,419 @@
+{
+ "meta": {
+  "id": "cxa97",
+  "title": "Week4",
+  "uri": "copy-of-week3-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "96d373bf920e4684b177a206dea4190c.jpg",
+    "w": 1980,
+    "h": 1200,
+    "alt": "雪紅杉林"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week4</h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 249,
+   "y": 432,
+   "w": 480,
+   "h": 85,
+   "html": "<h3>Opacity Map</h3>",
+   "plain": "Opacity Map",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 527,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Feb 1</h3>",
+   "plain": "Feb 1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 57,
+   "y": 602,
+   "w": 350,
+   "h": 42,
+   "html": "<h3>HAVE COMPLETED:</h3>",
+   "plain": "HAVE COMPLETED:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 625,
+   "y": 602,
+   "w": 224,
+   "h": 42,
+   "html": "<h3>TO-DO LIST:</h3>",
+   "plain": "TO-DO LIST:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 660,
+   "w": 403,
+   "h": 105,
+   "html": "<ul>\n\t<li>\n\t<p>Tested USD variants on a single plant asset</p>\n\t</li>\n\t<li>\n\t<p>Authored and layered the variants in Solaris</p>\n\t</li>\n\t<li>\n\t<p>Imported the USD into Unreal and verified the workflow</p>\n\t</li>\n</ul>",
+   "plain": "Tested USD variants on a single plant asset\n\t\n\t\n\tAuthored and layered the varian",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 530,
+   "y": 660,
+   "w": 395,
+   "h": 131,
+   "html": "<ul>\n\t<li>\n\t<p>Figured out USD variants with multiple materials</p>\n\t</li>\n\t<li>\n\t<p>Set up the USD layout in Houdini, integrated the variants, and used them in Unreal</p>\n\t</li>\n\t<li>\n\t<p>Try Opacity Mask</p>\n\t</li>\n</ul>",
+   "plain": "Figured out USD variants with multiple materials\n\t\n\t\n\tSet up the USD layout in H",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 901,
+   "w": 945,
+   "h": 52,
+   "html": "<p>In order to get cheaper leaves, I used Yichen&#39;s fern and try to assign the opacity map on it. We can use Quickuvshade visulize the texture in Sop Level.</p>",
+   "plain": "In order to get cheaper leaves, I used Yichen&#39;s fern and try to assign the o",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 24,
+   "y": 985,
+   "w": 582,
+   "h": 78,
+   "html": "<h3>Problem-solving</h3>",
+   "plain": "Problem-solving",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 16,
+   "y": 1081,
+   "w": 303,
+   "h": 397,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_93f7da942d0541b396c4ad7702b8a21d~mv2.png",
+    "w": 460,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 326,
+   "y": 1084,
+   "w": 643,
+   "h": 81,
+   "html": "<p>Problem: I started with a grid and used it to replace the original leaves, but I ran into the issue shown in the image. I suspect the repeated pattern is caused by the grid&rsquo;s UV projection.</p>",
+   "plain": "Problem: I started with a grid and used it to replace the original leaves, but I",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 335,
+   "y": 1173,
+   "w": 133,
+   "h": 306,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ff4539cba2a446fa89e06c54d5120cbf~mv2.png",
+    "w": 239,
+    "h": 552,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 486,
+   "y": 1173,
+   "w": 483,
+   "h": 54,
+   "html": "<p>Solution: So I used UV Flatten instead of UV Project, and the result looks good now.</p>",
+   "plain": "Solution: So I used UV Flatten instead of UV Project, and the result looks good ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 521,
+   "y": 1247,
+   "w": 169,
+   "h": 232,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9016f16e51f1489cbde68563f4b62275~mv2.png",
+    "w": 436,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 744,
+   "y": 1247,
+   "w": 164,
+   "h": 232,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9f63f1b11aa1429d86c7cf2f4af359ca~mv2.png",
+    "w": 422,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1549,
+   "w": 945,
+   "h": 26,
+   "html": "<p>I also added a keyframe animation to make it look like it&rsquo;s swaying in the wind.</p>",
+   "plain": "I also added a keyframe animation to make it look like it&rsquo;s swaying in the",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 17,
+   "y": 1584,
+   "w": 953,
+   "h": 536,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_42588d4534974b86b79a9f2c82bd9d96",
+    "poster": "f7279b_42588d4534974b86b79a9f2c82bd9d96f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 2137,
+   "w": 374,
+   "h": 483,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6e9a0f4b572e41e0be290618ba279705~mv2.png",
+    "w": 463,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 422,
+   "y": 2137,
+   "w": 537,
+   "h": 483,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6d652576b1454c86a6e4836946b037e3~mv2.png",
+    "w": 600,
+    "h": 538,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 2659,
+   "w": 374,
+   "h": 379,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fdf57b63abb8458e93e38319bf5de247~mv2.png",
+    "w": 590,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 158,
+   "y": 3044,
+   "w": 94,
+   "h": 26,
+   "html": "<p>Render</p>",
+   "plain": "Render",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 3082,
+   "w": 945,
+   "h": 52,
+   "html": "<p>After that, I brought it into Unreal and used Component Builder, but it was not successful. I also imported it back into Houdini as a reference, but that was not very successful either.</p>",
+   "plain": "After that, I brought it into Unreal and used Component Builder, but it was not ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 3151,
+   "w": 374,
+   "h": 349,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3f671ad0455a4c0d9dc27faabee0c613~mv2.png",
+    "w": 509,
+    "h": 476,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 519,
+   "y": 3151,
+   "w": 321,
+   "h": 349,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a4486861ef0748b2831119c4baf33f3c~mv2.png",
+    "w": 551,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 3550,
+   "w": 374,
+   "h": 379,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6204a85dc6404e67b92204865c92a6f5~mv2.png",
+    "w": 592,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 422,
+   "y": 3550,
+   "w": 511,
+   "h": 52,
+   "html": "<p>No matter whether the geometry is static or animated, it still has the same problem.</p>",
+   "plain": "No matter whether the geometry is static or animated, it still has the same prob",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 424,
+   "y": 3614,
+   "w": 511,
+   "h": 52,
+   "html": "<p>I also tried a single leaf without animation, and the result is still not good, even though it looks normal in Houdini.</p>",
+   "plain": "I also tried a single leaf without animation, and the result is still not good, ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 422,
+   "y": 3722,
+   "w": 233,
+   "h": 206,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d7de4449f5684f93ae3987fc17936289~mv2.png",
+    "w": 600,
+    "h": 527,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 669,
+   "y": 3722,
+   "w": 287,
+   "h": 206,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1e63090b01ca4c11a98c46fd36195674~mv2.png",
+    "w": 420,
+    "h": 301,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 3950,
+   "w": 207,
+   "h": 319,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_20cf140e12be4a7a8b55ed9049b60053~mv2.png",
+    "w": 207,
+    "h": 319,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 245,
+   "y": 3966,
+   "w": 511,
+   "h": 52,
+   "html": "<p>Even when I build the grid directly inside the component, it still has a problem when I import it into Unreal.</p>",
+   "plain": "Even when I build the grid directly inside the component, it still has a problem",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 4361,
+   "w": 907,
+   "h": 140,
+   "html": "<p><a href=\"PAGE:giwsr\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Use VAT and integrate with Opacity Map</p>\n\t</li>\n\t<li>\n\t<p>Work on USD Variants and also integrate with Opacity Map</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tUse VAT and integrate with Opacity Map\n\t\n\t\n\tWork on USD Variants",
+   "head": false
+  }
+ ]
+}

@@ -1,0 +1,671 @@
+{
+ "meta": {
+  "id": "frwcu",
+  "title": "Week10",
+  "uri": "副本-week9"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_db8f5ddb085b41fda169efb854f9b69e~mv2.jpg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "Wavy Abstract Background "
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week10</h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 419,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>VSFX 728 - Week 10</h3>",
+   "plain": "VSFX 728 - Week 10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 493,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my final project of the VSFX 728&#39;s blog!</h3>",
+   "plain": "Hello, this is my final project of the VSFX 728&#39;s blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -91,
+   "y": 529,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>May 20</h3>",
+   "plain": "May 20",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 573,
+   "w": 896,
+   "h": 191,
+   "html": "<h3>Things To Do: <br />\n1. Continue testing the pouring FX to match the reference better (I want to make some tomato sauce stick to the pot)</h3>\n\n<h3>2. Add steam to the tomato sauce in the bowl</h3>\n\n<h3>3. Improve the look development, especially for the tomato sauce&mdash;make it appear juicier and more realistic</h3>",
+   "plain": "Things To Do: \n1. Continue testing the pouring FX to match the reference better ",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 376,
+   "y": 799,
+   "w": 248,
+   "h": 34,
+   "html": "<h3>Final Result (May 28)</h3>",
+   "plain": "Final Result (May 28)",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 875,
+   "w": 979,
+   "h": 549,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_97b0a628437c43e190dd0a035925fdc4",
+    "poster": "f7279b_97b0a628437c43e190dd0a035925fdc4f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 376,
+   "y": 1591,
+   "w": 248,
+   "h": 34,
+   "html": "<h3>Breakdown (May 28)</h3>",
+   "plain": "Breakdown (May 28)",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 1667,
+   "w": 979,
+   "h": 549,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_a319ce73bc604bc0a2aa02c3e311d6b5",
+    "poster": "f7279b_a319ce73bc604bc0a2aa02c3e311d6b5f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 398,
+   "y": 2394,
+   "w": 183,
+   "h": 34,
+   "html": "<h3>Final Test (FX)</h3>",
+   "plain": "Final Test (FX)",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 75,
+   "y": 2486,
+   "w": 830,
+   "h": 467,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_75439eaaf7ba44b3897a35699d7d08db",
+    "poster": "f7279b_75439eaaf7ba44b3897a35699d7d08dbf000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -414,
+   "y": 3097,
+   "w": 310,
+   "h": 34,
+   "html": "<p>Pouring Test</p>",
+   "plain": "Pouring Test",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": -415,
+   "y": 3148,
+   "w": 830,
+   "h": 467,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_dc35e30f26fc403f9c53ab37462e975d",
+    "poster": "f7279b_dc35e30f26fc403f9c53ab37462e975df000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 566,
+   "y": 3148,
+   "w": 830,
+   "h": 467,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d2885a3e11744bc895bf36443911e34f",
+    "poster": "f7279b_d2885a3e11744bc895bf36443911e34ff000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -415,
+   "y": 3625,
+   "w": 217,
+   "h": 75,
+   "html": "<p>MPMCollider (Pot):</p>\n\n<p>Friction: 0.2</p>\n\n<p>Sticky: 0.05</p>",
+   "plain": "MPMCollider (Pot):\n\nFriction: 0.2\n\nSticky: 0.05",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 565,
+   "y": 3642,
+   "w": 209,
+   "h": 75,
+   "html": "<p>MPMCollider (Pot):</p>\n\n<p>Friction: 0.3</p>\n\n<p>Sticky: 0.1</p>",
+   "plain": "MPMCollider (Pot):\n\nFriction: 0.3\n\nSticky: 0.1",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 564,
+   "y": 3761,
+   "w": 830,
+   "h": 467,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_e9a74940d99343bcb52635a8fa6829bb",
+    "poster": "f7279b_e9a74940d99343bcb52635a8fa6829bbf000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": -414,
+   "y": 3762,
+   "w": 830,
+   "h": 467,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_1083e8ce79024d479109baf61aea5634",
+    "poster": "f7279b_1083e8ce79024d479109baf61aea5634f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -414,
+   "y": 4251,
+   "w": 319,
+   "h": 151,
+   "html": "<p>MPMCollider (Pot):</p>\n\n<p>Friction: 0.5</p>\n\n<p>Sticky: 0.5</p>\n\n<p>MPMCollider (Spatulas):</p>\n\n<p>Friction: 2</p>\n\n<p>Sticky: 1</p>",
+   "plain": "MPMCollider (Pot):\n\nFriction: 0.5\n\nSticky: 0.5\n\nMPMCollider (Spatulas):\n\nFrictio",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 564,
+   "y": 4251,
+   "w": 319,
+   "h": 151,
+   "html": "<p>MPMCollider (Pot):</p>\n\n<p>Friction: 0.3</p>\n\n<p>Sticky: 0.5</p>\n\n<p>MPMCollider (Spatulas):</p>\n\n<p>Friction: 0.2</p>\n\n<p>Sticky: 0.05</p>",
+   "plain": "MPMCollider (Pot):\n\nFriction: 0.3\n\nSticky: 0.5\n\nMPMCollider (Spatulas):\n\nFrictio",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 4426,
+   "w": 534,
+   "h": 64,
+   "html": "<h3>Look Development<br />\n </h3>",
+   "plain": "Look Development",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 4473,
+   "w": 962,
+   "h": 26,
+   "html": "<h3>I used Substance Painter to create the texture for the bowl so that it matches the reference.</h3>",
+   "plain": "I used Substance Painter to create the texture for the bowl so that it matches t",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 32,
+   "y": 4520,
+   "w": 366,
+   "h": 353,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1ef8cf1890804543ab7508bcf0358a33~mv2.png",
+    "w": 485,
+    "h": 461,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 435,
+   "y": 4520,
+   "w": 516,
+   "h": 353,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0277e3902bf843f6b94224d490ea912b~mv2.png",
+    "w": 600,
+    "h": 409,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 129,
+   "y": 4885,
+   "w": 172,
+   "h": 51,
+   "html": "<h3>Substance Painter<br />\n </h3>",
+   "plain": "Substance Painter",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 607,
+   "y": 4885,
+   "w": 172,
+   "h": 51,
+   "html": "<h3>Test In Houdini<br />\n </h3>",
+   "plain": "Test In Houdini",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 22,
+   "y": 4953,
+   "w": 375,
+   "h": 208,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_76596f2d050b4369a4ca5f9fa3d45604~mv2.png",
+    "w": 600,
+    "h": 335,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 430,
+   "y": 4953,
+   "w": 526,
+   "h": 208,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_74b043dedcf04d72b125d8a2800e2cf2~mv2.png",
+    "w": 600,
+    "h": 234,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 607,
+   "y": 5195,
+   "w": 172,
+   "h": 51,
+   "html": "<h3>Test In Houdini<br />\n </h3>",
+   "plain": "Test In Houdini",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 147,
+   "y": 5196,
+   "w": 172,
+   "h": 51,
+   "html": "<h3>Substance Painter<br />\n </h3>",
+   "plain": "Substance Painter",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 60,
+   "y": 5257,
+   "w": 841,
+   "h": 499,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fea1288fc27845459b5d422e3da05ccd~mv2.png",
+    "w": 600,
+    "h": 354,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 22,
+   "y": 5784,
+   "w": 851,
+   "h": 26,
+   "html": "<h3>This is the scene with look development completed, except for the tomato sauce.</h3>",
+   "plain": "This is the scene with look development completed, except for the tomato sauce.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -76,
+   "y": 5848,
+   "w": 80,
+   "h": 26,
+   "html": "<h3>May 25</h3>",
+   "plain": "May 25",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 5900,
+   "w": 222,
+   "h": 34,
+   "html": "<h3>Tomato Sauce</h3>",
+   "plain": "Tomato Sauce",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 5947,
+   "w": 851,
+   "h": 26,
+   "html": "<h3>I added garlic to the tomato sauce texture and adjusted the color to match the reference.</h3>",
+   "plain": "I added garlic to the tomato sauce texture and adjusted the color to match the r",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 27,
+   "y": 5995,
+   "w": 449,
+   "h": 452,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0481036b595944879c4f065a692bcf95~mv2.png",
+    "w": 587,
+    "h": 590,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 508,
+   "y": 5995,
+   "w": 390,
+   "h": 452,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6cb885d8cee14a8181075eb72d519764~mv2.png",
+    "w": 451,
+    "h": 523,
+    "alt": "Screenshot 2025-05-25 234052.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 6473,
+   "w": 928,
+   "h": 520,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_639265c54c2f4a1990b25db7bce79810~mv2.png",
+    "w": 600,
+    "h": 336,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 22,
+   "y": 7032,
+   "w": 222,
+   "h": 34,
+   "html": "<h3>Add Steam</h3>",
+   "plain": "Add Steam",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 7072,
+   "w": 942,
+   "h": 49,
+   "html": "<h3>I selected primitives from the tomato sauce surface and created a group based on their normals. Then, I used that group as the source to generate steam with Pyro.</h3>",
+   "plain": "I selected primitives from the tomato sauce surface and created a group based on",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 43,
+   "y": 7144,
+   "w": 354,
+   "h": 400,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_946fcfccdc77411895e9416baf729b4f~mv2.png",
+    "w": 530,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 517,
+   "y": 7211,
+   "w": 405,
+   "h": 266,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ab5fc622f463448b9b1fa2ed44e184f0~mv2.png",
+    "w": 405,
+    "h": 266,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 43,
+   "y": 7588,
+   "w": 386,
+   "h": 400,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_52094b525ba24deda587efe78dbb5ee2~mv2.png",
+    "w": 583,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 508,
+   "y": 7670,
+   "w": 422,
+   "h": 270,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_5ec9a2746f5f40bca57b1574aff1c7ea~mv2.png",
+    "w": 422,
+    "h": 270,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": -98,
+   "y": 8016,
+   "w": 80,
+   "h": 26,
+   "html": "<h3>May 28</h3>",
+   "plain": "May 28",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 1,
+   "y": 8076,
+   "w": 942,
+   "h": 49,
+   "html": "<h3>I ended up using Substance Painter to create the tomato sauce texture, as it gave me greater control over the result.</h3>",
+   "plain": "I ended up using Substance Painter to create the tomato sauce texture, as it gav",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": -18,
+   "y": 8150,
+   "w": 374,
+   "h": 455,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7cca23be0c28416eb3e8e123190f998e~mv2.png",
+    "w": 493,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 361,
+   "y": 8209,
+   "w": 600,
+   "h": 337,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c0137bf7353f4edfbdcb49eb12a049da~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "textureallcolor.268.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 41,
+   "y": 8646,
+   "w": 861,
+   "h": 488,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f1d8110bde214e89b897a0241e56d120~mv2.png",
+    "w": 600,
+    "h": 340,
+    "alt": "textureallcolorblur.268.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 9165,
+   "w": 896,
+   "h": 86,
+   "html": "<h3>Plans For Improvement (During Summer Vocation): <br />\n1. Refine the material for the tomato sauce <br />\n2. Re-simulate the tomato sauce to make it look like a mix of oil and sauce.</h3>",
+   "plain": "Plans For Improvement (During Summer Vocation): \n1. Refine the material for the ",
+   "head": true
+  }
+ ]
+}

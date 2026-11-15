@@ -1,0 +1,92 @@
+{
+ "meta": {
+  "id": "pv1yq",
+  "title": "About",
+  "uri": "about"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": -790,
+   "y": -60,
+   "w": 980,
+   "h": 875,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_f6bec34858fa456ab712aa4018880375~mv2.jpg",
+    "w": 4749,
+    "h": 3127,
+    "alt": "Modern Architecture"
+   }
+  },
+  {
+   "t": "text",
+   "x": -573,
+   "y": 247,
+   "w": 763,
+   "h": 117,
+   "html": "<h3>YIQI ZHENG</h3>",
+   "plain": "YIQI ZHENG",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 846,
+   "y": 658,
+   "w": 312,
+   "h": 362,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b6f3fcbd64524a479c73ba0f929b7c9f~mv2.jpg",
+    "w": 1536,
+    "h": 2048,
+    "alt": "微信图片_20250105203815.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 32,
+   "y": 760,
+   "w": 800,
+   "h": 41,
+   "html": "<h3>ABOUT ME</h3>",
+   "plain": "ABOUT ME",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 175,
+   "y": 829,
+   "w": 557,
+   "h": 144,
+   "html": "<p>My name is Yiqi Zheng, and you can call me Joy. I think being a 3-D artist is an exciting career path. As a Technical Artist and CG Generalist, I&#39;ll have the opportunity to build pipelines, create stunning visuals, and bring creative ideas to life. With my passion and dedication, I&#39;m confident I&rsquo;ll excel in this field.</p>",
+   "plain": "My name is Yiqi Zheng, and you can call me Joy. I think being a 3-D artist is an",
+   "head": false
+  },
+  {
+   "t": "button",
+   "x": 106,
+   "y": 1006,
+   "w": 142,
+   "h": 42,
+   "label": "Download",
+   "link": "https://static.wixstatic.com/ugd/archives/f7279b_c2201bc13af34617b232d9acd9b7846e.zip"
+  },
+  {
+   "t": "image",
+   "x": 181,
+   "y": 1077,
+   "w": 562,
+   "h": 728,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0bee72af285940dfac49dab67b4933fa~mv2.png",
+    "w": 463,
+    "h": 600,
+    "alt": "Resume.png"
+   },
+   "link": null
+  }
+ ]
+}

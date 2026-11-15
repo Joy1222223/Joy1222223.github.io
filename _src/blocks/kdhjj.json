@@ -1,0 +1,639 @@
+{
+ "meta": {
+  "id": "kdhjj",
+  "title": "Week9",
+  "uri": "副本-week8"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_db8f5ddb085b41fda169efb854f9b69e~mv2.jpg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "Wavy Abstract Background "
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week9</h3>",
+   "plain": "Week9",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 419,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>VSFX 728 - Week 9</h3>",
+   "plain": "VSFX 728 - Week 9",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 493,
+   "w": 534,
+   "h": 28,
+   "html": "<h3>Hello, this is my final project of the VSFX 728&#39;s blog!</h3>",
+   "plain": "Hello, this is my final project of the VSFX 728&#39;s blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -91,
+   "y": 531,
+   "w": 74,
+   "h": 28,
+   "html": "<h3>May 15</h3>",
+   "plain": "May 15",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 577,
+   "w": 896,
+   "h": 169,
+   "html": "<h3>Things To Do: <br />\n1. Figure out why the File Cache failed<br />\n2. Change the current emission source<br />\n3. Add additional emission sources (tomato chunks and oil on the surface)<br />\n4. Test textures &ndash; focus on the sauce</h3>",
+   "plain": "Things To Do: \n1. Figure out why the File Cache failed\n2. Change the current emi",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 435,
+   "y": 755,
+   "w": 183,
+   "h": 34,
+   "html": "<h3>Final Test (FX)</h3>",
+   "plain": "Final Test (FX)",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 83,
+   "y": 805,
+   "w": 823,
+   "h": 463,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_43e374e03f38448a88e81d4f2238a8c7",
+    "poster": "f7279b_43e374e03f38448a88e81d4f2238a8c7f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 1291,
+   "w": 961,
+   "h": 71,
+   "html": "<p>I&rsquo;m not very satisfied with the simulation because the reference video looks chunkier and more segmented when the sauce falls, while mine feels too smooth and fluid. So, I&rsquo;d like to add more tomato chunks in next week&rsquo;s simulation to better match that look.</p>",
+   "plain": "I&rsquo;m not very satisfied with the simulation because the reference video loo",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1401,
+   "w": 310,
+   "h": 34,
+   "html": "<p>FileCache fail</p>",
+   "plain": "FileCache fail",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 1447,
+   "w": 961,
+   "h": 48,
+   "html": "<p>I couldn&rsquo;t file cache stably using the RTX 4090, so I changed the OpenGL mode to switch from CPU to GPU. However, it was quite slow &mdash; simulating 500 frames took approximately 6 hours.</p>",
+   "plain": "I couldn&rsquo;t file cache stably using the RTX 4090, so I changed the OpenGL m",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 1521,
+   "w": 457,
+   "h": 119,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b2faace962084754a2a3dabc5c19c317~mv2.png",
+    "w": 457,
+    "h": 119,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 485,
+   "y": 1521,
+   "w": 482,
+   "h": 117,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f558de7b11014fde8bcd000bf6e40d56~mv2.png",
+    "w": 482,
+    "h": 117,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 1670,
+   "w": 310,
+   "h": 34,
+   "html": "<p>Change Emission source </p>",
+   "plain": "Change Emission source",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1713,
+   "w": 961,
+   "h": 71,
+   "html": "<p>I got inspiration from the official example MPMWaterGlass and changed the emission source. The previous setup required more time for the sphere to fall and collide with the pot, but now I clip geometry from the pot and use PolyFill instead, which saves some time.</p>",
+   "plain": "I got inspiration from the official example MPMWaterGlass and changed the emissi",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 641,
+   "y": 1796,
+   "w": 326,
+   "h": 145,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c7e22ad715b549c6b63a1a5d84910436~mv2.png",
+    "w": 600,
+    "h": 277,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 19,
+   "y": 1797,
+   "w": 259,
+   "h": 145,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0dced90042364350adeb64a964316f4d~mv2.png",
+    "w": 600,
+    "h": 336,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 325,
+   "y": 1797,
+   "w": 272,
+   "h": 145,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_91c0f0652c10470d89c4a88d6aa1f157~mv2.png",
+    "w": 600,
+    "h": 314,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1972,
+   "w": 310,
+   "h": 34,
+   "html": "<p>Add other source</p>",
+   "plain": "Add other source",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2006,
+   "w": 961,
+   "h": 48,
+   "html": "<p>I added two more layers to the tomato sauce. The first is tomato chunks, which make the fluid look chunkier, and I also noticed a thin layer of oil on the surface of the sauce.</p>",
+   "plain": "I added two more layers to the tomato sauce. The first is tomato chunks, which m",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 145,
+   "y": 2075,
+   "w": 689,
+   "h": 388,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_af2be1e3362943a58dcea5d7f27d5bba",
+    "poster": "f7279b_af2be1e3362943a58dcea5d7f27d5bbaf000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 414,
+   "y": 2481,
+   "w": 151,
+   "h": 30,
+   "html": "<p>Tomato Chunk</p>",
+   "plain": "Tomato Chunk",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 676,
+   "y": 2489,
+   "w": 272,
+   "h": 327,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_731b033953884fc19f24f2f6a41d975b~mv2.png",
+    "w": 356,
+    "h": 431,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 33,
+   "y": 2509,
+   "w": 229,
+   "h": 220,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_35e54a31880c4391a60bdb47b6d3d9c2~mv2.png",
+    "w": 550,
+    "h": 529,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 282,
+   "y": 2544,
+   "w": 382,
+   "h": 150,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c86a25d4177b4999b22dc12a6a7d4c6b~mv2.png",
+    "w": 382,
+    "h": 150,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2831,
+   "w": 961,
+   "h": 48,
+   "html": "<p>I chopped a part of the pot to use as the emission source. Then I created a single sphere to represent a tomato chunk, copied it to points, and used a wrangle node to give the chunks varying sizes and direction.</p>",
+   "plain": "I chopped a part of the pot to use as the emission source. Then I created a sing",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 276,
+   "y": 2951,
+   "w": 407,
+   "h": 173,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7b2858773f184537bcbcbc55cfe77d2c~mv2.png",
+    "w": 407,
+    "h": 173,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 9,
+   "y": 3153,
+   "w": 961,
+   "h": 24,
+   "html": "<p>To assign different materials to the three emission sources, I separated them based on their names.</p>",
+   "plain": "To assign different materials to the three emission sources, I separated them ba",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 145,
+   "y": 3233,
+   "w": 689,
+   "h": 388,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d7ee6859b87442fa95e45baeee28cb78",
+    "poster": "f7279b_d7ee6859b87442fa95e45baeee28cb78f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 465,
+   "y": 3639,
+   "w": 47,
+   "h": 30,
+   "html": "<p>Oil</p>",
+   "plain": "Oil",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 3711,
+   "w": 961,
+   "h": 48,
+   "html": "<p>The oil layer looks too sticky and heavy, so I plan to lower its density and reduce the emission source for a more realistic result.</p>",
+   "plain": "The oil layer looks too sticky and heavy, so I plan to lower its density and red",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 3859,
+   "w": 503,
+   "h": 34,
+   "html": "<p>Test textures (tomato sauce)</p>",
+   "plain": "Test textures (tomato sauce)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 3904,
+   "w": 961,
+   "h": 48,
+   "html": "<p>I used Substance Designer to create a procedural texture and also added green onion on the surface. If time allows, I&rsquo;d also be willing to add onion to make the texture look more realistic.</p>",
+   "plain": "I used Substance Designer to create a procedural texture and also added green on",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 251,
+   "y": 3963,
+   "w": 518,
+   "h": 506,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_915ca81b452c4fea9e6a3083fcbef945~mv2.png",
+    "w": 596,
+    "h": 582,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 4445,
+   "w": 782,
+   "h": 24,
+   "html": "<p>This is the tutorial I used to learn how to create the texture.</p>",
+   "plain": "This is the tutorial I used to learn how to create the texture.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 4478,
+   "w": 782,
+   "h": 24,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=i_q_JaCg7hk&amp;list=PLQe0yuLjJ2hXJ6kwYMRKMF4LUsrGIv4Kt\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=i_q_JaCg7hk&amp;list=PLQe0yuLjJ2hXJ6kwYMRKMF4LUsrGIv4Kt</a></p>",
+   "plain": "https://www.youtube.com/watch?v=i_q_JaCg7hk&amp;list=PLQe0yuLjJ2hXJ6kwYMRKMF4LUs",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 4524,
+   "w": 782,
+   "h": 26,
+   "html": "<p>These are textures that I generated procedurally. （Base Color, Roughness, AO, Normal, Height)</p>",
+   "plain": "These are textures that I generated procedurally. （Base Color, Roughness, AO, No",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 518,
+   "y": 4582,
+   "w": 473,
+   "h": 378,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b650c23e469f493c86d815fffc68dc3a~mv2.png",
+    "w": 600,
+    "h": 479,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 11,
+   "y": 4648,
+   "w": 498,
+   "h": 226,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_92311f40d0a14d85a1d1812e6572caf8~mv2.png",
+    "w": 600,
+    "h": 271,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 4986,
+   "w": 237,
+   "h": 237,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_beda89e5988449f0ac7fb72b68b6a5a9~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "Substance_graph_basecolor.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 377,
+   "y": 4986,
+   "w": 237,
+   "h": 237,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f5f7f03a147d4bb9b76e4fd0eee7e5fe~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "Substance_graph_roughness.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 747,
+   "y": 4986,
+   "w": 237,
+   "h": 237,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7a2bf5746ac34ae9aeede0ef2fc04026~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "Substance_graph_Ao.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 5243,
+   "w": 237,
+   "h": 237,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_5dfa310e111a430ebbe71030b8d9abf6~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "Substance_graph_normal.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 377,
+   "y": 5243,
+   "w": 237,
+   "h": 237,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_416317dc27a24a229a7c92ea80059628~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "Substance_graph_height.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 5506,
+   "w": 967,
+   "h": 48,
+   "html": "<p>This is where I assigned the texture and tested it in Houdini. Right now, it looks somewhat plastic-like, so I still need to explore ways to improve its realism.</p>",
+   "plain": "This is where I assigned the texture and tested it in Houdini. Right now, it loo",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 225,
+   "y": 5564,
+   "w": 552,
+   "h": 545,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0d3f53d53f1341bc9beda11f69177911~mv2.png",
+    "w": 600,
+    "h": 592,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 147,
+   "y": 6164,
+   "w": 707,
+   "h": 484,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b5cfe555b5f248aabf0757527314d590~mv2.png",
+    "w": 600,
+    "h": 409,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 6704,
+   "w": 896,
+   "h": 171,
+   "html": "<h3>Things I Have Done: <br />\n1. Use the CPU for simulation<br />\n2. Changed the emission source to geometry clipped from inside the pot<br />\n3. Added tomato chunks and an oil layer better to replicate the look and behavior of real tomato sauce<br />\n4. Use Substance Designer to create a procedural texture for the tomato sauce</h3>",
+   "plain": "Things I Have Done: \n1. Use the CPU for simulation\n2. Changed the emission sourc",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 6906,
+   "w": 896,
+   "h": 164,
+   "html": "<h3>Plans For Next Week: <br />\n1. Continue testing the pouring FX to better match the reference.<br />\n2. Add steam to the tomato sauce in the bowl.<br />\n3. Improve the look development.<br />\n<br />\n </h3>",
+   "plain": "Plans For Next Week: \n1. Continue testing the pouring FX to better match the ref",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 7032,
+   "w": 896,
+   "h": 34,
+   "html": "<h3>To be continued...</h3>",
+   "plain": "To be continued...",
+   "head": true
+  }
+ ]
+}

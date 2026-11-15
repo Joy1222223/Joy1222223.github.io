@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "id": "y7cyp",
+  "title": "Blog X Special Project| PART1",
+  "uri": "copy-of-blog-x-special-project-part1"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": 0,
+   "w": 980,
+   "h": 331,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_6251bf2f46fd4aa191c99745404014d4~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "抽象花卉設計"
+   }
+  },
+  {
+   "t": "text",
+   "x": 66,
+   "y": 151,
+   "w": 845,
+   "h": 69,
+   "html": "<h3>SPECIAL PROJECT|PART1</h3>",
+   "plain": "SPECIAL PROJECT|PART1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 329,
+   "y": 220,
+   "w": 320,
+   "h": 29,
+   "html": "<p>Here is the progress of this collaboration.</p>",
+   "plain": "Here is the progress of this collaboration.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 42,
+   "y": 399,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_d1fc99839b7245e39e303e8e2286559a~mv2.jpg",
+    "w": 3000,
+    "h": 1680,
+    "alt": "抽象紋理形成"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 584,
+   "y": 399,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_837e5e6faf3a4300b7213d4928a11f42~mv2.jpeg",
+    "w": 2250,
+    "h": 1500,
+    "alt": "抽象岩石紋理"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 116,
+   "y": 456,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:ati32\">Week1</a></h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 655,
+   "y": 456,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:t1dr8\">Week2</a></h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 41,
+   "y": 711,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_d1fc99839b7245e39e303e8e2286559a~mv2.jpg",
+    "w": 3000,
+    "h": 1680,
+    "alt": "抽象紋理形成"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 583,
+   "y": 711,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_837e5e6faf3a4300b7213d4928a11f42~mv2.jpeg",
+    "w": 2250,
+    "h": 1500,
+    "alt": "抽象岩石紋理"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 115,
+   "y": 768,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:uhhyb\">Week3</a></h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 654,
+   "y": 768,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:cxa97\">Week4</a></h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 583,
+   "y": 1032,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_837e5e6faf3a4300b7213d4928a11f42~mv2.jpeg",
+    "w": 2250,
+    "h": 1500,
+    "alt": "抽象岩石紋理"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 40,
+   "y": 1033,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_d1fc99839b7245e39e303e8e2286559a~mv2.jpg",
+    "w": 3000,
+    "h": 1680,
+    "alt": "抽象紋理形成"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 654,
+   "y": 1089,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:q35xh\">Week6</a></h3>",
+   "plain": "Week6",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 114,
+   "y": 1090,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:giwsr\">Week5</a></h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 589,
+   "y": 1362,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_837e5e6faf3a4300b7213d4928a11f42~mv2.jpeg",
+    "w": 2250,
+    "h": 1500,
+    "alt": "抽象岩石紋理"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 37,
+   "y": 1363,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_d1fc99839b7245e39e303e8e2286559a~mv2.jpg",
+    "w": 3000,
+    "h": 1680,
+    "alt": "抽象紋理形成"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 660,
+   "y": 1419,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:a9fsk\">Week8</a></h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 1420,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:e51cs\">Week7</a></h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 589,
+   "y": 1678,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_837e5e6faf3a4300b7213d4928a11f42~mv2.jpeg",
+    "w": 2250,
+    "h": 1500,
+    "alt": "抽象岩石紋理"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 37,
+   "y": 1679,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_d1fc99839b7245e39e303e8e2286559a~mv2.jpg",
+    "w": 3000,
+    "h": 1680,
+    "alt": "抽象紋理形成"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 660,
+   "y": 1735,
+   "w": 266,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:gewh3\">Week10</a></h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 1736,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:fezs8\">Week9</a></h3>",
+   "plain": "Week9",
+   "head": true
+  }
+ ]
+}

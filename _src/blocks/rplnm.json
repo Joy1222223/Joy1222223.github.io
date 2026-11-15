@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "id": "rplnm",
+  "title": "HoneyBear",
+  "uri": "honey"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": -60,
+   "w": 2445,
+   "h": 641,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0f465aab3cb44a9e88ace8eed3ea2fc7~mv2.jpg",
+    "w": 1657,
+    "h": 689,
+    "alt": "HoneyBear_1000_edited.jpg"
+   }
+  },
+  {
+   "t": "text",
+   "x": -552,
+   "y": 80,
+   "w": 763,
+   "h": 133,
+   "html": "<h3>Honey Bear</h3>",
+   "plain": "Honey Bear",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -91,
+   "y": 593,
+   "w": 450,
+   "h": 140,
+   "html": "<h3>Fluid Simulation</h3>",
+   "plain": "Fluid Simulation",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": -91,
+   "y": 744,
+   "w": 1181,
+   "h": 495,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_c42fa3d2cb414f9e81b18a141ac4c779",
+    "poster": "f7279b_c42fa3d2cb414f9e81b18a141ac4c779f000.jpg",
+    "w": 1920,
+    "h": 816,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -82,
+   "y": 1276,
+   "w": 1172,
+   "h": 58,
+   "html": "<p>    Honey is made up of bubbles and fluids. I picked honey as a fluid first because it was important to my subject, and secondly my project matches the concept of gummy bears in terms of color, consistency, and texture.</p>",
+   "plain": "Honey is made up of bubbles and fluids. I picked honey as a fluid first because ",
+   "head": false
+  }
+ ]
+}

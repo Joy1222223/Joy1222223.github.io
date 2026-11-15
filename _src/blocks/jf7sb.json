@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "id": "jf7sb",
+  "title": "Blog X Harbour X ETC",
+  "uri": "general-6"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": 0,
+   "w": 980,
+   "h": 377,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_0d7ca9b31a3c433cb0489c9001a02fb7~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "抽象綻放球體"
+   }
+  },
+  {
+   "t": "text",
+   "x": 99,
+   "y": 139,
+   "w": 780,
+   "h": 69,
+   "html": "<h3>SCAD x HARBOUR x ETC</h3>",
+   "plain": "SCAD x HARBOUR x ETC",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 297,
+   "y": 208,
+   "w": 384,
+   "h": 29,
+   "html": "<p>Here is the 10-week progress of this collaboration.</p>",
+   "plain": "Here is the 10-week progress of this collaboration.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 582,
+   "y": 420,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7103cc3c90b6450ebc45e31125dbfb49~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "寧靜的湖畔景色"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 40,
+   "y": 421,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_6f917406d34343e9b0e328abf392c827~mv2.jpg",
+    "w": 4000,
+    "h": 2250,
+    "alt": "粉色抽象波浪"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 653,
+   "y": 477,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:qaf7j\">Week2</a></h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 114,
+   "y": 478,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:k3ygj\">Week1</a></h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 40,
+   "y": 760,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7103cc3c90b6450ebc45e31125dbfb49~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "寧靜的湖畔景色"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 581,
+   "y": 760,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_6f917406d34343e9b0e328abf392c827~mv2.jpg",
+    "w": 4000,
+    "h": 2250,
+    "alt": "粉色抽象波浪"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 111,
+   "y": 817,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:n04w6\">Week3</a></h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 655,
+   "y": 817,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:p64g6\">Week4</a></h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 40,
+   "y": 1103,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_e034b99f3f7b407480c6b8eeb14c773a~mv2.jpg",
+    "w": 1632,
+    "h": 2912,
+    "alt": "Abstract Feather Shape"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 580,
+   "y": 1103,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7103cc3c90b6450ebc45e31125dbfb49~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "寧靜的湖畔景色"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 111,
+   "y": 1160,
+   "w": 234,
+   "h": 168,
+   "html": "<h3><a href=\"PAGE:t0i05\">Week5<br />\n​</a></h3>",
+   "plain": "Week5\n​",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 651,
+   "y": 1160,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:b9031\">Week6</a></h3>",
+   "plain": "Week6",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 580,
+   "y": 1427,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_e034b99f3f7b407480c6b8eeb14c773a~mv2.jpg",
+    "w": 1632,
+    "h": 2912,
+    "alt": "Abstract Feather Shape"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 40,
+   "y": 1440,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_6f917406d34343e9b0e328abf392c827~mv2.jpg",
+    "w": 4000,
+    "h": 2250,
+    "alt": "粉色抽象波浪"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 651,
+   "y": 1484,
+   "w": 234,
+   "h": 168,
+   "html": "<h3><a href=\"PAGE:tqvt1\">Week8<br />\n​</a></h3>",
+   "plain": "Week8\n​",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 113,
+   "y": 1497,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:al91h\">Week7</a></h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 42,
+   "y": 1785,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_e034b99f3f7b407480c6b8eeb14c773a~mv2.jpg",
+    "w": 1632,
+    "h": 2912,
+    "alt": "Abstract Feather Shape"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 583,
+   "y": 1785,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7103cc3c90b6450ebc45e31125dbfb49~mv2.jpg",
+    "w": 2912,
+    "h": 1632,
+    "alt": "寧靜的湖畔景色"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 113,
+   "y": 1842,
+   "w": 234,
+   "h": 168,
+   "html": "<h3><a href=\"PAGE:aihlq\">Week9<br />\n​</a></h3>",
+   "plain": "Week9\n​",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 654,
+   "y": 1842,
+   "w": 267,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:x39oc\">Week10</a></h3>",
+   "plain": "Week10",
+   "head": true
+  }
+ ]
+}

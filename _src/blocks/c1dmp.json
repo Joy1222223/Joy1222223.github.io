@@ -1,0 +1,57 @@
+{
+ "meta": {
+  "id": "c1dmp",
+  "title": "Home",
+  "uri": "home"
+ },
+ "atoms": [
+  {
+   "t": "html",
+   "x": 0,
+   "y": 0,
+   "w": 2149,
+   "h": 797,
+   "url": "html/f7279b_975a3c4c4cddac496dd93e97c76a4198.html",
+   "src": "htmlEmbedded"
+  },
+  {
+   "t": "html",
+   "x": 0,
+   "y": 800,
+   "w": 2149,
+   "h": 940,
+   "url": "html/f7279b_3259b736ac7688216274abcd5c7a103a.html",
+   "src": "htmlEmbedded"
+  },
+  {
+   "t": "text",
+   "x": -237,
+   "y": 1799,
+   "w": 231,
+   "h": 87,
+   "html": "<h2>DEMO REEL</h2>",
+   "plain": "DEMO REEL",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 31,
+   "y": 1886,
+   "w": 918,
+   "h": 516,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_45d8227eefc74fa1b535dfff4871a7d0",
+    "poster": "f7279b_45d8227eefc74fa1b535dfff4871a7d0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ]
+   }
+  }
+ ]
+}

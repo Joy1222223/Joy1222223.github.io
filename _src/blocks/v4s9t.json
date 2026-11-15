@@ -1,0 +1,324 @@
+{
+ "meta": {
+  "id": "v4s9t",
+  "title": "Week9",
+  "uri": "copy-of-week8"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week9</h3>",
+   "plain": "Week9",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Mar 8</h3>",
+   "plain": "Mar 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 9</h3>",
+   "plain": "SCAD X HARBOR - Week 9",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 757,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my nigth week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my nigth week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 798,
+   "w": 950,
+   "h": 76,
+   "html": "<p>Last week, we were so excited that mentors came to our class in person and provided us with a lot of useful suggestions for our projects. I was also lucky to receive feedback on my portfolio from Olivia. Additionally, Billy gave us really useful and comprehensive lessons on lighting and rendering. All of the information was extremely helpful.</p>",
+   "plain": "Last week, we were so excited that mentors came to our class in person and provi",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 0,
+   "y": 900,
+   "w": 469,
+   "h": 266,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_06093740c76b4a4a886b6139d3be8166~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 511,
+   "y": 900,
+   "w": 469,
+   "h": 266,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_894369b789bc44f9be61eebe1b6335b2~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 1184,
+   "w": 930,
+   "h": 56,
+   "html": "<p>This week, according to Kyle&#39;s suggestion, I added motion blur for the molten fluid. </p>",
+   "plain": "This week, according to Kyle&#39;s suggestion, I added motion blur for the molte",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 297,
+   "y": 1221,
+   "w": 429,
+   "h": 385,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f303eac747804d09a6cf7fa273a95066~mv2.png",
+    "w": 429,
+    "h": 385,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 1616,
+   "w": 980,
+   "h": 76,
+   "html": "<p>Another thing is our poster; I will mainly focus on my shot of molten platinum. I will discuss the problems I encountered and the solutions I used. I will provide the information I need to put in the poster, and Mojie will combine all the information in the end. This is what I want to put in our poster.</p>",
+   "plain": "Another thing is our poster; I will mainly focus on my shot of molten platinum. ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 14,
+   "y": 1696,
+   "w": 966,
+   "h": 176,
+   "html": "<p>Problem:</p>\n\n<p>Since the simulation is for molten platinum used in a watch strap, achieving a controlled and continuous liquid flow was challenging. The flow had to be steady but not excessive, ensuring a realistic and visually appealing effect.</p>\n\n<p>One major difficulty was finding the right pot angle and circular emission size to maintain a smooth, uninterrupted stream. If the emission was too large, the liquid overflowed unnaturally; if too small, the flow became inconsistent. Another challenge was preventing the liquid edges from breaking apart or appearing chunky. Additionally, balancing fluid behavior with performance was crucial, as high particle counts significantly slowed down the simulation.</p>",
+   "plain": "Problem:\n\nSince the simulation is for molten platinum used in a watch strap, ach",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 80,
+   "y": 1899,
+   "w": 345,
+   "h": 305,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b7a7a2b2138c4d91b32489f36c52dfc9~mv2.png",
+    "w": 600,
+    "h": 529,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 556,
+   "y": 1899,
+   "w": 345,
+   "h": 305,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f91f45c8f85b412b81819436f9eb2467~mv2.png",
+    "w": 600,
+    "h": 531,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 80,
+   "y": 2229,
+   "w": 345,
+   "h": 305,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8f693c58b43740d5828b24ae34af7261~mv2.png",
+    "w": 600,
+    "h": 528,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 556,
+   "y": 2229,
+   "w": 345,
+   "h": 298,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_093615a31f494aa9aa19402af644f13e~mv2.png",
+    "w": 600,
+    "h": 517,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 26,
+   "y": 2557,
+   "w": 953,
+   "h": 227,
+   "html": "<p>Method:</p>\n\n<p>To achieve a more detailed and controlled pouring effect, I adjusted the angle of the pouring cup and reduced the point separation in the pointsfromvolume node, allowing for finer particle distribution. To further refine the fluid&rsquo;s appearance, I changed the operation to Gaussian in the vdbsmoothsdf node, which helped create a smoother liquid surface.</p>\n\n<p>Initially, I set the sphere to continuously emit particles to generate the liquid. However, when the pot tilted, the liquid volume became excessive, leading to an unnatural flow and significantly slowing down the simulation. To resolve this, I switched to duplicating multiple spheres and having each emit particles only once. After multiple iterations and refinements, I achieved a stable and visually accurate liquid behavior that matched my intended effect.</p>",
+   "plain": "Method:\n\nTo achieve a more detailed and controlled pouring effect, I adjusted th",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 48,
+   "y": 2799,
+   "w": 334,
+   "h": 56,
+   "html": "<p>These are different layers for my shot (4K).</p>",
+   "plain": "These are different layers for my shot (4K).",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 48,
+   "y": 2867,
+   "w": 405,
+   "h": 228,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c96afd4ddc1348d1a8d67883c6d1d886~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "Melting_Metal_V35.PlatinumPass.0180.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 525,
+   "y": 2872,
+   "w": 405,
+   "h": 228,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_05b334eda480474c9185c1d3ccd8b8f4~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "Melting_Metal_V35.BeautyPass.0180.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 48,
+   "y": 3120,
+   "w": 405,
+   "h": 228,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_38364339d34c4a77871614e9a9bb9671~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "steam.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 525,
+   "y": 3120,
+   "w": 405,
+   "h": 228,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7e7edd038a78494b8663771f13cf5de0~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "steam.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 48,
+   "y": 3373,
+   "w": 405,
+   "h": 228,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_51ff239a91174ec19c38eb84eabecacb~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "steam.png"
+   },
+   "link": null
+  }
+ ]
+}

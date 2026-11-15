@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "id": "jibjd",
+  "title": "Alice",
+  "uri": "copy-of-hedwig"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": -64,
+   "w": 1934,
+   "h": 800,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_9b49193cda7345b98f7a24b56ff7d7b2~mv2.png",
+    "w": 1582,
+    "h": 878,
+    "alt": "ALICE（无片头片尾）0.png"
+   }
+  },
+  {
+   "t": "text",
+   "x": -307,
+   "y": 154,
+   "w": 663,
+   "h": 172,
+   "html": "<h3>Alice(Collabrative Animation)</h3>",
+   "plain": "Alice(Collabrative Animation)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -307,
+   "y": 344,
+   "w": 810,
+   "h": 164,
+   "html": "<p>It&#39;s my senior project. I helped them with two shots and a few visual effects.</p>\n\n<p>Story: After humans left the uninhabitable Earth, they searched for a new home from their space station. Decades, centuries, or even longer passed, and gradually, memories of Earth faded. One day, the protagonist accidentally enters the data archive and finds herself in an illusion... Suddenly, a blaring alarm pulled her back to reality. The announcement declared: &quot;We have finally found a new habitable planet.&quot; Yet that planet bore an uncanny resemblance to the Earth she had seen in the illusion...</p>",
+   "plain": "It&#39;s my senior project. I helped them with two shots and a few visual effect",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": -68,
+   "y": 860,
+   "w": 170,
+   "h": 81,
+   "html": "<h2>My Part</h2>",
+   "plain": "My Part",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 109,
+   "y": 1002,
+   "w": 760,
+   "h": 323,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_36ed247af5e84604895191853268e570",
+    "poster": "f7279b_36ed247af5e84604895191853268e570f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 1376,
+   "w": 760,
+   "h": 51,
+   "html": "<p>    This is a collaborative project, and I am responsible for modeling, FX, and compositing for those two shots.</p>",
+   "plain": "This is a collaborative project, and I am responsible for modeling, FX, and comp",
+   "head": false
+  }
+ ]
+}

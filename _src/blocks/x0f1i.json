@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "id": "x0f1i",
+  "title": "Apple",
+  "uri": "apple-1"
+ },
+ "atoms": [
+  {
+   "t": "video",
+   "x": 160,
+   "y": -1795,
+   "w": 660,
+   "h": 486,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2ca6b03a3861449cadc6100015b686d0",
+    "poster": "f7279b_2ca6b03a3861449cadc6100015b686d0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -582,
+   "y": 56,
+   "w": 763,
+   "h": 107,
+   "html": "<h3>Texture</h3>",
+   "plain": "Texture",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -231,
+   "y": 244,
+   "w": 604,
+   "h": 56,
+   "html": "<h3>Customized Texture</h3>",
+   "plain": "Customized Texture",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 186,
+   "y": 339,
+   "w": 600,
+   "h": 451,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7ba8710744034afa96c748b4994e6582~mv2.jpg",
+    "w": 2068,
+    "h": 1556,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 185,
+   "y": 827,
+   "w": 600,
+   "h": 76,
+   "html": "<p>    I used Rigid Body Dynamics (RBD) to simulate apples dropping onto a shelf. The goal was to create a layout that naturally resembles apples being placed on the shelf.</p>",
+   "plain": "I used Rigid Body Dynamics (RBD) to simulate apples dropping onto a shelf. The g",
+   "head": false
+  }
+ ]
+}

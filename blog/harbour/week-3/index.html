@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week3 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../blog/harbour/week-3/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/blog/harbour/week-3/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/blog/harbour/week-3/">
+</head>
+<body class="lang-en ">
+<header class="top glass"><a class="logo ripple" href="../../../">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../fx/horse/">Horse</a><a class="ripple" href="../../../fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../animation/overpower/">Overpower</a><a class="ripple" href="../../../animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../modeling/apple/">Apple</a><a class="ripple" href="../../../modeling/osl/">OSL</a><a class="ripple" href="../../../modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../blog/">Blog</a><div class="sub glass"><a class="ripple" href="../../../blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple on" href="../../../blog/harbour/week-3/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/blog/harbour/week-3/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../zh-hans/blog/harbour/week-3/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../blog/harbour/">&#8592; Blog X Harbour</a><div class="row multi"><div class="col" style="flex:13"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/a3c153_6f27754e06844d62a1708b316797fc08_mv2.webp" width="4547" height="3031" alt=""></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week3</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Jan 21</h2></div><div class="col" style="flex:2"><div class="prose reveal"><h3>Bomin Kim (Fx)<br />
+Caleb Stovall (3D/2D)<br />
+Mojie Tang (Fx)<br />
+Sydney Relkin (Comp)<br />
+Yiqi Zheng (Fx)</h3></div></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR - Week 3</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my third week of the Scad x Harbor blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">Feedback From Mentors:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Vi:</p>
+
+<ul>
+	<li>
+	<p>Color: Cool tone</p>
+	</li>
+	<li>
+	<p>Last shot?</p>
+	</li>
+</ul>
+
+<p>Hailey:</p>
+
+<ul>
+	<li>
+	<p>Reference: OK</p>
+	</li>
+	<li>
+	<p>Last shot?</p>
+	</li>
+	<li>
+	<p>Blue tone: OK</p>
+	</li>
+</ul>
+
+<p>Allie:</p>
+
+<ul>
+	<li>
+	<p>Background: Ensure consistency throughout</p>
+	</li>
+</ul>
+
+<p>Billy:</p>
+
+<ul>
+	<li>
+	<p>Send a reference</p>
+	</li>
+	<li>
+	<p>Kyle: Why 1A/B/C?</p>
+	</li>
+	<li>
+	<p>Don&#39;t want the guy&#39;s face</p>
+	</li>
+	<li>
+	<p>Not pulled up; focus on close-ups</p>
+	</li>
+	<li>
+	<p>Shot 4A: Make sure it&#39;s consistent</p>
+	</li>
+	<li>
+	<p>Last shot: No hands needed</p>
+	</li>
+</ul>
+
+<p>Olivia:</p>
+
+<ul>
+	<li>
+	<p>Consider transitions/products</p>
+	</li>
+	<li>
+	<p>Last shot: No hands needed</p>
+	</li>
+</ul>
+
+<p>Guest Yong Duk Jhun:</p>
+
+<ul>
+	<li>
+	<p>Think about why someone would buy the watch</p>
+	</li>
+	<li>
+	<p>How will it make them feel?</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><h3>After discussion, we decided to change the last shot from closing the watch case to opening it, symbolizing a welcome to customers to buy it. We also have a transition from rotating gears to the watch. Regarding Guest Yong Duk Jhun&#39;s advice, after careful discussion and consideration of the timeline, we feel it may not be feasible to implement this suggestion at this stage.</h3></div></div>
+<div class="row one"><h2 class="ttl reveal">Nail the previs:</h2></div>
+<div class="row one"><h2 class="ttl reveal">Molten Platinum</h2></div>
+<div class="row one"><h2 class="ttl reveal">Previous:</h2></div>
+<div class="row one"><div class="prose reveal"><h3>I used Vellum to create particles and then used the vdbfromparticlefluid node to directly convert the particles into fluid. However, the result appears jagged and uneven along the edges, and the simulation runs slowly.</h3></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_64bab3d58f5346968a383dbcbbe3dd23_mv2.webp" width="230" height="387" alt="微信图片_20250124143259.png"></figure></div><div class="col" style="flex:6"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_abf61c834d3e4af3b0e594a8b2fc4739f000.webp" src="https://video.wixstatic.com/video/f7279b_abf61c834d3e4af3b0e594a8b2fc4739/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">Motified:</h2></div>
+<div class="row one"><div class="prose reveal"><h3>I used another method. I used VDB conversion and VDB smoothing, allowing more detailed control over the fluid surface&#39;s smoothness and fine details. This method also ensures clean and detailed geometry, reducing jagged edges or irregular faces. </h3></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_ae9be257c8f3478d8615767263292714_mv2.webp" width="396" height="394" alt="Screenshot 2025-01-24 150546.png"></figure></div><div class="col" style="flex:6"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_3a584692394740ec9274518ce8f63d85f000.webp" src="https://video.wixstatic.com/video/f7279b_3a584692394740ec9274518ce8f63d85/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">Smoke:</h2></div>
+<div class="row one"><div class="prose reveal"><h3>Smoke: Also, I used Pyro to add some smoke when the molten platinum was poured. I also selected the surface based on the normal attribute and adjusted the direction in the group node.</h3></div></div>
+<div class="row multi"><div class="col" style="flex:6"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_9d174209a19246ea9a1a32b5bec640ba_mv2.webp" width="600" height="132" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_d99389a29bf14936890a1397e96e7ae4_mv2.webp" width="320" height="456" alt="image.png"></figure></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_414ed9ecd40941438ebff85b1d0b942d_mv2.webp" width="600" height="436" alt="image.png"></figure></div>
+<div class="row one"><h2 class="ttl reveal">Test:</h2></div>
+<div class="row multi"><div class="col" style="flex:6"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_e50ebae931734710ae3d40eb9a80ec03f000.webp" src="https://video.wixstatic.com/video/f7279b_e50ebae931734710ae3d40eb9a80ec03/1080p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:6"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_1494260a71f64d83bf290142cd868dd2f000.webp" src="https://video.wixstatic.com/video/f7279b_1494260a71f64d83bf290142cd868dd2/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:6"><h2 class="ttl reveal">This is a simple test of molten platinum pouring with smoke.</h2></div><div class="col" style="flex:6"><div class="prose reveal"><h3>This one uses Karma XPU render with different heights and environments.</h3></div></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_771863d2b2d542e693f34fb6343766fdf000.webp" src="https://video.wixstatic.com/video/f7279b_771863d2b2d542e693f34fb6343766fd/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><h3>This render test matches the camera, making it easy to composite in the future. It includes fluid and smoke simulations, and I&rsquo;ve assigned the material to represent molten platinum.</h3></div></div>
+<div class="row one"><h2 class="ttl reveal">Motlen Platinum Reference:</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_1d90f744342f4d32b274d22a3d8b5a0af000.webp" src="https://video.wixstatic.com/video/f7279b_1d90f744342f4d32b274d22a3d8b5a0a/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p><a href="https://www.youtube.com/watch?v=_Mg1qup_zqw" target="_blank" rel="noopener">https://www.youtube.com/watch?v=_Mg1qup_zqw</a></p></div></div>
+<div class="row one"><h2 class="ttl reveal">Smoke Reference:</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_3c186f2538a94697b9f5207242c64e7ff000.webp" src="https://video.wixstatic.com/video/f7279b_3c186f2538a94697b9f5207242c64e7f/480p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p><a href="https://www.youtube.com/watch?v=_Mg1qup_zqw" target="_blank" rel="noopener">https://www.youtube.com/watch?v=_Mg1qup_zqw</a></p></div></div>
+<div class="row one"><div class="prose reveal"><h3>The shot&#39;s design, combining molten platinum and smoke, creates a visually striking and cohesive scene. The gray molten platinum was chosen to match the overall cool-toned color palette, while the addition of smoke helps create an industrial atmosphere. The molten platinum, with its metallic texture and dynamic flow, symbolizes precision and high-end craftsmanship, while the smoke adds depth and atmosphere, emphasizing the high-temperature environment. They are combined to create a more visually impactful experience.</h3></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../blog/harbour/week-2/"><span>&#8592; Week2</span></a><a class="btn ghost ripple next" href="../../../blog/harbour/week-4/"><span>Week4 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../assets/site.js"></script>
+</body></html>

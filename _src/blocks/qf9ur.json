@@ -1,0 +1,420 @@
+{
+ "meta": {
+  "id": "qf9ur",
+  "title": "Week1",
+  "uri": "copy-of-idle"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week1</h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Jan 12</h3>",
+   "plain": "Jan 12",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 1</h3>",
+   "plain": "SCAD X HARBOR - Week 1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 778,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my first week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my first week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 817,
+   "w": 949,
+   "h": 53,
+   "html": "<h3>This week, we decided on the name of our team: Cronos. We also chose our product: a watch. The pre-production phase includes a storyboard, mood board, previs, and references for each shot.</h3>",
+   "plain": "This week, we decided on the name of our team: Cronos. We also chose our product",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 880,
+   "w": 937,
+   "h": 104,
+   "html": "<h3>After discussing with my teammates, we chose a watch as the product. The story follows the journey of a luxury watch as it undergoes an intricate transformation&mdash;from raw, unrefined elements to a masterfully crafted timepiece that emerges into the world as a symbol of elegance and precision.<br />\n </h3>",
+   "plain": "After discussing with my teammates, we chose a watch as the product. The story f",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 984,
+   "w": 117,
+   "h": 26,
+   "html": "<h3>Stroyboard:</h3>",
+   "plain": "Stroyboard:",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 1021,
+   "w": 600,
+   "h": 468,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d359dfc5865b4fa5bdddcfe1ec2fb559~mv2.jpg",
+    "w": 600,
+    "h": 468,
+    "alt": "Story boards for Sydney .jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 1506,
+   "w": 251,
+   "h": 26,
+   "html": "<h3>Created by Kailey Gorsuch</h3>",
+   "plain": "Created by Kailey Gorsuch",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 1532,
+   "w": 117,
+   "h": 26,
+   "html": "<h3>Reference:</h3>",
+   "plain": "Reference:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 28,
+   "y": 1571,
+   "w": 462,
+   "h": 286,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_dbb3fa277d3f4d7bac5d34e039c0549e",
+    "poster": "f7279b_dbb3fa277d3f4d7bac5d34e039c0549ef000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 500,
+   "y": 1571,
+   "w": 462,
+   "h": 286,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_8bb55e3d266d4db29de104fd8ffcdeca",
+    "poster": "f7279b_8bb55e3d266d4db29de104fd8ffcdecaf000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 28,
+   "y": 1885,
+   "w": 462,
+   "h": 286,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_bd4283a138274acc9ed1b58f8f8e5680",
+    "poster": "f7279b_bd4283a138274acc9ed1b58f8f8e5680f000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 500,
+   "y": 1885,
+   "w": 462,
+   "h": 286,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_c2663179ce04414081a2bbc8d8e9ac16",
+    "poster": "f7279b_c2663179ce04414081a2bbc8d8e9ac16f000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 264,
+   "y": 2193,
+   "w": 462,
+   "h": 286,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_b0956f4d36c64e589a70290297130e37",
+    "poster": "f7279b_b0956f4d36c64e589a70290297130e37f000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 2517,
+   "w": 462,
+   "h": 260,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f7046354f4c240179ade72e86fa191a5~mv2.gif",
+    "w": 600,
+    "h": 337,
+    "alt": "ice.gif"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 500,
+   "y": 2517,
+   "w": 462,
+   "h": 260,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_778de3cc1579402595e506f03b7ac10b~mv2.gif",
+    "w": 600,
+    "h": 337,
+    "alt": "bubbles.gif"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 2818,
+   "w": 462,
+   "h": 270,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b6d3dac4247b4e3bb571b893f9a62143~mv2.gif",
+    "w": 600,
+    "h": 337,
+    "alt": "watch_emerges_from_underwater.gif"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 499,
+   "y": 2818,
+   "w": 462,
+   "h": 260,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_2dd7e2353aa74d92a89abedbcb984630~mv2.gif",
+    "w": 600,
+    "h": 337,
+    "alt": "water_pouring_on_watch.gif"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 3123,
+   "w": 117,
+   "h": 26,
+   "html": "<h3>Previs:</h3>",
+   "plain": "Previs:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 3173,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_bcc50b268c254ef7ab5eaafe3ae8738c",
+    "poster": "f7279b_bcc50b268c254ef7ab5eaafe3ae8738cf000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 500,
+   "y": 3173,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d84398a6adec478bbf2ec7d71ab3cc62",
+    "poster": "f7279b_d84398a6adec478bbf2ec7d71ab3cc62f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 202,
+   "y": 3451,
+   "w": 92,
+   "h": 26,
+   "html": "<h3>reference</h3>",
+   "plain": "reference",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 3520,
+   "w": 933,
+   "h": 53,
+   "html": "<h3>This is a very rough previs I created for the gold particles, using POPs in Houdini. Next week, I will add more details, such as dust and scattered gold on the surface.</h3>",
+   "plain": "This is a very rough previs I created for the gold particles, using POPs in Houd",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 28,
+   "y": 3621,
+   "w": 933,
+   "h": 53,
+   "html": "<h3>Next week, I will also work on another shot featuring melting gold. I will use FLIP fluids to simulate the melting gold and Pyro to create the smoke in Houdini.</h3>",
+   "plain": "Next week, I will also work on another shot featuring melting gold. I will use F",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 28,
+   "y": 3689,
+   "w": 415,
+   "h": 391,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_580babbc570e49a7937bf73984690629~mv2.png",
+    "w": 415,
+    "h": 391,
+    "alt": "shot1b.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 480,
+   "y": 3742,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_075f2840608b4841be6aadc9b0654979",
+    "poster": "f7279b_075f2840608b4841be6aadc9b0654979f000.jpg",
+    "w": 640,
+    "h": 360,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 674,
+   "y": 4024,
+   "w": 92,
+   "h": 26,
+   "html": "<h3>reference</h3>",
+   "plain": "reference",
+   "head": true
+  }
+ ]
+}

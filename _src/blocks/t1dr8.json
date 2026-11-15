@@ -1,0 +1,650 @@
+{
+ "meta": {
+  "id": "t1dr8",
+  "title": "Week2",
+  "uri": "副本-week1-3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "96d373bf920e4684b177a206dea4190c.jpg",
+    "w": 1980,
+    "h": 1200,
+    "alt": "雪紅杉林"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week2</h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 13,
+   "y": 431,
+   "w": 993,
+   "h": 85,
+   "html": "<h3>VAT vs USD Instancing Test</h3>",
+   "plain": "VAT vs USD Instancing Test",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 527,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Jan 14</h3>",
+   "plain": "Jan 14",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 58,
+   "y": 592,
+   "w": 350,
+   "h": 42,
+   "html": "<h3>HAVE COMPLETED:</h3>",
+   "plain": "HAVE COMPLETED:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 626,
+   "y": 592,
+   "w": 224,
+   "h": 42,
+   "html": "<h3>TO-DO LIST:</h3>",
+   "plain": "TO-DO LIST:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 650,
+   "w": 403,
+   "h": 65,
+   "html": "<ul>\n\t<li>\n\t<p>Last week, I tested two different pipelines (USD and VAT) to transfer Yichen&rsquo;s fern simulation from Houdini to Unreal</p>\n\t</li>\n</ul>",
+   "plain": "Last week, I tested two different pipelines (USD and VAT) to transfer Yichen&rsq",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 536,
+   "y": 650,
+   "w": 425,
+   "h": 94,
+   "html": "<ul>\n\t<li>\n\t<p>Try VAT Instancing in Houdini and Unreal</p>\n\t</li>\n\t<li>\n\t<p>Try a different method of Instancer in Houdini and test its performance in Unreal</p>\n\t</li>\n\t<li>\n\t<p>Try animated USD Instancing in Unreal</p>\n\t</li>\n</ul>",
+   "plain": "Try VAT Instancing in Houdini and Unreal\n\t\n\t\n\tTry a different method of Instance",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 845,
+   "w": 560,
+   "h": 42,
+   "html": "<h3>USD INSTANCING IN HOUDINI: </h3>",
+   "plain": "USD INSTANCING IN HOUDINI:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 897,
+   "w": 609,
+   "h": 22,
+   "html": "<p>USD has two types of  instanceable primitives and point instancing.</p>",
+   "plain": "USD has two types of  instanceable primitives and point instancing.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 940,
+   "w": 868,
+   "h": 22,
+   "html": "<p>Point instancing: Try to test different methods of point instencing. I have 15 ferns to test the file size.</p>",
+   "plain": "Point instancing: Try to test different methods of point instencing. I have 15 f",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 17,
+   "y": 971,
+   "w": 356,
+   "h": 299,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1cf1299b944a49cdb0b8617f1534a75b~mv2.png",
+    "w": 356,
+    "h": 299,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 607,
+   "y": 971,
+   "w": 234,
+   "h": 299,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fc7c0e47915d44de886c17523f06621c~mv2.png",
+    "w": 223,
+    "h": 285,
+    "alt": "Screenshot 2026-01-19 045115.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1294,
+   "w": 609,
+   "h": 174,
+   "html": "<p>Point Instancer: The ferns doesn&#39;t have animation in Unreal.</p>\n\n<p>Instanceable Reference: It worked</p>\n\n<p>Reference: It worked</p>\n\n<p>Instanceable Inherit: It worked</p>\n\n<p>Inherit: It worked</p>\n\n<p>Instanceable Specialize: It worked</p>\n\n<p>Specialize: It worked</p>",
+   "plain": "Point Instancer: The ferns doesn&#39;t have animation in Unreal.\n\nInstanceable R",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 486,
+   "y": 1294,
+   "w": 476,
+   "h": 163,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4dd506bcd15e408488a06bbe51579e07~mv2.png",
+    "w": 600,
+    "h": 205,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1532,
+   "w": 609,
+   "h": 23,
+   "html": "<p>Result： All of them have similar performance and same file size.</p>",
+   "plain": "Result： All of them have similar performance and same file size.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1562,
+   "w": 586,
+   "h": 42,
+   "html": "<h3>USD INSTANCING IN UNREAL: </h3>",
+   "plain": "USD INSTANCING IN UNREAL:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1604,
+   "w": 964,
+   "h": 22,
+   "html": "<p>After discussing with Danci and doing further research, we found that animated USD is not supported for instancing in Unreal.</p>",
+   "plain": "After discussing with Danci and doing further research, we found that animated U",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1643,
+   "w": 227,
+   "h": 42,
+   "html": "<h3>VAT (Debug)</h3>",
+   "plain": "VAT (Debug)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1698,
+   "w": 964,
+   "h": 65,
+   "html": "<p>I&rsquo;m going to test the formula to check whether VAT will work: (frame_count &times; point_count) / texture_size, and make sure it doesn&rsquo;t exceed 9000. I reduced the fern&rsquo;s hair cards, and the mesh is now 25,861 polygons. Based on the formula, the result is 757.6, so it rendered quickly and exported successfully. I think using an opacity texture on low-poly geometry could work well.</p>",
+   "plain": "I&rsquo;m going to test the formula to check whether VAT will work: (frame_count",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 18,
+   "y": 1779,
+   "w": 362,
+   "h": 105,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_24a2545ef6b34e0a97961b6baf84a3f2~mv2.png",
+    "w": 362,
+    "h": 105,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 17,
+   "y": 1896,
+   "w": 189,
+   "h": 50,
+   "html": "<p>Problem:</p>",
+   "plain": "Problem:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1958,
+   "w": 964,
+   "h": 44,
+   "html": "<p>When I imported the entire fern into Unreal, it looked glitchy and the leaves were flickering, as I mentioned last week. To investigate the issue, I decided to isolate the leaves. I first tested a single leaf to debug which parts might be causing the problem.</p>",
+   "plain": "When I imported the entire fern into Unreal, it looked glitchy and the leaves we",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 74,
+   "y": 2039,
+   "w": 755,
+   "h": 44,
+   "html": "<p>I tried different subdivision levels for the fern&rsquo;s leaves to see how they affect performance and visual quality in Unreal.</p>",
+   "plain": "I tried different subdivision levels for the fern&rsquo;s leaves to see how they",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 493,
+   "y": 2109,
+   "w": 314,
+   "h": 54,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8eab0789bfff421f9779186687467000~mv2.png",
+    "w": 314,
+    "h": 54,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 74,
+   "y": 2112,
+   "w": 327,
+   "h": 49,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_15f058ee06224f1e9484e25bc49d3881~mv2.png",
+    "w": 327,
+    "h": 49,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 8,
+   "y": 2174,
+   "w": 40,
+   "h": 26,
+   "html": "<p>First:</p>",
+   "plain": "First:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 475,
+   "y": 2188,
+   "w": 349,
+   "h": 207,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_5c08a49fe0064e3080d440e7068c66c8",
+    "poster": "f7279b_5c08a49fe0064e3080d440e7068c66c8f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 63,
+   "y": 2194,
+   "w": 349,
+   "h": 207,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_ac84cc254694453f8d3190884973c914",
+    "poster": "f7279b_ac84cc254694453f8d3190884973c914f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 74,
+   "y": 2432,
+   "w": 908,
+   "h": 44,
+   "html": "<p>Then I found the reason why there were still stretching artifacts even after increasing the subdivision: the branches were intersecting with the leaves. After removing the branches, the result looked much better.</p>",
+   "plain": "Then I found the reason why there were still stretching artifacts even after inc",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 147,
+   "y": 2497,
+   "w": 609,
+   "h": 361,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_8f230fa6ceea4140af9322eb49b5146a",
+    "poster": "f7279b_8f230fa6ceea4140af9322eb49b5146af000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 73,
+   "y": 2872,
+   "w": 882,
+   "h": 75,
+   "html": "<p>The reason why it can&#39;t intersect: VAT can&rsquo;t handle intersections well because it only replays baked per-vertex positions from textures (no collision/self-collision or surface-ordering info), so when parts overlap, the mesh can&rsquo;t resolve which side should be in front, causing clipping/flicker/tearing.</p>",
+   "plain": "The reason why it can&#39;t intersect: VAT can&rsquo;t handle intersections well",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 73,
+   "y": 2957,
+   "w": 335,
+   "h": 27,
+   "html": "<p>Then I tested the fern. It looks glitchy.</p>",
+   "plain": "Then I tested the fern. It looks glitchy.",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 147,
+   "y": 2997,
+   "w": 609,
+   "h": 361,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_75e6b6813ea94195a2a2fc0712736c45",
+    "poster": "f7279b_75e6b6813ea94195a2a2fc0712736c45f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 36,
+   "y": 3389,
+   "w": 925,
+   "h": 202,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8dd81fbd0019455cb8a3475efdd81f48~mv2.png",
+    "w": 600,
+    "h": 129,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 3615,
+   "w": 925,
+   "h": 68,
+   "html": "<p>Solution: Try to avoid self-intersections in growing plants, and ensure the polygon count is high enough to handle rapid deformation.</p>",
+   "plain": "Solution: Try to avoid self-intersections in growing plants, and ensure the poly",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 80,
+   "y": 3689,
+   "w": 839,
+   "h": 498,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_8a583b523ad3458ba2c8e03b85ace038",
+    "poster": "f7279b_8a583b523ad3458ba2c8e03b85ace038f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 79,
+   "y": 4207,
+   "w": 205,
+   "h": 73,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c66d8d229baf4edf9c70eeb42bb09459~mv2.png",
+    "w": 205,
+    "h": 73,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 405,
+   "y": 4223,
+   "w": 414,
+   "h": 41,
+   "html": "<p>Turn off Tangent Space Normal</p>",
+   "plain": "Turn off Tangent Space Normal",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 80,
+   "y": 4330,
+   "w": 272,
+   "h": 57,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_dd2ac43696ee48e0987718aac76ffa30~mv2.png",
+    "w": 272,
+    "h": 57,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 542,
+   "y": 4338,
+   "w": 414,
+   "h": 41,
+   "html": "<p>Click those</p>",
+   "plain": "Click those",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 107,
+   "y": 4427,
+   "w": 839,
+   "h": 498,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_f71af33287514d6cb1fd47843b401f67",
+    "poster": "f7279b_f71af33287514d6cb1fd47843b401f67f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 27,
+   "y": 4932,
+   "w": 825,
+   "h": 130,
+   "html": "<h3>VAT INSTANCING in UNREAL (NIAGARA)</h3>",
+   "plain": "VAT INSTANCING in UNREAL (NIAGARA)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 97,
+   "y": 5067,
+   "w": 785,
+   "h": 41,
+   "html": "<p>The most important is to click when exporting from Houdini.</p>",
+   "plain": "The most important is to click when exporting from Houdini.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 249,
+   "y": 5124,
+   "w": 481,
+   "h": 192,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1c3d82e564f249b59ae0953103626a38~mv2.png",
+    "w": 481,
+    "h": 192,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 49,
+   "y": 5334,
+   "w": 882,
+   "h": 81,
+   "html": "<p>Import those three folders into Unreal. Then, in the material instance, copy the data from the folder. After that, create a Niagara system, and assign the mesh and material in the Mesh Renderer under Render.</p>",
+   "plain": "Import those three folders into Unreal. Then, in the material instance, copy the",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 536,
+   "y": 5428,
+   "w": 286,
+   "h": 431,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d319e6c2aad8456da9cfff97903149e7~mv2.png",
+    "w": 340,
+    "h": 513,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 61,
+   "y": 5571,
+   "w": 357,
+   "h": 145,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b295e89bae2f485e98d6dc7f7bc4374a~mv2.png",
+    "w": 600,
+    "h": 243,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 38,
+   "y": 5893,
+   "w": 903,
+   "h": 536,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_b251f90fb24d44d79e5a2f6037994325",
+    "poster": "f7279b_b251f90fb24d44d79e5a2f6037994325f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 6451,
+   "w": 907,
+   "h": 98,
+   "html": "<p><a href=\"PAGE:uhhyb\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Try USD variants and PDG</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tTry USD variants and PDG",
+   "head": false
+  }
+ ]
+}

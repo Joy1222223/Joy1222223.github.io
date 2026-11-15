@@ -1,0 +1,333 @@
+{
+ "meta": {
+  "id": "ati32",
+  "title": "Week1",
+  "uri": "副本-week1-2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "96d373bf920e4684b177a206dea4190c.jpg",
+    "w": 1980,
+    "h": 1200,
+    "alt": "雪紅杉林"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week1</h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 49,
+   "y": 434,
+   "w": 881,
+   "h": 84,
+   "html": "<h3>VAT vs USD Pipeline Test</h3>",
+   "plain": "VAT vs USD Pipeline Test",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 526,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Jan 9</h3>",
+   "plain": "Jan 9",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 582,
+   "w": 104,
+   "h": 42,
+   "html": "<h3>VAT: </h3>",
+   "plain": "VAT:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 120,
+   "y": 592,
+   "w": 859,
+   "h": 538,
+   "html": "<h3>First, I used Yichen&rsquo;s Fern to test the VAT pipeline. However, due to the high polygon count (205,975 polygons) and the long animation duration (240 frames), the texture rendering process tends to fail.<br />\n<br />\n<br />\n<br />\n<br />\nI looked into the Houdini community and found an artist who proposed a formula to determine the most suitable number of primitives and frames for rendering.<br />\n<br />\nVAT point count limits per texture size? Frame range limit?<br />\nThe result is: I have been multiplying the frame count by the point count and dividing by the texture size (frame_count*point_count)/texture_sizeand it seems if that number is below 9000, it completes successfully. But I&#39;m grasping at straws here through trial and error.<br />\nHere is the link: <a href=\"https://www.sidefx.com/forum/topic/85129/?page=1#post-368221\" target=\"_blank\" rel=\"noopener\">https://www.sidefx.com/forum/topic/85129/?page=1#post-368221</a><br />\n<br />\n<br />\n<br />\n </h3>",
+   "plain": "First, I used Yichen&rsquo;s Fern to test the VAT pipeline. However, due to the ",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 364,
+   "y": 660,
+   "w": 385,
+   "h": 82,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_842762316b974275a53cc4267252139f~mv2.png",
+    "w": 385,
+    "h": 82,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 120,
+   "y": 1065,
+   "w": 859,
+   "h": 407,
+   "html": "<h3>So, I decided to reduce the polygon count and also tried to export the animation separately, exporting 1-100 frames and then 101-240 frames. I met the problem, and the animation looks glitchy and I found a very useful VAT Debug.<br />\nLink: <a href=\"https://www.sidefx.com/forum/topic/81422/#post-350761\" target=\"_blank\" rel=\"noopener\">https://www.sidefx.com/forum/topic/81422/#post-350761</a><br />\n<br />\n<br />\n<br />\n </h3>",
+   "plain": "So, I decided to reduce the polygon count and also tried to export the animation",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 120,
+   "y": 1177,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_142e42c200e8423c93eea871bce0af64",
+    "poster": "f7279b_142e42c200e8423c93eea871bce0af64f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 560,
+   "y": 1177,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_9b34aa59c3c74e0e8187c265f87bea0a",
+    "poster": "f7279b_9b34aa59c3c74e0e8187c265f87bea0af000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 125,
+   "y": 1367,
+   "w": 310,
+   "h": 49,
+   "html": "<h3>This is because of a change in the build setting. </h3>",
+   "plain": "This is because of a change in the build setting.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 565,
+   "y": 1367,
+   "w": 310,
+   "h": 49,
+   "html": "<h3>Still need to figure out why the animation is flickering.</h3>",
+   "plain": "Still need to figure out why the animation is flickering.",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 467,
+   "y": 1457,
+   "w": 506,
+   "h": 63,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_2c33158f14aa4ccbb986b76204b02448~mv2.png",
+    "w": 1050,
+    "h": 132,
+    "alt": "Screenshot 2026-01-12 121640.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 120,
+   "y": 1461,
+   "w": 235,
+   "h": 56,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_39565139eeb64c30933bb29598ea65fd~mv2.png",
+    "w": 235,
+    "h": 56,
+    "alt": "Screenshot 2026-01-11 222301.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 1561,
+   "w": 104,
+   "h": 42,
+   "html": "<h3>USD:</h3>",
+   "plain": "USD:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 120,
+   "y": 1621,
+   "w": 859,
+   "h": 49,
+   "html": "<h3>For the USD pipeline, I experimented with creating USD instancing in Houdini and found that using Packed Primitives significantly reduces memory usage. Here I tested 15 ferns.</h3>",
+   "plain": "For the USD pipeline, I experimented with creating USD instancing in Houdini and",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 120,
+   "y": 1678,
+   "w": 493,
+   "h": 333,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_90962b97053f422eb269e9829e9161ae~mv2.png",
+    "w": 493,
+    "h": 333,
+    "alt": "Screenshot 2026-01-11 224940.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 120,
+   "y": 2049,
+   "w": 600,
+   "h": 50,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fe72469f6c2c478e9f63a36453d93fe5~mv2.png",
+    "w": 606,
+    "h": 50,
+    "alt": "Screenshot 2026-01-11 225050.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 419,
+   "y": 2119,
+   "w": 273,
+   "h": 24,
+   "html": "<h3>Size Comparison</h3>",
+   "plain": "Size Comparison",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 105,
+   "y": 2195,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_0632ab67b897408f9b89b6f7eb67ef84",
+    "poster": "f7279b_0632ab67b897408f9b89b6f7eb67ef84f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 510,
+   "y": 2195,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_082e4fc42f1041f6b9940486ab62962e",
+    "poster": "f7279b_082e4fc42f1041f6b9940486ab62962ef000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 636,
+   "y": 2395,
+   "w": 69,
+   "h": 25,
+   "html": "<h3>After</h3>",
+   "plain": "After",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 231,
+   "y": 2397,
+   "w": 69,
+   "h": 24,
+   "html": "<h3>Before</h3>",
+   "plain": "Before",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 385,
+   "y": 2438,
+   "w": 209,
+   "h": 24,
+   "html": "<h3>Visual Comparison</h3>",
+   "plain": "Visual Comparison",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 2474,
+   "w": 907,
+   "h": 182,
+   "html": "<p><a href=\"PAGE:t1dr8\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Try USD instancing in Houdini</p>\n\t</li>\n\t<li>\n\t<p>Try USD instancing in UNREAL</p>\n\t</li>\n\t<li>\n\t<p>Try VAT instancing in both in Houdini and Unreal</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tTry USD instancing in Houdini\n\t\n\t\n\tTry USD instancing in UNREAL\n",
+   "head": false
+  }
+ ]
+}

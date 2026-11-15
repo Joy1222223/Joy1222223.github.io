@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week10 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/vsfx728/week-10/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/vsfx728/week-10/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/vsfx728/week-10/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/vsfx728/week-10/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/vsfx728/week-10/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/vsfx728/week-10/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/vsfx728/">&#8592; Blog X VSFX728</a><div class="row multi"><div class="col" style="flex:13"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_db8f5ddb085b41fda169efb854f9b69e_mv2.webp" width="3840" height="2160" alt="Wavy Abstract Background "></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week10</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">VSFX 728 - Week 10</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my final project of the VSFX 728&#39;s blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">May 20</h2></div>
+<div class="row one"><div class="prose reveal"><h3>Things To Do: <br />
+1. Continue testing the pouring FX to match the reference better (I want to make some tomato sauce stick to the pot)</h3>
+
+<h3>2. Add steam to the tomato sauce in the bowl</h3>
+
+<h3>3. Improve the look development, especially for the tomato sauce&mdash;make it appear juicier and more realistic</h3></div></div>
+<div class="row one"><h2 class="ttl reveal">Final Result (May 28)</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_97b0a628437c43e190dd0a035925fdc4f000.webp" src="https://video.wixstatic.com/video/f7279b_97b0a628437c43e190dd0a035925fdc4/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Breakdown (May 28)</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_a319ce73bc604bc0a2aa02c3e311d6b5f000.webp" src="https://video.wixstatic.com/video/f7279b_a319ce73bc604bc0a2aa02c3e311d6b5/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Final Test (FX)</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_75439eaaf7ba44b3897a35699d7d08dbf000.webp" src="https://video.wixstatic.com/video/f7279b_75439eaaf7ba44b3897a35699d7d08db/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">Pouring Test</h2></div>
+<div class="row multi"><div class="col" style="flex:8"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_dc35e30f26fc403f9c53ab37462e975df000.webp" src="https://video.wixstatic.com/video/f7279b_dc35e30f26fc403f9c53ab37462e975d/720p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:8"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_d2885a3e11744bc895bf36443911e34ff000.webp" src="https://video.wixstatic.com/video/f7279b_d2885a3e11744bc895bf36443911e34f/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:2"><div class="prose reveal"><p>MPMCollider (Pot):</p>
+
+<p>Friction: 0.2</p>
+
+<p>Sticky: 0.05</p></div></div><div class="col" style="flex:2"><div class="prose reveal"><p>MPMCollider (Pot):</p>
+
+<p>Friction: 0.3</p>
+
+<p>Sticky: 0.1</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:8"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_1083e8ce79024d479109baf61aea5634f000.webp" src="https://video.wixstatic.com/video/f7279b_1083e8ce79024d479109baf61aea5634/720p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:8"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_e9a74940d99343bcb52635a8fa6829bbf000.webp" src="https://video.wixstatic.com/video/f7279b_e9a74940d99343bcb52635a8fa6829bb/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><div class="prose reveal"><p>MPMCollider (Pot):</p>
+
+<p>Friction: 0.5</p>
+
+<p>Sticky: 0.5</p>
+
+<p>MPMCollider (Spatulas):</p>
+
+<p>Friction: 2</p>
+
+<p>Sticky: 1</p></div></div><div class="col" style="flex:3"><div class="prose reveal"><p>MPMCollider (Pot):</p>
+
+<p>Friction: 0.3</p>
+
+<p>Sticky: 0.5</p>
+
+<p>MPMCollider (Spatulas):</p>
+
+<p>Friction: 0.2</p>
+
+<p>Sticky: 0.05</p></div></div></div>
+<div class="row one"><h2 class="ttl reveal">Look Development<br />
+ </h2></div>
+<div class="row one"><div class="prose reveal"><h3>I used Substance Painter to create the texture for the bowl so that it matches the reference.</h3></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_1ef8cf1890804543ab7508bcf0358a33_mv2.webp" width="485" height="461" alt="image.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_0277e3902bf843f6b94224d490ea912b_mv2.webp" width="600" height="409" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:2"><h2 class="ttl reveal">Substance Painter<br />
+ </h2></div><div class="col" style="flex:2"><h2 class="ttl reveal">Test In Houdini<br />
+ </h2></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_76596f2d050b4369a4ca5f9fa3d45604_mv2.webp" width="600" height="335" alt="image.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_74b043dedcf04d72b125d8a2800e2cf2_mv2.webp" width="600" height="234" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:2"><h2 class="ttl reveal">Substance Painter<br />
+ </h2></div><div class="col" style="flex:2"><h2 class="ttl reveal">Test In Houdini<br />
+ </h2></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fea1288fc27845459b5d422e3da05ccd_mv2.webp" width="600" height="354" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><h3>This is the scene with look development completed, except for the tomato sauce.</h3></div></div>
+<div class="row one"><h2 class="ttl reveal">May 25</h2></div>
+<div class="row one"><h2 class="ttl reveal">Tomato Sauce</h2></div>
+<div class="row one"><div class="prose reveal"><h3>I added garlic to the tomato sauce texture and adjusted the color to match the reference.</h3></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_0481036b595944879c4f065a692bcf95_mv2.webp" width="587" height="590" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6cb885d8cee14a8181075eb72d519764_mv2.webp" width="451" height="523" alt="Screenshot 2025-05-25 234052.png"></figure></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_639265c54c2f4a1990b25db7bce79810_mv2.webp" width="600" height="336" alt="image.png"></figure></div>
+<div class="row one"><h2 class="ttl reveal">Add Steam</h2></div>
+<div class="row one"><div class="prose reveal"><h3>I selected primitives from the tomato sauce surface and created a group based on their normals. Then, I used that group as the source to generate steam with Pyro.</h3></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_946fcfccdc77411895e9416baf729b4f_mv2.webp" width="530" height="600" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_ab5fc622f463448b9b1fa2ed44e184f0_mv2.webp" width="405" height="266" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_52094b525ba24deda587efe78dbb5ee2_mv2.webp" width="583" height="600" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_5ec9a2746f5f40bca57b1574aff1c7ea_mv2.webp" width="422" height="270" alt="image.png"></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">May 28</h2></div>
+<div class="row one"><div class="prose reveal"><h3>I ended up using Substance Painter to create the tomato sauce texture, as it gave me greater control over the result.</h3></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_7cca23be0c28416eb3e8e123190f998e_mv2.webp" width="493" height="600" alt="image.png"></figure></div><div class="col" style="flex:6"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_c0137bf7353f4edfbdcb49eb12a049da_mv2.webp" width="600" height="337" alt="textureallcolor.268.png"></figure></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_f1d8110bde214e89b897a0241e56d120_mv2.webp" width="600" height="340" alt="textureallcolorblur.268.png"></figure></div>
+<div class="row one"><div class="prose reveal"><h3>Plans For Improvement (During Summer Vocation): <br />
+1. Refine the material for the tomato sauce <br />
+2. Re-simulate the tomato sauce to make it look like a mix of oil and sauce.</h3></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/vsfx728/week-9/"><span>&#8592; Week9</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

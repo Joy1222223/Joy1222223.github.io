@@ -1,0 +1,429 @@
+{
+ "meta": {
+  "id": "oqnvy",
+  "title": "Week1",
+  "uri": "copy-of-week1-2"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week1</h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -435,
+   "y": 412,
+   "w": 591,
+   "h": 58,
+   "html": "<h3>SPRING QUARTER PLAN:</h3>",
+   "plain": "SPRING QUARTER PLAN:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 177,
+   "y": 422,
+   "w": 1397,
+   "h": 37,
+   "html": "<h3><a href=\"https://docs.google.com/document/d/1fRvfKGmn84XIVKu--vp-pSyQn8K2jUAmrt1HroC6KPw/edit?tab=t.0\" target=\"_blank\" rel=\"noopener\">https://docs.google.com/document/d/1fRvfKGmn84XIVKu--vp-pSyQn8K2jUAmrt1HroC6KPw/edit?tab=t.0</a></h3>",
+   "plain": "https://docs.google.com/document/d/1fRvfKGmn84XIVKu--vp-pSyQn8K2jUAmrt1HroC6KPw/",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -17,
+   "y": 514,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 1 Plan:</h3>",
+   "plain": "Week 1 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -11,
+   "y": 581,
+   "w": 756,
+   "h": 27,
+   "html": "<ul>\n\t<li>\n\t<h3>Finish draft of the paper</h3>\n\t</li>\n</ul>",
+   "plain": "Finish draft of the paper",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -11,
+   "y": 611,
+   "w": 1041,
+   "h": 54,
+   "html": "<ul>\n\t<li>\n\t<h3>Try Houdini Niagara</h3>\n\t</li>\n\t<li>\n\t<h3>Think about transition </h3>\n\t</li>\n</ul>",
+   "plain": "Try Houdini Niagara\n\t\n\t\n\tThink about transition",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 220,
+   "y": 707,
+   "w": 578,
+   "h": 69,
+   "html": "<h3>Houdini Niagara Test</h3>",
+   "plain": "Houdini Niagara Test",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 776,
+   "w": 980,
+   "h": 54,
+   "html": "<h3>Due to VAT, particles don&#39;t look good in Unreal because they are cards on copied points. So I tried using the Houdini Niagara plug-in to see if it could produce better results. I used Itim&#39;s mud to test the pipeline.</h3>",
+   "plain": "Due to VAT, particles don&#39;t look good in Unreal because they are cards on co",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 838,
+   "w": 937,
+   "h": 24,
+   "html": "<p>This is the link for the tutorial: https://youtu.be/dF7yHULxgDk?si=SoejVi2j1lb-tmBp</p>",
+   "plain": "This is the link for the tutorial: https://youtu.be/dF7yHULxgDk?si=SoejVi2j1lb-t",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 386,
+   "y": 868,
+   "w": 207,
+   "h": 24,
+   "html": "<p>This is the result in Unreal.</p>",
+   "plain": "This is the result in Unreal.",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 901,
+   "w": 980,
+   "h": 547,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3ccc2334658c46e3ae7cd8dd55c6c5f6",
+    "poster": "f7279b_3ccc2334658c46e3ae7cd8dd55c6c5f6f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 351,
+   "y": 1476,
+   "w": 276,
+   "h": 69,
+   "html": "<h3>VAT TEST</h3>",
+   "plain": "VAT TEST",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 5,
+   "y": 1564,
+   "w": 974,
+   "h": 81,
+   "html": "<h3>I used Yiyi&#39;s Daffodil to import it to Unreal, some problems happens. First is the normal problem, the normal doesn&#39;t look correct in Unreal. And then I found I need to click the Two Sided Normal in Instance, so the normal will display correctly in Unreal.</h3>",
+   "plain": "I used Yiyi&#39;s Daffodil to import it to Unreal, some problems happens. First ",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 5,
+   "y": 1657,
+   "w": 214,
+   "h": 271,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4ff7f977465642eaa482eaf95f4e1c83~mv2.png",
+    "w": 477,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 226,
+   "y": 1657,
+   "w": 524,
+   "h": 271,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_bdfbbd03480544c7b88eaa9eed85d31b~mv2.png",
+    "w": 599,
+    "h": 309,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 760,
+   "y": 1657,
+   "w": 214,
+   "h": 271,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3917486efb294f93abb20678040ab0e8~mv2.png",
+    "w": 467,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 1955,
+   "w": 980,
+   "h": 81,
+   "html": "<h3>Another problem is the animation doesn&#39;t look like the same in Houdini, I think that&#39;s probably because the petal intersect with each others, so some parts the position will not gained correctly. This is the comparision between Houdini and Unreal. And then Yiyi adjusted the sim, and then it works well in Houdini.</h3>",
+   "plain": "Another problem is the animation doesn&#39;t look like the same in Houdini, I th",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 0,
+   "y": 2061,
+   "w": 200,
+   "h": 212,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_dfb9f653572b4f73a751cda85beafe0d~mv2.png",
+    "w": 568,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 215,
+   "y": 2061,
+   "w": 377,
+   "h": 212,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_0ffb2d2b7a1a48cfae6e412298460e0b",
+    "poster": "f7279b_0ffb2d2b7a1a48cfae6e412298460e0bf000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 603,
+   "y": 2061,
+   "w": 377,
+   "h": 212,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2a401c7f2ab64bcfb9a21c61d0362480",
+    "poster": "f7279b_2a401c7f2ab64bcfb9a21c61d0362480f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 2295,
+   "w": 980,
+   "h": 54,
+   "html": "<h3>In order to have more control over the animation, I turned off auto-play and made it controllable in the Level Sequencer.</h3>",
+   "plain": "In order to have more control over the animation, I turned off auto-play and mad",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 4,
+   "y": 2360,
+   "w": 491,
+   "h": 96,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f0998eabc9e4489b8a94ab7633a6156b~mv2.png",
+    "w": 600,
+    "h": 118,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 511,
+   "y": 2360,
+   "w": 462,
+   "h": 258,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_0ffb2d2b7a1a48cfae6e412298460e0b",
+    "poster": "f7279b_0ffb2d2b7a1a48cfae6e412298460e0bf000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 19,
+   "y": 2682,
+   "w": 462,
+   "h": 258,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_70f6bb0320ff4108b3d6663af1907360",
+    "poster": "f7279b_70f6bb0320ff4108b3d6663af1907360f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 511,
+   "y": 2682,
+   "w": 462,
+   "h": 258,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_a7f906507a344e95932e9b6469d0679d",
+    "poster": "f7279b_a7f906507a344e95932e9b6469d0679df000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 339,
+   "y": 2966,
+   "w": 302,
+   "h": 69,
+   "html": "<h3>Interaction</h3>",
+   "plain": "Interaction",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3035,
+   "w": 980,
+   "h": 27,
+   "html": "<h3>I also experimented with a trigger box and staggered the flower bloom timing to create varied animation.</h3>",
+   "plain": "I also experimented with a trigger box and staggered the flower bloom timing to ",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 7,
+   "y": 3076,
+   "w": 955,
+   "h": 535,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_32f13500570a4966849ec975751e3014",
+    "poster": "f7279b_32f13500570a4966849ec975751e3014f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 7,
+   "y": 3639,
+   "w": 980,
+   "h": 27,
+   "html": "<h3>This is the blueprint for that.</h3>",
+   "plain": "This is the blueprint for that.",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 7,
+   "y": 3681,
+   "w": 955,
+   "h": 513,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_87ee6a9bb2d441ff895f701f1e9726ee~mv2.png",
+    "w": 600,
+    "h": 323,
+    "alt": "image.png"
+   },
+   "link": null
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week8 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour/week-8/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour/week-8/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour/week-8/">
+</head>
+<body class="lang-zh-hant ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hant/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hant/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hant/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hant/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hant/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hant/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hant/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hant/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hant/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hant/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hant/blog/">部落格</a><div class="sub glass"><a class="ripple" href="../../../../zh-hant/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hant/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hant/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hant/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hant/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour/week-8/" hreflang="en">EN</a><a class="lg ripple on" href="../../../../zh-hant/blog/harbour/week-8/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../../zh-hans/blog/harbour/week-8/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hant/blog/harbour/">&#8592; Blog X Harbour</a><div class="row multi"><div class="col" style="flex:13"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/a3c153_6f27754e06844d62a1708b316797fc08_mv2.webp" width="4547" height="3031" alt=""></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week8</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Mar 1</h2></div><div class="col" style="flex:2"><div class="prose reveal"><h3>Bomin Kim (Fx)<br />
+Caleb Stovall (3D/2D)<br />
+Mojie Tang (Fx)<br />
+Sydney Relkin (Comp)<br />
+Yiqi Zheng (Fx)</h3></div></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR - Week 8</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my eight week of the Scad x Harbor blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">Feedback From Mentors:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Luke:</p>
+
+<ul>
+	<li>
+	<p>Shot 1: push DOF (through in grain, expo glow(subtle))</p>
+	</li>
+</ul>
+
+<p>Hailey:​</p>
+
+<ul>
+	<li>Shot 1: Bg is out of focus/Fg is sharp</li>
+	<li>Shot 1: sparks are black, not reading as sparks</li>
+	<li>Shot 6: square reflection feels odd/lighting is improved</li>
+	<li>Shot 2/3: floor texture is flat</li>
+</ul>
+
+<p>Kyle:​</p>
+
+<ul>
+	<li>
+	<p>Shot 1: fix faceting on burner rim</p>
+	</li>
+	<li>
+	<p>Bg to Fg blur needs improving</p>
+	</li>
+	<li>
+	<p>flames are not integrated - blue/light and heat flare on lens/heat haze</p>
+	</li>
+	<li>
+	<p>sparks should glow</p>
+	</li>
+	<li>
+	<p>add cam move at the end of shot 1</p>
+	</li>
+	<li>
+	<p>shot5/6: more DOF</p>
+	</li>
+	<li>
+	<p>fix logo - more modern</p>
+	</li>
+	<li>
+	<p>export video 23.98, not 30 fps</p>
+	</li>
+</ul>
+
+<p>​</p>
+
+<p>​</p></div></div>
+<div class="row one"><div class="prose reveal"><p>For shots 2 and 3, I changed the texture of the floor and increased the displacement, so it no longer looks as flat.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_828b08e46a514fe1a507f242bf20b4c6_mv2.webp" width="600" height="337" alt="output.0130.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>This week, I focused more on helping Caleb render different passes for compositing. I separated the scene into six parts, which provides flexibility for control in Nuke. I used Render Geometry Settings to separate the objects I wanted.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_3fbd977a823e4774924bdd4b3aec89b8_mv2.webp" width="600" height="480" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_3c7bf4cd43ad403fb2561f5706d9bf3f_mv2.webp" width="455" height="379" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6679b297726c45338332518eed3ac888_mv2.webp" width="391" height="300" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6362e66c300247f591db69607039ccd4_mv2.webp" width="281" height="214" alt="image.png"></figure></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_94270e7f1ffb4c2289ad61a8335d3bd7_mv2.webp" width="396" height="262" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>For the environment smoke, what I need is for the pot at the bottom to block it, so I need to add a matte. This is what the pass looks like.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_3598b6df6c334f6d846b239510e338d4_mv2.webp" width="483" height="187" alt="image.png"></figure></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_f4a10f1a4ca44359854755641d0335bc_mv2.webp" width="600" height="330" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>Another annoying issue with the rendering is that due to limited memory, it keeps crashing when I save to disk. So, I first separate the different objects, then split the USD files by frame range, and this makes the export process work fine.</p></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hant/blog/harbour/week-7/"><span>&#8592; Week7</span></a><a class="btn ghost ripple next" href="../../../../zh-hant/blog/harbour/week-10/"><span>Week10 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

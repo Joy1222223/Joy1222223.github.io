@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week5 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../blog/harbour/week-5/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/blog/harbour/week-5/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/blog/harbour/week-5/">
+</head>
+<body class="lang-en ">
+<header class="top glass"><a class="logo ripple" href="../../../">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../fx/horse/">Horse</a><a class="ripple" href="../../../fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../animation/overpower/">Overpower</a><a class="ripple" href="../../../animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../modeling/apple/">Apple</a><a class="ripple" href="../../../modeling/osl/">OSL</a><a class="ripple" href="../../../modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../blog/">Blog</a><div class="sub glass"><a class="ripple" href="../../../blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple on" href="../../../blog/harbour/week-5/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/blog/harbour/week-5/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../zh-hans/blog/harbour/week-5/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../blog/harbour/">&#8592; Blog X Harbour</a><div class="row multi"><div class="col" style="flex:13"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/a3c153_6f27754e06844d62a1708b316797fc08_mv2.webp" width="4547" height="3031" alt=""></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week5</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Feb 8</h2></div><div class="col" style="flex:2"><div class="prose reveal"><h3>Bomin Kim (Fx)<br />
+Caleb Stovall (3D/2D)<br />
+Mojie Tang (Fx)<br />
+Sydney Relkin (Comp)<br />
+Yiqi Zheng (Fx)</h3></div></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR - Week 5</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my forth week of the Scad x Harbor blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">Feedback From Mentors:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Vi:</p>
+
+<ul>
+	<li>
+	<p>Awesome to see you listened</p>
+	</li>
+	<li>
+	<p>Shot 1: the environment in background is dark/composition</p>
+	</li>
+	<li>
+	<p>Shot 2: Is it needed to add steam?​</p>
+	</li>
+</ul>
+
+<p>Hailey:​</p>
+
+<ul>
+	<li>Remove shot2, it&#39;s the same with shot3</li>
+	<li>shot3 - defocus background, atmosphere smoke</li>
+	<li>shot6 - title needs to pull out more</li>
+</ul>
+
+<p>Kyle:​pam</p>
+
+<ul>
+	<li>Pan now 3D/Paralax</li>
+	<li>Not crazy, slow subtle camera move</li>
+	<li>Combine shot 2 and 3, it is cool from top down, and have camera orbit around the pouring</li>
+	<li>shot3 - focus on what&#39;s important/push back what isn&#39;t</li>
+	<li>shot5 - dof/background may blue/deep compositing bubbles</li>
+	<li>shot6 - too tight - perfect it</li>
+</ul>
+
+<p>Billy:​</p>
+
+<ul>
+	<li>Background out of focus</li>
+	<li>Don&#39;t render with depth of field</li>
+</ul>
+
+<p>Joleen:​</p>
+
+<ul>
+	<li>
+	<p>shot 1 top down? Connect the flame to the melting</p>
+	</li>
+</ul>
+
+<p>​</p>
+
+<p>​</p></div></div>
+<div class="row one"><div class="prose reveal"><p>After our discussion, we decided to combine shots 2 and 3 into a single shot with movement. The camera moves downward and circles around the pouring molten platinum. For shot 2, I also added steam and atmospheric smoke in the background to enhance the factory environment. This is what the final looks like; I also need to adjust the environment to smoke in the following week.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_49b2aec8b7564a5cace5d7e8528e54c8f000.webp" src="https://video.wixstatic.com/video/f7279b_49b2aec8b7564a5cace5d7e8528e54c8/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>Render</p>
+
+<p>​</p></div></div>
+<div class="row one"><div class="prose reveal"><p>I have had several tests of different viscosities of molten platinum and tried to find the most suitable one. For my latest test for the shot, I chose viscosity 40.</p></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_78172e5d5f574f8f9759386162fe6e9bf000.webp" src="https://video.wixstatic.com/video/f7279b_78172e5d5f574f8f9759386162fe6e9b/720p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_9b4361d989f04ab0b6dd62f6dd982930f000.webp" src="https://video.wixstatic.com/video/f7279b_9b4361d989f04ab0b6dd62f6dd982930/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Viscosity: 20</h2></div><div class="col" style="flex:1"><h2 class="ttl reveal">Viscosity: 30</h2></div></div>
+<div class="row multi"><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_8374d255a63c4d989f0286ce5b1b7480f000.webp" src="https://video.wixstatic.com/video/f7279b_8374d255a63c4d989f0286ce5b1b7480/720p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:1"><h2 class="ttl reveal">Viscosity: 20</h2></div><div class="col" style="flex:5"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_5425b3d4621d411c9feb23d81ceafaa1f000.webp" src="https://video.wixstatic.com/video/f7279b_5425b3d4621d411c9feb23d81ceafaa1/720p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Viscosity: 40</h2></div><div class="col" style="flex:1"><h2 class="ttl reveal">Viscosity: 100</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Separated Layers:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Caleb separated the smoke layer and beauty layer in Karma. Following the instructions from the forum post, I followed the steps and achieved the result. Use the Render Geometry Settings node, select invisible objects in Primitives, and choose &#39;Invisible to Primary Rays (Phantom)&#39; to exclude the unselected objects.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>Link for forum post: <a href="https://www.sidefx.com/forum/topic/84982/?page=1#post-367709" target="_blank" rel="noopener">https://www.sidefx.com/forum/topic/84982/?page=1#post-367709</a></p></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_a62bfd7eb18f4cce81092573a8466c2d_mv2.webp" width="174" height="296" alt="Screenshot 2025-02-09 070955.png"></figure></div><div class="col" style="flex:7"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_48c0eb9ab25a4f6286d5720e36138744_mv2.webp" width="600" height="110" alt="1.png"></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">Environment Smoke:</h2></div>
+<div class="row one"><div class="prose reveal"><p>Based on Professor Fowler&#39;s suggestion, I tested two different smoke solvers in Houdini: Smoke Object Sparse and Smoke Object, to compare their speed and smoke effects. The results show that Smoke Object Sparse is much faster than Smoke Object.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_06b6b8b73fcc41bab8318fe31767887f_mv2.webp" width="550" height="313" alt="2.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_421f8d2b526c4a439d5f34f789003d63_mv2.webp" width="505" height="342" alt="3.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Smoke object</h2></div><div class="col" style="flex:2"><h2 class="ttl reveal">Smoke object Sparse</h2></div></div>
+<div class="row one"><div class="prose reveal"><p>I also tested different environment smoke effects and added dust to create an immersive atmosphere for the pouring scene.</p></div></div>
+<div class="row one"><h2 class="ttl reveal">Reference:</h2></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_fbe7171053734df48e0a9d11d2321739_mv2.webp" width="600" height="527" alt="707332fb2e5931edf40856af7cd0845c.jpg"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_7fbf3d6980f94f6589ab5cf3d173460c_mv2.webp" width="579" height="600" alt="44506ea124baa45e0d0b05375c8dee19.jpg"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_16c78d0ea08540919487d86d5eeda3bd_mv2.webp" width="393" height="600" alt="2335c0e6ab21bb6b69af3242f5c47447.jpg"></figure></div><div class="col" style="flex:2"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_9f76256018454bf9b1bf5ecc354e183ef000.webp" src="https://video.wixstatic.com/video/f7279b_9f76256018454bf9b1bf5ecc354e183e/480p/mp4/file.mp4"></video></figure></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_ccc5fe5425664cd48a57c697c37760cef000.webp" src="https://video.wixstatic.com/video/f7279b_ccc5fe5425664cd48a57c697c37760ce/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>This is what the final flipbook looks like.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_99f6874cd69143fd9c16e0f9b8fdf273f000.webp" src="https://video.wixstatic.com/video/f7279b_99f6874cd69143fd9c16e0f9b8fdf273/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>This is what the final render looks like.</p></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../blog/harbour/week-4/"><span>&#8592; Week4</span></a><a class="btn ghost ripple next" href="../../../blog/harbour/week-6/"><span>Week6 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../assets/site.js"></script>
+</body></html>

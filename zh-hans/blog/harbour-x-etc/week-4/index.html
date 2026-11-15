@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week4 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技术美术与 CG 通才。使用 Houdini、Maya 与 Unreal Engine 制作程序化特效、外观开发与流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour-x-etc/week-4/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour-x-etc/week-4/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour-x-etc/week-4/">
+</head>
+<body class="lang-zh-hans ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hans/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hans/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hans/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hans/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hans/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hans/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hans/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hans/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hans/blog/">博客</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hans/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hans/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hans/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hans/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour-x-etc/week-4/" hreflang="en">EN</a><a class="lg ripple" href="../../../../zh-hant/blog/harbour-x-etc/week-4/" hreflang="zh-Hant">繁</a><a class="lg ripple on" href="../../../../zh-hans/blog/harbour-x-etc/week-4/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hans/blog/harbour-x-etc/">&#8592; Blog X Harbour X ETC</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_b35d65a47af340599df7c83b93934171_mv2.webp" width="5000" height="3333" alt="橙色雛菊特寫"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week4</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row one"><h2 class="ttl reveal">Yiqi Zheng (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Riley Ho (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Itim Kongsakulvatanasook (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Sofia Mancias (Compositing)</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Jan 31</h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Benji Hopkins (Look Dev)</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR X ETC - Week 4</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my fourth week of the Scad x Harbor x ETC blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h2></div>
+<div class="row one"><div class="prose reveal"><p>Kyle:</p>
+
+<ul>
+	<li>
+	<p>Shot 1: </p>
+
+	<ul>
+		<li>
+		<p>The darker lighting direction works well.</p>
+		</li>
+		<li>
+		<p>Needs more time spent on look development.</p>
+		</li>
+		<li>
+		<p>Emission should come more from the environment, not from the object itself.</p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p>​Shot 4:</p>
+
+	<ul>
+		<li>Continue refining lighting so the shot has stronger depth, similar to the references.</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>Beck：</p>
+
+<ul>
+	<li>
+	<p>Shots 3 &amp; 5: </p>
+
+	<ul>
+		<li>
+		<p>The particles in Shot 3 are not very clear.</p>
+		</li>
+		<li>
+		<p>The transition into Shot 5 should feel more intentional, moving clearly from dry to fluid.</p>
+		</li>
+	</ul>
+	</li>
+	<li>
+	<p>Shot 6: </p>
+
+	<ul>
+		<li>
+		<p>Consider adding more elements flying around to increase visual interest.</p>
+		</li>
+	</ul>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>To-Do List: </p>
+
+<ul>
+	<li>
+	<p>Refine the particles&rsquo; path and flow shape (Create noise)</p>
+	</li>
+	<li>
+	<p>Work on refining the particles&#39; material</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>As discussed in the group, we decided to switch from fluid to particles when the six colors swirl together to achieve better results and a stronger visual aesthetic. Below are the references I will be using.</p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_76782b14a8b2473694d263a88694f4b7_mv2.webp" width="600" height="301" alt="image.png"></figure></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6376b03040824d039795c8eaae24f94e_mv2.webp" width="600" height="321" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>Totally, I tried three different methods to achieve it, one is follow the tutorial. </p></div></div>
+<div class="row one"><div class="prose reveal"><p>First, I use Dopnet + POPCurveForce, I get the best result at least for me.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_07dc2cbc5db1410591fc5ba5d5bbe7ad_mv2.webp" width="600" height="329" alt="image (1).png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>Based on my work over the previous weeks, I found a more procedural approach to defining emitters and connecting two curves. I started with a spiral and drew a second curve as a guide coming from off-screen. In my earlier method, I used a Fuse node to connect the two curves, but whenever I adjusted the spiral parameters (such as turns or height), I had to manually move the guide curve so that Fuse could detect the nearest points, which was inefficient and cumbersome.</p>
+
+<p>In my current setup, I replaced this with an Add node, which automatically connects the curves without requiring manual repositioning.</p></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_2d25eb9b5034401c85ee7f3f1e2e5516_mv2.webp" width="600" height="462" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_f0b976d931134923ad579d5e5cfc5b8b_mv2.webp" width="539" height="488" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>Another issue, as I mentioned before, is that whenever I change the spiral parameters or move the drawn curve, I also have to manually translate the emitter so that it stays at the start of the curve. To solve this, I now use the curveu attribute to locate the start point of the curve (point 0), select that point, and use Copy to Points to generate the emitter. This way, no matter how the curve is modified or moved, the emitter always follows the curve automatically.</p></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_e1d3139f73434aa2828898edf656b07f_mv2.webp" width="323" height="401" alt="image.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_e89eb8652ecf4097b1acb670b726f4fb_mv2.webp" width="385" height="207" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_290493ecd53643cc9fc80556f7d55f74_mv2.webp" width="389" height="600" alt="image.png"></figure></div><div class="col" style="flex:2"><h2 class="ttl reveal">This is my Setup in DOP Net.</h2></div></div>
+<div class="row one"><div class="prose reveal"><p>I also try to use the velocity attribute to drive both brightness and streak length, with higher velocities producing brighter and longer streaks. (Not successful yet)</p></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_c52c508f80b94293ba4e49f366b9ae6f_mv2.webp" width="440" height="349" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_da87289727f34a168fe5c767feaac110_mv2.webp" width="600" height="543" alt="image.png"></figure></div><div class="col" style="flex:3"><div class="prose reveal"><p>For the material setup, I read the Cd attribute from the SOP level, enabled transmission, and controlled opacity using different grayscale values from the geometry.</p></div></div></div>
+<div class="row one"><div class="prose reveal"><p>Second, I used a POP Net and a POP Wrangle (From Professor Fowler) to make the particles follow the curve by sampling adjacent points around each particle using pcopen, averaging the curve&rsquo;s tangent with pcfilter, and then setting the particle velocity along that normalized tangent (scaled by a speed parameter). However, I&rsquo;m not sure how to continue from here to add controllable noise&mdash;both inside the stream and along the edges. Here is the result I got. </p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_3303b8bdd157428daeea5c607f27764e_mv2.webp" width="600" height="181" alt="image.png"></figure></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_d08b2373457940439a1ce0a77ed82780f000.webp" src="https://video.wixstatic.com/video/f7279b_d08b2373457940439a1ce0a77ed82780/720p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>Third, I found two tutorials. One uses Path Deform to deform vertical lines along a guide curve, and the other focuses on creating noise or disturbance on a surface. I combined these two approaches.  This is the result I got. (I don&#39;t like the shape I created here) The benefit of this approach is that it can be applied to any curve.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_91428237858b4767b99271fbe42c8fd2f000.webp" src="https://video.wixstatic.com/video/f7279b_91428237858b4767b99271fbe42c8fd2/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p><a href="https://www.bilibili.com/video/BV1LxyEBWEtV/?spm_id_from=333.788.comment.all.click&amp;vd_source=8223115652ffc606cedc4d87e2272ee9" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1LxyEBWEtV/?spm_id_from=333.788.comment.all.click&amp;vd_source=8223115652ffc606cedc4d87e2272ee9</a></p></div></div>
+<div class="row one"><div class="prose reveal"><p><a href="https://www.youtube.com/watch?v=YXKh3x8X7Ec" target="_blank" rel="noopener">https://www.youtube.com/watch?v=YXKh3x8X7Ec</a></p></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_56a80aad0bfe47f0a90fa848dd20a167_mv2.webp" width="516" height="600" alt="image.png"></figure></div><div class="col" style="flex:6"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_19471cddbc3a42f2b060d04693aee0f9_mv2.webp" width="600" height="191" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>I tried to use the original point positions to calculate a distance-based mask, so the disturbance is applied based on this mask.</p></div></div>
+<div class="row one"><div class="prose reveal"><p>I started by creating several vertical lines and then Uses a box to define a region, groups geometry inside it, and deletes the selected elements. Here use attributevop to disturb the lines. (I used ChatGPT to help me build the basic logic and structure.) </p></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_7e87b6d55e464aeaa45df2eb546221c5_mv2.webp" width="600" height="437" alt="image.png"></figure></div><div class="col" style="flex:3"><div class="prose reveal"><p>This setup uses curl noise to offset point positions.</p></div></div></div>
+<div class="row one"><h2 class="ttl reveal">P_new = P + (noise * mask)</h2></div>
+<div class="row multi"><div class="col" style="flex:4"><div class="prose reveal"><p>The next step is to generate a mask that selectively disables certain segments</p></div></div><div class="col" style="flex:4"><div class="prose reveal"><p>Then, I use a POP network to generate particles and add noise to them.</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_d073d3e9090c46adaa7de5e62ce8507f_mv2.webp" width="600" height="314" alt="image.png"></figure></div><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_632a3b3f5f764d1a84a369ee97c1b36f_mv2.webp" width="321" height="401" alt="image.png"></figure></div></div>
+<div class="row multi"><div class="col" style="flex:4"><div class="prose reveal"><p>I used ChatGPT to help me understand and write a wrangle that controls particle disabling through parameters.</p></div></div><div class="col" style="flex:4"><div class="prose reveal"><p>Then, I used Path Deform to have the geometry follow the curve, and used keyframes to make sure the animation aligns properly.</p></div></div></div>
+<div class="row multi"><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6092bc4dded14cc3875df6d11cd70b7f_mv2.webp" width="468" height="428" alt="image.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_6567c1f0ebab48e89080c471a376603f_mv2.webp" width="600" height="336" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>Here, I used the Split node to separate different layers, which allows the flow to have more variation. I think this method can be integrated with my first approach to generate additional variants.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fa8c854bc6714055a7482bd5f078765d_mv2.webp" width="600" height="593" alt="image.png"></figure></div>
+<div class="row one"><div class="prose reveal"><p>So, I think I will go with the first method and try to create additional variants using techniques I learned from other tutorials.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_fae890c2541c41dcbebdc9a3228f732af000.webp" src="https://video.wixstatic.com/video/f7279b_fae890c2541c41dcbebdc9a3228f732a/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../../zh-hans/blog/harbour-x-etc/week-5/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Refine the path (add variants for the particles)</p>
+	</li>
+	<li>
+	<p>Improve the material of the particles</p>
+	</li>
+</ol></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hans/blog/harbour-x-etc/week-3/"><span>&#8592; Week3</span></a><a class="btn ghost ripple next" href="../../../../zh-hans/blog/harbour-x-etc/week-5/"><span>Week5 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">联系</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

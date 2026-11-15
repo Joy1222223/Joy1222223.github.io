@@ -1,0 +1,584 @@
+{
+ "meta": {
+  "id": "yg1zc",
+  "title": "Week4",
+  "uri": "copy-of-week8-3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week4</h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 4 Plan:</h3>",
+   "plain": "Week 4 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 756,
+   "h": 56,
+   "html": "<ul>\n\t<li>\n\t<p>Test static USD variants in Houdini</p>\n\t</li>\n\t<li>\n\t<p>Test importing a static USD file into Unreal</p>\n\t</li>\n</ul>",
+   "plain": "Test static USD variants in Houdini\n\t\n\t\n\tTest importing a static USD file into U",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 48,
+   "y": 572,
+   "w": 882,
+   "h": 69,
+   "html": "<h3>USD Material (Houdini to Unreal)</h3>",
+   "plain": "USD Material (Houdini to Unreal)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 7,
+   "y": 649,
+   "w": 198,
+   "h": 42,
+   "html": "<h3>Static Mesh</h3>",
+   "plain": "Static Mesh",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 7,
+   "y": 696,
+   "w": 756,
+   "h": 27,
+   "html": "<h3>I used this network and MaterialX to export the USD file.</h3>",
+   "plain": "I used this network and MaterialX to export the USD file.",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 8,
+   "y": 743,
+   "w": 712,
+   "h": 273,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_db69d01b262b4c4696e6977e28a43f9a~mv2.png",
+    "w": 600,
+    "h": 232,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 824,
+   "y": 743,
+   "w": 87,
+   "h": 273,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b3cec4ed68654bb6b5060ff78fa7ab45~mv2.png",
+    "w": 188,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 8,
+   "y": 1047,
+   "w": 959,
+   "h": 135,
+   "html": "<h3>I tried two methods to import a USD file into Unreal. First, I directly dragged the USD file into the Content Drawer, and it generated a folder that included everything inside, as well as a UsdPreviewSurface master material. The result was that the textures in Unreal appeared glitchy. But when I unchecked Nanite, they displayed normally. I also noticed that only Base Color maps were imported &mdash; other maps like normal and roughness were missing.</h3>",
+   "plain": "I tried two methods to import a USD file into Unreal. First, I directly dragged ",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 8,
+   "y": 1205,
+   "w": 444,
+   "h": 250,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_56afc2814ad64b22854d719507a278c2~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00000.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 464,
+   "y": 1205,
+   "w": 129,
+   "h": 250,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f675706ed63042fd8411b56d2a49ae68~mv2.png",
+    "w": 375,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 602,
+   "y": 1211,
+   "w": 365,
+   "h": 237,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_0fe716eb05d947b6a279c283421d33cb~mv2.png",
+    "w": 600,
+    "h": 390,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 8,
+   "y": 1468,
+   "w": 444,
+   "h": 364,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f27aefb1c69b4e3a9b4c4c9dcc8c06c7~mv2.png",
+    "w": 600,
+    "h": 491,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 464,
+   "y": 1580,
+   "w": 493,
+   "h": 140,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fe1a8ff0e49e4210bdfa39256cfe02fa~mv2.png",
+    "w": 600,
+    "h": 170,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 532,
+   "y": 1731,
+   "w": 357,
+   "h": 75,
+   "html": "<h3>Only Base Color textures are imported<br />\nOnly Base Color textures are imported</h3>",
+   "plain": "Only Base Color textures are imported\nOnly Base Color textures are imported",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 193,
+   "y": 1845,
+   "w": 582,
+   "h": 328,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4df5cb260c764b819033aeeb7a1a0953~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00001.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 5,
+   "y": 2187,
+   "w": 959,
+   "h": 27,
+   "html": "<h3>Also, if you just drag the USD file into the Unreal Content Drawer, you will not see the other variants</h3>",
+   "plain": "Also, if you just drag the USD file into the Unreal Content Drawer, you will not",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 5,
+   "y": 2244,
+   "w": 970,
+   "h": 108,
+   "html": "<h3>Second, I tried using the USD Stage Actor to import the USD file. The problem is that I couldn&#39;t see any materials assigned here, but they were successfully imported, because I could find the paths of the materials and textures. As for the textures, there was the same problem &mdash; only the Base Color texture was imported.</h3>",
+   "plain": "Second, I tried using the USD Stage Actor to import the USD file. The problem is",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 5,
+   "y": 2382,
+   "w": 378,
+   "h": 213,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_72c91319a36a4c8fa48b4f4b99189c0d~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00002.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 408,
+   "y": 2440,
+   "w": 555,
+   "h": 97,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ab304ecd405d48dfbf8318ef0cc884a0~mv2.png",
+    "w": 600,
+    "h": 105,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 2620,
+   "w": 970,
+   "h": 54,
+   "html": "<h3>Then, I tried importing only a single daffodil without variants. The result was the same &mdash; it still showed a grey model, and only the Base Color texture was imported successfully.</h3>",
+   "plain": "Then, I tried importing only a single daffodil without variants. The result was ",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 2691,
+   "w": 975,
+   "h": 81,
+   "html": "<p>Then, I tried using UsdPreviewSurface to assign the material. This one didn&#39;t have SSS, and when I imported it into Unreal, only the Base Color texture was imported again. The model was still grey because the material was not automatically assigned.</p>",
+   "plain": "Then, I tried using UsdPreviewSurface to assign the material. This one didn&#39;",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 19,
+   "y": 2775,
+   "w": 196,
+   "h": 344,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b81938bf1f194587ae09ee43891e674a~mv2.png",
+    "w": 256,
+    "h": 445,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 300,
+   "y": 2781,
+   "w": 600,
+   "h": 337,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_76e545bfbef74984986422b1e8b97899~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00003.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 3151,
+   "w": 938,
+   "h": 81,
+   "html": "<p>When I opened the USD Stage Editor, I could switch between different variants. What I did in Houdini was use Color Correct to adjust the color. Due to some limitations, the color couldn&#39;t transfer to Unreal, and only the Base Color texture came through with the mesh. These are all the assets.</p>",
+   "plain": "When I opened the USD Stage Editor, I could switch between different variants. W",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 543,
+   "y": 3237,
+   "w": 290,
+   "h": 320,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c7c6c88e160648ff92df9f71616fe71b~mv2.png",
+    "w": 543,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 146,
+   "y": 3346,
+   "w": 349,
+   "h": 101,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_211424b9a1534434ba3d2eb67154bc48~mv2.png",
+    "w": 426,
+    "h": 123,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 3584,
+   "w": 938,
+   "h": 54,
+   "html": "<p>Then, I tried a different way to export the static daffodil as a USD file. The result was that none of them had materials assigned automatically, but both the materials and Base Color textures came along with them.</p>",
+   "plain": "Then, I tried a different way to export the static daffodil as a USD file. The r",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 164,
+   "y": 3660,
+   "w": 600,
+   "h": 243,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6f8e5126f43c42c7964ae283c77cc6cc~mv2.png",
+    "w": 600,
+    "h": 243,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 280,
+   "y": 3929,
+   "w": 368,
+   "h": 207,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b11fef9db55f4a749bb7895a11c71cc4~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00004.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 49,
+   "y": 4148,
+   "w": 882,
+   "h": 56,
+   "html": "<h3>Daffodil Instance in Houdini and Unreal</h3>",
+   "plain": "Daffodil Instance in Houdini and Unreal",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 21,
+   "y": 4219,
+   "w": 938,
+   "h": 54,
+   "html": "<p>Then, I tried doing instancing in Houdini to scatter daffodils on the HeightField. I scattered 462 points and copied the animated daffodils onto them.</p>",
+   "plain": "Then, I tried doing instancing in Houdini to scatter daffodils on the HeightFiel",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 91,
+   "y": 4302,
+   "w": 321,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_84f2b35d4ee94577970eda5140f128f2~mv2.png",
+    "w": 321,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 622,
+   "y": 4302,
+   "w": 297,
+   "h": 600,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_282d09cdf84241a686cb7d580ef55d7e~mv2.png",
+    "w": 297,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 171,
+   "y": 4919,
+   "w": 161,
+   "h": 51,
+   "html": "<h3>Daffodil Instance<br />\n </h3>",
+   "plain": "Daffodil Instance",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 708,
+   "y": 4919,
+   "w": 125,
+   "h": 27,
+   "html": "<h3>Height Field</h3>",
+   "plain": "Height Field",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 87,
+   "y": 4971,
+   "w": 828,
+   "h": 464,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_54701608915241a98287f0beb91935e1~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "Daffodil1.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 401,
+   "y": 5459,
+   "w": 177,
+   "h": 51,
+   "html": "<h3>Render in Houdini<br />\n </h3>",
+   "plain": "Render in Houdini",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 10,
+   "y": 5510,
+   "w": 969,
+   "h": 54,
+   "html": "<h3>When I imported the USD file into Unreal, the materials still didn&#39;t show up, and I needed to assign them manually. However, everything else, like layout, layers, and all positions and scales, was accurate.</h3>",
+   "plain": "When I imported the USD file into Unreal, the materials still didn&#39;t show up",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 27,
+   "y": 5579,
+   "w": 458,
+   "h": 255,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_8dae354f22e9440bafd7bd061c7335f7~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00005.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 496,
+   "y": 5579,
+   "w": 458,
+   "h": 255,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4bad87ce65b74ae5997be569c46e0c29~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00013.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 654,
+   "y": 5844,
+   "w": 159,
+   "h": 51,
+   "html": "<h3>Render in Unreal<br />\n </h3>",
+   "plain": "Render in Unreal",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 5,
+   "y": 5901,
+   "w": 969,
+   "h": 81,
+   "html": "<h3>Then, I tried importing the daffodils into a different Unreal project. The materials came along with the meshes, but only the daffodils had materials &mdash; the ground still didn&#39;t have any. The same issue persisted: only Base Color textures were imported.</h3>",
+   "plain": "Then, I tried importing the daffodils into a different Unreal project. The mater",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 26,
+   "y": 6012,
+   "w": 928,
+   "h": 524,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_ccf54f80145d4fad9b7f167976cff5a1~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00015.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 5,
+   "y": 6565,
+   "w": 969,
+   "h": 32,
+   "html": "<h3>So the conclusion is that the best approach is to recreate the materials in Unreal.</h3>",
+   "plain": "So the conclusion is that the best approach is to recreate the materials in Unre",
+   "head": true
+  }
+ ]
+}

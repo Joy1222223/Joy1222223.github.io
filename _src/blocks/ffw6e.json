@@ -1,0 +1,54 @@
+{
+ "meta": {
+  "id": "ffw6e",
+  "title": "Animation",
+  "uri": "copy-of-fx-1"
+ },
+ "atoms": [
+  {
+   "t": "text",
+   "x": 50,
+   "y": 49,
+   "w": 566,
+   "h": 67,
+   "html": "<h3>Animation</h3>",
+   "plain": "Animation",
+   "head": true
+  },
+  {
+   "t": "slides",
+   "x": 50,
+   "y": 159,
+   "w": 906,
+   "h": 493,
+   "slides": [
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_4d7c78a9006b4db5a29bb6e143cbc488~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "alt": "01.png"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:xzvgv\">Watch More</a></p>"
+     ],
+     "link": "PAGE:xzvgv"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_b9fdde1115fe44bb8d2442ee5d059e2e~mv2.jpg",
+      "w": 1920,
+      "h": 1080,
+      "alt": "S24_V721_P3_YiqiZheng_Hedwig.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:b5yv6\">Watch More</a></p>"
+     ],
+     "link": "PAGE:b5yv6"
+    }
+   ]
+  }
+ ]
+}

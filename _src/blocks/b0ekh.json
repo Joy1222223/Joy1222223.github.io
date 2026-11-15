@@ -1,0 +1,84 @@
+{
+ "meta": {
+  "id": "b0ekh",
+  "title": "Week10",
+  "uri": "copy-of-week9-3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -787,
+   "y": 23,
+   "w": 2500,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_5e01807ab874466ea90ec94c61c307fb~mv2.jpg",
+    "w": 5000,
+    "h": 2477,
+    "alt": "Mountaintop At Sunrise"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week10</h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -37,
+   "y": 405,
+   "w": 277,
+   "h": 46,
+   "html": "<h3>Week 10 Plan:</h3>",
+   "plain": "Week 10 Plan:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -31,
+   "y": 472,
+   "w": 801,
+   "h": 28,
+   "html": "<ul>\n\t<li>\n\t<p>Plans for 799.</p>\n\t</li>\n</ul>",
+   "plain": "Plans for 799.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 565,
+   "w": 980,
+   "h": 44,
+   "html": "<p>Check out: <a href=\"http://splatgarden.com\" target=\"_blank\" rel=\"noopener\">splatgarden.com</a> to experience our splat garden</p>",
+   "plain": "Check out: splatgarden.com to experience our splat garden",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 644,
+   "w": 980,
+   "h": 140,
+   "html": "<p>Basically, this quarter I worked hard on recording the comparison of the two different pipelines, USD and VAT, and finished the first draft of the paper. I also explored triggering VAT animations, Houdini Niagara, and importing large amounts of particles from Houdini into Unreal. In addition, I made VAT collaborate with Niagara by getting the position and rotation from the texture and feeding it into Niagara, so I could change the shapes of the points instead of using cards.</p>",
+   "plain": "Basically, this quarter I worked hard on recording the comparison of the two dif",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 809,
+   "w": 980,
+   "h": 672,
+   "html": "<p>799 Week Plan:</p>\n\n<p>Week 1</p>\n\n<p>Define deeper research questions from the SIGGRAPH reviewers&#39; feedback and lock the core contribution (VAT + Niagara for a changing vertex count).</p>\n\n<p>Week 2</p>\n\n<p>Develop the VAT + Niagara approach in depth: use Niagara to sample VAT textures and drive particles/geometry. Investigate how far this pushes past the vertex-count limitation.</p>\n\n<p>Week 3</p>\n\n<p>Try the VAT dynamic remeshing mode and find out why the changing vertex count breaks it. Test ways to fix it.</p>\n\n<p>Week 4</p>\n\n<p>Push the dynamic remeshing solution further so it stably handles continuously changing vertex counts. Explore edge cases and refine the technique.</p>\n\n<p>Week 5</p>\n\n<p>Explore using masks to control the VAT texture &mdash; driving which parts animate, when, and how &mdash; for finer, more art-directable control.</p>\n\n<p>Week 6</p>\n\n<p>Experiment with the position and rotation data stored in the VAT &mdash; offsetting, layering, and recombining transforms to create richer motion and new effects.</p>\n\n<p>Week 7</p>\n\n<p>Writing: write the methodology, results, and in-depth analysis. Emphasize the &quot;why&quot; behind every finding, not just the &quot;what.&quot;</p>\n\n<p>Week 8</p>\n\n<p>Revise: incorporate committee feedback and strengthen the analysis. Finish the artist statement and remaining written parts.</p>\n\n<p>Week 9</p>\n\n<p>Presentation: build and rehearse the final presentation, focusing on the techniques and breakthroughs. Submit all remaining components.</p>\n\n<p>Week 10</p>\n\n<p>Check and submit everything needed.</p>",
+   "plain": "799 Week Plan:\n\nWeek 1\n\nDefine deeper research questions from the SIGGRAPH revie",
+   "head": false
+  }
+ ]
+}

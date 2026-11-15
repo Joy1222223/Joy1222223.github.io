@@ -1,0 +1,202 @@
+{
+ "meta": {
+  "id": "ejrov",
+  "title": "OSL",
+  "uri": "copy-of-apple"
+ },
+ "atoms": [
+  {
+   "t": "video",
+   "x": 160,
+   "y": -1795,
+   "w": 660,
+   "h": 486,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2ca6b03a3861449cadc6100015b686d0",
+    "poster": "f7279b_2ca6b03a3861449cadc6100015b686d0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -582,
+   "y": 56,
+   "w": 763,
+   "h": 107,
+   "html": "<h3>Texture</h3>",
+   "plain": "Texture",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -245,
+   "y": 259,
+   "w": 604,
+   "h": 56,
+   "html": "<h3>Procedural Texture</h3>",
+   "plain": "Procedural Texture",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 179,
+   "y": 362,
+   "w": 600,
+   "h": 332,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4ffafbb72730459fab91e640de0b6671~mv2.jpg",
+    "w": 1582,
+    "h": 878,
+    "alt": "11111.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 66,
+   "y": 733,
+   "w": 827,
+   "h": 50,
+   "html": "<p>    The project is finished in Houdini, including modeling, texturing, and rendering, and I used Nuke to blur the background. All of the textures here are procedural and use OSL to finish it.</p>",
+   "plain": "The project is finished in Houdini, including modeling, texturing, and rendering",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 802,
+   "w": 604,
+   "h": 56,
+   "html": "<h3>Succulent</h3>",
+   "plain": "Succulent",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 882,
+   "w": 600,
+   "h": 337,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b553d0ff68f9430892c8b83757282305~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "SAV_2023Fall_VSFX_Yiqi Zheng_01.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 66,
+   "y": 1301,
+   "w": 827,
+   "h": 76,
+   "html": "<p>I used a Redshift Ramp as the vase mask to make the vase have different colors, and I gave Maxon Noise to let the vase have a spot on its surface. I added the Displacement to make those spots look more 3D.</p>",
+   "plain": "I used a Redshift Ramp as the vase mask to make the vase have different colors, ",
+   "head": false
+  },
+  {
+   "t": "gallery",
+   "x": 9,
+   "y": 1419,
+   "w": 961,
+   "h": 361,
+   "items": [
+    {
+     "kind": "image",
+     "uri": "f7279b_eec677b558324b82bc9f5214d9c6712c~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_811a2379cb6a432898841c1728fb8480~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_16b33b22a55e473b900cbf514e352031~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_8ae0fd3330284af3866db2e139ee93d3~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_467f24701e8849eda3e59cc1d4c9b788~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_ae042b194f604baa9f9b3bd840525f3a~mv2.jpg",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_f761ef8d6d464dd1a13c71a34c63506c~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_8c6630e21e9440e1b02caf109a213258~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_d6a4fbcb64a44f79950225d3a52ff01a~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_e2b85639609243cc86b8f416f474dec7~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_306f30226e544fce80249f3707995d48~mv2.png",
+     "title": "",
+     "alt": ""
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_15374bfae88449dda1d46b850f6dda54~mv2.png",
+     "title": "",
+     "alt": ""
+    }
+   ],
+   "kind": "grid"
+  },
+  {
+   "t": "text",
+   "x": 76,
+   "y": 1868,
+   "w": 827,
+   "h": 50,
+   "html": "<p>First I used Maxon Noise as a surface mask, and then I used Redshift Ramp to add colors. To make the plant have some spots, I used Maxon Noise as a sheen&rsquo;s mask.</p>",
+   "plain": "First I used Maxon Noise as a surface mask, and then I used Redshift Ramp to add",
+   "head": false
+  }
+ ]
+}

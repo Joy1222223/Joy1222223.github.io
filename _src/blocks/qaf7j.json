@@ -1,0 +1,632 @@
+{
+ "meta": {
+  "id": "qaf7j",
+  "title": "Week2",
+  "uri": "副本-week1-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_b35d65a47af340599df7c83b93934171~mv2.jpg",
+    "w": 5000,
+    "h": 3333,
+    "alt": "橙色雛菊特寫"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week2</h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 300,
+   "y": 448,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 515,
+   "w": 144,
+   "h": 26,
+   "html": "<h3>Yiqi Zheng (Fx)</h3>",
+   "plain": "Yiqi Zheng (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 547,
+   "w": 144,
+   "h": 26,
+   "html": "<h3>Riley Ho (Fx)</h3>",
+   "plain": "Riley Ho (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 579,
+   "w": 290,
+   "h": 26,
+   "html": "<h3>Itim Kongsakulvatanasook (Fx)</h3>",
+   "plain": "Itim Kongsakulvatanasook (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 610,
+   "w": 290,
+   "h": 26,
+   "html": "<h3>Sofia Mancias (Compositing)</h3>",
+   "plain": "Sofia Mancias (Compositing)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 642,
+   "w": 290,
+   "h": 26,
+   "html": "<h3>Benji Hopkins (Look Dev)</h3>",
+   "plain": "Benji Hopkins (Look Dev)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -75,
+   "y": 648,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Jan 14</h3>",
+   "plain": "Jan 14",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 744,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR X ETC - Week 2</h3>",
+   "plain": "SCAD X HARBOR X ETC - Week 2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 820,
+   "w": 593,
+   "h": 26,
+   "html": "<h3>Hello, this is my second week of the Scad x Harbor x ETC blog!</h3>",
+   "plain": "Hello, this is my second week of the Scad x Harbor x ETC blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 861,
+   "w": 930,
+   "h": 26,
+   "html": "<h3>These are the mentors&#39; feedback from Tuesday&#39;s pitch.</h3>",
+   "plain": "These are the mentors&#39; feedback from Tuesday&#39;s pitch.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 21,
+   "y": 912,
+   "w": 861,
+   "h": 198,
+   "html": "<p>Kyle:</p>\n\n<ul>\n\t<li>\n\t<p>Be careful with camera movement; avoid being too busy.</p>\n\t</li>\n\t<li>\n\t<p>Slow down pacing&mdash;especially avoid zipping past FX details.</p>\n\t</li>\n\t<li>\n\t<p>The second shot feels dizzy; reduce camera motion.</p>\n\t</li>\n\t<li>\n\t<p>Dial down camera moves by ~15% to give FX time to read.</p>\n\t</li>\n\t<li>\n\t<p>Highlight specific product details in each shot (e.g. inside the printer, not just the top surface).</p>\n\t</li>\n\t<li>\n\t<p>Be very product-accurate; pay close attention to details (e.g. include LED lights if present).</p>\n\t</li>\n\t<li>\n\t<p>Ensure lighting shows painterly colors clearly against a black background.</p>\n\t</li>\n</ul>",
+   "plain": "Kyle:\n\n\n\t\n\tBe careful with camera movement; avoid being too busy.\n\t\n\t\n\tSlow down",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1134,
+   "w": 770,
+   "h": 75,
+   "html": "<p>Hailey:</p>\n\n<ul>\n\t<li>\n\t<p>Make sure colors pop against the black environment.</p>\n\t</li>\n\t<li>\n\t<p>Color and lighting choices need strong visual contrast.TV reference is strong and appropriate.</p>\n\t</li>\n</ul>",
+   "plain": "Hailey:\n\n\n\t\n\tMake sure colors pop against the black environment.\n\t\n\t\n\tColor and ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1232,
+   "w": 697,
+   "h": 78,
+   "html": "<p>Beck：</p>\n\n<ul>\n\t<li>\n\t<p>Show what the product can do, not just the product itself.</p>\n\t</li>\n\t<li>\n\t<p>Overall pacing feels too fast&mdash;slow down to showcase FX and details.</p>\n\t</li>\n</ul>",
+   "plain": "Beck：\n\n\n\t\n\tShow what the product can do, not just the product itself.\n\t\n\t\n\tOvera",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1339,
+   "w": 557,
+   "h": 106,
+   "html": "<p>Molly：</p>\n\n<ul>\n\t<li>\n\t<p>Camera moves should feel more orchestrated and intentional.</p>\n\t</li>\n\t<li>\n\t<p>Many shots end in similar product positions&mdash;add more variation.</p>\n\t</li>\n\t<li>\n\t<p>Make Shot 2 more macro / close-up.</p>\n\t</li>\n</ul>",
+   "plain": "Molly：\n\n\n\t\n\tCamera moves should feel more orchestrated and intentional.\n\t\n\t\n\tMan",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1445,
+   "w": 745,
+   "h": 51,
+   "html": "<p>Stephan：</p>\n\n<ul>\n\t<li>\n\t<p>FX could act as a light source (emissive FX).</p>\n\t</li>\n</ul>",
+   "plain": "Stephan：\n\n\n\t\n\tFX could act as a light source (emissive FX).",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1512,
+   "w": 931,
+   "h": 100,
+   "html": "<p>Billy：</p>\n\n<ul>\n\t<li>\n\t<p>Decide whether the camera moves or the object moves&mdash;avoid doing both at once.</p>\n\t</li>\n\t<li>\n\t<p>Clearly define the product&rsquo;s visual language first.Once the visual language is defined, it will clarify whether to emphasize camera motion or product details.</p>\n\t</li>\n</ul>",
+   "plain": "Billy：\n\n\n\t\n\tDecide whether the camera moves or the object moves&mdash;avoid doin",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1684,
+   "w": 955,
+   "h": 107,
+   "html": "<p>To-Do List: </p>\n\n<ul>\n\t<li>\n\t<p>Create a fluid flow path</p>\n\t</li>\n\t<li>\n\t<p>Ensure the curve can guide the fluid to form a smooth flow</p>\n\t</li>\n\t<li>\n\t<p>Adjust the position and speed to match the storyboard (the fluid flows into the holes one by one)</p>\n\t</li>\n</ul>",
+   "plain": "To-Do List: \n\n\n\t\n\tCreate a fluid flow path\n\t\n\t\n\tEnsure the curve can guide the f",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1861,
+   "w": 97,
+   "h": 22,
+   "html": "<p>Fluid Test:</p>",
+   "plain": "Fluid Test:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1882,
+   "w": 931,
+   "h": 49,
+   "html": "<p>Based on the storyboard, I started with a fluid test. The basic motion is that the six colored flows start off-screen, swirl together, and then go into the holes one by one.</p>",
+   "plain": "Based on the storyboard, I started with a fluid test. The basic motion is that t",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1936,
+   "w": 213,
+   "h": 26,
+   "html": "<p>References:</p>",
+   "plain": "References:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 24,
+   "y": 1962,
+   "w": 931,
+   "h": 25,
+   "html": "<p>I don&#39;t exactly found same motion reference, but I found what the fluid should looks like when they go into the holes.</p>",
+   "plain": "I don&#39;t exactly found same motion reference, but I found what the fluid shou",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 2023,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_a88355f8bf96448abb66f0ad07733535",
+    "poster": "f7279b_a88355f8bf96448abb66f0ad07733535f000.jpg",
+    "w": 768,
+    "h": 432,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 330,
+   "y": 2023,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_b7bafd1eae314e3bb08c468cfb15004d",
+    "poster": "f7279b_b7bafd1eae314e3bb08c468cfb15004df000.jpg",
+    "w": 768,
+    "h": 432,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 660,
+   "y": 2023,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_77e9ebc559494ef79e3176698f93bcc9",
+    "poster": "f7279b_77e9ebc559494ef79e3176698f93bcc9f000.jpg",
+    "w": 768,
+    "h": 432,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 2213,
+   "w": 320,
+   "h": 27,
+   "html": "<p><a href=\"https://www.istockphoto.com/video/color-lgbtq-liquid-rainbow-wave-flow-on-black-4k-gm1329335587-413101988\" target=\"_blank\" rel=\"noopener\">https://www.istockphoto.com/video/color-lgbtq-liquid-rainbow-wave-flow-on-black-4k-gm1329335587-413101988</a></p>",
+   "plain": "https://www.istockphoto.com/video/color-lgbtq-liquid-rainbow-wave-flow-on-black-",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 330,
+   "y": 2213,
+   "w": 320,
+   "h": 31,
+   "html": "<p><a href=\"https://www.istockphoto.com/video/orange-paint-pouring-gm1084647094-291026940\" target=\"_blank\" rel=\"noopener\">https://www.istockphoto.com/video/orange-paint-pouring-gm1084647094-291026940</a></p>",
+   "plain": "https://www.istockphoto.com/video/orange-paint-pouring-gm1084647094-291026940",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 660,
+   "y": 2213,
+   "w": 320,
+   "h": 31,
+   "html": "<p><a href=\"https://www.istockphoto.com/video/green-paint-is-mixed-in-a-jar-before-use-gm1815540350-549627005\" target=\"_blank\" rel=\"noopener\">https://www.istockphoto.com/video/green-paint-is-mixed-in-a-jar-before-use-gm1815540350-549627005</a></p>",
+   "plain": "https://www.istockphoto.com/video/green-paint-is-mixed-in-a-jar-before-use-gm181",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 2262,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_250bb4d9d21f4cefbb287673f2903f35",
+    "poster": "f7279b_250bb4d9d21f4cefbb287673f2903f35f000.jpg",
+    "w": 768,
+    "h": 432,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 330,
+   "y": 2262,
+   "w": 320,
+   "h": 180,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_f9b41f9ce30d4811846588159a74c831",
+    "poster": "f7279b_f9b41f9ce30d4811846588159a74c831f000.jpg",
+    "w": 768,
+    "h": 432,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 2452,
+   "w": 320,
+   "h": 27,
+   "html": "<p><a href=\"https://www.istockphoto.com/video/yellow-paint-pours-on-surface-gm994217230-269246966\" target=\"_blank\" rel=\"noopener\">https://www.istockphoto.com/video/yellow-paint-pours-on-surface-gm994217230-269246966</a></p>",
+   "plain": "https://www.istockphoto.com/video/yellow-paint-pours-on-surface-gm994217230-2692",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 330,
+   "y": 2452,
+   "w": 320,
+   "h": 27,
+   "html": "<p><a href=\"https://www.istockphoto.com/video/blue-color-acrylic-paint-falling-gm1322290672-408261828\" target=\"_blank\" rel=\"noopener\">https://www.istockphoto.com/video/blue-color-acrylic-paint-falling-gm1322290672-408261828</a></p>",
+   "plain": "https://www.istockphoto.com/video/blue-color-acrylic-paint-falling-gm1322290672-",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 713,
+   "y": 2485,
+   "w": 114,
+   "h": 231,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7935f3dd0ba64f8e9e1f3b4695885fe3~mv2.png",
+    "w": 114,
+    "h": 231,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 121,
+   "y": 2495,
+   "w": 343,
+   "h": 209,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d637dfd2ee00471b85a25af56f4de0f9~mv2.png",
+    "w": 600,
+    "h": 366,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 121,
+   "y": 2727,
+   "w": 343,
+   "h": 74,
+   "html": "<p>I started by creating curves, which serve as the guidelines for the fluid path. And also divide they as different colors and group. </p>",
+   "plain": "I started by creating curves, which serve as the guidelines for the fluid path. ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 598,
+   "y": 2727,
+   "w": 343,
+   "h": 74,
+   "html": "<p>Create a sphere as emitter of fluid. And use popnet to generate the particles, which can be converted to fluid</p>",
+   "plain": "Create a sphere as emitter of fluid. And use popnet to generate the particles, w",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 593,
+   "y": 2825,
+   "w": 343,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_380e41b33c6743bca840ee6e35394aec~mv2.png",
+    "w": 403,
+    "h": 230,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 20,
+   "y": 2830,
+   "w": 550,
+   "h": 193,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d0e7ff44536342419f28114b89f3bfb0~mv2.png",
+    "w": 600,
+    "h": 213,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 20,
+   "y": 3047,
+   "w": 550,
+   "h": 98,
+   "html": "<p>This VEX code samples the tangent direction from nearby curve points and uses it to drive the particle velocity, allowing the fluid to follow the curve smoothly while maintaining consistent motion speed controlled by a parameter.</p>",
+   "plain": "This VEX code samples the tangent direction from nearby curve points and uses it",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 601,
+   "y": 3047,
+   "w": 338,
+   "h": 98,
+   "html": "<p>I also implemented top-level controls to manage the global flow speed and to sequence the colored fluid streams into the holes individually.</p>",
+   "plain": "I also implemented top-level controls to manage the global flow speed and to seq",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 20,
+   "y": 3167,
+   "w": 482,
+   "h": 294,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_efb41cd1becc4a428abc37ae953f3241~mv2.png",
+    "w": 396,
+    "h": 242,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 318,
+   "y": 3195,
+   "w": 343,
+   "h": 25,
+   "html": "<p>Those are flipbooks with two fluid paths.</p>",
+   "plain": "Those are flipbooks with two fluid paths.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 532,
+   "y": 3252,
+   "w": 432,
+   "h": 126,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1b21db2273be4fc487ab1c7b4606886a~mv2.png",
+    "w": 381,
+    "h": 111,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 20,
+   "y": 3483,
+   "w": 959,
+   "h": 49,
+   "html": "<p>I also assigned different emitter groups so that each color follows its corresponding color path, and I still need to investigate why the fluid becomes thinner as it approaches the holes.</p>",
+   "plain": "I also assigned different emitter groups so that each color follows its correspo",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 20,
+   "y": 3586,
+   "w": 464,
+   "h": 261,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_19b44ff897554a5cbb86b072c1ea39ee",
+    "poster": "f7279b_19b44ff897554a5cbb86b072c1ea39eef000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 500,
+   "y": 3586,
+   "w": 464,
+   "h": 261,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_21a4435439c443c8a826266a4533d9c4",
+    "poster": "f7279b_21a4435439c443c8a826266a4533d9c4f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 20,
+   "y": 3862,
+   "w": 213,
+   "h": 55,
+   "html": "<p>Problem:</p>",
+   "plain": "Problem:",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 192,
+   "y": 3936,
+   "w": 600,
+   "h": 420,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d8343ee2a258457487e66e6f44b8f45a~mv2.png",
+    "w": 600,
+    "h": 420,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 192,
+   "y": 4364,
+   "w": 600,
+   "h": 49,
+   "html": "<p>I still need to figure out why the fluid becomes thinner as it gets closer to the holes.</p>",
+   "plain": "I still need to figure out why the fluid becomes thinner as it gets closer to th",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 4433,
+   "w": 944,
+   "h": 49,
+   "html": "<p>For the next step, I plan to combine a Vellum solver to make the fluid feel more sticky and paint-like, and further polish the motion path.</p>",
+   "plain": "For the next step, I plan to combine a Vellum solver to make the fluid feel more",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 4508,
+   "w": 907,
+   "h": 140,
+   "html": "<p><a href=\"PAGE:n04w6\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Refine the fluid path</p>\n\t</li>\n\t<li>\n\t<p>Integrate Vellum for a sticky, paint-like fluid effect</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tRefine the fluid path\n\t\n\t\n\tIntegrate Vellum for a sticky, paint-",
+   "head": false
+  }
+ ]
+}

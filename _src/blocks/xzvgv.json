@@ -1,0 +1,440 @@
+{
+ "meta": {
+  "id": "xzvgv",
+  "title": "Overpower",
+  "uri": "animation"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": -731,
+   "y": -60,
+   "w": 980,
+   "h": 875,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7be4ab20ebcf4c7b9732f6a3843bbb95~mv2.png",
+    "w": 1920,
+    "h": 1080,
+    "alt": "图片6.png"
+   }
+  },
+  {
+   "t": "text",
+   "x": -631,
+   "y": 180,
+   "w": 936,
+   "h": 122,
+   "html": "<h3>Overpower(Collaborative Animation)</h3>",
+   "plain": "Overpower(Collaborative Animation)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -631,
+   "y": 330,
+   "w": 631,
+   "h": 115,
+   "html": "<p>    I am one of the directors of this is my undergraduate final work. A boy who has been abused by his dad for many years finally confronts his fear of domestic violence. In this group project (group of 3), my role was character designer, modeler, and storyboard artist.</p>",
+   "plain": "I am one of the directors of this is my undergraduate final work. A boy who has ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 779,
+   "w": 129,
+   "h": 89,
+   "html": "<h2>SCENE</h2>",
+   "plain": "SCENE",
+   "head": true
+  },
+  {
+   "t": "gallery",
+   "x": -117,
+   "y": 874,
+   "w": 1216,
+   "h": 401,
+   "items": [
+    {
+     "kind": "image",
+     "uri": "f7279b_adbe3fa4b2ab42248c6eff88b6cf8f13~mv2.png",
+     "w": 1920,
+     "h": 1080,
+     "alt": "图片9",
+     "title": "图片9",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_327daf38d146495a908f63a7115b5256~mv2.png",
+     "w": 1920,
+     "h": 1080,
+     "alt": "图片8",
+     "title": "图片8",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_454a24cf9acf46c5a6fd08386ccd2e9f~mv2.png",
+     "w": 1920,
+     "h": 1080,
+     "alt": "图片7",
+     "title": "图片7",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_c7624dbb6b5044ebb6b641fd8f818f6f~mv2.png",
+     "w": 1721,
+     "h": 1054,
+     "alt": "图片5",
+     "title": "图片5",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_7be4ab20ebcf4c7b9732f6a3843bbb95~mv2.png",
+     "w": 1920,
+     "h": 1080,
+     "alt": "图片6",
+     "title": "图片6",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_62e9c4a9ba784beb895182b3d4b6f930~mv2.png",
+     "w": 1754,
+     "h": 1054,
+     "alt": "图片4",
+     "title": "图片4",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_4d7c78a9006b4db5a29bb6e143cbc488~mv2.png",
+     "w": 1920,
+     "h": 1080,
+     "alt": "01",
+     "title": "01",
+     "desc": "",
+     "link": null
+    }
+   ],
+   "kind": "TPA3DCarousel"
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 1285,
+   "w": 261,
+   "h": 97,
+   "html": "<h2>character</h2>",
+   "plain": "character",
+   "head": true
+  },
+  {
+   "t": "gallery",
+   "x": -117,
+   "y": 1360,
+   "w": 1216,
+   "h": 401,
+   "items": [
+    {
+     "kind": "image",
+     "uri": "f7279b_3267c2be9abb47a2ab544f774b60da6d~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "777",
+     "title": "777",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_d201808d4299423c9146a5396e4a4ab8~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "666",
+     "title": "666",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_a2ab65e1c1d547778d65544c551dcad3~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "555",
+     "title": "555",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_09c8d0ad927f4df3a6a3dc0a5b1d7533~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "222",
+     "title": "222",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_339bba50c1534e12834d4c8869616b2b~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "444",
+     "title": "444",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_c4be33678c43468a99e1f2db4cadc76b~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "333",
+     "title": "333",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_ac8c106fc04049d1a8e0a5ff5186e3f9~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "111",
+     "title": "111",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_9c23b1df56544a548720bfebe70c431b~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "11",
+     "title": "11",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_8139a6f5eca74e80a35e6d56143e2aea~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "88",
+     "title": "88",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_1e5cfa68c9a34aaabd6823a6adac7a73~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "77",
+     "title": "77",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_d862d0179c064f2c9feef841595bf472~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "66",
+     "title": "66",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_8b76e9acd1fa485b8c0e2d0474760c70~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "55",
+     "title": "55",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_dadafada5278406a97d8997cc702ffbd~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "44",
+     "title": "44",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_a6fa45cb503d48739817638821c0dfc7~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "33",
+     "title": "33",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_933e531d017f4e599595808e8779071a~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "22",
+     "title": "22",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_87155ac0cb324da694e4a36db9693265~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "1",
+     "title": "1",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_fb84249230c643539ef94c87dc29db75~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "7",
+     "title": "7",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_cffcffc83dcd43c597efafa33d559aea~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "8",
+     "title": "8",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_c638981fcd974e40a05b25544cb7c5de~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "6",
+     "title": "6",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_73dde0f1c3764f0db5f3cba35c958529~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "5",
+     "title": "5",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_6d486a1f17df4164af1321dcc7357787~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "2",
+     "title": "2",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_be6221b1f54d4968bcb1125a619452d1~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "4",
+     "title": "4",
+     "desc": "",
+     "link": null
+    },
+    {
+     "kind": "image",
+     "uri": "f7279b_b7afe000036944b88dd30cd7b92c48d5~mv2.png",
+     "w": 4096,
+     "h": 4096,
+     "alt": "3",
+     "title": "3",
+     "desc": "",
+     "link": null
+    }
+   ],
+   "kind": "TPA3DCarousel"
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 1851,
+   "w": 261,
+   "h": 87,
+   "html": "<h2>STORYBOARD</h2>",
+   "plain": "STORYBOARD",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 21,
+   "y": 1970,
+   "w": 937,
+   "h": 519,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_6cc8c8149ecf4893bab56fda6164d5e2",
+    "poster": "f7279b_6cc8c8149ecf4893bab56fda6164d5e2f002.jpg",
+    "w": 624,
+    "h": 352,
+    "q": [
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 2658,
+   "w": 256,
+   "h": 92,
+   "html": "<h2>Final VIDEO</h2>",
+   "plain": "Final VIDEO",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 21,
+   "y": 2784,
+   "w": 937,
+   "h": 519,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_56e92b68a1ca4bedade2171a46303081",
+    "poster": "f7279b_56e92b68a1ca4bedade2171a46303081f002.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,264 @@
+{
+ "meta": {
+  "id": "n2c7q",
+  "title": "Week8",
+  "uri": "副本-week7"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week8</h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 136,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 651,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Mar 1</h3>",
+   "plain": "Mar 1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 707,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 8</h3>",
+   "plain": "SCAD X HARBOR - Week 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 762,
+   "w": 534,
+   "h": 27,
+   "html": "<h3>Hello, this is my eight week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my eight week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 800,
+   "w": 285,
+   "h": 27,
+   "html": "<h3>Feedback From Mentors:</h3>",
+   "plain": "Feedback From Mentors:",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 838,
+   "w": 930,
+   "h": 440,
+   "html": "<p>Luke:</p>\n\n<ul>\n\t<li>\n\t<p>Shot 1: push DOF (through in grain, expo glow(subtle))</p>\n\t</li>\n</ul>\n\n<p>Hailey:​</p>\n\n<ul>\n\t<li>Shot 1: Bg is out of focus/Fg is sharp</li>\n\t<li>Shot 1: sparks are black, not reading as sparks</li>\n\t<li>Shot 6: square reflection feels odd/lighting is improved</li>\n\t<li>Shot 2/3: floor texture is flat</li>\n</ul>\n\n<p>Kyle:​</p>\n\n<ul>\n\t<li>\n\t<p>Shot 1: fix faceting on burner rim</p>\n\t</li>\n\t<li>\n\t<p>Bg to Fg blur needs improving</p>\n\t</li>\n\t<li>\n\t<p>flames are not integrated - blue/light and heat flare on lens/heat haze</p>\n\t</li>\n\t<li>\n\t<p>sparks should glow</p>\n\t</li>\n\t<li>\n\t<p>add cam move at the end of shot 1</p>\n\t</li>\n\t<li>\n\t<p>shot5/6: more DOF</p>\n\t</li>\n\t<li>\n\t<p>fix logo - more modern</p>\n\t</li>\n\t<li>\n\t<p>export video 23.98, not 30 fps</p>\n\t</li>\n</ul>\n\n<p>​</p>\n\n<p>​</p>",
+   "plain": "Luke:\n\n\n\t\n\tShot 1: push DOF (through in grain, expo glow(subtle))\n\t\n\n\nHailey:​\n\n",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1248,
+   "w": 930,
+   "h": 56,
+   "html": "<p>For shots 2 and 3, I changed the texture of the floor and increased the displacement, so it no longer looks as flat.</p>",
+   "plain": "For shots 2 and 3, I changed the texture of the floor and increased the displace",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 195,
+   "y": 1289,
+   "w": 600,
+   "h": 337,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_828b08e46a514fe1a507f242bf20b4c6~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "output.0130.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 1647,
+   "w": 930,
+   "h": 77,
+   "html": "<p>This week, I focused more on helping Caleb render different passes for compositing. I separated the scene into six parts, which provides flexibility for control in Nuke. I used Render Geometry Settings to separate the objects I wanted.</p>",
+   "plain": "This week, I focused more on helping Caleb render different passes for compositi",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 62,
+   "y": 1746,
+   "w": 376,
+   "h": 300,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3fbd977a823e4774924bdd4b3aec89b8~mv2.png",
+    "w": 600,
+    "h": 480,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 549,
+   "y": 1746,
+   "w": 360,
+   "h": 300,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3c7bf4cd43ad403fb2561f5706d9bf3f~mv2.png",
+    "w": 455,
+    "h": 379,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 61,
+   "y": 2054,
+   "w": 376,
+   "h": 288,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6679b297726c45338332518eed3ac888~mv2.png",
+    "w": 391,
+    "h": 300,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 549,
+   "y": 2069,
+   "w": 360,
+   "h": 269,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6362e66c300247f591db69607039ccd4~mv2.png",
+    "w": 281,
+    "h": 214,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 292,
+   "y": 2350,
+   "w": 396,
+   "h": 262,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_94270e7f1ffb4c2289ad61a8335d3bd7~mv2.png",
+    "w": 396,
+    "h": 262,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 2632,
+   "w": 930,
+   "h": 52,
+   "html": "<p>For the environment smoke, what I need is for the pot at the bottom to block it, so I need to add a matte. This is what the pass looks like.</p>",
+   "plain": "For the environment smoke, what I need is for the pot at the bottom to block it,",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 231,
+   "y": 2691,
+   "w": 483,
+   "h": 187,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3598b6df6c334f6d846b239510e338d4~mv2.png",
+    "w": 483,
+    "h": 187,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 190,
+   "y": 2897,
+   "w": 600,
+   "h": 330,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f4a10f1a4ca44359854755641d0335bc~mv2.png",
+    "w": 600,
+    "h": 330,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 3245,
+   "w": 930,
+   "h": 77,
+   "html": "<p>Another annoying issue with the rendering is that due to limited memory, it keeps crashing when I save to disk. So, I first separate the different objects, then split the USD files by frame range, and this makes the export process work fine.</p>",
+   "plain": "Another annoying issue with the rendering is that due to limited memory, it keep",
+   "head": false
+  }
+ ]
+}

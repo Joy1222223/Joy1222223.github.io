@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week10 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技术美术与 CG 通才。使用 Houdini、Maya 与 Unreal Engine 制作程序化特效、外观开发与流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/harbour-x-etc/week-10/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/harbour-x-etc/week-10/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/harbour-x-etc/week-10/">
+</head>
+<body class="lang-zh-hans ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hans/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hans/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hans/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hans/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hans/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hans/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hans/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hans/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hans/blog/">博客</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hans/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hans/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hans/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hans/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/harbour-x-etc/week-10/" hreflang="en">EN</a><a class="lg ripple" href="../../../../zh-hant/blog/harbour-x-etc/week-10/" hreflang="zh-Hant">繁</a><a class="lg ripple on" href="../../../../zh-hans/blog/harbour-x-etc/week-10/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hans/blog/harbour-x-etc/">&#8592; Blog X Harbour X ETC</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/11062b_b35d65a47af340599df7c83b93934171_mv2.webp" width="5000" height="3333" alt="橙色雛菊特寫"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week10</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Team Member</h2></div>
+<div class="row one"><h2 class="ttl reveal">Yiqi Zheng (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Riley Ho (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Itim Kongsakulvatanasook (Fx)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Sofia Mancias (Compositing)</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Mar 9</h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Benji Hopkins (Look Dev)</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">SCAD X HARBOR X ETC - Week 10</h2></div>
+<div class="row one"><h2 class="ttl reveal">Hello, this is my final week of the Scad x Harbor x ETC blog!</h2></div>
+<div class="row one"><h2 class="ttl reveal">These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h2></div>
+<div class="row one"><div class="prose reveal"><ul>
+	<li>
+	<p>Layering things, different processes for comp</p>
+	</li>
+	<li>
+	<p>Particles in a back reduce the edge</p>
+	</li>
+	<li>
+	<p>Another layer of particles that activates a light</p>
+	</li>
+	<li>
+	<p>More motion blur in hero shot</p>
+	</li>
+</ul></div></div>
+<div class="row one"><div class="prose reveal"><p>To-Do List: (If we have more time, what we will do)</p>
+
+<ul>
+	<li>
+	<p>Refine the particles&rsquo; paths and add different particle layers, overlapping them</p>
+	</li>
+	<li>
+	<p>Denoise shot 1</p>
+	</li>
+</ul></div></div>
+<div class="row one"><h2 class="ttl reveal">This is our final video for week 10.</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_bdb38209772c47a6a6a240a237145c02f000.webp" src="https://video.wixstatic.com/video/f7279b_bdb38209772c47a6a6a240a237145c02/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">This is our final our final breakdown.</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_cb34cebfc7d347038bae4ba8ae2ade19f000.webp" src="https://video.wixstatic.com/video/f7279b_cb34cebfc7d347038bae4ba8ae2ade19/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><h2 class="ttl reveal">This is my personal breakdown.</h2></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_162fc1ad0895400aa961f84981df512af000.webp" src="https://video.wixstatic.com/video/f7279b_162fc1ad0895400aa961f84981df512a/1080p/mp4/file.mp4"></video></figure></div><div class="pn"><a class="btn ghost ripple prev" href="../../../../zh-hans/blog/harbour-x-etc/week-9/"><span>&#8592; Week9</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">联系</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

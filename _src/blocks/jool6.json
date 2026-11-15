@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "id": "jool6",
+  "title": "Lighting",
+  "uri": "copy-of-python"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -61,
+   "y": 40,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_7aa2fd1a9f704ca8b8c9112210cc23bd~mv2.jpg",
+    "w": 4943,
+    "h": 3573,
+    "alt": "Pink Oyster Mushrooms"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 122,
+   "y": 163,
+   "w": 1029,
+   "h": 106,
+   "html": "<h3>Lighting/Compositing</h3>",
+   "plain": "Lighting/Compositing",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 454,
+   "y": 511,
+   "w": 824,
+   "h": 512,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d8cc49284a2f42768934a4ed934e64f2",
+    "poster": "f7279b_d8cc49284a2f42768934a4ed934e64f2f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -19,
+   "y": 532,
+   "w": 345,
+   "h": 124,
+   "html": "<h3>Scene Match</h3>",
+   "plain": "Scene Match",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -19,
+   "y": 667,
+   "w": 345,
+   "h": 77,
+   "html": "<p>This captures the lighting, color grading, and composition that align closely with a specific scene from The Grand Budapest Hotel.</p>",
+   "plain": "This captures the lighting, color grading, and composition that align closely wi",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": -61,
+   "y": 773,
+   "w": 471,
+   "h": 247,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7d99ba6a52054d46b6de29d6415bee9c~mv2.png",
+    "w": 1944,
+    "h": 1021,
+    "alt": "Screenshot 2024-10-31 021056.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 454,
+   "y": 1099,
+   "w": 824,
+   "h": 512,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3bd8e0cd5c914d81bd706bc04af5b679",
+    "poster": "f7279b_3bd8e0cd5c914d81bd706bc04af5b679f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -19,
+   "y": 1200,
+   "w": 345,
+   "h": 124,
+   "html": "<h3>Mood Alteration</h3>",
+   "plain": "Mood Alteration",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -19,
+   "y": 1335,
+   "w": 345,
+   "h": 102,
+   "html": "<p>This project aims to find two different atmospheric scenes and hopes to match the atmospheres without changing the camera angles.</p>",
+   "plain": "This project aims to find two different atmospheric scenes and hopes to match th",
+   "head": false
+  }
+ ]
+}

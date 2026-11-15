@@ -1,0 +1,741 @@
+{
+ "meta": {
+  "id": "p64g6",
+  "title": "Week4",
+  "uri": "copy-of-week3"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_b35d65a47af340599df7c83b93934171~mv2.jpg",
+    "w": 5000,
+    "h": 3333,
+    "alt": "橙色雛菊特寫"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week4</h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 300,
+   "y": 448,
+   "w": 419,
+   "h": 61,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 514,
+   "w": 144,
+   "h": 27,
+   "html": "<h3>Yiqi Zheng (Fx)</h3>",
+   "plain": "Yiqi Zheng (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 547,
+   "w": 144,
+   "h": 27,
+   "html": "<h3>Riley Ho (Fx)</h3>",
+   "plain": "Riley Ho (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 580,
+   "w": 290,
+   "h": 27,
+   "html": "<h3>Itim Kongsakulvatanasook (Fx)</h3>",
+   "plain": "Itim Kongsakulvatanasook (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 612,
+   "w": 290,
+   "h": 27,
+   "html": "<h3>Sofia Mancias (Compositing)</h3>",
+   "plain": "Sofia Mancias (Compositing)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 645,
+   "w": 290,
+   "h": 27,
+   "html": "<h3>Benji Hopkins (Look Dev)</h3>",
+   "plain": "Benji Hopkins (Look Dev)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -75,
+   "y": 652,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Jan 31</h3>",
+   "plain": "Jan 31",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 749,
+   "w": 854,
+   "h": 54,
+   "html": "<h3>SCAD X HARBOR X ETC - Week 4</h3>",
+   "plain": "SCAD X HARBOR X ETC - Week 4",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 823,
+   "w": 593,
+   "h": 27,
+   "html": "<h3>Hello, this is my fourth week of the Scad x Harbor x ETC blog!</h3>",
+   "plain": "Hello, this is my fourth week of the Scad x Harbor x ETC blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 865,
+   "w": 930,
+   "h": 27,
+   "html": "<h3>These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h3>",
+   "plain": "These are the mentors&#39; feedback from Tuesday&#39;s presentation.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 21,
+   "y": 917,
+   "w": 861,
+   "h": 183,
+   "html": "<p>Kyle:</p>\n\n<ul>\n\t<li>\n\t<p>Shot 1: </p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>The darker lighting direction works well.</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Needs more time spent on look development.</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Emission should come more from the environment, not from the object itself.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>​Shot 4:</p>\n\n\t<ul>\n\t\t<li>Continue refining lighting so the shot has stronger depth, similar to the references.</li>\n\t</ul>\n\t</li>\n</ul>",
+   "plain": "Kyle:\n\n\n\t\n\tShot 1: \n\n\t\n\t\t\n\t\tThe darker lighting direction works well.\n\t\t\n\t\t\n\t\tNe",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1110,
+   "w": 819,
+   "h": 160,
+   "html": "<p>Beck：</p>\n\n<ul>\n\t<li>\n\t<p>Shots 3 &amp; 5: </p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>The particles in Shot 3 are not very clear.</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>The transition into Shot 5 should feel more intentional, moving clearly from dry to fluid.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>Shot 6: </p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Consider adding more elements flying around to increase visual interest.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>",
+   "plain": "Beck：\n\n\n\t\n\tShots 3 &amp; 5: \n\n\t\n\t\t\n\t\tThe particles in Shot 3 are not very clear.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 19,
+   "y": 1351,
+   "w": 955,
+   "h": 83,
+   "html": "<p>To-Do List: </p>\n\n<ul>\n\t<li>\n\t<p>Refine the particles&rsquo; path and flow shape (Create noise)</p>\n\t</li>\n\t<li>\n\t<p>Work on refining the particles&#39; material</p>\n\t</li>\n</ul>",
+   "plain": "To-Do List: \n\n\n\t\n\tRefine the particles&rsquo; path and flow shape (Create noise)",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 1507,
+   "w": 955,
+   "h": 49,
+   "html": "<p>As discussed in the group, we decided to switch from fluid to particles when the six colors swirl together to achieve better results and a stronger visual aesthetic. Below are the references I will be using.</p>",
+   "plain": "As discussed in the group, we decided to switch from fluid to particles when the",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 62,
+   "y": 1581,
+   "w": 397,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_76782b14a8b2473694d263a88694f4b7~mv2.png",
+    "w": 600,
+    "h": 301,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 527,
+   "y": 1581,
+   "w": 370,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6376b03040824d039795c8eaae24f94e~mv2.png",
+    "w": 600,
+    "h": 321,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1802,
+   "w": 955,
+   "h": 24,
+   "html": "<p>Totally, I tried three different methods to achieve it, one is follow the tutorial. </p>",
+   "plain": "Totally, I tried three different methods to achieve it, one is follow the tutori",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1838,
+   "w": 955,
+   "h": 34,
+   "html": "<p>First, I use Dopnet + POPCurveForce, I get the best result at least for me.</p>",
+   "plain": "First, I use Dopnet + POPCurveForce, I get the best result at least for me.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 104,
+   "y": 1890,
+   "w": 771,
+   "h": 424,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_07dc2cbc5db1410591fc5ba5d5bbe7ad~mv2.png",
+    "w": 600,
+    "h": 329,
+    "alt": "image (1).png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2343,
+   "w": 955,
+   "h": 158,
+   "html": "<p>Based on my work over the previous weeks, I found a more procedural approach to defining emitters and connecting two curves. I started with a spiral and drew a second curve as a guide coming from off-screen. In my earlier method, I used a Fuse node to connect the two curves, but whenever I adjusted the spiral parameters (such as turns or height), I had to manually move the guide curve so that Fuse could detect the nearest points, which was inefficient and cumbersome.</p>\n\n<p>In my current setup, I replaced this with an Add node, which automatically connects the curves without requiring manual repositioning.</p>",
+   "plain": "Based on my work over the previous weeks, I found a more procedural approach to ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 104,
+   "y": 2515,
+   "w": 334,
+   "h": 258,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_2d25eb9b5034401c85ee7f3f1e2e5516~mv2.png",
+    "w": 600,
+    "h": 462,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 507,
+   "y": 2515,
+   "w": 286,
+   "h": 258,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f0b976d931134923ad579d5e5cfc5b8b~mv2.png",
+    "w": 539,
+    "h": 488,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2795,
+   "w": 955,
+   "h": 98,
+   "html": "<p>Another issue, as I mentioned before, is that whenever I change the spiral parameters or move the drawn curve, I also have to manually translate the emitter so that it stays at the start of the curve. To solve this, I now use the curveu attribute to locate the start point of the curve (point 0), select that point, and use Copy to Points to generate the emitter. This way, no matter how the curve is modified or moved, the emitter always follows the curve automatically.</p>",
+   "plain": "Another issue, as I mentioned before, is that whenever I change the spiral param",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 104,
+   "y": 2913,
+   "w": 334,
+   "h": 415,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_e1d3139f73434aa2828898edf656b07f~mv2.png",
+    "w": 323,
+    "h": 401,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 474,
+   "y": 2998,
+   "w": 453,
+   "h": 243,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_e89eb8652ecf4097b1acb670b726f4fb~mv2.png",
+    "w": 385,
+    "h": 207,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 140,
+   "y": 3339,
+   "w": 262,
+   "h": 403,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_290493ecd53643cc9fc80556f7d55f74~mv2.png",
+    "w": 389,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 439,
+   "y": 3368,
+   "w": 240,
+   "h": 24,
+   "html": "<p>This is my Setup in DOP Net.</p>",
+   "plain": "This is my Setup in DOP Net.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 12,
+   "y": 3757,
+   "w": 850,
+   "h": 49,
+   "html": "<p>I also try to use the velocity attribute to drive both brightness and streak length, with higher velocities producing brighter and longer streaks. (Not successful yet)</p>",
+   "plain": "I also try to use the velocity attribute to drive both brightness and streak len",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 15,
+   "y": 3813,
+   "w": 335,
+   "h": 266,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c52c508f80b94293ba4e49f366b9ae6f~mv2.png",
+    "w": 440,
+    "h": 349,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 366,
+   "y": 3813,
+   "w": 287,
+   "h": 266,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_da87289727f34a168fe5c767feaac110~mv2.png",
+    "w": 600,
+    "h": 543,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 663,
+   "y": 3813,
+   "w": 317,
+   "h": 122,
+   "html": "<p>For the material setup, I read the Cd attribute from the SOP level, enabled transmission, and controlled opacity using different grayscale values from the geometry.</p>",
+   "plain": "For the material setup, I read the Cd attribute from the SOP level, enabled tran",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 4094,
+   "w": 955,
+   "h": 108,
+   "html": "<p>Second, I used a POP Net and a POP Wrangle (From Professor Fowler) to make the particles follow the curve by sampling adjacent points around each particle using pcopen, averaging the curve&rsquo;s tangent with pcfilter, and then setting the particle velocity along that normalized tangent (scaled by a speed parameter). However, I&rsquo;m not sure how to continue from here to add controllable noise&mdash;both inside the stream and along the edges. Here is the result I got. </p>",
+   "plain": "Second, I used a POP Net and a POP Wrangle (From Professor Fowler) to make the p",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 15,
+   "y": 4201,
+   "w": 600,
+   "h": 182,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_3303b8bdd157428daeea5c607f27764e~mv2.png",
+    "w": 600,
+    "h": 181,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "video",
+   "x": 83,
+   "y": 4402,
+   "w": 819,
+   "h": 461,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_d08b2373457940439a1ce0a77ed82780",
+    "poster": "f7279b_d08b2373457940439a1ce0a77ed82780f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 4911,
+   "w": 955,
+   "h": 83,
+   "html": "<p>Third, I found two tutorials. One uses Path Deform to deform vertical lines along a guide curve, and the other focuses on creating noise or disturbance on a surface. I combined these two approaches.  This is the result I got. (I don&#39;t like the shape I created here) The benefit of this approach is that it can be applied to any curve.</p>",
+   "plain": "Third, I found two tutorials. One uses Path Deform to deform vertical lines alon",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 73,
+   "y": 5032,
+   "w": 837,
+   "h": 473,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_91428237858b4767b99271fbe42c8fd2",
+    "poster": "f7279b_91428237858b4767b99271fbe42c8fd2f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 73,
+   "y": 5563,
+   "w": 781,
+   "h": 49,
+   "html": "<p><a href=\"https://www.bilibili.com/video/BV1LxyEBWEtV/?spm_id_from=333.788.comment.all.click&amp;vd_source=8223115652ffc606cedc4d87e2272ee9\" target=\"_blank\" rel=\"noopener\">https://www.bilibili.com/video/BV1LxyEBWEtV/?spm_id_from=333.788.comment.all.click&amp;vd_source=8223115652ffc606cedc4d87e2272ee9</a></p>",
+   "plain": "https://www.bilibili.com/video/BV1LxyEBWEtV/?spm_id_from=333.788.comment.all.cli",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 73,
+   "y": 5618,
+   "w": 310,
+   "h": 49,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=YXKh3x8X7Ec\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=YXKh3x8X7Ec</a></p>",
+   "plain": "https://www.youtube.com/watch?v=YXKh3x8X7Ec",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 71,
+   "y": 5659,
+   "w": 236,
+   "h": 274,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_56a80aad0bfe47f0a90fa848dd20a167~mv2.png",
+    "w": 516,
+    "h": 600,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 327,
+   "y": 5700,
+   "w": 600,
+   "h": 191,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_19471cddbc3a42f2b060d04693aee0f9~mv2.png",
+    "w": 600,
+    "h": 191,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 327,
+   "y": 5908,
+   "w": 600,
+   "h": 49,
+   "html": "<p>I tried to use the original point positions to calculate a distance-based mask, so the disturbance is applied based on this mask.</p>",
+   "plain": "I tried to use the original point positions to calculate a distance-based mask, ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 15,
+   "y": 5995,
+   "w": 955,
+   "h": 73,
+   "html": "<p>I started by creating several vertical lines and then Uses a box to define a region, groups geometry inside it, and deletes the selected elements. Here use attributevop to disturb the lines. (I used ChatGPT to help me build the basic logic and structure.) </p>",
+   "plain": "I started by creating several vertical lines and then Uses a box to define a reg",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 6101,
+   "w": 362,
+   "h": 263,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_7e87b6d55e464aeaa45df2eb546221c5~mv2.png",
+    "w": 600,
+    "h": 437,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 405,
+   "y": 6101,
+   "w": 310,
+   "h": 49,
+   "html": "<p>This setup uses curl noise to offset point positions.</p>",
+   "plain": "This setup uses curl noise to offset point positions.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 405,
+   "y": 6169,
+   "w": 310,
+   "h": 24,
+   "html": "<p>P_new = P + (noise * mask)</p>",
+   "plain": "P_new = P + (noise * mask)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 6391,
+   "w": 409,
+   "h": 49,
+   "html": "<p>The next step is to generate a mask that selectively disables certain segments</p>",
+   "plain": "The next step is to generate a mask that selectively disables certain segments",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 497,
+   "y": 6391,
+   "w": 409,
+   "h": 49,
+   "html": "<p>Then, I use a POP network to generate particles and add noise to them.</p>",
+   "plain": "Then, I use a POP network to generate particles and add noise to them.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 6477,
+   "w": 409,
+   "h": 214,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d073d3e9090c46adaa7de5e62ce8507f~mv2.png",
+    "w": 600,
+    "h": 314,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 592,
+   "y": 6477,
+   "w": 171,
+   "h": 214,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_632a3b3f5f764d1a84a369ee97c1b36f~mv2.png",
+    "w": 321,
+    "h": 401,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 6736,
+   "w": 409,
+   "h": 73,
+   "html": "<p>I used ChatGPT to help me understand and write a wrangle that controls particle disabling through parameters.</p>",
+   "plain": "I used ChatGPT to help me understand and write a wrangle that controls particle ",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 497,
+   "y": 6736,
+   "w": 409,
+   "h": 73,
+   "html": "<p>Then, I used Path Deform to have the geometry follow the curve, and used keyframes to make sure the animation aligns properly.</p>",
+   "plain": "Then, I used Path Deform to have the geometry follow the curve, and used keyfram",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 31,
+   "y": 6856,
+   "w": 409,
+   "h": 374,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6092bc4dded14cc3875df6d11cd70b7f~mv2.png",
+    "w": 468,
+    "h": 428,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 456,
+   "y": 6897,
+   "w": 519,
+   "h": 291,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6567c1f0ebab48e89080c471a376603f~mv2.png",
+    "w": 600,
+    "h": 336,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 7287,
+   "w": 944,
+   "h": 49,
+   "html": "<p>Here, I used the Split node to separate different layers, which allows the flow to have more variation. I think this method can be integrated with my first approach to generate additional variants.</p>",
+   "plain": "Here, I used the Split node to separate different layers, which allows the flow ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 273,
+   "y": 7345,
+   "w": 409,
+   "h": 403,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fa8c854bc6714055a7482bd5f078765d~mv2.png",
+    "w": 600,
+    "h": 593,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 31,
+   "y": 7785,
+   "w": 944,
+   "h": 53,
+   "html": "<p>So, I think I will go with the first method and try to create additional variants using techniques I learned from other tutorials.</p>",
+   "plain": "So, I think I will go with the first method and try to create additional variant",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 71,
+   "y": 7885,
+   "w": 837,
+   "h": 473,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_fae890c2541c41dcbebdc9a3228f732a",
+    "poster": "f7279b_fae890c2541c41dcbebdc9a3228f732af000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 36,
+   "y": 8385,
+   "w": 907,
+   "h": 140,
+   "html": "<p><a href=\"PAGE:t0i05\">Next Week:</a></p>\n\n<ol>\n\t<li>\n\t<p>Refine the path (add variants for the particles)</p>\n\t</li>\n\t<li>\n\t<p>Improve the material of the particles</p>\n\t</li>\n</ol>",
+   "plain": "Next Week:\n\n\n\t\n\tRefine the path (add variants for the particles)\n\t\n\t\n\tImprove th",
+   "head": false
+  }
+ ]
+}

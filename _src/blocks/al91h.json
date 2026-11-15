@@ -1,0 +1,411 @@
+{
+ "meta": {
+  "id": "al91h",
+  "title": "Week7",
+  "uri": "copy-of-week6-1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -257,
+   "y": 23,
+   "w": 1534,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_b35d65a47af340599df7c83b93934171~mv2.jpg",
+    "w": 5000,
+    "h": 3333,
+    "alt": "橙色雛菊特寫"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 146,
+   "w": 460,
+   "h": 106,
+   "html": "<h3>Week7</h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 300,
+   "y": 448,
+   "w": 419,
+   "h": 61,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 514,
+   "w": 144,
+   "h": 27,
+   "html": "<h3>Yiqi Zheng (Fx)</h3>",
+   "plain": "Yiqi Zheng (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 547,
+   "w": 144,
+   "h": 27,
+   "html": "<h3>Riley Ho (Fx)</h3>",
+   "plain": "Riley Ho (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 580,
+   "w": 290,
+   "h": 27,
+   "html": "<h3>Itim Kongsakulvatanasook (Fx)</h3>",
+   "plain": "Itim Kongsakulvatanasook (Fx)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 612,
+   "w": 290,
+   "h": 27,
+   "html": "<h3>Sofia Mancias (Compositing)</h3>",
+   "plain": "Sofia Mancias (Compositing)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 364,
+   "y": 645,
+   "w": 290,
+   "h": 27,
+   "html": "<h3>Benji Hopkins (Look Dev)</h3>",
+   "plain": "Benji Hopkins (Look Dev)",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -75,
+   "y": 652,
+   "w": 74,
+   "h": 27,
+   "html": "<h3>Feb 23</h3>",
+   "plain": "Feb 23",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 749,
+   "w": 854,
+   "h": 54,
+   "html": "<h3>SCAD X HARBOR X ETC - Week 7</h3>",
+   "plain": "SCAD X HARBOR X ETC - Week 7",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 823,
+   "w": 593,
+   "h": 27,
+   "html": "<h3>Hello, this is my seventh week of the Scad x Harbor x ETC blog!</h3>",
+   "plain": "Hello, this is my seventh week of the Scad x Harbor x ETC blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 865,
+   "w": 930,
+   "h": 27,
+   "html": "<h3>These are the mentors&#39; feedback from Tuesday&#39;s presentation.</h3>",
+   "plain": "These are the mentors&#39; feedback from Tuesday&#39;s presentation.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 21,
+   "y": 917,
+   "w": 861,
+   "h": 157,
+   "html": "<p>Kyle:​</p>\n\n<ul>\n\t<li>\n\t<p>Particles are inconsistent across shots</p>\n\t</li>\n\t<li>\n\t<p>The effects happening to the ground can be much brighter around the printer shot 1</p>\n\t</li>\n\t<li>\n\t<p>Grade particles so they are less overexposed, the color is blown out rn in shot 1</p>\n\t</li>\n\t<li>\n\t<p>Shot 3 light change looks good, keep that lighting through the shot</p>\n\t</li>\n\t<li>\n\t<p>We don&rsquo;t need the objects in shot 4, focus on beginning shots first</p>\n\t</li>\n</ul>",
+   "plain": "Kyle:​\n\n\n\t\n\tParticles are inconsistent across shots\n\t\n\t\n\tThe effects happening t",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 25,
+   "y": 1084,
+   "w": 819,
+   "h": 134,
+   "html": "<p>Beck：</p>\n\n<ul>\n\t<li>\n\t<p>Avoid key framing anything, try using time or age to differentiate pscale</p>\n\t</li>\n\t<li>\n\t<p>You can use pscale based on camera frustrum, maybe in a wrangle</p>\n\t</li>\n\t<li>\n\t<p>The particle color in shot 3 don&rsquo;t match with the painting, it is very red in the middle right now</p>\n\t</li>\n\t<li>\n\t<p>The disappearing particles seem to happen twice- feels strange</p>\n\t</li>\n</ul>",
+   "plain": "Beck：\n\n\n\t\n\tAvoid key framing anything, try using time or age to differentiate ps",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1280,
+   "w": 955,
+   "h": 108,
+   "html": "<p>To-Do List: </p>\n\n<ul>\n\t<li>\n\t<p>Refine the particles&rsquo; path and flow shape (Create noise)</p>\n\t</li>\n\t<li>\n\t<p>Denoise shot 1</p>\n\t</li>\n\t<li>\n\t<p>Avoid the overexposure.</p>\n\t</li>\n</ul>",
+   "plain": "To-Do List: \n\n\n\t\n\tRefine the particles&rsquo; path and flow shape (Create noise)",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 1420,
+   "w": 955,
+   "h": 27,
+   "html": "<p>This is our Previs for week 7.</p>",
+   "plain": "This is our Previs for week 7.",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 18,
+   "y": 1465,
+   "w": 947,
+   "h": 534,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_cb34cebfc7d347038bae4ba8ae2ade19",
+    "poster": "f7279b_cb34cebfc7d347038bae4ba8ae2ade19f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2021,
+   "w": 947,
+   "h": 53,
+   "html": "<p>For Shot 2, we need to extend the duration, as it currently feels too fast. Some of the color flows also appear flat, so we need to explore additional variations.</p>",
+   "plain": "For Shot 2, we need to extend the duration, as it currently feels too fast. Some",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 18,
+   "y": 2082,
+   "w": 947,
+   "h": 534,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_e40b18acf7df4077a2ad27ceac5a56f4",
+    "poster": "f7279b_e40b18acf7df4077a2ad27ceac5a56f4f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2643,
+   "w": 947,
+   "h": 107,
+   "html": "<p>Another key development this week was increasing the particle count in my simulation, which significantly increased the file size. Following Professor Fowler&rsquo;s advice, I explored exporting USD at the OBJ level and using referencing workflows. After writing out the USD files and referencing them, the scene performance improved substantially.</p>",
+   "plain": "Another key development this week was increasing the particle count in my simula",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 18,
+   "y": 2758,
+   "w": 947,
+   "h": 27,
+   "html": "<p>Also, for shot 2, I explore more about the smoothness of the particles flows. But some flows look flat.</p>",
+   "plain": "Also, for shot 2, I explore more about the smoothness of the particles flows. Bu",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 385,
+   "y": 2813,
+   "w": 485,
+   "h": 273,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_1565a1d5b2834d7b8232f328dc1d81bd~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "Blue.0200.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 525,
+   "y": 2813,
+   "w": 415,
+   "h": 233,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_845aa972e5f84c74b65910ea4d1494d8~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "output.0200 (1).png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 298,
+   "y": 2818,
+   "w": 453,
+   "h": 255,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_d490db75e17942fb8971306ac660ef15~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "Cyan.0200.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 98,
+   "y": 2829,
+   "w": 415,
+   "h": 233,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_cd939e188d7246748f5f019d91d7d4fb~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "output.0181.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 176,
+   "y": 2829,
+   "w": 394,
+   "h": 222,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_85fafeaac3cf4d06943a90046cf053da~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "output.0200 (2).png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": -71,
+   "y": 2834,
+   "w": 465,
+   "h": 262,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_c158148ddc2140fcab22477021e61318~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "output.0184.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 3038,
+   "w": 947,
+   "h": 27,
+   "html": "<p>And for shot 1, Itim helps with to create vex, so we can create the variant through the age and velosity.</p>",
+   "plain": "And for shot 1, Itim helps with to create vex, so we can create the variant thro",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 16,
+   "y": 3089,
+   "w": 600,
+   "h": 451,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_fd8b3e3894014171a4f6410734d5202d~mv2.png",
+    "w": 600,
+    "h": 451,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 16,
+   "y": 3550,
+   "w": 600,
+   "h": 267,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_4a5b6da4c2bb47d0b3dd869779fb0f96~mv2.png",
+    "w": 600,
+    "h": 267,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 3828,
+   "w": 947,
+   "h": 53,
+   "html": "<p>I also scale the velocity of the particles, so I can control the speed, intensity, and overall motion of the simulation.</p>",
+   "plain": "I also scale the velocity of the particles, so I can control the speed, intensit",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 16,
+   "y": 3900,
+   "w": 921,
+   "h": 98,
+   "html": "<p>Because I really wanted the particles to have more variation, Riley shared this wrangle with me. It calculates the distance between each particle and the camera, then uses that distance together with some random variation to control the particle pscale (size). This helps the particles maintain a more consistent screen size while adding natural size variation, so they look more balanced and visually natural in the scene.</p>",
+   "plain": "Because I really wanted the particles to have more variation, Riley shared this ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 16,
+   "y": 4008,
+   "w": 947,
+   "h": 337,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_6c5989dc6e5e4ff4937971881b26fa88~mv2.png",
+    "w": 600,
+    "h": 212,
+    "alt": "image.png"
+   },
+   "link": null
+  }
+ ]
+}

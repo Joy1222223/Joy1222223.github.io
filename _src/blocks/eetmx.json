@@ -1,0 +1,293 @@
+{
+ "meta": {
+  "id": "eetmx",
+  "title": "Blog X Harbour ",
+  "uri": "s-projects-side-by-side"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": -1,
+   "y": 0,
+   "w": 980,
+   "h": 446,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": "marbel.jpg"
+   }
+  },
+  {
+   "t": "text",
+   "x": 221,
+   "y": 213,
+   "w": 582,
+   "h": 69,
+   "html": "<h3>SCAD x HARBOUR</h3>",
+   "plain": "SCAD x HARBOUR",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 221,
+   "y": 282,
+   "w": 658,
+   "h": 29,
+   "html": "<p>Here is the 10-week progress of this collaboration.</p>",
+   "plain": "Here is the 10-week progress of this collaboration.",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 81,
+   "y": 562,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "b522aef7c97e41c18cb7c6a6a9e4d278.png",
+    "w": 1912,
+    "h": 567,
+    "alt": "Fancy Luxury Leather Strap Watch on Shiny Black Surface"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 544,
+   "y": 562,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "d38063a40c6a4ef380538449ce86852a.jpg",
+    "w": 5500,
+    "h": 3671,
+    "alt": "Clock Gears"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 155,
+   "y": 619,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:qf9ur\">Week1</a></h3>",
+   "plain": "Week1",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 615,
+   "y": 619,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:g8whu\">Week2</a></h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 80,
+   "y": 834,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "b522aef7c97e41c18cb7c6a6a9e4d278.png",
+    "w": 1912,
+    "h": 567,
+    "alt": "Fancy Luxury Leather Strap Watch on Shiny Black Surface"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 544,
+   "y": 834,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "d38063a40c6a4ef380538449ce86852a.jpg",
+    "w": 5500,
+    "h": 3671,
+    "alt": "Clock Gears"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 154,
+   "y": 891,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:hjwxj\">Week3</a></h3>",
+   "plain": "Week3",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 615,
+   "y": 891,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:w1wld\">Week4</a></h3>",
+   "plain": "Week4",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 80,
+   "y": 1104,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "b522aef7c97e41c18cb7c6a6a9e4d278.png",
+    "w": 1912,
+    "h": 567,
+    "alt": "Fancy Luxury Leather Strap Watch on Shiny Black Surface"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 544,
+   "y": 1104,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "d38063a40c6a4ef380538449ce86852a.jpg",
+    "w": 5500,
+    "h": 3671,
+    "alt": "Clock Gears"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 154,
+   "y": 1161,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:bzv5r\">Week5</a></h3>",
+   "plain": "Week5",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 615,
+   "y": 1161,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:p5r01\">Week6</a></h3>",
+   "plain": "Week6",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 545,
+   "y": 1419,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "d38063a40c6a4ef380538449ce86852a.jpg",
+    "w": 5500,
+    "h": 3671,
+    "alt": "Clock Gears"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 81,
+   "y": 1420,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "b522aef7c97e41c18cb7c6a6a9e4d278.png",
+    "w": 1912,
+    "h": 567,
+    "alt": "Fancy Luxury Leather Strap Watch on Shiny Black Surface"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 616,
+   "y": 1476,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:n2c7q\">Week8</a></h3>",
+   "plain": "Week8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 155,
+   "y": 1477,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:jyms3\">Week7</a></h3>",
+   "plain": "Week7",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 545,
+   "y": 1688,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "d38063a40c6a4ef380538449ce86852a.jpg",
+    "w": 5500,
+    "h": 3671,
+    "alt": "Clock Gears"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 81,
+   "y": 1689,
+   "w": 354,
+   "h": 199,
+   "media": {
+    "kind": "image",
+    "uri": "b522aef7c97e41c18cb7c6a6a9e4d278.png",
+    "w": 1912,
+    "h": 567,
+    "alt": "Fancy Luxury Leather Strap Watch on Shiny Black Surface"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 616,
+   "y": 1745,
+   "w": 269,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:o2p7q\">Week10</a></h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 155,
+   "y": 1746,
+   "w": 234,
+   "h": 84,
+   "html": "<h3><a href=\"PAGE:jyms3\">Week9</a></h3>",
+   "plain": "Week9",
+   "head": true
+  }
+ ]
+}

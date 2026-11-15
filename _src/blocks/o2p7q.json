@@ -1,0 +1,185 @@
+{
+ "meta": {
+  "id": "o2p7q",
+  "title": "Week10",
+  "uri": "copy-of-week9"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week10</h3>",
+   "plain": "Week10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Mar 8</h3>",
+   "plain": "Mar 8",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 10</h3>",
+   "plain": "SCAD X HARBOR - Week 10",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 757,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my final week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my final week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 29,
+   "y": 798,
+   "w": 950,
+   "h": 56,
+   "html": "<p>This is my final video and breakdown, as well as an individual breakdown.</p>",
+   "plain": "This is my final video and breakdown, as well as an individual breakdown.",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 847,
+   "w": 980,
+   "h": 552,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_3d84afcd99a84743affad24f73f748cd",
+    "poster": "f7279b_3d84afcd99a84743affad24f73f748cdf000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 438,
+   "y": 1412,
+   "w": 104,
+   "h": 25,
+   "html": "<p>Final Video</p>",
+   "plain": "Final Video",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 1500,
+   "w": 980,
+   "h": 552,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_1d7b1e63d56a4290b4166ca957ae5612",
+    "poster": "f7279b_1d7b1e63d56a4290b4166ca957ae5612f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 421,
+   "y": 2066,
+   "w": 138,
+   "h": 50,
+   "html": "<p>Final Breakdown</p>\n\n<p>​</p>",
+   "plain": "Final Breakdown\n\n​",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 0,
+   "y": 2134,
+   "w": 980,
+   "h": 552,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_f1b8914aa39142f684a4ea8588655358",
+    "poster": "f7279b_f1b8914aa39142f684a4ea8588655358f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 400,
+   "y": 2707,
+   "w": 180,
+   "h": 50,
+   "html": "<p>Individual Breakdown</p>\n\n<p>​</p>",
+   "plain": "Individual Breakdown\n\n​",
+   "head": true
+  }
+ ]
+}

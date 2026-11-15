@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-Hans"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week1 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — 技术美术与 CG 通才。使用 Houdini、Maya 与 Unreal Engine 制作程序化特效、外观开发与流程工具。">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../../blog/special-project-part1/week-1/"><link rel="alternate" hreflang="zh-Hant" href="../../../../zh-hant/blog/special-project-part1/week-1/"><link rel="alternate" hreflang="zh-Hans" href="../../../../zh-hans/blog/special-project-part1/week-1/">
+</head>
+<body class="lang-zh-hans ">
+<header class="top glass"><a class="logo ripple" href="../../../../zh-hans/">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../../zh-hans/">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../../zh-hans/fx/horse/">Horse</a><a class="ripple" href="../../../../zh-hans/fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/animation/overpower/">Overpower</a><a class="ripple" href="../../../../zh-hans/animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/modeling/apple/">Apple</a><a class="ripple" href="../../../../zh-hans/modeling/osl/">OSL</a><a class="ripple" href="../../../../zh-hans/modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../../zh-hans/modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../../zh-hans/tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../../zh-hans/about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../../zh-hans/blog/">博客</a><div class="sub glass"><a class="ripple" href="../../../../zh-hans/blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../../zh-hans/blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../../zh-hans/blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../../zh-hans/blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../../zh-hans/blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple" href="../../../../blog/special-project-part1/week-1/" hreflang="en">EN</a><a class="lg ripple" href="../../../../zh-hant/blog/special-project-part1/week-1/" hreflang="zh-Hant">繁</a><a class="lg ripple on" href="../../../../zh-hans/blog/special-project-part1/week-1/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../../zh-hans/blog/special-project-part1/">&#8592; Blog X Special Project | PART1</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/96d373bf920e4684b177a206dea4190c.webp" width="1980" height="1200" alt="雪紅杉林"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week1</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">VAT vs USD Pipeline Test</h2></div>
+<div class="row one"><h2 class="ttl reveal">Jan 9</h2></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">VAT: </h2></div><div class="col" style="flex:9"><div class="prose reveal"><h3>First, I used Yichen&rsquo;s Fern to test the VAT pipeline. However, due to the high polygon count (205,975 polygons) and the long animation duration (240 frames), the texture rendering process tends to fail.<br />
+<br />
+<br />
+<br />
+<br />
+I looked into the Houdini community and found an artist who proposed a formula to determine the most suitable number of primitives and frames for rendering.<br />
+<br />
+VAT point count limits per texture size? Frame range limit?<br />
+The result is: I have been multiplying the frame count by the point count and dividing by the texture size (frame_count*point_count)/texture_sizeand it seems if that number is below 9000, it completes successfully. But I&#39;m grasping at straws here through trial and error.<br />
+Here is the link: <a href="https://www.sidefx.com/forum/topic/85129/?page=1#post-368221" target="_blank" rel="noopener">https://www.sidefx.com/forum/topic/85129/?page=1#post-368221</a><br />
+<br />
+<br />
+<br />
+ </h3></div></div><div class="col" style="flex:4"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_842762316b974275a53cc4267252139f_mv2.webp" width="385" height="82" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><h3>So, I decided to reduce the polygon count and also tried to export the animation separately, exporting 1-100 frames and then 101-240 frames. I met the problem, and the animation looks glitchy and I found a very useful VAT Debug.<br />
+Link: <a href="https://www.sidefx.com/forum/topic/81422/#post-350761" target="_blank" rel="noopener">https://www.sidefx.com/forum/topic/81422/#post-350761</a><br />
+<br />
+<br />
+<br />
+ </h3></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_142e42c200e8423c93eea871bce0af64f000.webp" src="https://video.wixstatic.com/video/f7279b_142e42c200e8423c93eea871bce0af64/1080p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_9b34aa59c3c74e0e8187c265f87bea0af000.webp" src="https://video.wixstatic.com/video/f7279b_9b34aa59c3c74e0e8187c265f87bea0a/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:3"><h2 class="ttl reveal">This is because of a change in the build setting. </h2></div><div class="col" style="flex:3"><h2 class="ttl reveal">Still need to figure out why the animation is flickering.</h2></div></div>
+<div class="row multi"><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_39565139eeb64c30933bb29598ea65fd_mv2.webp" width="235" height="56" alt="Screenshot 2026-01-11 222301.png"></figure></div><div class="col" style="flex:5"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_2c33158f14aa4ccbb986b76204b02448_mv2.webp" width="1050" height="132" alt="Screenshot 2026-01-12 121640.png"></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">USD:</h2></div>
+<div class="row one"><div class="prose reveal"><h3>For the USD pipeline, I experimented with creating USD instancing in Houdini and found that using Packed Primitives significantly reduces memory usage. Here I tested 15 ferns.</h3></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_90962b97053f422eb269e9829e9161ae_mv2.webp" width="493" height="333" alt="Screenshot 2026-01-11 224940.png"></figure></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../../assets/media/f7279b_fe72469f6c2c478e9f63a36453d93fe5_mv2.webp" width="606" height="50" alt="Screenshot 2026-01-11 225050.png"></figure></div>
+<div class="row one"><h2 class="ttl reveal">Size Comparison</h2></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_0632ab67b897408f9b89b6f7eb67ef84f000.webp" src="https://video.wixstatic.com/video/f7279b_0632ab67b897408f9b89b6f7eb67ef84/1080p/mp4/file.mp4"></video></figure></div><div class="col" style="flex:3"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../../assets/media/f7279b_082e4fc42f1041f6b9940486ab62962ef000.webp" src="https://video.wixstatic.com/video/f7279b_082e4fc42f1041f6b9940486ab62962e/1080p/mp4/file.mp4"></video></figure></div></div>
+<div class="row multi"><div class="col" style="flex:1"><h2 class="ttl reveal">Before</h2></div><div class="col" style="flex:1"><h2 class="ttl reveal">After</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">Visual Comparison</h2></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../../zh-hans/blog/special-project-part1/week-2/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Try USD instancing in Houdini</p>
+	</li>
+	<li>
+	<p>Try USD instancing in UNREAL</p>
+	</li>
+	<li>
+	<p>Try VAT instancing in both in Houdini and Unreal</p>
+	</li>
+</ol></div></div><div class="pn"><span></span><a class="btn ghost ripple next" href="../../../../zh-hans/blog/special-project-part1/week-2/"><span>Week2 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">联系</div><h3>一起合作吧</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../../assets/site.js"></script>
+</body></html>

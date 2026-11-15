@@ -1,0 +1,104 @@
+{
+ "meta": {
+  "id": "uo03y",
+  "title": "Horse",
+  "uri": "copy-of-honeybear"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": -60,
+   "w": 2443,
+   "h": 641,
+   "media": {
+    "kind": "image",
+    "uri": "11062b_2455fa4b90ea4a1685db520a47af69c3~mv2.jpg",
+    "w": 3920,
+    "h": 2818,
+    "alt": "Abstract Surface"
+   }
+  },
+  {
+   "t": "text",
+   "x": -551,
+   "y": 80,
+   "w": 921,
+   "h": 134,
+   "html": "<h3>Particle Horse</h3>",
+   "plain": "Particle Horse",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -91,
+   "y": 593,
+   "w": 450,
+   "h": 140,
+   "html": "<h3>Particle Simulation</h3>",
+   "plain": "Particle Simulation",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 12,
+   "y": 743,
+   "w": 956,
+   "h": 498,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_805e0e62003f4a1fa308df744873ad85",
+    "poster": "f7279b_805e0e62003f4a1fa308df744873ad85f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 0,
+   "y": 1276,
+   "w": 980,
+   "h": 86,
+   "html": "<p>This workflow uses a Point VOP to create a mask, isolates specific areas with a Blast node, assigns attributes to points, and extracts edges with a Timeshift for the particle source. The source is then simulated in a DOP Network, combining forces like wind and drag for dynamic particle effects.</p>",
+   "plain": "This workflow uses a Point VOP to create a mask, isolates specific areas with a ",
+   "head": false
+  },
+  {
+   "t": "image",
+   "x": 12,
+   "y": 1385,
+   "w": 486,
+   "h": 559,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_f2e314ab77004b30acd82746d5e40191~mv2.png",
+    "w": 521,
+    "h": 600,
+    "alt": "Screenshot 2025-01-06 155013.png"
+   },
+   "link": null
+  },
+  {
+   "t": "image",
+   "x": 509,
+   "y": 1385,
+   "w": 459,
+   "h": 559,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_198619727eb241e991ffa5104226370b~mv2.png",
+    "w": 492,
+    "h": 600,
+    "alt": "Screenshot 2025-01-06 155221.png"
+   },
+   "link": null
+  }
+ ]
+}

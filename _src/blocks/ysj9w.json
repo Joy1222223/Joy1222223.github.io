@@ -1,0 +1,91 @@
+{
+ "meta": {
+  "id": "ysj9w",
+  "title": "Customized Building(Maya)",
+  "uri": "copy-of-building"
+ },
+ "atoms": [
+  {
+   "t": "video",
+   "x": 160,
+   "y": -1773,
+   "w": 660,
+   "h": 486,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2ca6b03a3861449cadc6100015b686d0",
+    "poster": "f7279b_2ca6b03a3861449cadc6100015b686d0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": -592,
+   "y": 18,
+   "w": 763,
+   "h": 61,
+   "html": "<h3>Building Modeling</h3>",
+   "plain": "Building Modeling",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -401,
+   "y": 98,
+   "w": 381,
+   "h": 50,
+   "html": "<p>I used Maya and Houdini respectively to make the building in those two projects.</p>",
+   "plain": "I used Maya and Houdini respectively to make the building in those two projects.",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": -233,
+   "y": 302,
+   "w": 604,
+   "h": 56,
+   "html": "<h3>Customized Building</h3>",
+   "plain": "Customized Building",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 89,
+   "y": 365,
+   "w": 774,
+   "h": 570,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_2ca6b03a3861449cadc6100015b686d0",
+    "poster": "f7279b_2ca6b03a3861449cadc6100015b686d0f000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 106,
+   "y": 957,
+   "w": 741,
+   "h": 76,
+   "html": "<p>    It was my first time trying modeling in a stylized aesthetics, and I became familiar with the workflow of environmental modeling, texturing in Substance Painter, lighting, and rendering in Maya.</p>",
+   "plain": "It was my first time trying modeling in a stylized aesthetics, and I became fami",
+   "head": false
+  }
+ ]
+}

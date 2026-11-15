@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Week5 | Yiqi Zheng</title>
+<meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../assets/site.css">
+<link rel="alternate" hreflang="en" href="../../../blog/special-project-part1/week-5/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/blog/special-project-part1/week-5/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/blog/special-project-part1/week-5/">
+</head>
+<body class="lang-en ">
+<header class="top glass"><a class="logo ripple" href="../../../">YIQI</a>
+<nav class="nav" id="nav"><div class="ni"><a class="nl ripple" href="../../../">Home</a></div><div class="ni has"><a class="nl ripple" href="../../../fx/">FX</a><div class="sub glass"><a class="ripple" href="../../../fx/honeybear/">HoneyBear</a><a class="ripple" href="../../../fx/horse/">Horse</a><a class="ripple" href="../../../fx/alice/">Alice</a></div></div><div class="ni has"><a class="nl ripple" href="../../../animation/">Animation</a><div class="sub glass"><a class="ripple" href="../../../animation/overpower/">Overpower</a><a class="ripple" href="../../../animation/hedwig/">Hedwig</a></div></div><div class="ni has"><a class="nl ripple" href="../../../modeling/">Modeling</a><div class="sub glass"><a class="ripple" href="../../../modeling/apple/">Apple</a><a class="ripple" href="../../../modeling/osl/">OSL</a><a class="ripple" href="../../../modeling/procedural-building/">Procedural Building(Houdini)</a><a class="ripple" href="../../../modeling/customized-building/">Customized Building(Maya)</a></div></div><div class="ni has"><a class="nl ripple" href="../../../lighting-compositing/">Lighting/Compositing</a><div class="sub glass"><a class="ripple" href="../../../lighting-compositing/lighting/">Lighting</a></div></div><div class="ni has"><a class="nl ripple" href="../../../tools/">Tools</a><div class="sub glass"><a class="ripple" href="../../../tools/idle/">Idle</a></div></div><div class="ni"><a class="nl ripple" href="../../../unreal/">Unreal</a></div><div class="ni"><a class="nl ripple" href="../../../about/">About</a></div><div class="ni has"><a class="nl ripple active" href="../../../blog/">Blog</a><div class="sub glass"><a class="ripple" href="../../../blog/special-project-part2/">Blog X Special Project | PART2</a><a class="ripple" href="../../../blog/special-project-part1/">Blog X Special Project | PART1</a><a class="ripple" href="../../../blog/harbour-x-etc/">Blog X Harbour X ETC</a><a class="ripple" href="../../../blog/harbour/">Blog X Harbour</a><a class="ripple" href="../../../blog/vsfx728/">Blog X VSFX728</a></div></div></nav>
+<div class="langs glass"><a class="lg ripple on" href="../../../blog/special-project-part1/week-5/" hreflang="en">EN</a><a class="lg ripple" href="../../../zh-hant/blog/special-project-part1/week-5/" hreflang="zh-Hant">繁</a><a class="lg ripple" href="../../../zh-hans/blog/special-project-part1/week-5/" hreflang="zh-Hans">简</a></div>
+<button class="burger ripple" id="burger" aria-label="Menu"><span></span><span></span><span></span></button></header>
+<main><div class="page"><a class="crumb glass ripple" href="../../../blog/special-project-part1/">&#8592; Blog X Special Project | PART1</a><div class="row multi"><div class="col" style="flex:15"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/96d373bf920e4684b177a206dea4190c.webp" width="1980" height="1200" alt="雪紅杉林"></figure></div><div class="col" style="flex:5"><h2 class="ttl reveal">Week5</h2></div></div>
+<div class="row one"><h2 class="ttl reveal">WHOLE PIPELINE(HOUDINI-UNREAL)</h2></div>
+<div class="row one"><h2 class="ttl reveal">Feb 8</h2></div>
+<div class="row multi"><div class="col" style="flex:4"><h2 class="ttl reveal">HAVE COMPLETED:</h2></div><div class="col" style="flex:2"><h2 class="ttl reveal">TO-DO LIST:</h2></div></div>
+<div class="row multi"><div class="col" style="flex:4"><div class="prose reveal"><ul>
+	<li>
+	<p>Tested Opacity mask in Houdini and Unreal</p>
+	</li>
+</ul></div></div><div class="col" style="flex:4"><div class="prose reveal"><ul>
+	<li>
+	<p>Test whole pipeline from Houdini to Unreal.</p>
+	</li>
+	<li>
+	<p>Create a sea if flowers using Yichen&#39;s Grape Hyacinth</p>
+	</li>
+</ul></div></div></div>
+<div class="row one"><h2 class="ttl reveal">Material In Unreal(Subsurface)</h2></div>
+<div class="row one"><div class="prose reveal"><p>This week, I will try to complete the full pipeline from Houdini to Unreal, including material and lighting setup, to achieve better visual results.</p></div></div>
+<div class="row multi"><div class="col" style="flex:9"><div class="prose reveal"><p>We compared the material before and after adding subsurface scattering (SSS) in Unreal. The initial version looked flatter and more opaque, while the updated material shows softer light diffusion and more natural translucency in the petals, especially in backlit conditions.</p>
+
+<p>Danci shared her documentation on setting up SSS in Unreal, which we referenced and adapted for our own shader. The images below demonstrate the SSS effect under backlighting, where light passes through the petals and creates a more realistic, luminous appearance.</p></div></div><div class="col" style="flex:4"><div class="prose reveal"><p><a href="https://omolism.cargo.site/The-Last-Dinner" target="_blank" rel="noopener">https://omolism.cargo.site/The-Last-Dinner</a></p></div></div></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_52a53ef5e64f42918db94f11a9b49daf_mv2.webp" width="330" height="600" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_3854e251eb354f34ae47a23c633144f2_mv2.webp" width="458" height="495" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_d9d3df7be2454d23935a14b3dadcc579_mv2.webp" width="491" height="557" alt="image.png"></figure></div></div>
+<div class="row one"><h2 class="ttl reveal">Substance Painter</h2></div>
+<div class="row multi"><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_e039698a86854536a7f7d568cbf5b741_mv2.webp" width="411" height="600" alt="image.png"></figure></div><div class="col" style="flex:3"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_991bf4b2e4924a9cbf245ebeabac886b_mv2.webp" width="423" height="600" alt="image.png"></figure></div><div class="col" style="flex:2"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_c2de16ebd8b1461cb07d823aaf84b918_mv2.webp" width="345" height="600" alt="image.png"></figure></div></div>
+<div class="row one"><div class="prose reveal"><p>This is the Blueprint I made, referencing Danci&rsquo;s.</p></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../assets/media/f7279b_ddc0adee201446f6817cc9733c4a579a_mv2.webp" width="600" height="399" alt="image.png"></figure></div>
+<div class="row one"><h2 class="ttl reveal">USD Animation VS VAT Animation In Unreal</h2></div>
+<div class="row one"><div class="prose reveal"><p>I found that Unreal becomes laggy when there are more than five animated USD assets, so I switched to VAT. I baked frames 60&ndash;120 using a soft-body method because VAT remains more stable as long as the topology and vertex count stay consistent. If they change, VAT can become glitchy, so I plan to keep a fixed topology moving forward. This is the final result of the VAT animation in Unreal &mdash; the performance is good, but I still need to figure out how to loop it and how to generate a procedural layout, as this was done manually.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_565cec7573da47fcbe6d105937d493c9f000.webp" src="https://video.wixstatic.com/video/f7279b_565cec7573da47fcbe6d105937d493c9/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p>I also plan to try importing Sanika&rsquo;s plants into Unreal, but I may not have time to test VAT or develop the leaves&rsquo; shader, so I will use Yichen&rsquo;s flower shader for initial testing in Unreal.</p></div></div>
+<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="none" poster="../../../assets/media/f7279b_87a7b4c3a8fb4ad1aee6f4920b0e5041f000.webp" src="https://video.wixstatic.com/video/f7279b_87a7b4c3a8fb4ad1aee6f4920b0e5041/1080p/mp4/file.mp4"></video></figure></div>
+<div class="row one"><div class="prose reveal"><p><a href="../../../blog/special-project-part1/week-6/">Next Week:</a></p>
+
+<ol>
+	<li>
+	<p>Conduct further research on VAT animation.</p>
+	</li>
+	<li>
+	<p>Work on the Houdini-to-Unreal particle pipeline using VAT.</p>
+	</li>
+</ol></div></div><div class="pn"><a class="btn ghost ripple prev" href="../../../blog/special-project-part1/week-4/"><span>&#8592; Week4</span></a><a class="btn ghost ripple next" href="../../../blog/special-project-part1/week-6/"><span>Week6 &#8594;</span></a></div></div></main>
+<footer class="foot"><div class="fin glass reveal">
+<div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
+<div class="contacts"><a class="btn ghost ripple" href="mailto:yiqi_zheng@outlook.com"><span>&#9993; yiqi_zheng@outlook.com</span></a>
+<a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
+</div><div class="copy">&copy; Yiqi Zheng</div></footer>
+<div class="lb" id="lb"><img alt=""></div>
+<script src="../../../assets/site.js"></script>
+</body></html>

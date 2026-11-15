@@ -1,0 +1,74 @@
+{
+ "meta": {
+  "id": "b5yv6",
+  "title": "Hedwig",
+  "uri": "hedwig"
+ },
+ "atoms": [
+  {
+   "t": "banner",
+   "x": 0,
+   "y": -64,
+   "w": 2443,
+   "h": 800,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b9fdde1115fe44bb8d2442ee5d059e2e~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "S24_V721_P3_YiqiZheng_Hedwig.jpg"
+   }
+  },
+  {
+   "t": "text",
+   "x": -642,
+   "y": 94,
+   "w": 770,
+   "h": 172,
+   "html": "<h3>Hedwig(Procedural Animation</h3>",
+   "plain": "Hedwig(Procedural Animation",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -188,
+   "y": 840,
+   "w": 120,
+   "h": 90,
+   "html": "<h2>VIDEO</h2>",
+   "plain": "VIDEO",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 110,
+   "y": 951,
+   "w": 760,
+   "h": 472,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_68e0ca3a74654cca928121107a44518a",
+    "poster": "f7279b_68e0ca3a74654cca928121107a44518af000.jpg",
+    "w": 1920,
+    "h": 1080,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 110,
+   "y": 1468,
+   "w": 760,
+   "h": 121,
+   "html": "<p>    The project aims to recreate the mechanism of Lego Hedwig through constraints with expressions to mimic Hedwig&rsquo;s wing swing animation without keyframing.</p>",
+   "plain": "The project aims to recreate the mechanism of Lego Hedwig through constraints wi",
+   "head": false
+  }
+ ]
+}

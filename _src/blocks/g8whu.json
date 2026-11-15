@@ -1,0 +1,351 @@
+{
+ "meta": {
+  "id": "g8whu",
+  "title": "Week2",
+  "uri": "copy-of-week1"
+ },
+ "atoms": [
+  {
+   "t": "image",
+   "x": -182,
+   "y": 35,
+   "w": 1344,
+   "h": 352,
+   "media": {
+    "kind": "image",
+    "uri": "a3c153_6f27754e06844d62a1708b316797fc08~mv2.jpg",
+    "w": 4547,
+    "h": 3031,
+    "alt": ""
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 260,
+   "y": 145,
+   "w": 460,
+   "h": 105,
+   "html": "<h3>Week2</h3>",
+   "plain": "Week2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 280,
+   "y": 456,
+   "w": 419,
+   "h": 62,
+   "html": "<h3>Team Member</h3>",
+   "plain": "Team Member",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 382,
+   "y": 526,
+   "w": 216,
+   "h": 132,
+   "html": "<h3>Bomin Kim (Fx)<br />\nCaleb Stovall (3D/2D)<br />\nMojie Tang (Fx)<br />\nSydney Relkin (Comp)<br />\nYiqi Zheng (Fx)</h3>",
+   "plain": "Bomin Kim (Fx)\nCaleb Stovall (3D/2D)\nMojie Tang (Fx)\nSydney Relkin (Comp)\nYiqi Z",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": -84,
+   "y": 647,
+   "w": 74,
+   "h": 26,
+   "html": "<h3>Jan 19</h3>",
+   "plain": "Jan 19",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 702,
+   "w": 854,
+   "h": 55,
+   "html": "<h3>SCAD X HARBOR - Week 2</h3>",
+   "plain": "SCAD X HARBOR - Week 2",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 778,
+   "w": 534,
+   "h": 26,
+   "html": "<h3>Hello, this is my second week of the Scad x Harbor blog!</h3>",
+   "plain": "Hello, this is my second week of the Scad x Harbor blog!",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 813,
+   "w": 779,
+   "h": 26,
+   "html": "<h3>Based on the suggestions provided by our mentors, we have made some changes. </h3>",
+   "plain": "Based on the suggestions provided by our mentors, we have made some changes.",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 855,
+   "w": 910,
+   "h": 79,
+   "html": "<h3>The most important change is achieving a consistent tone, and we have adjusted all of the shots to a cool tone, which makes them more cohesive. We don&#39;t need the gold particles shot because it is not closely related to our overall storyline.</h3>",
+   "plain": "The most important change is achieving a consistent tone, and we have adjusted a",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 30,
+   "y": 981,
+   "w": 950,
+   "h": 79,
+   "html": "<h3>Storyboard:<br />\nWe have a new storyboard. For shot 2B, we changed it to show a person using tongs to pour the molten platinum into a pot.</h3>",
+   "plain": "Storyboard:\nWe have a new storyboard. For shot 2B, we changed it to show a perso",
+   "head": true
+  },
+  {
+   "t": "image",
+   "x": 122,
+   "y": 1076,
+   "w": 765,
+   "h": 519,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_a1c763a4a8ee463ea188fe442e9317d0~mv2.jpg",
+    "w": 600,
+    "h": 406,
+    "alt": "Story boards for Sydney pt 2.jpg"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 40,
+   "y": 1630,
+   "w": 238,
+   "h": 30,
+   "html": "<p>Real references: </p>",
+   "plain": "Real references:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 38,
+   "y": 1675,
+   "w": 271,
+   "h": 464,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_aa7153e8309241d8a8be011f76e053e5",
+    "poster": "f7279b_aa7153e8309241d8a8be011f76e053e5f000.jpg",
+    "w": 488,
+    "h": 872,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 398,
+   "y": 1760,
+   "w": 543,
+   "h": 337,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_a280784436d44b4498685a5fe5154619",
+    "poster": "f7279b_a280784436d44b4498685a5fe5154619f000.jpg",
+    "w": 776,
+    "h": 436,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 569,
+   "y": 2106,
+   "w": 200,
+   "h": 22,
+   "html": "<p>Real molten platinum</p>",
+   "plain": "Real molten platinum",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 450,
+   "y": 2139,
+   "w": 438,
+   "h": 25,
+   "html": "<p><a href=\"http://www.youtube.com/watch?v=NG2Y_GpNCds\" target=\"_blank\" rel=\"noopener\"> https://www.youtube.com/watch?v=NG2Y_GpNCds</a></p>",
+   "plain": "https://www.youtube.com/watch?v=NG2Y_GpNCds",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 78,
+   "y": 2145,
+   "w": 200,
+   "h": 22,
+   "html": "<p>Real molten aluminium </p>",
+   "plain": "Real molten aluminium",
+   "head": true
+  },
+  {
+   "t": "text",
+   "x": 40,
+   "y": 2199,
+   "w": 251,
+   "h": 30,
+   "html": "<p>Aesthetic references:</p>",
+   "plain": "Aesthetic references:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 44,
+   "y": 2255,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_e83a646170a64b51a337d5e6483dbd01",
+    "poster": "f7279b_e83a646170a64b51a337d5e6483dbd01f000.jpg",
+    "w": 856,
+    "h": 472,
+    "q": [
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "image",
+   "x": 596,
+   "y": 2255,
+   "w": 344,
+   "h": 270,
+   "media": {
+    "kind": "image",
+    "uri": "f7279b_b1da91a7ab5849ada30eb80d5c58b952~mv2.png",
+    "w": 600,
+    "h": 470,
+    "alt": "image.png"
+   },
+   "link": null
+  },
+  {
+   "t": "text",
+   "x": 78,
+   "y": 2533,
+   "w": 410,
+   "h": 25,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=11ZsrbIMPME\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=11ZsrbIMPME</a></p>",
+   "plain": "https://www.youtube.com/watch?v=11ZsrbIMPME",
+   "head": false
+  },
+  {
+   "t": "video",
+   "x": 290,
+   "y": 2580,
+   "w": 480,
+   "h": 270,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_1d90f744342f4d32b274d22a3d8b5a0a",
+    "poster": "f7279b_1d90f744342f4d32b274d22a3d8b5a0af000.jpg",
+    "w": 1160,
+    "h": 644,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 317,
+   "y": 2862,
+   "w": 425,
+   "h": 25,
+   "html": "<p><a href=\"https://www.youtube.com/watch?v=_Mg1qup_zqw\" target=\"_blank\" rel=\"noopener\">https://www.youtube.com/watch?v=_Mg1qup_zqw</a></p>",
+   "plain": "https://www.youtube.com/watch?v=_Mg1qup_zqw",
+   "head": false
+  },
+  {
+   "t": "text",
+   "x": 51,
+   "y": 2914,
+   "w": 378,
+   "h": 30,
+   "html": "<p>Molten Platinum Previs: </p>",
+   "plain": "Molten Platinum Previs:",
+   "head": true
+  },
+  {
+   "t": "video",
+   "x": 170,
+   "y": 2984,
+   "w": 718,
+   "h": 404,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_abf61c834d3e4af3b0e594a8b2fc4739",
+    "poster": "f7279b_abf61c834d3e4af3b0e594a8b2fc4739f000.jpg",
+    "w": 1280,
+    "h": 720,
+    "q": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ]
+   }
+  },
+  {
+   "t": "video",
+   "x": 170,
+   "y": 3416,
+   "w": 718,
+   "h": 404,
+   "media": {
+    "kind": "video",
+    "vid": "f7279b_72b750fa9bbe4bd99dfb3c16816de285",
+    "poster": "f7279b_72b750fa9bbe4bd99dfb3c16816de285f000.jpg",
+    "w": 3840,
+    "h": 2160,
+    "q": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ]
+   }
+  },
+  {
+   "t": "text",
+   "x": 43,
+   "y": 3863,
+   "w": 893,
+   "h": 104,
+   "html": "<p>This represents platinum, but it does not depict the real appearance of molten platinum. To maintain a consistent tone throughout all the shots, I referenced the creation of molten metal effects from a watch advertisement. We will combine this with live-action footage. Next, I will differentiate the liquid exposed to air from the rest, ensuring that the exposed part forms a thin film on the surface.</p>",
+   "plain": "This represents platinum, but it does not depict the real appearance of molten p",
+   "head": false
+  }
+ ]
+}

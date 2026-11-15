@@ -1,0 +1,130 @@
+{
+ "meta": {
+  "id": "vci6s",
+  "title": "Lighting/Compositing",
+  "uri": "copy-of-modeling-1"
+ },
+ "atoms": [
+  {
+   "t": "text",
+   "x": 50,
+   "y": 49,
+   "w": 1153,
+   "h": 67,
+   "html": "<h3>Lighting/Compositing</h3>",
+   "plain": "Lighting/Compositing",
+   "head": true
+  },
+  {
+   "t": "slides",
+   "x": 50,
+   "y": 159,
+   "w": 906,
+   "h": 493,
+   "slides": [
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_9b49193cda7345b98f7a24b56ff7d7b2~mv2.png",
+      "w": 1582,
+      "h": 878,
+      "alt": "ALICE（无片头片尾）0.png"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:jibjd\">Watch More</a></p>"
+     ],
+     "link": "PAGE:jibjd"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_b9fdde1115fe44bb8d2442ee5d059e2e~mv2.jpg",
+      "w": 1920,
+      "h": 1080,
+      "alt": "S24_V721_P3_YiqiZheng_Hedwig.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:b5yv6\">Watch More</a></p>"
+     ],
+     "link": "PAGE:b5yv6"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_4d7c78a9006b4db5a29bb6e143cbc488~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "alt": "01.png"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:xzvgv\">Watch More</a></p>"
+     ],
+     "link": "PAGE:xzvgv"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_3b9dc25aac0f403db48c3c278a93ae42~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "alt": "day.png"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:uojq2\">Watch More</a></p>"
+     ],
+     "link": "PAGE:uojq2"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_7ba8710744034afa96c748b4994e6582~mv2.jpg",
+      "w": 2068,
+      "h": 1556,
+      "alt": "S24_V721_P1_YiqiZheng_Complex Scene.jpg"
+     },
+     "texts": [],
+     "link": null
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_ad800ab3dd774516bfde97aaa285c551~mv2.jpg",
+      "w": 1582,
+      "h": 878,
+      "alt": "11111.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:x0f1i\">Watch More</a></p>"
+     ],
+     "link": "PAGE:x0f1i"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_0f465aab3cb44a9e88ace8eed3ea2fc7~mv2.jpg",
+      "w": 1657,
+      "h": 689,
+      "alt": "HoneyBear_1000_edited.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:rplnm\">Watch More</a></p>"
+     ],
+     "link": "PAGE:rplnm"
+    },
+    {
+     "media": {
+      "kind": "image",
+      "uri": "f7279b_9ab5a32a1a5041b497cb9551c3b9f879~mv2.jpg",
+      "w": 1280,
+      "h": 720,
+      "alt": "S24_V721_P1_YiqiZheng_Building_Final.jpg"
+     },
+     "texts": [
+      "<p><a href=\"PAGE:uojq2\">Watch More</a></p>"
+     ],
+     "link": "PAGE:uojq2"
+    }
+   ]
+  }
+ ]
+}

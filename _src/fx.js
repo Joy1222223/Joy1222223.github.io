@@ -72,9 +72,14 @@
 
   /* ---- click: a soft light pulse ---- */
   if (!calm) document.addEventListener('pointerdown', function (e) {
-    var p = document.createElement('div'); p.className = 'pulse';
-    p.style.left = e.clientX + 'px'; p.style.top = e.clientY + 'px';
-    document.body.appendChild(p); setTimeout(function () { p.remove(); }, 700);
+    ['pulse', 'pulse-ring', 'pulse-ring r2'].forEach(function (c) {
+      var p = document.createElement('div'); p.className = c;
+      p.style.left = e.clientX + 'px'; p.style.top = e.clientY + 'px';
+      document.body.appendChild(p); setTimeout(function () { p.remove(); }, 900);
+    });
+    // the clicked control flashes with light
+    var el = e.target.closest('a, button, .ripple, .pill, .pcard');
+    if (el) { el.classList.remove('flash'); void el.offsetWidth; el.classList.add('flash'); setTimeout(function () { el.classList.remove('flash'); }, 600); }
   });
 
   /* ---- Apple-style hover (mouse only) ---- */

@@ -57,7 +57,14 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
 .halo.on{opacity:1}
 .halo.hot{width:70px;height:70px;margin:-35px 0 0 -35px;background:radial-gradient(circle,rgba(46,230,201,.22) 0%,rgba(46,230,201,.08) 50%,transparent 70%)}
 .halo.press{width:26px;height:26px;margin:-13px 0 0 -13px}
-.pulse{position:fixed;width:120px;height:120px;margin:-60px 0 0 -60px;border-radius:50%;pointer-events:none;z-index:239;
-  background:radial-gradient(circle,rgba(255,255,255,.28) 0%,rgba(46,230,201,.18) 35%,transparent 68%);
-  mix-blend-mode:screen;transform:scale(.2);opacity:1;animation:pulse .65s cubic-bezier(.2,.7,.2,1) forwards}
-@keyframes pulse{to{transform:scale(1.6);opacity:0}}
+.pulse{position:fixed;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;pointer-events:none;z-index:239;
+  background:radial-gradient(circle,rgba(255,255,255,.55) 0%,rgba(46,230,201,.35) 30%,transparent 66%);
+  transform:scale(.15);animation:pulse .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes pulse{40%{opacity:1}to{transform:scale(1.5);opacity:0}}
+.pulse-ring{position:fixed;width:120px;height:120px;margin:-60px 0 0 -60px;border-radius:50%;pointer-events:none;z-index:239;
+  border:1.5px solid rgba(46,230,201,.9);box-shadow:0 0 18px rgba(46,230,201,.6),inset 0 0 12px rgba(46,230,201,.35);
+  transform:scale(.1);animation:ring .75s cubic-bezier(.15,.75,.25,1) forwards}
+.pulse-ring.r2{border-color:rgba(255,255,255,.6);box-shadow:none;animation-delay:.08s;animation-duration:.85s;opacity:0}
+@keyframes ring{0%{opacity:1;transform:scale(.1)}to{opacity:0;transform:scale(1.25)}}
+.flash{animation:flash .6s ease-out}
+@keyframes flash{0%{box-shadow:0 0 0 0 rgba(46,230,201,.7),0 0 30px rgba(46,230,201,.5)}100%{box-shadow:0 0 0 14px rgba(46,230,201,0),0 0 0 rgba(46,230,201,0)}}

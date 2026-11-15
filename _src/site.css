@@ -1,4 +1,4 @@
-:root{--teal:46,230,201;--bg:#050607;--fg:#fff;--mut:rgba(255,255,255,.66);--ease:cubic-bezier(.2,.8,.2,1);--maxw:100%;--gut:clamp(16px,4vw,72px)}
+:root{--teal:46,230,201;--bg:#050607;--fg:#fff;--mut:rgba(255,255,255,.66);--ease:cubic-bezier(.2,.8,.2,1);--gut:clamp(16px,4vw,72px);--maxw:calc(1600px + 2 * var(--gut))}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:90px}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,system-ui,-apple-system,"Noto Sans TC","Noto Sans SC",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
@@ -12,7 +12,7 @@ img,video{max-width:100%;display:block}
 .lang-zh-hant .big,.lang-zh-hans .big{font-family:"Abril Fatface","Noto Sans TC","Noto Sans SC",serif;font-weight:700}
 
 /* header */
-.top{position:fixed;z-index:50;top:12px;left:50%;transform:translateX(-50%);width:calc(100% - 2 * var(--gut) + 24px);display:flex;align-items:center;gap:14px;padding:10px 12px 10px 20px;border-radius:999px}
+.top{position:fixed;z-index:50;top:12px;left:50%;transform:translateX(-50%);width:min(1624px,calc(100% - 2 * var(--gut) + 24px));display:flex;align-items:center;gap:14px;padding:10px 12px 10px 20px;border-radius:999px}
 .logo{font-family:"Abril Fatface",serif;font-size:22px;color:#fff;text-decoration:none;letter-spacing:.04em;padding:4px 8px;border-radius:12px}
 .nav{display:flex;gap:2px;margin-left:auto;align-items:center}
 .ni{position:relative}
@@ -119,7 +119,7 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .row.multi>.col{min-width:0}
 .ttl{font-family:"Abril Fatface",Georgia,serif;font-weight:400;font-size:clamp(30px,4vw,52px);line-height:1.08;margin:18px 0 4px}
 .lang-zh-hant .ttl,.lang-zh-hans .ttl{font-family:"Abril Fatface","Noto Sans TC","Noto Sans SC",serif;font-weight:700}
-.prose{font-size:16px;line-height:1.75;color:rgba(255,255,255,.84);max-width:1080px}
+.prose{font-size:16px;line-height:1.75;color:rgba(255,255,255,.84);max-width:760px}
 .row.multi .prose{max-width:none}
 .prose p{margin:0 0 .9em}
 .prose h3{font-size:20px;margin:1.2em 0 .5em;color:#fff}
@@ -201,4 +201,3 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .row.one>.btn{width:auto}
 .pgrid.two{grid-template-columns:repeat(2,1fr)}
 @media (max-width:640px){.pgrid.two{grid-template-columns:1fr}}
-@media (min-width:1700px){.pgrid{grid-template-columns:repeat(4,1fr)}.pgrid.two{grid-template-columns:repeat(2,1fr)}}

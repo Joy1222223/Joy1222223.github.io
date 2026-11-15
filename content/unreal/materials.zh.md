@@ -5,7 +5,7 @@ title: 程序化材質
 
 四個在 **Substance Designer** 中完全程序化製作的材質。每一個形狀、顏色和磨損都由開放的參數控制，同一個節點圖就能變出一整組不同的外觀，再把貼圖帶進 **Unreal Engine**，用真實的幾何位移呈現。
 
-stats: 4 種材質 | 41 個開放參數 | 2048 px 貼圖解析度 | 5 張貼圖／每個材質
+stats: 4 種材質 | 43 個開放參數 | 2048 px 貼圖解析度 | 5 張貼圖／每個材質
 
 ### 參數動起來
 
@@ -34,9 +34,9 @@ stats: 4 種材質 | 41 個開放參數 | 2048 px 貼圖解析度 | 5 張貼圖�
 木頭 | 木頭色相 | materials/p/wood-hue
 木頭 | 飽和度 | materials/p/wood-saturation
 泥巴 | 水位 | materials/p/mud-water-level
-泥巴 | 石子數量 | materials/p/mud-pebble-amount
-泥巴 | 石子大小 | materials/p/mud-pebble-size
-泥巴 | 結霜 | materials/p/mud-frost
+泥巴 | 泥堆 | materials/p/mud-mounds
+泥巴 | 泥流 | materials/p/mud-flow
+泥巴 | 凹凸強度 | materials/p/mud-normal
 :::
 
 ### 最終效果

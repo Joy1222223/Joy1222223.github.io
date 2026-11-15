@@ -7,7 +7,7 @@ order: 2
 
 Four fully procedural materials built in **Substance Designer**. Every shape, colour and wear pass is driven by exposed parameters, so one graph can become a whole family of looks — then the maps go into **Unreal Engine** with real geometry displacement.
 
-stats: 4 Materials | 41 Exposed parameters | 2048 px Texture maps | 5 Maps per material
+stats: 4 Materials | 43 Exposed parameters | 2048 px Texture maps | 5 Maps per material
 
 ### Parameters in Motion
 
@@ -36,9 +36,9 @@ Wood | Grain Warp | materials/p/wood-grain-warp
 Wood | Wood Hue | materials/p/wood-hue
 Wood | Saturation | materials/p/wood-saturation
 Mud | Water Level | materials/p/mud-water-level
-Mud | Pebble Amount | materials/p/mud-pebble-amount
-Mud | Pebble Size | materials/p/mud-pebble-size
-Mud | Frost | materials/p/mud-frost
+Mud | Mud Mounds | materials/p/mud-mounds
+Mud | Mud Flow | materials/p/mud-flow
+Mud | Normal Strength | materials/p/mud-normal
 :::
 
 ### Final Look

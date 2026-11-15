@@ -49,6 +49,34 @@
     if (S.length) requestAnimationFrame(tick); else running = false;
   }
   window.__spark = spark;
+  /* ---- soft light halo that trails the cursor (system cursor stays) ---- */
+  if (fine && !calm) {
+    var halo = document.createElement('div'); halo.className = 'halo'; document.body.appendChild(halo);
+    var hx = -200, hy = -200, tx = -200, ty = -200, moving = false;
+    addEventListener('pointermove', function (e) {
+      tx = e.clientX; ty = e.clientY; halo.classList.add('on');
+      if (!moving) { moving = true; requestAnimationFrame(follow); }
+    }, { passive: true });
+    function follow() {
+      hx += (tx - hx) * 0.2; hy += (ty - hy) * 0.2;
+      halo.style.transform = 'translate(' + hx + 'px,' + hy + 'px)';
+      if (Math.abs(tx - hx) + Math.abs(ty - hy) > 0.3) requestAnimationFrame(follow); else moving = false;
+    }
+    document.addEventListener('pointerover', function (e) {
+      halo.classList.toggle('hot', !!e.target.closest('a, button, .ripple, .pill, img.zoomable, .g-item, video'));
+    });
+    document.documentElement.addEventListener('pointerleave', function () { halo.classList.remove('on'); });
+    document.addEventListener('pointerdown', function () { halo.classList.add('press'); });
+    document.addEventListener('pointerup', function () { halo.classList.remove('press'); });
+  }
+
+  /* ---- click: a soft light pulse ---- */
+  if (!calm) document.addEventListener('pointerdown', function (e) {
+    var p = document.createElement('div'); p.className = 'pulse';
+    p.style.left = e.clientX + 'px'; p.style.top = e.clientY + 'px';
+    document.body.appendChild(p); setTimeout(function () { p.remove(); }, 700);
+  });
+
   /* ---- Apple-style hover (mouse only) ---- */
   if (fine && !calm) {
     // 1. soft light that follows the pointer inside buttons / pills / links (visionOS-like sheen)

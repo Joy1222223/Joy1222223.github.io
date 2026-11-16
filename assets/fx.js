@@ -126,6 +126,99 @@
     setTimeout(function () { location.href = u.href; }, 380);
   });
 
+  /* ---- home hero: the name is drawn with particles that scatter around the pointer ---- */
+  var hero = document.getElementById('hero'), h1 = document.getElementById('name');
+  if (hero && h1) (function () {
+    var cv = document.createElement('canvas'); cv.className = 'pname'; hero.appendChild(cv);
+    var ctx = cv.getContext('2d'), W = 0, H = 0, R = Math.min(devicePixelRatio || 1, 2);
+    var P = [], D = [], mx = -1e4, my = -1e4, mOn = false, vis = true, ready = false, intro = true;
+    document.body.classList.add('pname-on');
+    function sample() {
+      var hr = hero.getBoundingClientRect();
+      W = hr.width; H = hr.height; cv.width = W * R; cv.height = H * R; ctx.setTransform(R, 0, 0, R, 0, 0);
+      var cs = getComputedStyle(h1), fs = parseFloat(cs.fontSize);
+      var off = document.createElement('canvas'), o = off.getContext('2d');
+      off.width = Math.ceil(W); off.height = Math.ceil(H);
+      o.fillStyle = '#fff'; o.textBaseline = 'alphabetic'; o.font = cs.fontWeight + ' ' + fs + 'px ' + cs.fontFamily;
+      h1.querySelectorAll('.w').forEach(function (w) {
+        var r = w.getBoundingClientRect();
+        // baseline sits ~0.8em below the top of the line box for Abril Fatface
+        o.fillText(w.textContent, r.left - hr.left, r.top - hr.top + (r.height - fs) / 2 + fs * 0.82);
+      });
+      var step = Math.max(2, Math.round(fs / 34)), data = o.getImageData(0, 0, off.width, off.height).data, T = [];
+      for (var y = 0; y < off.height; y += step) for (var x = 0; x < off.width; x += step)
+        if (data[(y * off.width + x) * 4 + 3] > 128) T.push([x + (Math.random() - .5), y + (Math.random() - .5)]);
+      T.sort(function () { return Math.random() - .5; });
+      var old = P; P = [];
+      for (var i = 0; i < T.length; i++) {
+        var p = old[i] || { x: Math.random() * W, y: Math.random() * H, vx: 0, vy: 0, d: Math.random() * 60 };
+        p.tx = T[i][0]; p.ty = T[i][1]; p.s = step * (.42 + Math.random() * .38); P.push(p);
+      }
+      if (!D.length) for (var k = 0; k < Math.round(W * H / 16000); k++)
+        D.push({ x: Math.random() * W, y: Math.random() * H, z: .2 + Math.random() * .8, v: .1 + Math.random() * .25 });
+      if (calm) P.forEach(function (p) { p.x = p.tx; p.y = p.ty; });
+      ready = true; hero.classList.add('pname-ready');
+    }
+    function frame() {
+      requestAnimationFrame(frame);
+      if (!vis || !ready) return;
+      ctx.clearRect(0, 0, W, H);
+      // drifting dust, with a little parallax toward the pointer
+      var px = mOn ? (mx / W - .5) : 0, py = mOn ? (my / H - .5) : 0;
+      for (var k = 0; k < D.length; k++) {
+        var d = D[k]; d.y -= d.v * d.z; if (d.y < -4) { d.y = H + 4; d.x = Math.random() * W; }
+        ctx.fillStyle = 'rgba(255,255,255,' + (.10 + .25 * d.z) + ')';
+        var dz = 1 + d.z * 1.4; ctx.fillRect(d.x - px * 24 * d.z, d.y - py * 16 * d.z, dz, dz);
+      }
+      var RAD = 110, live = 0;
+      for (var i = 0; i < P.length; i++) {
+        var p = P[i];
+        if (p.d > 0) { p.d--; } else {
+          var ax = (p.tx - p.x) * (intro ? .045 : .07), ay = (p.ty - p.y) * (intro ? .045 : .07);
+          if (mOn) {
+            var dx = p.x - mx, dy = p.y - my, dd = dx * dx + dy * dy;
+            if (dd < RAD * RAD) { var dl = Math.sqrt(dd) || 1, f = (1 - dl / RAD); f *= f * 9; ax += dx / dl * f; ay += dy / dl * f; }
+          }
+          p.vx = (p.vx + ax) * .82; p.vy = (p.vy + ay) * .82; p.x += p.vx; p.y += p.vy;
+        }
+        var off2 = Math.abs(p.x - p.tx) + Math.abs(p.y - p.ty);
+        if (off2 > .5) live++;
+        var heat = Math.min(1, off2 / 40);
+        ctx.fillStyle = 'rgba(' + Math.round(255 - 209 * heat) + ',' + Math.round(255 - 25 * heat) + ',' + Math.round(255 - 54 * heat) + ',' + (.92 - .25 * heat) + ')';
+        ctx.fillRect(p.x - p.s / 2, p.y - p.s / 2, p.s + heat, p.s + heat);
+      }
+      if (intro && live < P.length * .02) intro = false;
+    }
+    function move(e) { var r = hero.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; mOn = my > -50 && my < r.height; }
+    addEventListener('pointermove', move, { passive: true });
+    hero.addEventListener('pointerleave', function () { mOn = false; });
+    hero.addEventListener('pointerdown', function (e) {
+      if (calm) return;
+      var r = hero.getBoundingClientRect(), cx = e.clientX - r.left, cy = e.clientY - r.top;
+      P.forEach(function (p) {
+        var dx = p.x - cx, dy = p.y - cy, dl = Math.sqrt(dx * dx + dy * dy) || 1;
+        if (dl < 420) { var k = (1 - dl / 420) * 26 * (.6 + Math.random() * .8); p.vx += dx / dl * k; p.vy += dy / dl * k; }
+      });
+    });
+    new IntersectionObserver(function (es) { vis = es[0].isIntersecting; }).observe(hero);
+    var rt; addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(sample, 150); });
+    (document.fonts ? document.fonts.ready : Promise.resolve()).then(function () { setTimeout(sample, 60); setTimeout(sample, 1300); requestAnimationFrame(frame); });
+  })();
+
+  /* ---- demo reel grows to full size as it scrolls in (Apple product-page style) ---- */
+  var reelFig = document.querySelector('.home #reel .reel');
+  if (reelFig && !calm) {
+    var rk = false;
+    function reelScale() {
+      rk = false;
+      var r = reelFig.getBoundingClientRect(), t = 1 - Math.max(0, Math.min(1, (r.top - innerHeight * .15) / (innerHeight * .75)));
+      reelFig.style.setProperty('--rs', (.86 + .14 * t).toFixed(4));
+      reelFig.style.setProperty('--rr', (36 - 16 * t).toFixed(1) + 'px');
+    }
+    addEventListener('scroll', function () { if (!rk) { rk = true; requestAnimationFrame(reelScale); } }, { passive: true });
+    addEventListener('resize', reelScale); reelScale();
+  }
+
   /* ---- easter egg: type "joy" anywhere ---- */
   var buf = '';
   addEventListener('keydown', function (e) {

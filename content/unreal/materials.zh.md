@@ -88,5 +88,3 @@ Sky Light | 把 Sky Light 的 Source Type 改成 **SLS Specified Cubemap**，Cub
 曝光 | 加一個 **Post Process Volume**，設定曝光。 | materials/ue-hdri-exposure.webp
 Ambient Cubemap | 在同一個 Volume 裡，把 HDRI 指定為 **Ambient Cubemap**。 | materials/ue-hdri-ambient.webp
 :::
-
-## Substance Designer → Substance Painter → Unreal Engine

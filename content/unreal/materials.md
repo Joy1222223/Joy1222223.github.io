@@ -90,5 +90,3 @@ Sky Light | Change the Sky Light's Source Type to **SLS Specified Cubemap** and 
 Exposure | Add a **Post Process Volume** and set the exposure. | materials/ue-hdri-exposure.webp
 Ambient Cubemap | In the same volume, assign the HDRI as the **Ambient Cubemap**. | materials/ue-hdri-ambient.webp
 :::
-
-## Substance Designer → Substance Painter → Unreal Engine

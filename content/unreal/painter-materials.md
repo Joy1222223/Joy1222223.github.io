@@ -12,9 +12,11 @@ stats: 12 Materials | 12 Node graphs | 3 Tools | 1 Final scene
 
 ![](painter/scene.webp)
 
-### Final Look: Plants
+## Organic
 
-Substance Designer Iray renders of the organic materials.
+Plants and natural surfaces: cactus, moss, leaves, vine, pumpkin and petal.
+
+### Final Look
 
 ::: switch
 Cactus | painter/render-cactus.webp
@@ -22,17 +24,6 @@ Moss | painter/render-moss.webp
 Vine | painter/render-vine.webp
 Pumpkin | painter/render-pumpkin.webp
 Petal | painter/render-petal.webp
-:::
-
-### Final Look: Piano & Surfaces
-
-::: switch
-Piano | painter/render-piano.webp
-Piano Key | painter/render-piano-key.webp
-Copper | painter/render-copper.webp
-Window Glass | painter/render-glass.webp
-Concrete | painter/render-concrete.webp
-Ground Tile | painter/render-tile-ground.webp
 :::
 
 ### Node Graphs
@@ -44,6 +35,26 @@ Leaves | painter/graph-leaves.webp
 Vine | painter/graph-vine.webp
 Pumpkin | painter/graph-pumpkin.webp
 Petal | painter/graph-petal.webp
+:::
+
+## Hard Surface
+
+The piano and the room around it: lacquered wood, keys, copper, glass, concrete and floor tiles.
+
+### Final Look
+
+::: switch
+Piano | painter/render-piano.webp
+Piano Key | painter/render-piano-key.webp
+Copper | painter/render-copper.webp
+Glass | painter/render-glass.webp
+Concrete | painter/render-concrete.webp
+Ground Tile | painter/render-tile-ground.webp
+:::
+
+### Node Graphs
+
+::: switch
 Piano | painter/graph-piano.webp
 Piano Key | painter/graph-piano-key.webp
 Copper | painter/graph-copper.webp

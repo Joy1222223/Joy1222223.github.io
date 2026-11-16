@@ -132,7 +132,7 @@
     var cv = document.createElement('canvas'); cv.className = 'pname'; hero.appendChild(cv);
     var bg = document.createElement('canvas'); bg.className = 'pbg'; hero.insertBefore(bg, hero.querySelector('.hwrap')); var bctx = bg.getContext('2d');
     var ctx = cv.getContext('2d'), W = 0, H = 0, R = Math.min(devicePixelRatio || 1, 2);
-    var P = [], D = [], mx = -1e4, my = -1e4, pmx = 0, pmy = 0, mOn = false, vis = true, ready = false, intro = true;
+    var P = [], D = [], mx = -1e4, my = -1e4, pmx = 0, pmy = 0, mOn = false, vis = true, ready = false, intro = false;
     document.body.classList.add('pname-on');
     function sample() {
       var hr = hero.getBoundingClientRect();
@@ -146,13 +146,13 @@
         // baseline sits ~0.8em below the top of the line box for Abril Fatface
         o.fillText(w.textContent, r.left - hr.left, r.top - hr.top + (r.height - fs) / 2 + fs * 0.82);
       });
-      var step = Math.max(2, Math.round(fs / 34)), data = o.getImageData(0, 0, off.width, off.height).data, T = [];
+      var step = Math.max(2, Math.round(fs / 46)), data = o.getImageData(0, 0, off.width, off.height).data, T = [];
       for (var y = 0; y < off.height; y += step) for (var x = 0; x < off.width; x += step)
         if (data[(y * off.width + x) * 4 + 3] > 128) T.push([x + (Math.random() - .5), y + (Math.random() - .5)]);
       T.sort(function () { return Math.random() - .5; });
       var old = P; P = [];
       for (var i = 0; i < T.length; i++) {
-        var p = old[i] || { x: Math.random() * W, y: Math.random() * H, vx: 0, vy: 0, d: Math.random() * 60 };
+        var p = old[i] || { x: T[i][0], y: T[i][1], vx: 0, vy: 0, d: 0 };
         p.tx = T[i][0]; p.ty = T[i][1]; p.s = step * (.42 + Math.random() * .38); P.push(p);
       }
       var nd = Math.min(700, Math.round(W * H / 4200));

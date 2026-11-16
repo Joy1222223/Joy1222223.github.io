@@ -368,7 +368,7 @@ def home(lang):
     for pid, en_t, dkey, img, vid, empty in WORK:
         href = root + lp + SLUG[pid] + '/'
         t = t_ui(en_t, lang); d = t_ui(dkey, lang)
-        cov = next((cover_of(u) for u in UNREAL_ITEMS if cover_of(u)), None) if pid == 'et3rh' else None
+        cov = next((cover_of(u) for u in sorted(UNREAL_ITEMS, key=lambda u: CONTENT[u]['meta'].get('home', '') != 'yes') if cover_of(u)), None) if pid == 'et3rh' else None
         if cov:
             empty = False
             u = cov['src'] if cov['src'].startswith('http') else root + cov['src']

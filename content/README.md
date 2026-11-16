@@ -32,6 +32,7 @@ title: Forest Scene          ← 作品標題（卡片和頁面上顯示）
 cover: forest-scene/cover.jpg ← 卡片封面，可以是圖片，也可以直接貼 YouTube 連結（會用影片縮圖）
 order: 1                     ← 排序，數字小的在前面（可不寫）
 hide: yes                    ← 暫時不顯示（可不寫）
+home: yes                    ← 只用在 unreal/：首頁的 Unreal 卡片用這個作品的封面（可不寫）
 ---
 ```
 

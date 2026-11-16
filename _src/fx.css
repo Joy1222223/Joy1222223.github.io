@@ -224,3 +224,25 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
   .home .tools{grid-template-columns:180px repeat(5,1fr)}
   .home .tools .pill:nth-of-type(5n+2){grid-column-start:2}
 }
+
+/* ===== work cards, refined: clear type on a solid fade ===== */
+.home .pgrid .pcard{isolation:isolate}
+.home .pgrid .pcard::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;border-radius:inherit;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:box-shadow .4s}
+.home .pgrid .pcard:hover::after{box-shadow:inset 0 0 0 1px rgba(46,230,201,.45)}
+.home .pgrid .cap{padding:120px 34px 30px;align-items:flex-end;
+  background:linear-gradient(0deg,rgba(3,5,7,.94) 0%,rgba(3,5,7,.78) 32%,rgba(3,5,7,.35) 65%,rgba(3,5,7,0) 100%)}
+.home .pgrid .cap .t{font-weight:600;font-size:clamp(30px,2.8vw,46px);line-height:1.02;color:#fff;text-shadow:0 2px 24px rgba(0,0,0,.6)}
+.home .pgrid .pcard:nth-child(1) .cap .t,.home .pgrid .pcard:nth-child(6) .cap .t{font-size:clamp(40px,4.4vw,72px)}
+.home .pgrid .cap .t::before{display:flex;align-items:center;gap:12px;font-size:12px;font-weight:600;letter-spacing:.35em;margin-bottom:16px;text-shadow:none}
+.home .pgrid .cap .d{font-size:12.5px;font-weight:500;letter-spacing:.2em;color:rgba(255,255,255,.82);margin-top:14px}
+.home .pgrid .cap .arrow{opacity:1;transform:none;width:52px;height:52px;flex:0 0 52px;border-radius:999px;display:grid;place-items:center;
+  border:1px solid rgba(255,255,255,.28);font-size:20px;color:#fff;transition:background .35s,border-color .35s,color .35s,transform .45s cubic-bezier(.34,1.3,.5,1)}
+.home .pgrid .pcard:hover .cap .arrow{background:rgb(var(--teal));border-color:rgb(var(--teal));color:#041311;transform:translateX(4px)}
+.home .pgrid .pcard .cm{filter:saturate(.9) brightness(.9)}
+@media (max-width:640px){
+  .home .pgrid .cap{padding:80px 20px 20px}
+  .home .pgrid .cap .t,.home .pgrid .pcard:nth-child(1) .cap .t,.home .pgrid .pcard:nth-child(6) .cap .t{font-size:30px}
+  .home .pgrid .cap .d{font-size:11px;letter-spacing:.14em}
+  .home .pgrid .cap .arrow{width:42px;height:42px;flex-basis:42px}
+}

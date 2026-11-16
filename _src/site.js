@@ -110,7 +110,7 @@
     });
     // swipe on the stage
     var sx = null;
-    stage.addEventListener('pointerdown', function (e) { sx = e.clientX; });
+    stage.addEventListener('pointerdown', function (e) { sx = e.target.closest('.cmp-box') ? null : e.clientX; });
     stage.addEventListener('pointerup', function (e) { if (sx === null) return; var dx = e.clientX - sx; sx = null; if (Math.abs(dx) > 50) go(cur + (dx < 0 ? 1 : -1)); });
     // progress bars
     items.forEach(function (it) {

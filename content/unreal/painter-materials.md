@@ -12,6 +12,18 @@ stats: 12 Materials | 12 Node graphs | 3 Tools | 1 Final scene
 
 ![](painter/scene.webp)
 
+### Old vs New
+
+Drag the line to compare the old, weathered materials with the new, clean pass in Unreal.
+
+::: switch
+Piano | compare Old | New: painter/compare/piano-worn.webp | painter/compare/piano-new.webp
+Wall | compare Old | New: painter/compare/wall-worn.webp | painter/compare/wall-new.webp
+Floor | compare Old | New: painter/compare/floor-worn.webp | painter/compare/floor-new.webp
+Window | compare Old | New: painter/compare/window-worn.webp | painter/compare/window-new.webp
+Keys | compare Old | New: painter/compare/keys-worn.webp | painter/compare/keys-new.webp
+:::
+
 ## Organic
 
 Plants and natural surfaces: cactus, moss, leaves, vine, pumpkin and petal.

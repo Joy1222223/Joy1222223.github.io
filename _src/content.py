@@ -80,8 +80,8 @@ def _embed(url):
 CMP = re.compile(r'compare(?:\s+([^:|]+?)\s*\|\s*([^:|]+?))?\s*:\s*(\S+)\s*\|\s*(\S+)', re.I)
 
 
-def _compare(m, folder, root):
-    """Before/after slider: image A on the left of the handle, image B on the right."""
+def _cmp_box(m, folder, root):
+    """Before/after slider box: image A on the left of the handle, image B on the right."""
     la, lb, a, b = m.groups()
     def u(ref):
         s = _src(ref, folder)
@@ -89,12 +89,16 @@ def _compare(m, folder, root):
     labs = ''.join(f'<span class="cmp-lab {side}">{html.escape(t.strip())}</span>'
                    for side, t in (('l', la), ('r', lb)) if t)
     aria = html.escape(f'{la.strip()} / {lb.strip()}' if la else 'Compare')
-    return (f'<div class="row one"><figure class="fig cmp reveal"><div class="cmp-box">'
+    return (f'<div class="cmp-box">'
             f'<img class="cmp-b" loading="lazy" src="{u(b)}" alt="{html.escape((lb or "").strip())}">'
             f'<img class="cmp-a" loading="lazy" src="{u(a)}" alt="{html.escape((la or "").strip())}">'
             f'<div class="cmp-bar"></div>{labs}'
             f'<input class="cmp-rng" type="range" min="0" max="100" step="0.1" value="50" aria-label="{aria}">'
-            f'</div></figure></div>')
+            f'</div>')
+
+
+def _compare(m, folder, root):
+    return f'<div class="row one"><figure class="fig cmp reveal">{_cmp_box(m, folder, root)}</figure></div>'
 
 
 def _switch(items, folder, root):
@@ -106,7 +110,10 @@ def _switch(items, folder, root):
     for i, (label, ref) in enumerate(items):
         on = ' on' if i == 0 else ''
         tabs.append(f'<button type="button" class="sw-tab{on}" role="tab" aria-selected="{"true" if i == 0 else "false"}">{_inline(label)}</button>')
-        if ref.lower().split('?')[0].endswith(VID_EXT):
+        cm = CMP.fullmatch(ref)
+        if cm:
+            media = _cmp_box(cm, folder, root)
+        elif ref.lower().split('?')[0].endswith(VID_EXT):
             media = f'<video muted loop playsinline preload="{"auto" if i == 0 else "none"}" src="{u(ref)}"></video><div class="sw-prog"><i></i></div>'
         else:
             media = f'<img class="zoomable" loading="lazy" src="{u(ref)}" alt="{html.escape(label)}">'
@@ -232,7 +239,7 @@ def render(body, folder, root):
                 block.append(raw); continue
             rows = [l.strip() for l in block if '|' in l]
             if kind == 'switch':
-                out.append(_switch([tuple(p.strip() for p in l.rsplit('|', 1)) for l in rows], folder, root))
+                out.append(_switch([tuple(p.strip() for p in (l.split('|', 1) if re.search(r'\|\s*compare\b', l, re.I) else l.rsplit('|', 1))) for l in rows], folder, root))
             elif kind == 'params':
                 out.append(_params([tuple(p.strip() for p in l.split('|', 2)) for l in rows], folder, root))
             elif kind == 'steps':

@@ -10,6 +10,18 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 
 ![](painter/scene.webp)
 
+### Old vs New
+
+拖動中間的線，比較 Unreal 裡做舊的材質和全新乾淨的版本。
+
+::: switch
+鋼琴 | compare Old | New: painter/compare/piano-worn.webp | painter/compare/piano-new.webp
+牆 | compare Old | New: painter/compare/wall-worn.webp | painter/compare/wall-new.webp
+地磚 | compare Old | New: painter/compare/floor-worn.webp | painter/compare/floor-new.webp
+窗戶 | compare Old | New: painter/compare/window-worn.webp | painter/compare/window-new.webp
+琴鍵 | compare Old | New: painter/compare/keys-worn.webp | painter/compare/keys-new.webp
+:::
+
 ## 有機材質
 
 植物和自然表面：仙人掌、苔蘚、葉子、藤蔓、南瓜和花瓣。

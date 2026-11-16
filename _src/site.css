@@ -227,6 +227,8 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .sw-item.on{opacity:1;visibility:visible;transform:none;transition:opacity .7s var(--ease),transform .9s var(--ease),visibility 0s}
 .sw-item video,.sw-item img{display:block;width:100%;height:auto}
 .sw-item img{cursor:zoom-in}
+.sw-item .cmp-box{border-radius:0;border:0;box-shadow:none}
+.sw-item .cmp-box img{cursor:ew-resize}
 .sw-prog{position:absolute;left:24px;right:24px;bottom:18px;height:3px;border-radius:3px;background:rgba(255,255,255,.18);overflow:hidden}
 .sw-prog i{display:block;height:100%;width:0;background:rgba(255,255,255,.9)}
 /* count-up stats */

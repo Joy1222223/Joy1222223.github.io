@@ -4,8 +4,6 @@ cover: painter/cover.webp
 home: yes
 order: 3
 ---
-## Substance Designer → Substance Painter → Unreal Engine
-
 Materials for the piano scene, built in **Substance Designer**, hand-finished in **Substance Painter** for the hero props, and assembled in **Unreal Engine**.
 
 stats: 12 Materials | 12 Node graphs | 3 Tools | 1 Final scene

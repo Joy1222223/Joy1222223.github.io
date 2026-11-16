@@ -2,8 +2,6 @@
 title: Substance Designer → Substance Painter → Unreal Engine
 cover: painter/cover.webp
 ---
-## Substance Designer → Substance Painter → Unreal Engine
-
 鋼琴場景的材質：先在 **Substance Designer** 程序化製作，主要道具再到 **Substance Painter** 手繪細節，最後在 **Unreal Engine** 組合成完整場景。
 
 stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景

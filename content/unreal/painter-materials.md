@@ -12,16 +12,16 @@ stats: 12 Materials | 12 Node graphs | 3 Tools | 1 Final scene
 
 ![](painter/scene.webp)
 
-### Old vs New
+### New vs Old
 
-Drag the line to compare the old, weathered materials with the new, clean pass in Unreal.
+Drag the line to compare the new, clean pass with the old, weathered materials in Unreal.
 
 ::: switch
-Piano | compare Old | New: painter/compare/piano-worn.webp | painter/compare/piano-new.webp
-Wall | compare Old | New: painter/compare/wall-worn.webp | painter/compare/wall-new.webp
-Floor | compare Old | New: painter/compare/floor-worn.webp | painter/compare/floor-new.webp
-Window | compare Old | New: painter/compare/window-worn.webp | painter/compare/window-new.webp
-Keys | compare Old | New: painter/compare/keys-worn.webp | painter/compare/keys-new.webp
+Piano | compare New | Old: painter/compare/piano-new.webp | painter/compare/piano-worn.webp
+Wall | compare New | Old: painter/compare/wall-new.webp | painter/compare/wall-worn.webp
+Floor | compare New | Old: painter/compare/floor-new.webp | painter/compare/floor-worn.webp
+Window | compare New | Old: painter/compare/window-new.webp | painter/compare/window-worn.webp
+Keys | compare New | Old: painter/compare/keys-new.webp | painter/compare/keys-worn.webp
 :::
 
 ## Organic
@@ -41,11 +41,23 @@ Organic | painter/params-organic.mp4
 Pick a material and a parameter, then drag the slider. Every position is a real render at that value.
 
 ::: params
+Cactus | Cactus Hue | painter/p/cactus-hue
+Cactus | Highlight | painter/p/cactus-highlight
 Cactus | Spot Color | painter/p/cactus-spot
+Leaves | Freshness | painter/p/leaves-freshness
+Leaves | Saturation | painter/p/leaves-saturation
+Leaves | Paleness | painter/p/leaves-paleness
+Moss | Moss Opacity | painter/p/moss-opacity
+Moss | Greenness | painter/p/moss-green
 Moss | Moss Hue | painter/p/moss-hue
 Pumpkin | Rib Count | painter/p/pumpkin-ribs
+Pumpkin | Ripeness | painter/p/pumpkin-ripeness
+Pumpkin | Stripes | painter/p/pumpkin-stripes
 Vine | Color Gradient | painter/p/vine-gradient
 Vine | Vine Flow | painter/p/vine-flow
+Vine | Patchiness | painter/p/vine-patch
+Petal | Petal Hue | painter/p/petal-hue
+Petal | Edge Tint | painter/p/petal-edge
 :::
 
 ### Final Look
@@ -86,11 +98,17 @@ Hard Surface | painter/params-hard.mp4
 Pick a material and a parameter, then drag the slider. Every position is a real render at that value.
 
 ::: params
+Piano | Ornament Size | painter/p/piano-ornament
+Piano | Carving Softness | painter/p/piano-carving
+Piano Key | Key Tone | painter/p/keys-tone
 Copper | Metal Hue | painter/p/copper-hue
 Window Glass | Pane Count | painter/p/glass-panes
+Window Glass | Color Variation | painter/p/glass-variation
 Concrete | Stains | painter/p/concrete-stains
 Concrete | Concrete Hue | painter/p/concrete-hue
+Concrete | Warm Patches | painter/p/concrete-warm
 Ground Tile | Tile Count | painter/p/tile-tiles
+Ground Tile | Dirt | painter/p/tile-dirt
 :::
 
 ### Final Look

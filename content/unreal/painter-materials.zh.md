@@ -10,16 +10,16 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 
 ![](painter/scene.webp)
 
-### Old vs New
+### New vs Old
 
-拖動中間的線，比較 Unreal 裡做舊的材質和全新乾淨的版本。
+拖動中間的線，比較 Unreal 裡全新乾淨的版本和做舊的材質。
 
 ::: switch
-鋼琴 | compare Old | New: painter/compare/piano-worn.webp | painter/compare/piano-new.webp
-牆 | compare Old | New: painter/compare/wall-worn.webp | painter/compare/wall-new.webp
-地磚 | compare Old | New: painter/compare/floor-worn.webp | painter/compare/floor-new.webp
-窗戶 | compare Old | New: painter/compare/window-worn.webp | painter/compare/window-new.webp
-琴鍵 | compare Old | New: painter/compare/keys-worn.webp | painter/compare/keys-new.webp
+鋼琴 | compare New | Old: painter/compare/piano-new.webp | painter/compare/piano-worn.webp
+牆 | compare New | Old: painter/compare/wall-new.webp | painter/compare/wall-worn.webp
+地磚 | compare New | Old: painter/compare/floor-new.webp | painter/compare/floor-worn.webp
+窗戶 | compare New | Old: painter/compare/window-new.webp | painter/compare/window-worn.webp
+琴鍵 | compare New | Old: painter/compare/keys-new.webp | painter/compare/keys-worn.webp
 :::
 
 ## 有機材質
@@ -39,11 +39,23 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 選一個材質、選一個參數，然後拖動滑桿。每個位置都是用那個數值真實渲染出來的。
 
 ::: params
+仙人掌 | 仙人掌色相 | painter/p/cactus-hue
+仙人掌 | 亮部 | painter/p/cactus-highlight
 仙人掌 | 斑點顏色 | painter/p/cactus-spot
+葉子 | 新鮮度 | painter/p/leaves-freshness
+葉子 | 飽和度 | painter/p/leaves-saturation
+葉子 | 褪色 | painter/p/leaves-paleness
+苔蘚 | 苔蘚不透明度 | painter/p/moss-opacity
+苔蘚 | 綠度 | painter/p/moss-green
 苔蘚 | 苔蘚色相 | painter/p/moss-hue
 南瓜 | 紋路數量 | painter/p/pumpkin-ribs
+南瓜 | 成熟度 | painter/p/pumpkin-ripeness
+南瓜 | 條紋 | painter/p/pumpkin-stripes
 藤蔓 | 顏色漸層 | painter/p/vine-gradient
 藤蔓 | 藤蔓流動 | painter/p/vine-flow
+藤蔓 | 斑駁程度 | painter/p/vine-patch
+花瓣 | 花瓣色相 | painter/p/petal-hue
+花瓣 | 邊緣色調 | painter/p/petal-edge
 :::
 
 ### 最終效果
@@ -84,11 +96,17 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 選一個材質、選一個參數，然後拖動滑桿。每個位置都是用那個數值真實渲染出來的。
 
 ::: params
+鋼琴 | 雕花大小 | painter/p/piano-ornament
+鋼琴 | 雕刻柔和度 | painter/p/piano-carving
+琴鍵 | 琴鍵色調 | painter/p/keys-tone
 銅 | 金屬色相 | painter/p/copper-hue
 窗戶玻璃 | 窗格數量 | painter/p/glass-panes
+窗戶玻璃 | 顏色變化 | painter/p/glass-variation
 混凝土 | 污漬 | painter/p/concrete-stains
 混凝土 | 混凝土色相 | painter/p/concrete-hue
+混凝土 | 暖色斑塊 | painter/p/concrete-warm
 地磚 | 地磚數量 | painter/p/tile-tiles
+地磚 | 髒污 | painter/p/tile-dirt
 :::
 
 ### 最終效果

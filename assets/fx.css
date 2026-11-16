@@ -71,7 +71,6 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
 @keyframes flash{0%{box-shadow:0 0 0 0 rgba(46,230,201,.7),0 0 30px rgba(46,230,201,.5)}100%{box-shadow:0 0 0 14px rgba(46,230,201,0),0 0 0 rgba(46,230,201,0)}}
 
 /* ---- home, refined: name in particles, open hero, cinematic reel ---- */
-.pname{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:3}
 .home #particles{display:none}
 .home .hwrap{z-index:2}
 .home .hcard{background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;
@@ -80,8 +79,6 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
 .home .hshade{background:linear-gradient(90deg,rgba(3,5,7,.86),rgba(3,5,7,.45) 45%,rgba(3,5,7,.12) 75%),
   linear-gradient(0deg,var(--bg) 0%,rgba(0,0,0,0) 35%),linear-gradient(180deg,rgba(3,5,7,.55),rgba(0,0,0,0) 22%)}
 .home .name{font-size:clamp(64px,10vw,168px);letter-spacing:-.01em;margin:26px 0 22px}
-.pname-on #name,.pname-on #name .l{color:transparent!important;text-shadow:none!important}
-.pname-on #name .l{transform:none;animation:none}
 .home .hcard p{font-size:17px;max-width:520px;color:rgba(255,255,255,.72)}
 .home .chip{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.16);color:rgba(255,255,255,.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
 .home .chip .dot{background:rgb(var(--teal))}
@@ -186,3 +183,44 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
   .home .pgrid .cap{padding:60px 18px 18px}
 }
 @media (prefers-reduced-motion:reduce){.home .hero::before{animation:none}}
+
+/* ===== cinematic home, part 2: clean title, lower sections ===== */
+.home .name{line-height:1}
+.home .name .w{padding-bottom:.06em}
+/* chapter numbers on section labels */
+.home #reel .eyebrow::before{content:"01";width:auto;height:auto;background:none;color:rgb(var(--teal));letter-spacing:.2em}
+.home #work .eyebrow::before{content:"02";width:auto;height:auto;background:none;color:rgb(var(--teal));letter-spacing:.2em}
+.home #reel .head .eyebrow::after{display:none}
+.home .eyebrow{gap:18px}
+/* quieter background glows */
+.home .blob{opacity:.1}
+/* reel: soft spotlight behind the frame */
+.home #reel{position:relative}
+.home #reel::before{content:"";position:absolute;left:50%;top:30%;width:min(1200px,90vw);height:60%;transform:translateX(-50%);z-index:-1;pointer-events:none;
+  background:radial-gradient(closest-side,rgba(46,230,201,.08),transparent)}
+/* work header: hairline, title left, note right */
+.home #work .head{border-top:1px solid rgba(255,255,255,.12);padding-top:34px;align-items:flex-end}
+.home #work .lede{max-width:420px;text-align:right}
+/* toolkit: a credits line, not pills */
+.home .tools{display:grid;grid-template-columns:180px 1fr;align-items:baseline;gap:18px 30px}
+.home .tools .lbl{grid-row:span 2;font-size:11px}
+.home .tools{column-gap:30px}
+.home .tools .pill{background:none!important;border:0;box-shadow:none;padding:0;font-size:15px;color:rgba(255,255,255,.78);letter-spacing:.04em;display:inline}
+.home .tools{grid-template-columns:180px repeat(auto-fill,minmax(150px,1fr))}
+.home .tools .lbl{grid-row:auto}
+.home .tools .pill:hover{color:rgb(var(--teal))}
+.home .tools .pill .sheen{display:none}
+/* footer: an end card */
+.foot .fin{background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;border-top:1px solid rgba(255,255,255,.12);border-radius:0;padding:56px 0 20px}
+.foot .fin h3{font-family:var(--cine);font-weight:500;font-size:clamp(40px,5.4vw,84px);line-height:1;margin:14px 0 0;letter-spacing:0}
+.foot .eyebrow{letter-spacing:.42em;font-weight:500;font-size:11px}
+.foot .copy{letter-spacing:.3em;font-size:10px;text-transform:uppercase;color:rgba(255,255,255,.4)}
+@media (max-width:640px){
+  .home #work .lede{text-align:left}
+  .home .tools{grid-template-columns:1fr 1fr}
+  .home .tools .lbl{grid-column:1/-1}
+}
+@media (min-width:641px){
+  .home .tools{grid-template-columns:180px repeat(5,1fr)}
+  .home .tools .pill:nth-of-type(5n+2){grid-column-start:2}
+}

@@ -22,7 +22,7 @@
  "Lighting & Compositing": {"en": "Lighting & Compositing", "zh-hant": "燈光與合成", "zh-hans": "灯光与合成"},
  "Animation": {"en": "Animation", "zh-hant": "動畫", "zh-hans": "动画"},
  "Technical Art · Tools": {"en": "Technical Art · Tools", "zh-hant": "技術美術 · 工具", "zh-hans": "技术美术 · 工具"},
- "unreal_desc": {"en": "Real-time projects · coming soon", "zh-hant": "即時渲染作品 · 即將推出", "zh-hans": "实时渲染作品 · 即将推出"},
+ "unreal_desc": {"en": "Materials · Lighting · Real-time", "zh-hant": "材質 · 燈光 · 即時渲染", "zh-hans": "材质 · 灯光 · 实时渲染"},
  "fx_desc": {"en": "Houdini simulations · HDAs", "zh-hant": "Houdini 模擬 · HDA", "zh-hans": "Houdini 模拟 · HDA"},
  "model_desc": {"en": "Maya · Substance · Procedural buildings", "zh-hant": "Maya · Substance · 程序化建築", "zh-hans": "Maya · Substance · 程序化建筑"},
  "light_desc": {"en": "Look-dev · Nuke", "zh-hant": "外觀開發 · Nuke", "zh-hans": "外观开发 · Nuke"},

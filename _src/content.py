@@ -134,6 +134,7 @@ def _params(items, folder, root):
             info = json.load(open(os.path.join(d, 'info.json'), encoding='utf-8'))
         except OSError:
             continue
+        info['t3'] = os.path.exists(os.path.join(d, 't', 't.json'))
         mats.setdefault(mat, []).append((label, root + _src(ref.rstrip('/'), folder) + '/', info))
     if not mats:
         return ''
@@ -146,12 +147,14 @@ def _params(items, folder, root):
             vals = info['vals']; dec = info.get('dec', 2)
             fmt = [('%.*f' % (dec, v)) for v in vals]
             chips.append(f'<button type="button" class="pm-chip{" on" if pi == 0 else ""}" data-src="{html.escape(url)}" '
-                         f'data-def="{info["default"]}" data-vals="{html.escape(json.dumps(fmt))}">{_inline(label)}</button>')
+                         f'data-def="{info["default"]}" data-vals="{html.escape(json.dumps(fmt))}"{" data-t3" if info["t3"] else ""}>{_inline(label)}</button>')
         label0, url0, info0 = plist[0]
         n0 = len(info0['vals'])
         panes.append(
             f'<div class="pm-mat{on}"><div class="pm-view"><img class="pm-img" alt="{html.escape(mat)}" '
-            f'src="{html.escape(url0)}{info0["default"]:02d}.webp" loading="lazy"></div>'
+            f'src="{html.escape(url0)}{info0["default"]:02d}.webp" loading="lazy">'
+            + ('<button type="button" class="pm-3d" aria-pressed="false">3D</button><span class="pm-3dhint"></span>' if any(i['t3'] for _, _, i in plist) else '')
+            + '</div>'
             f'<div class="pm-ctrl"><div class="pm-chips">{"".join(chips)}</div>'
             f'<div class="pm-row"><span class="pm-name">{_inline(label0)}</span><output class="pm-val"></output></div>'
             f'<input class="pm-range" type="range" min="0" max="{n0 - 1}" step="1" value="{info0["default"]}" aria-label="{html.escape(label0)}">'

@@ -308,7 +308,7 @@ def lang_switch(slug_path, root, lang):
 
 FOOT = None
 
-VER = hashlib.sha1(b''.join(open(f, 'rb').read() for f in ('site.css', 'fx.css', 'site.js', 'fx.js'))).hexdigest()[:8]
+VER = hashlib.sha1(b''.join(open(f, 'rb').read() for f in ('site.css', 'fx.css', 'site.js', 'fx.js', 'pm3d.js'))).hexdigest()[:8]
 
 def shell(title, body, cur, slug, lang, extra_head='', body_cls=''):
     lp = dict((c, p) for c, p, _ in LANGS)[lang]
@@ -513,6 +513,8 @@ def build():
     shutil.copy('site.css', os.path.join(OUT, 'assets', 'site.css'))
     shutil.copy('site.js', os.path.join(OUT, 'assets', 'site.js'))
     shutil.copy('fx.js', os.path.join(OUT, 'assets', 'fx.js'))
+    shutil.copy('pm3d.js', os.path.join(OUT, 'assets', 'pm3d.js'))
+    shutil.copy('pm3d-env.jpg', os.path.join(OUT, 'assets', 'pm3d-env.jpg'))
     shutil.copy('fx.css', os.path.join(OUT, 'assets', 'fx.css'))
     open(os.path.join(OUT, '.nojekyll'), 'w').close()
     print('pages', len(SLUG) * 3, 'media', len(MEDIA), 'strings', len(CATALOG))

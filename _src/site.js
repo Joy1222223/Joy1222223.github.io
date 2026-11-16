@@ -151,6 +151,39 @@
     var ind = pm.querySelector('.pm-tabs .sw-ind'), cur = 0, cache = {};
     var bc = document.body.classList, hint = bc.contains('lang-zh-hant') ? '拖動滑桿試試看' : bc.contains('lang-zh-hans') ? '拖动滑块试试看' : 'Drag the slider';
     pm.querySelectorAll('.pm-hint').forEach(function (h) { h.textContent = hint; });
+    var zt = bc.contains('lang-zh-hant'), zs = bc.contains('lang-zh-hans');
+    var t3 = { turn: zt ? '拖動旋轉' : zs ? '拖动旋转' : 'Drag to turn', load: zt ? '載入 3D…' : zs ? '载入 3D…' : 'Loading 3D…', fail: zt ? '無法載入 3D' : zs ? '无法载入 3D' : '3D unavailable' };
+    var gl = null, glp = null, on3 = false;
+    function view3() { return mats[cur].querySelector('.pm-view'); }
+    function sync3() {
+      if (!on3 || !gl) return;
+      var st = mats[cur]._state();
+      if (!st.t3) { set3(false); return; }
+      var v = view3(); if (gl.canvas.parentNode !== v) v.insertBefore(gl.canvas, v.querySelector('.pm-3d'));
+      gl.preload(st.src); gl.show(st.src, st.i).then(function () { pm.classList.remove('pm-3dload'); }, function () { set3(false); });
+    }
+    function set3(x) {
+      on3 = x; pm.classList.toggle('pm-3don', x);
+      pm.querySelectorAll('.pm-3d').forEach(function (b) { b.setAttribute('aria-pressed', x ? 'true' : 'false'); });
+      pm.querySelectorAll('.pm-3dhint').forEach(function (h) { h.textContent = t3.turn; });
+      if (!x) { if (gl) gl.stop(); pm.classList.remove('pm-3dload'); return; }
+      pm.classList.add('pm-3dload'); pm.querySelectorAll('.pm-3dhint').forEach(function (h) { h.textContent = t3.load; });
+      if (!glp) {
+        var me = document.querySelector('script[src*="assets/site.js"]');
+        glp = import(me.src.replace('site.js', 'pm3d.js')).then(function (mod) { var v = view3(); gl = mod.create(pm); return gl; });
+      }
+      glp.then(function () {
+        if (!on3) return;
+        pm.querySelectorAll('.pm-3dhint').forEach(function (h) { h.textContent = t3.turn; });
+        sync3(); gl.start();
+      }).catch(function () {
+        glp = null; set3(false);
+        pm.querySelectorAll('.pm-3d').forEach(function (b) { b.disabled = true; b.title = t3.fail; });
+      });
+    }
+    pm.querySelectorAll('.pm-3d').forEach(function (b) { b.addEventListener('click', function () { set3(!on3); pm.classList.add('used'); }); });
+    if (!window.WebGLRenderingContext) pm.querySelectorAll('.pm-3d').forEach(function (b) { b.hidden = true; });
+    new IntersectionObserver(function (es) { if (!gl || !on3) return; if (es[0].isIntersecting) gl.start(); else gl.stop(); }).observe(pm);
     function place() { var t = tabs[cur]; if (t && ind) { ind.style.width = t.offsetWidth + 'px'; ind.style.transform = 'translateX(' + t.offsetLeft + 'px)'; } }
     function preload(src, n) { if (cache[src]) return; cache[src] = []; for (var i = 0; i < n; i++) { var im = new Image(); im.src = src + (i < 10 ? '0' : '') + i + '.webp'; cache[src].push(im); } }
     mats.forEach(function (m) {
@@ -163,6 +196,7 @@
         img.src = chip.dataset.src + (i < 10 ? '0' : '') + i + '.webp';
         val.textContent = v[i];
         range.style.setProperty('--p', (i / (v.length - 1) * 100) + '%');
+        if (mats[cur] === m) sync3();
       }
       function pick(c) {
         chip = c; chips.forEach(function (x) { x.classList.toggle('on', x === c); });
@@ -174,13 +208,14 @@
       chips.forEach(function (c) { c.addEventListener('click', function () { pick(c); pm.classList.add('used'); }); });
       range.addEventListener('input', function () { show(+range.value); pm.classList.add('used'); });
       m._pick = function () { pick(chip); };
+      m._state = function () { return { src: chip.dataset.src, i: +range.value, t3: chip.hasAttribute('data-t3') }; };
       pick(chip);
     });
     function go(i) {
       if (i === cur) return;
       mats[cur].classList.remove('on'); tabs[cur].classList.remove('on'); tabs[cur].setAttribute('aria-selected', 'false');
       cur = i; mats[cur].classList.add('on'); tabs[cur].classList.add('on'); tabs[cur].setAttribute('aria-selected', 'true');
-      place();
+      place(); sync3();
     }
     tabs.forEach(function (t, i) { t.addEventListener('click', function () { go(i); }); });
     // first time it scrolls into view: sweep the slider once so people see it is alive

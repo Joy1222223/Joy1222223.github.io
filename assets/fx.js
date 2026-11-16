@@ -130,12 +130,13 @@
   var hero = document.getElementById('hero'), h1 = document.getElementById('name');
   if (hero && h1) (function () {
     var cv = document.createElement('canvas'); cv.className = 'pname'; hero.appendChild(cv);
+    var bg = document.createElement('canvas'); bg.className = 'pbg'; hero.insertBefore(bg, hero.querySelector('.hwrap')); var bctx = bg.getContext('2d');
     var ctx = cv.getContext('2d'), W = 0, H = 0, R = Math.min(devicePixelRatio || 1, 2);
-    var P = [], D = [], mx = -1e4, my = -1e4, mOn = false, vis = true, ready = false, intro = true;
+    var P = [], D = [], mx = -1e4, my = -1e4, pmx = 0, pmy = 0, mOn = false, vis = true, ready = false, intro = true;
     document.body.classList.add('pname-on');
     function sample() {
       var hr = hero.getBoundingClientRect();
-      W = hr.width; H = hr.height; cv.width = W * R; cv.height = H * R; ctx.setTransform(R, 0, 0, R, 0, 0);
+      W = hr.width; H = hr.height; cv.width = bg.width = W * R; cv.height = bg.height = H * R; ctx.setTransform(R, 0, 0, R, 0, 0); bctx.setTransform(R, 0, 0, R, 0, 0);
       var cs = getComputedStyle(h1), fs = parseFloat(cs.fontSize);
       var off = document.createElement('canvas'), o = off.getContext('2d');
       off.width = Math.ceil(W); off.height = Math.ceil(H);
@@ -154,8 +155,9 @@
         var p = old[i] || { x: Math.random() * W, y: Math.random() * H, vx: 0, vy: 0, d: Math.random() * 60 };
         p.tx = T[i][0]; p.ty = T[i][1]; p.s = step * (.42 + Math.random() * .38); P.push(p);
       }
-      if (!D.length) for (var k = 0; k < Math.round(W * H / 16000); k++)
-        D.push({ x: Math.random() * W, y: Math.random() * H, z: .2 + Math.random() * .8, v: .1 + Math.random() * .25 });
+      var nd = Math.min(700, Math.round(W * H / 4200));
+      while (D.length < nd) D.push({ x: Math.random() * W, y: Math.random() * H, vx: 0, vy: 0, z: .25 + Math.random() * .75, h: 0 });
+      D.length = nd;
       if (calm) P.forEach(function (p) { p.x = p.tx; p.y = p.ty; });
       ready = true; hero.classList.add('pname-ready');
     }
@@ -163,12 +165,32 @@
       requestAnimationFrame(frame);
       if (!vis || !ready) return;
       ctx.clearRect(0, 0, W, H);
-      // drifting dust, with a little parallax toward the pointer
-      var px = mOn ? (mx / W - .5) : 0, py = mOn ? (my / H - .5) : 0;
+      bctx.clearRect(0, 0, W, H);
+      // background: a slow flow field of light streaks; the pointer stirs it into a vortex
+      var t = performance.now(), mvx = Math.max(-40, Math.min(40, mx - pmx)), mvy = Math.max(-40, Math.min(40, my - pmy)); pmx = mx; pmy = my;
+      var VR = Math.min(300, W * .25);
+      bctx.lineCap = 'round';
       for (var k = 0; k < D.length; k++) {
-        var d = D[k]; d.y -= d.v * d.z; if (d.y < -4) { d.y = H + 4; d.x = Math.random() * W; }
-        ctx.fillStyle = 'rgba(255,255,255,' + (.10 + .25 * d.z) + ')';
-        var dz = 1 + d.z * 1.4; ctx.fillRect(d.x - px * 24 * d.z, d.y - py * 16 * d.z, dz, dz);
+        var d = D[k], ox = d.x, oy = d.y;
+        var ang = Math.sin(d.x * .0021 + t * .00025) * 1.8 + Math.cos(d.y * .0026 - t * .0002) * 1.8;
+        d.vx += Math.cos(ang) * .06 * d.z; d.vy += Math.sin(ang) * .06 * d.z;
+        if (mOn) {
+          var ex = d.x - mx, ey = d.y - my, e2 = ex * ex + ey * ey;
+          if (e2 < VR * VR) {
+            var el = Math.sqrt(e2) || 1, g = 1 - el / VR;
+            d.vx += (-ey / el * 1.1 + ex / el * .35) * g * g * d.z + mvx * .04 * g;
+            d.vy += (ex / el * 1.1 + ey / el * .35) * g * g * d.z + mvy * .04 * g;
+            d.h = Math.max(d.h, g);
+          }
+        }
+        d.vx *= .94; d.vy *= .94; d.x += d.vx; d.y += d.vy; d.h *= .97;
+        if (d.x < -10) d.x = W + 10; else if (d.x > W + 10) d.x = -10;
+        if (d.y < -10) d.y = H + 10; else if (d.y > H + 10) d.y = -10;
+        if (Math.abs(d.x - ox) > 40 || Math.abs(d.y - oy) > 40) continue;
+        var sp = Math.min(1, Math.sqrt(d.vx * d.vx + d.vy * d.vy) / 4), hh = Math.min(1, d.h * 1.4);
+        bctx.strokeStyle = 'rgba(' + Math.round(255 - 209 * hh) + ',' + Math.round(255 - 25 * hh) + ',' + Math.round(255 - 54 * hh) + ',' + (.14 + .3 * d.z + .45 * sp) + ')';
+        bctx.lineWidth = .6 + d.z * 1.1;
+        bctx.beginPath(); bctx.moveTo(ox - d.vx * 7, oy - d.vy * 7); bctx.lineTo(d.x, d.y); bctx.stroke();
       }
       var RAD = 110, live = 0;
       for (var i = 0; i < P.length; i++) {
@@ -198,6 +220,10 @@
       P.forEach(function (p) {
         var dx = p.x - cx, dy = p.y - cy, dl = Math.sqrt(dx * dx + dy * dy) || 1;
         if (dl < 420) { var k = (1 - dl / 420) * 26 * (.6 + Math.random() * .8); p.vx += dx / dl * k; p.vy += dy / dl * k; }
+      });
+      D.forEach(function (d) {
+        var dx = d.x - cx, dy = d.y - cy, dl = Math.sqrt(dx * dx + dy * dy) || 1;
+        if (dl < 600) { var k = (1 - dl / 600) * 18; d.vx += dx / dl * k; d.vy += dy / dl * k; d.h = Math.max(d.h, 1 - dl / 600); }
       });
     });
     new IntersectionObserver(function (es) { vis = es[0].isIntersecting; }).observe(hero);

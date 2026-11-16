@@ -123,3 +123,15 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
   .home .wrap{padding-top:96px}
   .home #reel{padding-top:80px}
 }
+.pbg{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1}
+
+/* role line: "Technical Artist" sits right under the name, large */
+.home .hcard{display:flex;flex-direction:column;align-items:flex-start}
+.home .hcard .chip{order:2;background:none;border:0;padding:0;border-radius:0;backdrop-filter:none;-webkit-backdrop-filter:none;
+  font-size:clamp(15px,1.5vw,22px);letter-spacing:.32em;font-weight:600;color:#fff;gap:16px;margin:-6px 0 22px}
+.home .hcard .chip .dot{display:none}
+.home .hcard .chip::before{content:"";width:40px;height:2px;background:rgb(var(--teal));box-shadow:0 0 12px rgba(46,230,201,.8)}
+.home .hcard .name{order:1;margin-bottom:18px}
+.home .hcard p{order:3}
+.home .hcard .btns{order:4}
+@media (max-width:640px){.home .hcard .chip{font-size:12px;letter-spacing:.2em;gap:10px}.home .hcard .chip::before{width:22px}}

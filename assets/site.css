@@ -264,3 +264,20 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .pm-hint{margin:0;font-size:13px;color:rgba(255,255,255,.45);transition:opacity .5s}
 .pm.used .pm-hint{opacity:0}
 @media (max-width:900px){.pm-mat{grid-template-columns:1fr}.pm-ctrl{padding:20px}}
+/* tabs with full markdown panes (content: "::: tabs" with "--- Title" panes) */
+.sw.sw-text .sw-stage{background:none;border:0;box-shadow:none;transform:none;border-radius:0;overflow:visible}
+.sw.sw-text .sw-item{transform:translateY(10px)}
+.sw.sw-text .sw-item.on{transform:none}
+.sw.sw-text .sw-item .row:last-child{margin-bottom:0}
+.sw.sw-text .sw-item .reveal{opacity:1;transform:none}
+/* numbered step cards (content: "::: steps") */
+.steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;counter-reset:s}
+.stp{display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);transition:transform .5s var(--ease),border-color .5s,background .5s}
+.stp:hover{transform:translateY(-4px);border-color:rgba(var(--teal),.45);background:rgba(255,255,255,.06)}
+.stp-img{display:grid;place-items:center;aspect-ratio:16/9;padding:18px;background:#141518;border-bottom:1px solid rgba(255,255,255,.06)}
+.stp-img img{max-width:100%;max-height:100%;object-fit:contain;border-radius:8px;cursor:zoom-in}
+.stp-body{padding:20px 24px 24px}
+.stp-n{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.08em;color:rgb(var(--teal))}
+.stp h3{margin:6px 0 8px;font-size:20px;color:#fff}
+.stp p{margin:0;font-size:15px;line-height:1.65;color:rgba(255,255,255,.75)}
+@media (max-width:760px){.steps{grid-template-columns:1fr}}

@@ -4,8 +4,8 @@
 <meta name="description" content="Yiqi Zheng — Technical Artist &amp; CG Generalist. Procedural FX, look-dev and pipeline tools with Houdini, Maya and Unreal Engine.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../assets/site.css?v=f6d3579a">
-<link rel="stylesheet" href="../../assets/fx.css?v=f6d3579a">
+<link rel="stylesheet" href="../../assets/site.css?v=466beda6">
+<link rel="stylesheet" href="../../assets/fx.css?v=466beda6">
 <link rel="alternate" hreflang="en" href="../../unreal/materials/"><link rel="alternate" hreflang="zh-Hant" href="../../zh-hant/unreal/materials/"><link rel="alternate" hreflang="zh-Hans" href="../../zh-hans/unreal/materials/">
 </head>
 <body class="lang-en ">
@@ -28,8 +28,13 @@
 <div class="row one"><div class="prose reveal"><h3>Node Graphs</h3></div></div>
 <div class="row one"><div class="sw reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">Rock Path</button><button type="button" class="sw-tab" role="tab" aria-selected="false">Bricks</button><button type="button" class="sw-tab" role="tab" aria-selected="false">Wood</button><button type="button" class="sw-tab" role="tab" aria-selected="false">Mud</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/graph-rockpath.webp" alt="Rock Path"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/graph-bricks.webp" alt="Bricks"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/graph-wood.webp" alt="Wood"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/graph-mud.webp" alt="Mud"></div></div></div></div>
 <div class="row one"><div class="prose reveal"><h3>Unreal Material Setup</h3></div></div>
-<div class="row one"><div class="prose reveal"><p>One master material for all four. Tiling is exposed as Repeat U / V, and the Displacement map is multiplied by the vertex normal and a Height Intensity parameter, then fed into World Position Offset — so every material instance can push its own depth.</p></div></div>
-<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../content/unreal/materials/unreal-material-setup.webp" alt=""></figure></div>
+<div class="row one"><div class="prose reveal"><p>One master material drives all four materials — tiling is exposed as Repeat U / V, and every map plugs into the same graph. For real depth I tried two ways of pushing the geometry with the height map:</p></div></div>
+<div class="row one"><div class="sw sw-text reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">A · Nanite Tessellation</button><button type="button" class="sw-tab" role="tab" aria-selected="false">B · World Position Offset</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><div class="row one"><div class="prose reveal"><ul><li>Turn on <strong>Nanite Support</strong> on the mesh.</li><li>In the material, tick <strong>Enable Tessellation</strong> under Nanite.</li><li>Plug the height map into the <strong>Displacement</strong> pin and use <strong>Magnitude</strong> (with Center 0.5) to set how far it pushes.</li></ul></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../content/unreal/materials/ue-nanite-settings.webp" alt=""></figure></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../content/unreal/materials/ue-nanite-graph.webp" alt=""></figure></div></div><div class="sw-item"><div class="row one"><div class="prose reveal"><ul><li>Multiply the height map by <strong>VertexNormalWS</strong> and a <strong>Height Intensity</strong> parameter.</li><li>Connect the result to <strong>World Position Offset</strong>.</li><li>The mesh has to be subdivided first — without enough vertices the shape can't change.</li></ul></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../content/unreal/materials/unreal-material-setup.webp" alt=""></figure></div></div></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>HDRI Lighting in Unreal</h3></div></div>
+<div class="row one"><div class="steps"><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/ue-hdri-material.webp" alt="Environment sphere"></div><div class="stp-body"><span class="stp-n">01</span><h3>Environment sphere</h3><p>Create a sphere and an environment material — Reflection Vector into Rotate About Axis drives the HDRI texture into Emissive, set to Unlit and Two Sided.</p></div></div><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/ue-hdri-skylight.webp" alt="Sky Light"></div><div class="stp-body"><span class="stp-n">02</span><h3>Sky Light</h3><p>Change the Sky Light's Source Type to <strong>SLS Specified Cubemap</strong> and pick the HDR texture you chose as the cubemap.</p></div></div><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/ue-hdri-exposure.webp" alt="Exposure"></div><div class="stp-body"><span class="stp-n">03</span><h3>Exposure</h3><p>Add a <strong>Post Process Volume</strong> and set the exposure.</p></div></div><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../content/unreal/materials/ue-hdri-ambient.webp" alt="Ambient Cubemap"></div><div class="stp-body"><span class="stp-n">04</span><h3>Ambient Cubemap</h3><p>In the same volume, assign the HDRI as the <strong>Ambient Cubemap</strong>.</p></div></div></div></div>
 <div class="row one"><h2 class="ttl reveal">Substance Designer → Substance Painter → Unreal Engine</h2></div></div></main>
 <footer class="foot"><div class="fin glass reveal">
 <div><div class="eyebrow">CONTACT</div><h3>Let's work together</h3></div>
@@ -37,6 +42,6 @@
 <a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
 </div><div class="copy">&copy; Yiqi Zheng</div></footer>
 <div class="lb" id="lb"><img alt=""></div>
-<script src="../../assets/site.js?v=f6d3579a"></script>
-<script src="../../assets/fx.js?v=f6d3579a"></script>
+<script src="../../assets/site.js?v=466beda6"></script>
+<script src="../../assets/fx.js?v=466beda6"></script>
 </body></html>

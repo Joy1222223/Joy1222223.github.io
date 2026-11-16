@@ -153,6 +153,33 @@ def _params(items, folder, root):
             f'<div class="pm-stage">{"".join(panes)}</div></div></div>')
 
 
+def _tabs(lines, folder, root):
+    """Segmented tabs over full markdown panes. Each pane starts with a line '--- Title'."""
+    panes = []
+    for l in lines:
+        m = re.match(r'^\s*---\s+(.+)$', l)
+        if m:
+            panes.append([m.group(1).strip(), []])
+        elif panes:
+            panes[-1][1].append(l)
+    tabs = ''.join(f'<button type="button" class="sw-tab{" on" if i == 0 else ""}" role="tab" aria-selected="{"true" if i == 0 else "false"}">{_inline(t)}</button>'
+                   for i, (t, _) in enumerate(panes))
+    items = ''.join(f'<div class="sw-item{" on" if i == 0 else ""}">{render(chr(10).join(b), folder, root)}</div>'
+                    for i, (_, b) in enumerate(panes))
+    return (f'<div class="row one"><div class="sw sw-text reveal"><div class="sw-tabs" role="tablist">{tabs}<span class="sw-ind"></span></div>'
+            f'<div class="sw-stage">{items}</div></div></div>')
+
+
+def _steps(items, folder, root):
+    """Numbered step cards: (title, text, image)."""
+    cards = []
+    for i, (title, text, ref) in enumerate(items):
+        s = _src(ref, folder); u = html.escape(s if s.startswith('http') else root + s)
+        cards.append(f'<div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="{u}" alt="{html.escape(title)}"></div>'
+                     f'<div class="stp-body"><span class="stp-n">{i + 1:02d}</span><h3>{_inline(title)}</h3><p>{_inline(text)}</p></div></div>')
+    return f'<div class="row one"><div class="steps">{"".join(cards)}</div></div>'
+
+
 def _stats(line):
     cells = []
     for part in line.split('|'):
@@ -196,17 +223,25 @@ def render(body, folder, root):
     def flush_all():
         flush_para(); flush_list(); flush_imgs()
 
-    block = None   # items of an open ::: switch / ::: params block
+    block = None   # raw lines of an open ::: block
     kind = None
     for raw in body.splitlines():
         line = raw.strip()
         if block is not None:
-            if line == ':::':
-                out.append(_switch(block, folder, root) if kind == 'switch' else _params(block, folder, root)); block = None
-            elif '|' in line:
-                block.append(tuple(p.strip() for p in (line.rsplit('|', 1) if kind == 'switch' else line.split('|', 2))))
+            if line != ':::':
+                block.append(raw); continue
+            rows = [l.strip() for l in block if '|' in l]
+            if kind == 'switch':
+                out.append(_switch([tuple(p.strip() for p in l.rsplit('|', 1)) for l in rows], folder, root))
+            elif kind == 'params':
+                out.append(_params([tuple(p.strip() for p in l.split('|', 2)) for l in rows], folder, root))
+            elif kind == 'steps':
+                out.append(_steps([tuple(p.strip() for p in l.split('|', 2)) for l in rows], folder, root))
+            elif kind == 'tabs':
+                out.append(_tabs(block, folder, root))
+            block = None
             continue
-        km = re.fullmatch(r':::\s*(switch|params)', line, re.I)
+        km = re.fullmatch(r':::\s*(switch|params|steps|tabs)', line, re.I)
         if km:
             flush_all(); block = []; kind = km.group(1).lower(); continue
         if not line:

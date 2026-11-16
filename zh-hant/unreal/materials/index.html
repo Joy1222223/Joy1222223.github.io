@@ -4,8 +4,8 @@
 <meta name="description" content="Yiqi Zheng — 技術美術與 CG 通才。使用 Houdini、Maya 與 Unreal Engine 製作程序化特效、外觀開發與流程工具。">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../../../assets/site.css?v=f6d3579a">
-<link rel="stylesheet" href="../../../assets/fx.css?v=f6d3579a">
+<link rel="stylesheet" href="../../../assets/site.css?v=466beda6">
+<link rel="stylesheet" href="../../../assets/fx.css?v=466beda6">
 <link rel="alternate" hreflang="en" href="../../../unreal/materials/"><link rel="alternate" hreflang="zh-Hant" href="../../../zh-hant/unreal/materials/"><link rel="alternate" hreflang="zh-Hans" href="../../../zh-hans/unreal/materials/">
 </head>
 <body class="lang-zh-hant ">
@@ -28,8 +28,13 @@
 <div class="row one"><div class="prose reveal"><h3>節點圖</h3></div></div>
 <div class="row one"><div class="sw reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">石路</button><button type="button" class="sw-tab" role="tab" aria-selected="false">磚牆</button><button type="button" class="sw-tab" role="tab" aria-selected="false">木頭</button><button type="button" class="sw-tab" role="tab" aria-selected="false">泥巴</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-rockpath.webp" alt="石路"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-bricks.webp" alt="磚牆"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-wood.webp" alt="木頭"></div><div class="sw-item"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/graph-mud.webp" alt="泥巴"></div></div></div></div>
 <div class="row one"><div class="prose reveal"><h3>Unreal 材質設定</h3></div></div>
-<div class="row one"><div class="prose reveal"><p>四個材質共用一個主材質。貼圖重複次數開放成 Repeat U／V，Displacement 貼圖乘上頂點法線和 Height Intensity 參數，再接到 World Position Offset，讓每個材質實例都能調整自己的凸起深度。</p></div></div>
-<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../content/unreal/materials/unreal-material-setup.webp" alt=""></figure></div>
+<div class="row one"><div class="prose reveal"><p>四個材質共用一個主材質，貼圖重複次數開放成 Repeat U／V，所有貼圖都接進同一個節點圖。為了做出真實的凹凸，我試了兩種用高度貼圖推動幾何的方法：</p></div></div>
+<div class="row one"><div class="sw sw-text reveal"><div class="sw-tabs" role="tablist"><button type="button" class="sw-tab on" role="tab" aria-selected="true">A · Nanite Tessellation</button><button type="button" class="sw-tab" role="tab" aria-selected="false">B · World Position Offset</button><span class="sw-ind"></span></div><div class="sw-stage"><div class="sw-item on"><div class="row one"><div class="prose reveal"><ul><li>在 mesh 上開啟 <strong>Nanite Support</strong>。</li><li>在材質的 Nanite 設定裡勾選 <strong>Enable Tessellation</strong>。</li><li>把高度貼圖接到 <strong>Displacement</strong>，用 <strong>Magnitude</strong>（Center 設 0.5）調整凸起的高度。</li></ul></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../content/unreal/materials/ue-nanite-settings.webp" alt=""></figure></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../content/unreal/materials/ue-nanite-graph.webp" alt=""></figure></div></div><div class="sw-item"><div class="row one"><div class="prose reveal"><ul><li>高度貼圖乘上 <strong>VertexNormalWS</strong> 和 <strong>Height Intensity</strong> 參數。</li><li>接到 <strong>World Position Offset</strong>。</li><li>mesh 要先細分，頂點不夠的話形狀不會改變。</li></ul></div></div>
+<div class="row one"><figure class="fig reveal"><img class="media zoomable" loading="lazy" src="../../../content/unreal/materials/unreal-material-setup.webp" alt=""></figure></div></div></div></div></div>
+<div class="row one"><div class="prose reveal"><h3>Unreal 的 HDRI 光照設定</h3></div></div>
+<div class="row one"><div class="steps"><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/ue-hdri-material.webp" alt="環境球"></div><div class="stp-body"><span class="stp-n">01</span><h3>環境球</h3><p>建立一個球體和環境材質：Reflection Vector 接 Rotate About Axis，帶動 HDRI 貼圖接到 Emissive，材質設成 Unlit 和 Two Sided。</p></div></div><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/ue-hdri-skylight.webp" alt="Sky Light"></div><div class="stp-body"><span class="stp-n">02</span><h3>Sky Light</h3><p>把 Sky Light 的 Source Type 改成 <strong>SLS Specified Cubemap</strong>，Cubemap 換成你選的 HDR 貼圖。</p></div></div><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/ue-hdri-exposure.webp" alt="曝光"></div><div class="stp-body"><span class="stp-n">03</span><h3>曝光</h3><p>加一個 <strong>Post Process Volume</strong>，設定曝光。</p></div></div><div class="stp reveal"><div class="stp-img"><img class="zoomable" loading="lazy" src="../../../content/unreal/materials/ue-hdri-ambient.webp" alt="Ambient Cubemap"></div><div class="stp-body"><span class="stp-n">04</span><h3>Ambient Cubemap</h3><p>在同一個 Volume 裡，把 HDRI 指定為 <strong>Ambient Cubemap</strong>。</p></div></div></div></div>
 <div class="row one"><h2 class="ttl reveal">Substance Designer → Substance Painter → Unreal Engine</h2></div></div></main>
 <footer class="foot"><div class="fin glass reveal">
 <div><div class="eyebrow">聯絡</div><h3>一起合作吧</h3></div>
@@ -37,6 +42,6 @@
 <a class="btn ghost ripple" href="tel:+19129405889"><span>&#9742; 912-940-5889</span></a></div>
 </div><div class="copy">&copy; Yiqi Zheng</div></footer>
 <div class="lb" id="lb"><img alt=""></div>
-<script src="../../../assets/site.js?v=f6d3579a"></script>
-<script src="../../../assets/fx.js?v=f6d3579a"></script>
+<script src="../../../assets/site.js?v=466beda6"></script>
+<script src="../../../assets/fx.js?v=466beda6"></script>
 </body></html>

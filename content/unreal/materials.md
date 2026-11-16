@@ -63,8 +63,32 @@ Mud | materials/graph-mud.webp
 
 ### Unreal Material Setup
 
-One master material for all four. Tiling is exposed as Repeat U / V, and the Displacement map is multiplied by the vertex normal and a Height Intensity parameter, then fed into World Position Offset — so every material instance can push its own depth.
+One master material drives all four materials — tiling is exposed as Repeat U / V, and every map plugs into the same graph. For real depth I tried two ways of pushing the geometry with the height map:
+
+::: tabs
+--- A · Nanite Tessellation
+- Turn on **Nanite Support** on the mesh.
+- In the material, tick **Enable Tessellation** under Nanite.
+- Plug the height map into the **Displacement** pin and use **Magnitude** (with Center 0.5) to set how far it pushes.
+
+![](materials/ue-nanite-settings.webp)
+
+![](materials/ue-nanite-graph.webp)
+--- B · World Position Offset
+- Multiply the height map by **VertexNormalWS** and a **Height Intensity** parameter.
+- Connect the result to **World Position Offset**.
+- The mesh has to be subdivided first — without enough vertices the shape can't change.
 
 ![](materials/unreal-material-setup.webp)
+:::
+
+### HDRI Lighting in Unreal
+
+::: steps
+Environment sphere | Create a sphere and an environment material — Reflection Vector into Rotate About Axis drives the HDRI texture into Emissive, set to Unlit and Two Sided. | materials/ue-hdri-material.webp
+Sky Light | Change the Sky Light's Source Type to **SLS Specified Cubemap** and pick the HDR texture you chose as the cubemap. | materials/ue-hdri-skylight.webp
+Exposure | Add a **Post Process Volume** and set the exposure. | materials/ue-hdri-exposure.webp
+Ambient Cubemap | In the same volume, assign the HDRI as the **Ambient Cubemap**. | materials/ue-hdri-ambient.webp
+:::
 
 ## Substance Designer → Substance Painter → Unreal Engine

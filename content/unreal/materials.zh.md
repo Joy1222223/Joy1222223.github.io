@@ -61,8 +61,32 @@ Substance Designer 的 Iray 渲染，旁邊是 Base Color、Roughness、Height�
 
 ### Unreal 材質設定
 
-四個材質共用一個主材質。貼圖重複次數開放成 Repeat U／V，Displacement 貼圖乘上頂點法線和 Height Intensity 參數，再接到 World Position Offset，讓每個材質實例都能調整自己的凸起深度。
+四個材質共用一個主材質，貼圖重複次數開放成 Repeat U／V，所有貼圖都接進同一個節點圖。為了做出真實的凹凸，我試了兩種用高度貼圖推動幾何的方法：
+
+::: tabs
+--- A · Nanite Tessellation
+- 在 mesh 上開啟 **Nanite Support**。
+- 在材質的 Nanite 設定裡勾選 **Enable Tessellation**。
+- 把高度貼圖接到 **Displacement**，用 **Magnitude**（Center 設 0.5）調整凸起的高度。
+
+![](materials/ue-nanite-settings.webp)
+
+![](materials/ue-nanite-graph.webp)
+--- B · World Position Offset
+- 高度貼圖乘上 **VertexNormalWS** 和 **Height Intensity** 參數。
+- 接到 **World Position Offset**。
+- mesh 要先細分，頂點不夠的話形狀不會改變。
 
 ![](materials/unreal-material-setup.webp)
+:::
+
+### Unreal 的 HDRI 光照設定
+
+::: steps
+環境球 | 建立一個球體和環境材質：Reflection Vector 接 Rotate About Axis，帶動 HDRI 貼圖接到 Emissive，材質設成 Unlit 和 Two Sided。 | materials/ue-hdri-material.webp
+Sky Light | 把 Sky Light 的 Source Type 改成 **SLS Specified Cubemap**，Cubemap 換成你選的 HDR 貼圖。 | materials/ue-hdri-skylight.webp
+曝光 | 加一個 **Post Process Volume**，設定曝光。 | materials/ue-hdri-exposure.webp
+Ambient Cubemap | 在同一個 Volume 裡，把 HDRI 指定為 **Ambient Cubemap**。 | materials/ue-hdri-ambient.webp
+:::
 
 ## Substance Designer → Substance Painter → Unreal Engine

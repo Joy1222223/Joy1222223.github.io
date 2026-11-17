@@ -1,6 +1,6 @@
 ---
 title: Procedural Materials
-cover: materials/showcase-rockpath.webp
+cover: materials/cover-all.webp
 order: 2
 ---
 ![autoplay](materials/reel.mp4)

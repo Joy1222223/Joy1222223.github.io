@@ -1,6 +1,8 @@
 ---
 title: 程序化材質
 ---
+![autoplay](materials/reel.mp4)
+
 ## Substance Designer → Unreal Engine
 
 四個在 **Substance Designer** 中完全程序化製作的材質。每一個形狀、顏色和磨損都由開放的參數控制，同一個節點圖就能變出一整組不同的外觀，再把貼圖帶進 **Unreal Engine**，用真實的幾何位移呈現。
@@ -63,21 +65,18 @@ Substance Designer 的 Iray 渲染，旁邊是 Base Color、Roughness、Height�
 
 四個材質共用一個主材質，貼圖重複次數開放成 Repeat U／V，所有貼圖都接進同一個節點圖。為了做出真實的凹凸，我試了兩種用高度貼圖推動幾何的方法：
 
-::: tabs
---- A · Nanite Tessellation
+::: methods
+--- A | Nanite Tessellation | 真的把幾何推出來：Nanite mesh 在 GPU 上細分。
 - 在 mesh 上開啟 **Nanite Support**。
 - 在材質的 Nanite 設定裡勾選 **Enable Tessellation**。
 - 把高度貼圖接到 **Displacement**，用 **Magnitude**（Center 設 0.5）調整凸起的高度。
-
-![](materials/ue-nanite-settings.webp)
-
-![](materials/ue-nanite-graph.webp)
---- B · World Position Offset
+![Nanite 材質設定](materials/ue-nanite-settings.webp)
+![Displacement 節點圖](materials/ue-nanite-graph.webp)
+--- B | World Position Offset | 直接移動頂點：做法簡單，但 mesh 要夠密。
 - 高度貼圖乘上 **VertexNormalWS** 和 **Height Intensity** 參數。
 - 接到 **World Position Offset**。
 - mesh 要先細分，頂點不夠的話形狀不會改變。
-
-![](materials/unreal-material-setup.webp)
+![World Position Offset 節點圖](materials/unreal-material-setup.webp)
 :::
 
 ### Unreal 的 HDRI 光照設定

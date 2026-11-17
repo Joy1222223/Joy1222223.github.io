@@ -3,6 +3,8 @@ title: Procedural Materials
 cover: materials/showcase-rockpath.webp
 order: 2
 ---
+![autoplay](materials/reel.mp4)
+
 ## Substance Designer → Unreal Engine
 
 Four fully procedural materials built in **Substance Designer**. Every shape, colour and wear pass is driven by exposed parameters, so one graph can become a whole family of looks — then the maps go into **Unreal Engine** with real geometry displacement.
@@ -65,21 +67,18 @@ Mud | materials/graph-mud.webp
 
 One master material drives all four materials — tiling is exposed as Repeat U / V, and every map plugs into the same graph. For real depth I tried two ways of pushing the geometry with the height map:
 
-::: tabs
---- A · Nanite Tessellation
+::: methods
+--- A | Nanite Tessellation | Real displacement: the Nanite mesh is tessellated on the GPU.
 - Turn on **Nanite Support** on the mesh.
 - In the material, tick **Enable Tessellation** under Nanite.
 - Plug the height map into the **Displacement** pin and use **Magnitude** (with Center 0.5) to set how far it pushes.
-
-![](materials/ue-nanite-settings.webp)
-
-![](materials/ue-nanite-graph.webp)
---- B · World Position Offset
+![Nanite material settings](materials/ue-nanite-settings.webp)
+![Displacement graph](materials/ue-nanite-graph.webp)
+--- B | World Position Offset | Moves the vertices themselves: simple, but the mesh has to be dense.
 - Multiply the height map by **VertexNormalWS** and a **Height Intensity** parameter.
 - Connect the result to **World Position Offset**.
 - The mesh has to be subdivided first — without enough vertices the shape can't change.
-
-![](materials/unreal-material-setup.webp)
+![World Position Offset graph](materials/unreal-material-setup.webp)
 :::
 
 ### HDRI Lighting in Unreal

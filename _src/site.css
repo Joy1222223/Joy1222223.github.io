@@ -286,6 +286,24 @@ body.menu .burger span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 .sw.sw-text .sw-item.on{transform:none}
 .sw.sw-text .sw-item .row:last-child{margin-bottom:0}
 .sw.sw-text .sw-item .reveal{opacity:1;transform:none}
+/* side-by-side method cards (content: "::: methods") */
+.mth-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+.mth{display:flex;flex-direction:column;gap:22px;padding:28px;border-radius:26px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));border:1px solid rgba(255,255,255,.09);transition:border-color .5s,transform .5s var(--ease)}
+.mth:hover{border-color:rgba(var(--teal),.4);transform:translateY(-3px)}
+.mth-head{display:flex;gap:16px;align-items:flex-start}
+.mth-badge{flex:none;display:grid;place-items:center;width:46px;height:46px;border-radius:14px;font-weight:800;font-size:20px;color:#05110f;background:linear-gradient(135deg,#fff,rgb(var(--teal)))}
+.mth-head h3{margin:2px 0 6px;font-size:22px;line-height:1.25;color:#fff}
+.mth-head p{margin:0;font-size:14.5px;line-height:1.55;color:rgba(255,255,255,.6)}
+.mth-steps{list-style:none;margin:0;padding:0;counter-reset:m;display:flex;flex-direction:column;gap:12px}
+.mth-steps li{counter-increment:m;position:relative;padding:12px 14px 12px 50px;border-radius:14px;background:rgba(0,0,0,.25);font-size:15px;line-height:1.6;color:rgba(255,255,255,.82)}
+.mth-steps li::before{content:counter(m);position:absolute;left:14px;top:12px;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:12px;font-weight:700;color:rgb(var(--teal));border:1px solid rgba(var(--teal),.5)}
+.mth-steps b,.mth-steps strong{color:#fff}
+.mth-shots{display:flex;flex-direction:column;gap:14px}
+.mth-shot{margin:0}
+.mth-frame{display:grid;place-items:center;padding:14px;border-radius:16px;background:#121316;border:1px solid rgba(255,255,255,.06)}
+.mth-frame img{display:block;width:auto;max-width:100%;max-height:300px;object-fit:contain;border-radius:8px;cursor:zoom-in}
+.mth-shot figcaption{margin-top:8px;font-size:12.5px;letter-spacing:.02em;color:rgba(255,255,255,.5)}
+@media (max-width:900px){.mth-grid{grid-template-columns:1fr}.mth{padding:22px}}
 /* numbered step cards (content: "::: steps") */
 .steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;counter-reset:s}
 .stp{display:flex;flex-direction:column;border-radius:24px;overflow:hidden;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);transition:transform .5s var(--ease),border-color .5s,background .5s}

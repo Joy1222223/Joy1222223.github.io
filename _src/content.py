@@ -180,6 +180,34 @@ def _tabs(lines, folder, root):
             f'<div class="sw-stage">{items}</div></div></div>')
 
 
+def _methods(lines, folder, root):
+    """Side-by-side method cards. Each starts '--- Badge | Title | one-line summary', then '- step' lines and '![caption](img)' lines."""
+    cards = []
+    for l in lines:
+        l = l.strip()
+        m = re.match(r'^---\s+(.+)$', l)
+        if m:
+            parts = [p.strip() for p in m.group(1).split('|')] + ['', '']
+            cards.append({'badge': parts[0], 'title': parts[1], 'sum': parts[2], 'steps': [], 'shots': []})
+        elif cards and re.match(r'^[-*]\s+', l):
+            cards[-1]['steps'].append(re.sub(r'^[-*]\s+', '', l))
+        elif cards and re.fullmatch(r'!\[([^\]]*)\]\(([^)]+)\)', l):
+            cap, ref = re.fullmatch(r'!\[([^\]]*)\]\(([^)]+)\)', l).groups()
+            cards[-1]['shots'].append((cap, ref))
+    out = []
+    for c in cards:
+        steps = ''.join(f'<li>{_inline(t)}</li>' for t in c['steps'])
+        shots = ''
+        for cap, ref in c['shots']:
+            s_ = _src(ref, folder); u = html.escape(s_ if s_.startswith('http') else root + s_)
+            shots += (f'<figure class="mth-shot"><div class="mth-frame"><img class="zoomable" loading="lazy" src="{u}" alt="{html.escape(cap)}"></div>'
+                      + (f'<figcaption>{_inline(cap)}</figcaption>' if cap else '') + '</figure>')
+        out.append(f'<article class="mth reveal"><header class="mth-head"><span class="mth-badge">{html.escape(c["badge"])}</span>'
+                   f'<div><h3>{_inline(c["title"])}</h3>' + (f'<p>{_inline(c["sum"])}</p>' if c['sum'] else '') + '</div></header>'
+                   f'<ol class="mth-steps">{steps}</ol><div class="mth-shots">{shots}</div></article>')
+    return f'<div class="row one"><div class="mth-grid">{"".join(out)}</div></div>'
+
+
 def _steps(items, folder, root):
     """Numbered step cards: (title, text, image)."""
     cards = []
@@ -249,9 +277,11 @@ def render(body, folder, root):
                 out.append(_steps([tuple(p.strip() for p in l.split('|', 2)) for l in rows], folder, root))
             elif kind == 'tabs':
                 out.append(_tabs(block, folder, root))
+            elif kind == 'methods':
+                out.append(_methods(block, folder, root))
             block = None
             continue
-        km = re.fullmatch(r':::\s*(switch|params|steps|tabs)', line, re.I)
+        km = re.fullmatch(r':::\s*(switch|params|steps|tabs|methods)', line, re.I)
         if km:
             flush_all(); block = []; kind = km.group(1).lower(); continue
         if not line:
@@ -272,7 +302,13 @@ def render(body, folder, root):
             if ref.lower().split('?')[0].endswith(VID_EXT):
                 flush_imgs()
                 u = _src(ref, folder); u = u if u.startswith('http') else root + u
-                out.append(f'<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="metadata" src="{u}"></video></figure></div>')
+                if alt.strip().lower() == 'autoplay':
+                    pref = re.sub(r'\.(mp4|webm|mov)$', '-poster.webp', ref, flags=re.I)
+                    pu = _src(pref, folder)
+                    poster = f' poster="{root + pu}"' if os.path.exists(os.path.normpath(os.path.join(folder, pref))) else ''
+                    out.append(f'<div class="row one"><figure class="fig vid reel reveal"><video class="media" autoplay muted loop playsinline controls preload="auto"{poster} src="{u}"></video></figure></div>')
+                else:
+                    out.append(f'<div class="row one"><figure class="fig vid reveal"><video class="media" controls playsinline preload="metadata" src="{u}"></video></figure></div>')
             else:
                 imgs.append((_src(ref, folder), alt))
             continue

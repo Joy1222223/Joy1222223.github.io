@@ -22,16 +22,16 @@ Window | compare New | Old: painter/compare/window-new.webp | painter/compare/wi
 Keys | compare New | Old: painter/compare/keys-new.webp | painter/compare/keys-worn.webp
 :::
 
-### Lighting: New vs Old
+### Lighting: Warm vs Cold
 
-The same shots under the reworked lighting (left) and the first lighting pass (right).
+The same shots lit two ways: warm light on the left, cold light on the right.
 
 ::: switch
-Cactus | compare New | Old: painter/light/cactus-new.webp | painter/light/cactus-old.webp
-Piano | compare New | Old: painter/light/piano-new.webp | painter/light/piano-old.webp
-Pumpkin | compare New | Old: painter/light/pumpkin-new.webp | painter/light/pumpkin-old.webp
-Moss | compare New | Old: painter/light/moss-new.webp | painter/light/moss-old.webp
-Petal | compare New | Old: painter/light/petal-new.webp | painter/light/petal-old.webp
+Cactus | compare Warm | Cold: painter/light/cactus-new.webp | painter/light/cactus-old.webp
+Piano | compare Warm | Cold: painter/light/piano-new.webp | painter/light/piano-old.webp
+Pumpkin | compare Warm | Cold: painter/light/pumpkin-new.webp | painter/light/pumpkin-old.webp
+Moss | compare Warm | Cold: painter/light/moss-new.webp | painter/light/moss-old.webp
+Petal | compare Warm | Cold: painter/light/petal-new.webp | painter/light/petal-old.webp
 :::
 
 ### Fresh vs Rotten

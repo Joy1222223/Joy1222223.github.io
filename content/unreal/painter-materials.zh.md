@@ -20,16 +20,16 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 琴鍵 | compare New | Old: painter/compare/keys-new.webp | painter/compare/keys-worn.webp
 :::
 
-### 燈光：New vs Old
+### 燈光：Warm vs Cold
 
-同一個鏡頭，左邊是重新調整後的燈光，右邊是第一版燈光。
+同一個鏡頭的兩種打光：左邊暖光，右邊冷光。
 
 ::: switch
-仙人掌 | compare New | Old: painter/light/cactus-new.webp | painter/light/cactus-old.webp
-鋼琴 | compare New | Old: painter/light/piano-new.webp | painter/light/piano-old.webp
-南瓜 | compare New | Old: painter/light/pumpkin-new.webp | painter/light/pumpkin-old.webp
-苔蘚 | compare New | Old: painter/light/moss-new.webp | painter/light/moss-old.webp
-花瓣 | compare New | Old: painter/light/petal-new.webp | painter/light/petal-old.webp
+仙人掌 | compare Warm | Cold: painter/light/cactus-new.webp | painter/light/cactus-old.webp
+鋼琴 | compare Warm | Cold: painter/light/piano-new.webp | painter/light/piano-old.webp
+南瓜 | compare Warm | Cold: painter/light/pumpkin-new.webp | painter/light/pumpkin-old.webp
+苔蘚 | compare Warm | Cold: painter/light/moss-new.webp | painter/light/moss-old.webp
+花瓣 | compare Warm | Cold: painter/light/petal-new.webp | painter/light/petal-old.webp
 :::
 
 ### Fresh vs Rotten

@@ -45,17 +45,26 @@ Cactus | Spot Color | painter/p/cactus-spot
 Leaves | Freshness | painter/p/leaves-freshness
 Leaves | Saturation | painter/p/leaves-saturation
 Leaves | Paleness | painter/p/leaves-paleness
+Leaves | Leaf Hue | painter/p/leaves-hue
+Leaves | Vein Color | painter/p/leaves-veins
+Leaves | Stem Hue | painter/p/leaves-stem
 Moss | Moss Opacity | painter/p/moss-opacity
 Moss | Greenness | painter/p/moss-green
 Moss | Moss Hue | painter/p/moss-hue
+Moss | Detail Tint | painter/p/moss-detail
+Moss | Relief | painter/p/moss-relief
+Moss | Variation | painter/p/moss-seed
 Pumpkin | Rib Count | painter/p/pumpkin-ribs
 Pumpkin | Ripeness | painter/p/pumpkin-ripeness
 Pumpkin | Stripes | painter/p/pumpkin-stripes
+Pumpkin | Rib Depth | painter/p/pumpkin-ribdepth
 Vine | Color Gradient | painter/p/vine-gradient
 Vine | Vine Flow | painter/p/vine-flow
 Vine | Patchiness | painter/p/vine-patch
+Vine | Bark Hue | painter/p/vine-bark
 Petal | Petal Hue | painter/p/petal-hue
 Petal | Edge Tint | painter/p/petal-edge
+Petal | Vein Depth | painter/p/petal-vein
 :::
 
 ### Final Look

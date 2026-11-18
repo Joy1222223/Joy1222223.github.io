@@ -43,17 +43,26 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 葉子 | 新鮮度 | painter/p/leaves-freshness
 葉子 | 飽和度 | painter/p/leaves-saturation
 葉子 | 褪色 | painter/p/leaves-paleness
+葉子 | 葉片色相 | painter/p/leaves-hue
+葉子 | 葉脈顏色 | painter/p/leaves-veins
+葉子 | 葉柄色相 | painter/p/leaves-stem
 苔蘚 | 苔蘚不透明度 | painter/p/moss-opacity
 苔蘚 | 綠度 | painter/p/moss-green
 苔蘚 | 苔蘚色相 | painter/p/moss-hue
+苔蘚 | 細節色調 | painter/p/moss-detail
+苔蘚 | 凹凸強度 | painter/p/moss-relief
+苔蘚 | 隨機變化 | painter/p/moss-seed
 南瓜 | 紋路數量 | painter/p/pumpkin-ribs
 南瓜 | 成熟度 | painter/p/pumpkin-ripeness
 南瓜 | 條紋 | painter/p/pumpkin-stripes
+南瓜 | 紋路深度 | painter/p/pumpkin-ribdepth
 藤蔓 | 顏色漸層 | painter/p/vine-gradient
 藤蔓 | 藤蔓流動 | painter/p/vine-flow
 藤蔓 | 斑駁程度 | painter/p/vine-patch
+藤蔓 | 樹皮色相 | painter/p/vine-bark
 花瓣 | 花瓣色相 | painter/p/petal-hue
 花瓣 | 邊緣色調 | painter/p/petal-edge
+花瓣 | 紋理深度 | painter/p/petal-vein
 :::
 
 ### 最終效果

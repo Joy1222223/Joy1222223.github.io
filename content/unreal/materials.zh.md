@@ -11,11 +11,13 @@ stats: 4 種材質 | 43 個開放參數 | 2048 px 貼圖解析度 | 5 張貼圖�
 
 ### 參數動起來
 
-拖動一個滑桿，整個材質就會重新生成：石塊數量、錯位、灰縫寬度、邊緣磨損和顏色，一格一格渲染出來。
+拖動一個滑桿，整個材質就會重新生成：石塊數量、灰縫寬度、木板數量、木紋扭曲、水位、霜和顏色，四個材質都一格一格渲染出來。
 
 ::: switch
 石路 | materials/params-rockpath.mp4
 磚牆 | materials/params-bricks.mp4
+木頭 | materials/params-wood.mp4
+泥巴 | materials/params-mud.mp4
 :::
 
 ### 自己試試看

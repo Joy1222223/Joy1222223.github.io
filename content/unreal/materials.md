@@ -13,11 +13,13 @@ stats: 4 Materials | 43 Exposed parameters | 2048 px Texture maps | 5 Maps per m
 
 ### Parameters in Motion
 
-Move one slider and the whole material rebuilds: stone count, row offset, mortar width, edge wear and colour, rendered frame by frame.
+Move one slider and the whole material rebuilds: stone count, mortar width, plank count, grain warp, water level, frost and colour, rendered frame by frame for all four materials.
 
 ::: switch
 Rock Path | materials/params-rockpath.mp4
 Bricks | materials/params-bricks.mp4
+Wood | materials/params-wood.mp4
+Mud | materials/params-mud.mp4
 :::
 
 ### Try It Yourself

@@ -8,6 +8,8 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 
 ![](painter/scene.webp)
 
+![](painter/fresh.mp4)
+
 ![](painter/rotten.mp4)
 
 ### New vs Old

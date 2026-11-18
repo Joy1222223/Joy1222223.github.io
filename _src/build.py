@@ -45,7 +45,7 @@ NAV = [
     ('ykqhq', ['x0f1i', 'ejrov', 'uojq2', 'ysj9w']), ('vci6s', ['jool6']), ('pgadp', ['n8i71']),
     ('et3rh', []), ('pv1yq', []), ('BLOG', [p for p, _ in SERIES]),
 ]
-TITLE_FIX = {'vci6s': 'Lighting/Compositing', 'zvl5w': 'FX'}
+TITLE_FIX = {'vci6s': 'Maya Pre-render', 'zvl5w': 'FX'}
 
 # ---------- hand-written projects from gh-site/content/ ----------
 import content as CONTENT_MOD
@@ -353,7 +353,7 @@ WORK = [
     ('et3rh', 'Unreal Engine', 'unreal_desc', None, None, True),
     ('zvl5w', 'FX & Procedural', 'fx_desc', 'f7279b_9b49193cda7345b98f7a24b56ff7d7b2~mv2.png', 'f7279b_c42fa3d2cb414f9e81b18a141ac4c779', False),
     ('ykqhq', 'Modeling & Texturing', 'model_desc', 'f7279b_7ba8710744034afa96c748b4994e6582~mv2.jpg', 'f7279b_6aa4009c366945818cecda7050c7b883', False),
-    ('vci6s', 'Lighting & Compositing', 'light_desc', 'f7279b_3bd8e0cd5c914d81bd706bc04af5b679f000.jpg', 'f7279b_3bd8e0cd5c914d81bd706bc04af5b679', False),
+    ('vci6s', 'Maya Pre-render', 'light_desc', 'f7279b_3bd8e0cd5c914d81bd706bc04af5b679f000.jpg', 'f7279b_3bd8e0cd5c914d81bd706bc04af5b679', False),
     ('ffw6e', 'Animation', 'anim_desc', 'f7279b_7be4ab20ebcf4c7b9732f6a3843bbb95~mv2.png', 'f7279b_68e0ca3a74654cca928121107a44518a', False),
     ('pgadp', 'Technical Art · Tools', 'tools_desc', 'f7279b_39580be12f214170884a9c30fd2ef34cf000.jpg', 'f7279b_39580be12f214170884a9c30fd2ef34c', False),
 ]

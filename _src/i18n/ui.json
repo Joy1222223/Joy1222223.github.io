@@ -25,10 +25,11 @@
  "unreal_desc": {"en": "Materials · Lighting · Real-time", "zh-hant": "材質 · 燈光 · 即時渲染", "zh-hans": "材质 · 灯光 · 实时渲染"},
  "fx_desc": {"en": "Houdini simulations · HDAs", "zh-hant": "Houdini 模擬 · HDA", "zh-hans": "Houdini 模拟 · HDA"},
  "model_desc": {"en": "Maya · Substance · Procedural buildings", "zh-hant": "Maya · Substance · 程序化建築", "zh-hans": "Maya · Substance · 程序化建筑"},
- "light_desc": {"en": "Look-dev · Nuke", "zh-hant": "外觀開發 · Nuke", "zh-hans": "外观开发 · Nuke"},
+ "light_desc": {"en": "Lighting · Look-dev · Nuke", "zh-hant": "燈光 · 外觀開發 · Nuke", "zh-hans": "灯光 · 外观开发 · Nuke"},
  "anim_desc": {"en": "Character & mechanical animation", "zh-hant": "角色與機械動畫", "zh-hans": "角色与机械动画"},
  "tools_desc": {"en": "Python · VEX · Pipeline tools", "zh-hant": "Python · VEX · 流程工具", "zh-hans": "Python · VEX · 流程工具"},
  "PROCESS": {"en": "PROCESS", "zh-hant": "製作紀錄", "zh-hans": "制作记录"},
  "blog_sub": {"en": "Weekly progress logs from my projects and courses.", "zh-hant": "專案與課程的每週進度紀錄。", "zh-hans": "项目与课程的每周进度记录。"},
- "entries": {"en": "entries", "zh-hant": "篇紀錄", "zh-hans": "篇记录"}
+ "entries": {"en": "entries", "zh-hant": "篇紀錄", "zh-hans": "篇记录"},
+ "Maya Pre-render": {"en": "Maya Pre-render", "zh-hant": "Maya 預渲染", "zh-hans": "Maya 预渲染"}
 }

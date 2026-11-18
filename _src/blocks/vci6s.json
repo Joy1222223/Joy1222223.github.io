@@ -1,7 +1,7 @@
 {
  "meta": {
   "id": "vci6s",
-  "title": "Lighting/Compositing",
+  "title": "Maya Pre-render",
   "uri": "copy-of-modeling-1"
  },
  "atoms": [
@@ -11,8 +11,8 @@
    "y": 49,
    "w": 1153,
    "h": 67,
-   "html": "<h3>Lighting/Compositing</h3>",
-   "plain": "Lighting/Compositing",
+   "html": "<h3>Maya Pre-render</h3>",
+   "plain": "Maya Pre-render",
    "head": true
   },
   {

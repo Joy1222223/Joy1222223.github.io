@@ -8,6 +8,8 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 
 ![](painter/scene.webp)
 
+![](painter/rotten.mp4)
+
 ### New vs Old
 
 拖動中間的線，比較 Unreal 裡全新乾淨的版本和做舊的材質。

@@ -10,6 +10,8 @@ stats: 12 Materials | 12 Node graphs | 3 Tools | 1 Final scene
 
 ![](painter/scene.webp)
 
+![](painter/rotten.mp4)
+
 ### New vs Old
 
 Drag the line to compare the new, clean pass with the old, weathered materials in Unreal.

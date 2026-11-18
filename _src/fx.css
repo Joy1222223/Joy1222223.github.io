@@ -162,6 +162,8 @@ body.leaving .veil{opacity:1;transition-duration:.25s}
 .home .pgrid{grid-template-columns:repeat(2,1fr);gap:18px;perspective:none}
 .home .pgrid .pcard{aspect-ratio:16/9;border-radius:6px}
 .home .pgrid .pcard:nth-child(1),.home .pgrid .pcard:nth-child(6){grid-column:1/-1;aspect-ratio:2.39/1}
+.home .pgrid .pcard:nth-child(1){aspect-ratio:16/9}
+.home .pgrid .pcard:nth-child(1) img{object-position:50% 50%}
 .home .pgrid .pcard .cm{transform:scale(1.02);filter:saturate(.85) brightness(.82);transition:transform 1.6s cubic-bezier(.2,.7,.2,1),filter .8s,opacity .5s}
 .home .pgrid .pcard:hover .cm{transform:scale(1.07);filter:none}
 .home .pgrid .cap{padding:90px 30px 26px;background:linear-gradient(0deg,rgba(0,0,0,.82),rgba(0,0,0,0))}

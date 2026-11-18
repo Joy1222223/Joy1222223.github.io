@@ -22,6 +22,31 @@ Window | compare New | Old: painter/compare/window-new.webp | painter/compare/wi
 Keys | compare New | Old: painter/compare/keys-new.webp | painter/compare/keys-worn.webp
 :::
 
+### Lighting: New vs Old
+
+The same shots under the reworked lighting (left) and the first lighting pass (right).
+
+::: switch
+Cactus | compare New | Old: painter/light/cactus-new.webp | painter/light/cactus-old.webp
+Piano | compare New | Old: painter/light/piano-new.webp | painter/light/piano-old.webp
+Pumpkin | compare New | Old: painter/light/pumpkin-new.webp | painter/light/pumpkin-old.webp
+Moss | compare New | Old: painter/light/moss-new.webp | painter/light/moss-old.webp
+Petal | compare New | Old: painter/light/petal-new.webp | painter/light/petal-old.webp
+:::
+
+### Fresh vs Rotten
+
+One material set, two states: drag to see the room go from fresh to rotten.
+
+::: switch
+Room | compare Fresh | Rotten: painter/rot/room-fresh.webp | painter/rot/room-rotten.webp
+Cactus | compare Fresh | Rotten: painter/rot/cactus-fresh.webp | painter/rot/cactus-rotten.webp
+Piano | compare Fresh | Rotten: painter/rot/piano-fresh.webp | painter/rot/piano-rotten.webp
+Pumpkin | compare Fresh | Rotten: painter/rot/pumpkin-fresh.webp | painter/rot/pumpkin-rotten.webp
+Moss | compare Fresh | Rotten: painter/rot/moss-fresh.webp | painter/rot/moss-rotten.webp
+Petal | compare Fresh | Rotten: painter/rot/petal-fresh.webp | painter/rot/petal-rotten.webp
+:::
+
 ## Organic
 
 Plants and natural surfaces: cactus, moss, leaves, vine, pumpkin and petal.

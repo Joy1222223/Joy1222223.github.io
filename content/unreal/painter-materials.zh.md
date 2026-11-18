@@ -20,6 +20,31 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 琴鍵 | compare New | Old: painter/compare/keys-new.webp | painter/compare/keys-worn.webp
 :::
 
+### 燈光：New vs Old
+
+同一個鏡頭，左邊是重新調整後的燈光，右邊是第一版燈光。
+
+::: switch
+仙人掌 | compare New | Old: painter/light/cactus-new.webp | painter/light/cactus-old.webp
+鋼琴 | compare New | Old: painter/light/piano-new.webp | painter/light/piano-old.webp
+南瓜 | compare New | Old: painter/light/pumpkin-new.webp | painter/light/pumpkin-old.webp
+苔蘚 | compare New | Old: painter/light/moss-new.webp | painter/light/moss-old.webp
+花瓣 | compare New | Old: painter/light/petal-new.webp | painter/light/petal-old.webp
+:::
+
+### Fresh vs Rotten
+
+同一套材質的兩種狀態：拖動中間的線，看整個房間從新鮮變成腐爛。
+
+::: switch
+房間 | compare Fresh | Rotten: painter/rot/room-fresh.webp | painter/rot/room-rotten.webp
+仙人掌 | compare Fresh | Rotten: painter/rot/cactus-fresh.webp | painter/rot/cactus-rotten.webp
+鋼琴 | compare Fresh | Rotten: painter/rot/piano-fresh.webp | painter/rot/piano-rotten.webp
+南瓜 | compare Fresh | Rotten: painter/rot/pumpkin-fresh.webp | painter/rot/pumpkin-rotten.webp
+苔蘚 | compare Fresh | Rotten: painter/rot/moss-fresh.webp | painter/rot/moss-rotten.webp
+花瓣 | compare Fresh | Rotten: painter/rot/petal-fresh.webp | painter/rot/petal-rotten.webp
+:::
+
 ## 有機材質
 
 植物和自然表面：仙人掌、苔蘚、葉子、藤蔓、南瓜和花瓣。

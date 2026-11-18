@@ -132,6 +132,9 @@ Pick a material and a parameter, then drag the slider. Every position is a real 
 ::: params
 Piano | Ornament Size | painter/p/piano-ornament
 Piano | Carving Softness | painter/p/piano-carving
+Piano | Wood Hue | painter/p/piano-hue
+Piano | Wear | painter/p/piano-wear
+Piano | Dark Streaks | painter/p/piano-streaks
 Piano Key | Key Tone | painter/p/keys-tone
 Copper | Metal Hue | painter/p/copper-hue
 Window Glass | Pane Count | painter/p/glass-panes
@@ -141,6 +144,9 @@ Concrete | Concrete Hue | painter/p/concrete-hue
 Concrete | Warm Patches | painter/p/concrete-warm
 Ground Tile | Tile Count | painter/p/tile-tiles
 Ground Tile | Dirt | painter/p/tile-dirt
+Ground Tile | Grout Width | painter/p/tile-grout
+Ground Tile | Tile Hue | painter/p/tile-hue
+Ground Tile | Relief | painter/p/tile-relief
 :::
 
 ### Final Look

@@ -130,6 +130,9 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 ::: params
 鋼琴 | 雕花大小 | painter/p/piano-ornament
 鋼琴 | 雕刻柔和度 | painter/p/piano-carving
+鋼琴 | 木頭色相 | painter/p/piano-hue
+鋼琴 | 磨損 | painter/p/piano-wear
+鋼琴 | 深色紋路 | painter/p/piano-streaks
 琴鍵 | 琴鍵色調 | painter/p/keys-tone
 銅 | 金屬色相 | painter/p/copper-hue
 窗戶玻璃 | 窗格數量 | painter/p/glass-panes
@@ -139,6 +142,9 @@ stats: 12 種材質 | 12 張節點圖 | 3 個軟體 | 1 個完整場景
 混凝土 | 暖色斑塊 | painter/p/concrete-warm
 地磚 | 地磚數量 | painter/p/tile-tiles
 地磚 | 髒污 | painter/p/tile-dirt
+地磚 | 縫隙寬度 | painter/p/tile-grout
+地磚 | 地磚色相 | painter/p/tile-hue
+地磚 | 凹凸強度 | painter/p/tile-relief
 :::
 
 ### 最終效果
